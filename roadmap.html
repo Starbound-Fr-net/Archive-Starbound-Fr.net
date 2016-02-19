@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Carnet de route vers les étoiles</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link type="text/css" rel="stylesheet" href="css/font.css">
+		<link type="text/css" rel="stylesheet" href="css/Roadmap.css">
+		<script type="text/javascript" language="javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" language="javascript" src="js/roadmap.js"></script>
+		<script type="text/javascript" language="javascript" src="js/Marker.js"></script>
+		<script type="text/javascript" language="javascript" src="js/Peep.js"></script>
+		<script type="text/javascript" language="javascript" src="js/Task.js"></script>
+		<script type="text/javascript">var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-34413550-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();</script>
+	</head>
+	
+	<body>
+		<div id="mainWrap">
+			<div id="introWrapper">
+				<div id="introConstellations"></div>
+				<div id="introMainHeader"></div>
+				<div id="introSubHeader"></div>
+				
+				<div id="controlPanel">
+					<div>
+						[Edit: <a id="markerModeButton" class="selected">Marqueurs</a>
+						|
+						<a id="peepsModeButton">Poupees</a>
+						|
+						<a id="tasksModeButton">Taches</a>]
+						
+						[<a id="addMarkerButton">Ajouter Marqueur</a>]
+						
+						[<a id="saveConfigButton">Enr. Config</a>]
+						
+						[<a id="disableAdminButton">Desactiver mode Admin</a>]
+					</div>
+					<div id="controlDescription"></div>
+				</div>
+			</div>
+			
+			<div id="mapWrapper">
+				<div id="mapDiv">
+					<div id="moon"></div>
+					<div id="pengu"></div>
+					<div id="boat"></div>
+					<div id="planet" class=""></div>
+					<div id="satellite"></div>
+				</div>
+				<div id="footerfr">MAJ le 23/09/13 a 23h34.<br />
+				Avec l'aimable autorisation de Chucklefish.<br />
+				<a id="url" href="http://playstarbound.com/roadmap/">Version originale ici.</a><br />
+				<a id="url" href="../forum/showthread.php?tid=357">Commentez sur notre forum.</a></div>
+			</div>
+		</div>
+		
+		<div id="configWrapper">
+			<div id="configDiv">
+				<textarea id="configText"></textarea>
+			</div>
+		</div>
+		
+		<div id="popupWrapper">
+			<div id="popupPanel">
+				<div id="popupHeader">
+					<div id="popupHeaderTitle">CARNET DE ROUTE DE STARBOUND</div>
+					<div id="popupHeaderSubTitle">C'est l'endroit ou tout vous sera explique</div>
+				</div>
+				<div id="popupFooter"></div>
+				<div id="popupCloseButton"></div>
+				
+				<div id="popupContentWrapper">
+					<div id="popupContentTop"></div>
+					<div id="popupContentInner"></div>
+					<div id="popupContentBottom"></div>
+					
+					<div id="popupContentText">
+						Bienvenue sur le Carnet de Route des developpeurs de Starbound !
+						Celui-ci est traduit par l'equipe de Starbound-Fr.net avec l'aimable autorisation de Chucklefish ♥<br>
+						Sur cette page vous avez une vue generale du developpement actuel du jeu.<br>
+						<br>
+						Chacune des zones majeures de developpement est representee par un point rouge sur la carte ci-dessous.
+						En cliquant sur ces points, vous verrez une pop-up apparaitre (comme celle-ci), decrivant 
+						les differentes taches qui sont impliquees dans cette region particuliere, et pourcentage de finition.
+						Ces p'tits gars sur la carte ayants le rythme dans la peau sur une musique de l'espace inaudible
+						sont les membres de l'equipe de dev'. Ils vont aller sur certaines zones de la carte correspondant
+						a leur travail actuel, de telle sorte a ce que vous puissiez voir ce qu'ils sont en train de faire.<br>
+						<br>
+						Gardez a l'esprit qu'il s'agit d'une estimation approximative de la progression.
+						Il peut y avoir des taches qui ne sont pas representees sur la carte, et certaines taches
+						peuvent prendre plus de temps que d'autres. En d'autres mots, ce carnet de bord
+						ne doit pas etre vu comme une sorte de compte-a-rebours. Nous allons aussi le mettre
+						a jour avec de nouvelles taches et informations au fur et a mesure.<br>
+						<br>
+						Sur ce, fermez cette cochonnerie et partez explorer le monde magnifique de Trukafairland !
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="detailsWrapper">
+			<div id="detailsAdmin">
+				<div id="peepBar"></div>
+				[<a id="addTaskButton">Ajouter tache</a>]
+			</div>
+			
+			<div id="detailsImageAdminWrapper">
+				<div id="detailsImageAdminPanel">
+					<div id="detailsImageAdminHeader">
+						<div id="detailsImageAdminHeaderText">Editer Screenshot</div>
+						<div id="detailsImageAdminButton"></div>
+					</div>
+					
+					<div id="detailsImageAdminFooter">
+					</div>
+					
+					<div id="detailsImageAdminPreview" class="detailsImage"></div>
+					
+					<div id="detailsImageAdminThumb">
+						Lien vignette
+						<input id="detailsImageAdminThumbInput"/>
+					</div>
+					
+					<div id="detailsImageAdminFull">
+						Lien image
+						<input id="detailsImageAdminFullInput"/>
+					</div>
+				</div>
+			</div>
+			
+			<div id="detailsPanel">
+				<div id="detailsHeader">
+					<div id="detailsHeaderTitle">SOMETHING OR OTHER</div>
+					<div id="detailsHeaderSubTitle">Starbound Roadmap</div>
+					<div id="detailsHeaderClose"></div>
+				</div>
+				<div id="detailsFooter"></div>
+				
+					<div id="detailsContentsWrapper">
+						<div id="detailsDescription">
+							<div id="detailsDescriptionTop"></div>
+							<div id="detailsDescriptionBottom"></div>
+							<div id="detailsDescriptionInner"></div>
+							
+							<div id="detailsDescriptionContent">
+								<div id="detailsDescriptionContentText"></div>
+								<textarea id="detailsDescriptionContentTextEdit"></textarea>
+								
+								<div id="detailsDescriptionContentImages">
+									<div id="detailsImage1" class="detailsImage"></div>
+									<div id="detailsImage2" class="detailsImage"></div>
+									<div id="detailsImage3" class="detailsImage"></div>
+								</div>
+							</div>
+						</div>
+					
+						<div id="detailsList">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

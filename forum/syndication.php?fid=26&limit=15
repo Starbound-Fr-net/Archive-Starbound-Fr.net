@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title><![CDATA[Starbound-Fr | Forum - Autre]]></title>
+		<link>http://starbound-fr.net/forum/</link>
+		<description><![CDATA[Starbound-Fr | Forum - http://starbound-fr.net/forum]]></description>
+		<pubDate>Thu, 18 Feb 2016 18:15:03 +0000</pubDate>
+		<generator>MyBB</generator>
+		<item>
+			<title><![CDATA[Le Wiki.]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=255</link>
+			<pubDate>Thu, 20 Dec 2012 01:07:12 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=255</guid>
+			<description><![CDATA[Salut.<br />
+<br />
+Vous n'êtes pas sans savoir qu'il existe un wiki francophone pour le jeu.<br />
+Celui-ci demande beaucoup d'investissements !<br />
+Peu de personnes s'en occupent.<br />
+Y compris moi. Il faut savoir que je n'y connais rien la dessus et que je n'y ai plus touché depuis des mois...<br />
+<br />
+je pense qu'un wiki n'est pas vraiment envisageable pour ce type de jeu, après réflexion. Beaucoup trop dur de compléter, surtout que tout le monde jouera et ne s'occupera pas vraiment de ceci...<br />
+<br />
+Les seules actions notables depuis presque un mois sont les inscriptions de bots...<br />
+<br />
+Mais si tout de même vous souhaitez quand même avoir un wiki, je suis prêt à donner la base de donnée à qlq'un pour qu'il puisse prendre le relais :)<br />
+<br />
+Je n'aime pas me disperser, je préfère vraiment me concentrer ici, et cela se ressent !<br />
+Ainsi je vous donne le choix !<br />
+<br />
+Merci :)]]></description>
+			<content:encoded><![CDATA[Salut.<br />
+<br />
+Vous n'êtes pas sans savoir qu'il existe un wiki francophone pour le jeu.<br />
+Celui-ci demande beaucoup d'investissements !<br />
+Peu de personnes s'en occupent.<br />
+Y compris moi. Il faut savoir que je n'y connais rien la dessus et que je n'y ai plus touché depuis des mois...<br />
+<br />
+je pense qu'un wiki n'est pas vraiment envisageable pour ce type de jeu, après réflexion. Beaucoup trop dur de compléter, surtout que tout le monde jouera et ne s'occupera pas vraiment de ceci...<br />
+<br />
+Les seules actions notables depuis presque un mois sont les inscriptions de bots...<br />
+<br />
+Mais si tout de même vous souhaitez quand même avoir un wiki, je suis prêt à donner la base de donnée à qlq'un pour qu'il puisse prendre le relais :)<br />
+<br />
+Je n'aime pas me disperser, je préfère vraiment me concentrer ici, et cela se ressent !<br />
+Ainsi je vous donne le choix !<br />
+<br />
+Merci :)]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Mode d'emploi de l'IRC :D]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=126</link>
+			<pubDate>Sat, 27 Oct 2012 14:01:05 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=126</guid>
+			<description><![CDATA[On commence à être de plus en plus nombreux ici, donc je pense qu'il serait bon de rappeler certaines petites choses :)<br />
+<br />
+<span style="text-decoration: underline;">Tout d'abord, comment on accède à l'IRC ? (aussi appelé "Chat")</span><br />
+Il suffit de cliquer sur le petit lien en haut de la page ou d'aller ici : <a href="http://starbound-fr.net/chat/" target="_blank">http://starbound-fr.net/chat/</a><br />
+<br />
+Vous entrez ensuite votre pseudo, et cliquez sur connexion :)<br />
+La case mot de passe sert à entrer le mot de passe qui vous a servi à enregistrer votre pseudo.<br />
+Ce qui amène logiquement à la question suivante !<br />
+<br />
+<span style="text-decoration: underline;">Enregistrer le pseudo ? Pourquoi ?</span><br />
+Enregistrer son pseudo, c'est avoir la garantie que personne ne vous le volera en mettant un mot de passe dessus. Ainsi, on ne pourra pas vous accuser d'actes qu'une personne malveillante aurait entrepris sous le couvert de votre pseudo :)<br />
+<br />
+<span style="text-decoration: underline;">D'accord, comment on fait ?</span><br />
+Pour enregistrer votre pseudo, il faut taper la commande suivante : <br />
+<blockquote><cite>Citation :</cite> /ns register motdepasse email </blockquote>
+Un email contenant les instructions requises pour valider votre enregistrement vous sera envoyé. Suivez-les, et votre pseudo sera enregistré ! :)<br />
+Lors de votre connexion, vous devrez à présent indiquer votre mot de passe dans la case prévue à cet effet, ou votre pseudo sera changé automatiquement au bout de 30 secondes <img src="http://starbound-fr.net/forum/images/smilies/oeil.png" alt="Wink" title="Wink" class="smilie smilie_68" /><br />
+<br />
+<span style="text-decoration: underline;">Quelques commandes utiles :</span><br />
+<blockquote><cite>Citation :</cite> /nick nouveaupseudo </blockquote>
+Permet de changer votre pseudo actuel.<br />
+<br />
+<blockquote><cite>Citation :</cite> /ns id motdepasse<br />
+/msg Themis IDENTIFY motdepasse </blockquote>
+Permet de vous identifier. Vous serez obligé de retaper la commande à chaque fois que vous reprendrez votre pseudo d'origine :)<br />
+<br />
+<blockquote><cite>Citation :</cite> /ns ghost pseudo motdepasse </blockquote>
+Déconnecte votre pseudo, si vous l'avez enregistré et que celui-ci est encore utilisé après une déconnexion intempestive (coupure de votre connexion internet etc)<br />
+<br />
+<blockquote><cite>Citation :</cite> /me action </blockquote>
+Vous fait faire une action. (Ex : /me mange une carotte = <span style="font-style: italic;">Biscotteman mange une carotte</span>)<br />
+<br />
+Le règlement du chat est le même que sur le forum : Pas de langage SMS, politesse et courtoisie sont de mises.<br />
+A bientôt sur l'IRC :)]]></description>
+			<content:encoded><![CDATA[On commence à être de plus en plus nombreux ici, donc je pense qu'il serait bon de rappeler certaines petites choses :)<br />
+<br />
+<span style="text-decoration: underline;">Tout d'abord, comment on accède à l'IRC ? (aussi appelé "Chat")</span><br />
+Il suffit de cliquer sur le petit lien en haut de la page ou d'aller ici : <a href="http://starbound-fr.net/chat/" target="_blank">http://starbound-fr.net/chat/</a><br />
+<br />
+Vous entrez ensuite votre pseudo, et cliquez sur connexion :)<br />
+La case mot de passe sert à entrer le mot de passe qui vous a servi à enregistrer votre pseudo.<br />
+Ce qui amène logiquement à la question suivante !<br />
+<br />
+<span style="text-decoration: underline;">Enregistrer le pseudo ? Pourquoi ?</span><br />
+Enregistrer son pseudo, c'est avoir la garantie que personne ne vous le volera en mettant un mot de passe dessus. Ainsi, on ne pourra pas vous accuser d'actes qu'une personne malveillante aurait entrepris sous le couvert de votre pseudo :)<br />
+<br />
+<span style="text-decoration: underline;">D'accord, comment on fait ?</span><br />
+Pour enregistrer votre pseudo, il faut taper la commande suivante : <br />
+<blockquote><cite>Citation :</cite> /ns register motdepasse email </blockquote>
+Un email contenant les instructions requises pour valider votre enregistrement vous sera envoyé. Suivez-les, et votre pseudo sera enregistré ! :)<br />
+Lors de votre connexion, vous devrez à présent indiquer votre mot de passe dans la case prévue à cet effet, ou votre pseudo sera changé automatiquement au bout de 30 secondes <img src="http://starbound-fr.net/forum/images/smilies/oeil.png" alt="Wink" title="Wink" class="smilie smilie_68" /><br />
+<br />
+<span style="text-decoration: underline;">Quelques commandes utiles :</span><br />
+<blockquote><cite>Citation :</cite> /nick nouveaupseudo </blockquote>
+Permet de changer votre pseudo actuel.<br />
+<br />
+<blockquote><cite>Citation :</cite> /ns id motdepasse<br />
+/msg Themis IDENTIFY motdepasse </blockquote>
+Permet de vous identifier. Vous serez obligé de retaper la commande à chaque fois que vous reprendrez votre pseudo d'origine :)<br />
+<br />
+<blockquote><cite>Citation :</cite> /ns ghost pseudo motdepasse </blockquote>
+Déconnecte votre pseudo, si vous l'avez enregistré et que celui-ci est encore utilisé après une déconnexion intempestive (coupure de votre connexion internet etc)<br />
+<br />
+<blockquote><cite>Citation :</cite> /me action </blockquote>
+Vous fait faire une action. (Ex : /me mange une carotte = <span style="font-style: italic;">Biscotteman mange une carotte</span>)<br />
+<br />
+Le règlement du chat est le même que sur le forum : Pas de langage SMS, politesse et courtoisie sont de mises.<br />
+A bientôt sur l'IRC :)]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[[Résolu] Le chat IRC]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=56</link>
+			<pubDate>Sat, 22 Sep 2012 09:00:24 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=56</guid>
+			<description><![CDATA[Je ne sais pas si il y en a qui n'arrive pas à se connecter mais moi sa me le fait <img src="http://starbound-fr.net/forum/images/smilies/Unfair.png" alt="Unfair" title="Unfair" class="smilie smilie_33" /><br />
+Je veux bien qu'on m'aide avant que je devient CRAZY <img src="http://starbound-fr.net/forum/images/smilies/ZOHMAHGAWD.png" alt="ZOHMAHGAWD" title="ZOHMAHGAWD" class="smilie smilie_39" /> !!!]]></description>
+			<content:encoded><![CDATA[Je ne sais pas si il y en a qui n'arrive pas à se connecter mais moi sa me le fait <img src="http://starbound-fr.net/forum/images/smilies/Unfair.png" alt="Unfair" title="Unfair" class="smilie smilie_33" /><br />
+Je veux bien qu'on m'aide avant que je devient CRAZY <img src="http://starbound-fr.net/forum/images/smilies/ZOHMAHGAWD.png" alt="ZOHMAHGAWD" title="ZOHMAHGAWD" class="smilie smilie_39" /> !!!]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[[Résolu] Chat IRC]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=30</link>
+			<pubDate>Sat, 01 Sep 2012 12:12:21 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=30</guid>
+			<description><![CDATA[Hey ! <br />
+<br />
+Vu que je n'ai pas les droits d'admin pour demander de l'aide dans le sujet IRC,  je le fais ici x) <br />
+<br />
+Je sais que je suis faible, mais je n'arrive pas à me connecter directement au chat IRC, alors j'ai essayer de DL  ChatX, et je n'arrive pas à trouver le serveur EpiKnet..  Help me ? &lt;3]]></description>
+			<content:encoded><![CDATA[Hey ! <br />
+<br />
+Vu que je n'ai pas les droits d'admin pour demander de l'aide dans le sujet IRC,  je le fais ici x) <br />
+<br />
+Je sais que je suis faible, mais je n'arrive pas à me connecter directement au chat IRC, alors j'ai essayer de DL  ChatX, et je n'arrive pas à trouver le serveur EpiKnet..  Help me ? &lt;3]]></content:encoded>
+		</item>
+	</channel>
+</rss>

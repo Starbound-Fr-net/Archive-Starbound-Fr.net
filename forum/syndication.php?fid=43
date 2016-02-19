@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title><![CDATA[Starbound-Fr | Forum - Tutos]]></title>
+		<link>http://starbound-fr.net/forum/</link>
+		<description><![CDATA[Starbound-Fr | Forum - http://starbound-fr.net/forum]]></description>
+		<pubDate>Thu, 18 Feb 2016 18:16:58 +0000</pubDate>
+		<generator>MyBB</generator>
+		<item>
+			<title><![CDATA[[TUTO n°2] Créer un vaisseau personalisé]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=967</link>
+			<pubDate>Wed, 05 Mar 2014 09:33:55 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=967</guid>
+			<description><![CDATA[Bonjour à tous, aujourd'hui nous allons apprendre a créer un vaisseau, et a tout configurer pour qu'il fonctionne.<br />
+<br />
+Dans ce tutoriel, je vais utiliser des fichiers déjà présent en jeu mais inutilisé par celui ci.<br />
+<br />
+<span style="font-weight: bold;">Premièrement : </span><br />
+<br />
+Vous devez créer un nouveau dossier dans <span style="font-weight: bold;">"mods"</span> portant le nom de votre nouveau vaisseau ou un autre nom au choix.<br />
+<br />
+Ensuite, vous allez avoir besoin de créer : <br />
+<br />
+<blockquote><cite>Citation :</cite>_Un dossier <span style="font-weight: bold;">"Ships"</span> contenant un autre dossier avec le nom de la race auquel appartiendra le vaisseau. Pour ce tutoriel nous allons utiliser le dossier <span style="font-weight: bold;">"human"</span>.<br />
+<br />
+*À placer dans le dossier <span style="font-weight: bold;">../mods/nomdumod/</span><br />
+_Un fichier nommé <span style="font-weight: bold;">"universe_server.config"</span><br />
+_Un fichier nommé <span style="font-weight: bold;">"nomdumod.modinfo"</span><br />
+*À placer dans le dossier <span style="font-weight: bold;">../mods/nomdumod/ships/human/</span><br />
+_Un fichier nommé <span style="font-weight: bold;">"nomduvaisseau.structure"</span><br />
+_Deux fichier image en PNG (je reviendrais plus tard sur ces deux fichiers) qui doivent se nommé <span style="font-weight: bold;">"nomduvaisseau.png"</span> et <span style="font-weight: bold;">"nomduvaisseaublocks.png"</span></blockquote>
+<br />
+Avant de partir sur la création graphique de votre vaisseau, nous allons nous attarder sur sa configuration :<br />
+<br />
+<span style="text-decoration: underline;"><span style="font-weight: bold;">ETAPE I</span></span><br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <br />
+<blockquote><cite>Citation :</cite>Ouvrez le fichier <span style="font-weight: bold;">"ship.modinfo"</span> ce fichier va nous servir a déclaré au jeu qu'il y a une modification prioritaire a effectuer.<br />
+<br />
+<div class="codeblock phpcodeblock"><div class="title">Code PHP :<br />
+</div><div class="body"><div dir="ltr"><code><span style="color: #007700">{<br /></span><span style="color: #DD0000">"name"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">""</span><span style="color: #007700">,<br /></span><span style="color: #DD0000">"version"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">""</span><span style="color: #007700">,<br /></span><span style="color: #DD0000">"path"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"."<br /></span><span style="color: #007700">}&nbsp;<br /></span></code></div></div></div>
+Pour plus d'information pour savoir compléter ce fichier, je vous invite a suivre <a href="http://starbound-fr.net/modding-volume-1/" target="_blank">"Le Guide Du Moddeur"</a> mis en place par notre amis "<span style="color: #DAA520;"><span style="font-weight: bold;">Maxigregrze</span></span>"</blockquote>
+<br />
+        </div>
+    </div>
+</div>
+<span style="text-decoration: underline;"><span style="font-weight: bold;">ETAPE II</span></span><br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <br />
+<blockquote><cite>Citation :</cite>Ouvrez le fichier <span style="font-weight: bold;">"universe_server.config"</span><br />
+<br />
+Collez-y ce bout de code que nous allons décortiquer par la suite.<br />
+<div class="codeblock phpcodeblock"><div class="title">Code PHP :<br />
+</div><div class="body"><div dir="ltr"><code><span style="color: #007700">{<br />&nbsp;&nbsp;</span><span style="color: #DD0000">"__merge"&nbsp;</span><span style="color: #007700">:&nbsp;[],<br />&nbsp;&nbsp;</span><span style="color: #DD0000">"speciesShips"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"nomdelarace"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"/ships/human/nomduvaisseau.structure"<br />&nbsp;&nbsp;</span><span style="color: #007700">},<br />}&nbsp;<br /></span></code></div></div></div>
+<br />
+<span style="font-weight: bold;">"__merge" :</span> permet de modifier un fichier du jeu, sans avoir a réecrire totalement tout le fichier d'origine.<br />
+<span style="font-weight: bold;">"speciesShips" :</span> indique au jeu que nous allons modifier les vaisseau de départ d'une race<br />
+<span style="font-weight: bold;">"nomdelarace" :</span> à remplacer par le nom de la race choisit, peut servire aussi pour les race custom, le chemin d’accès ci-après, lui indique le fichier .structure qui sera utilisé comme vaisseau par le personnage.</blockquote>
+<br />
+Avec ça, vous êtes déjà en mesure de modifier le vaisseau de départ de votre race préféré.<br />
+<br />
+        </div>
+    </div>
+</div>
+<span style="text-decoration: underline;"><span style="font-weight: bold;">ETAPE III</span></span><br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <br />
+<blockquote><cite>Citation :</cite>Passons maintenant au dossier se trouvant dans <span style="font-weight: bold;">../ships/</span><br />
+Pour le tuto ce dossier se nomme <span style="font-weight: bold;">"human"</span> mais vous pouvez tout aussi bien le nommé avec le nom d'une race personalisée.<br />
+<br />
+Ouvrez <span style="font-weight: bold;">"nomduvaisseau.structure"</span> que je vais nommé <span style="font-weight: bold;">"dropship2.structure"</span>.<br />
+<br />
+Collez y ceci :<br />
+<div class="codeblock phpcodeblock"><div class="title">Code PHP :<br />
+</div><div class="body"><div dir="ltr"><code><span style="color: #007700">{<br />&nbsp;&nbsp;</span><span style="color: #DD0000">"config"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//sert&nbsp;a&nbsp;definir&nbsp;le&nbsp;carburant&nbsp;maximum&nbsp;contenu&nbsp;par&nbsp;le&nbsp;vaisseau<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"fuelMax"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">1000<br /><br />&nbsp;&nbsp;</span><span style="color: #007700">},<br /><br />&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundOverlays"&nbsp;</span><span style="color: #007700">:&nbsp;[<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Image&nbsp;de&nbsp;l'arière&nbsp;plan&nbsp;du&nbsp;vaisseau<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"image"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"dropship2.png"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Placement&nbsp;de&nbsp;l'image&nbsp;sur&nbsp;un&nbsp;axe,&nbsp;en&nbsp;fonction&nbsp;des&nbsp;coordonée&nbsp;"x"&nbsp;et&nbsp;"y"<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"position"&nbsp;</span><span style="color: #007700">:&nbsp;[-</span><span style="color: #0000BB">7</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">13</span><span style="color: #007700">]<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />&nbsp;&nbsp;],<br /><br />&nbsp;&nbsp;</span><span style="color: #DD0000">"blockKey"&nbsp;</span><span style="color: #007700">:&nbsp;[<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Couleur&nbsp;définit&nbsp;en&nbsp;[rouge,&nbsp;vert,&nbsp;bleu,&nbsp;alpha]<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Est-ce&nbsp;que&nbsp;cette&nbsp;couleur&nbsp;doit&nbsp;etre&nbsp;remplacer&nbsp;par&nbsp;un&nbsp;block&nbsp;en&nbsp;avant&nbsp;plan&nbsp;?<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Est-ce&nbsp;que&nbsp;cette&nbsp;couleur&nbsp;doit&nbsp;etre&nbsp;remplacer&nbsp;par&nbsp;un&nbsp;block&nbsp;en&nbsp;arière&nbsp;plan&nbsp;?<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Bloc&nbsp;qui&nbsp;doit&nbsp;la&nbsp;remplacer&nbsp;en&nbsp;arière&nbsp;plan<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundMat"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexshipwall"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Objet&nbsp;qui&nbsp;sera&nbsp;mis&nbsp;par&nbsp;dessus<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"floranshiplocker"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Parametre&nbsp;de&nbsp;l'objet<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectParameters"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Si&nbsp;c'est&nbsp;un&nbsp;coffre&nbsp;que&nbsp;doit&nbsp;il&nbsp;contenir&nbsp;?<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"treasurePools"&nbsp;</span><span style="color: #007700">:&nbsp;[&nbsp;</span><span style="color: #DD0000">"floranStarterTreasure"&nbsp;</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Niveau&nbsp;de&nbsp;l'objet<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"level"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//L'objet&nbsp;est&nbsp;il&nbsp;récupérable&nbsp;par&nbsp;le&nbsp;joueur&nbsp;?<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"unbreakable"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">142</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">142</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundMat"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexshipwall"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"techstation"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectParameters"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"unbreakable"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">87</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">81</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexfuelhatch"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectParameters"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"unbreakable"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundMat"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexshipdetails"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexshiplight"<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">102</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexshipdoor"<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">174</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">137</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">81</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"shipengine"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectParameters"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"unbreakable"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">156</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundMat"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexshipdetails"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"teleporter"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"flags"&nbsp;</span><span style="color: #007700">:&nbsp;[&nbsp;</span><span style="color: #DD0000">"playerSpawn"&nbsp;</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectParameters"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"unbreakable"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">167</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">167</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"boosterflame"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectParameters"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"unbreakable"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">168</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">168</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">168</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"smallboosterflame"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectParameters"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"unbreakable"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexcaptainschair"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectDirection"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"left"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectParameters"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"unbreakable"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">122</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">122</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">122</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"invisiblelight"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectParameters"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"unbreakable"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">144</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundMat"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexshipwall"<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">117</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">144</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundMat"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexshipdetails"<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">117</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundMat"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexshipsupport"<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;],<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Image&nbsp;utilise&nbsp;pour&nbsp;placer&nbsp;les&nbsp;bloc&nbsp;en&nbsp;fontion&nbsp;des&nbsp;couleurs.<br />&nbsp;&nbsp;</span><span style="color: #DD0000">"blockImage"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"dropshipblocks2.png"<br /></span><span style="color: #007700">}&nbsp;<br /></span></code></div></div></div>
+Vous l'aurez compris, il faut que nous passion a la partie graphisme.</blockquote>
+<br />
+        </div>
+    </div>
+</div>
+<span style="text-decoration: underline;"><span style="font-weight: bold;">PARTIE GRAPHISME I</span></span><br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <br />
+<blockquote><cite>Citation :</cite>Nous avons deux images, que j'ai nommé <span style="font-weight: bold;">"dropship2.png"</span> et <span style="font-weight: bold;">"dropshipblocks2.png"</span>.<br />
+En fait j'ai simplement récupéré ces deux images des fichier du jeu, elles y sont mais ne sont pas utilisé par le jeu, soit pas encore, soit cela a été abandonner par les développeur.<br />
+Voici les images :<br />
+<span style="font-weight: bold;">dropship2.png</span> (celle ci n'est utile que si vous la modifiez, si vous ne la modifiez pas, supprimez la de votre mod.)<br />
+<img src="http://img15.hostingpics.net/pics/766775dropship2.png" border="0" alt="[Image: 766775dropship2.png]" /><br />
+<span style="font-weight: bold;">dropshipblocks2.png</span> (normalement la votre est toute bleu a l'intérieur, celle ci je l'ai modifier moi même)<br />
+<img src="http://img15.hostingpics.net/pics/499488dropshipblocks2.png" border="0" alt="[Image: 499488dropshipblocks2.png]" /><br />
+<span style="color: #FF0000;"><span style="font-weight: bold;">ATTENTION : ces deux images ont été redimentioné pour le forum, ne pas les copier coller, car cela ne marchera pas, je fournirais le dossier complet en fin de tutoriel.</span></span><br />
+<span style="color: #32CD32;"><span style="font-weight: bold;">NOTE : Je ne sais pas vraiment quel rapport Hauteur/Largeur est utilisé pour ces images, si quelqu'un sais :)</span></span><br />
+<br />
+Vous l'aurez compris, sur la deuxième image, les couleurs corresponde au couleur définit plus haut dans le fichier de configuration du vaisseau.<br />
+Il ne vous reste plus qu'a peaufiné tout ça. <span style="text-decoration: underline;"><span style="font-weight: bold;">BON JEU A VOUS !!!!</span></span><br />
+<br />
+<a href="https://www.dropbox.com/s/lqzk8738em4cr1l/Ship%20Mod.rar" target="_blank">LIENS VERS LE DOSSIER COMPLET</a></blockquote>
+<br />
+        </div>
+    </div>
+</div>]]></description>
+			<content:encoded><![CDATA[Bonjour à tous, aujourd'hui nous allons apprendre a créer un vaisseau, et a tout configurer pour qu'il fonctionne.<br />
+<br />
+Dans ce tutoriel, je vais utiliser des fichiers déjà présent en jeu mais inutilisé par celui ci.<br />
+<br />
+<span style="font-weight: bold;">Premièrement : </span><br />
+<br />
+Vous devez créer un nouveau dossier dans <span style="font-weight: bold;">"mods"</span> portant le nom de votre nouveau vaisseau ou un autre nom au choix.<br />
+<br />
+Ensuite, vous allez avoir besoin de créer : <br />
+<br />
+<blockquote><cite>Citation :</cite>_Un dossier <span style="font-weight: bold;">"Ships"</span> contenant un autre dossier avec le nom de la race auquel appartiendra le vaisseau. Pour ce tutoriel nous allons utiliser le dossier <span style="font-weight: bold;">"human"</span>.<br />
+<br />
+*À placer dans le dossier <span style="font-weight: bold;">../mods/nomdumod/</span><br />
+_Un fichier nommé <span style="font-weight: bold;">"universe_server.config"</span><br />
+_Un fichier nommé <span style="font-weight: bold;">"nomdumod.modinfo"</span><br />
+*À placer dans le dossier <span style="font-weight: bold;">../mods/nomdumod/ships/human/</span><br />
+_Un fichier nommé <span style="font-weight: bold;">"nomduvaisseau.structure"</span><br />
+_Deux fichier image en PNG (je reviendrais plus tard sur ces deux fichiers) qui doivent se nommé <span style="font-weight: bold;">"nomduvaisseau.png"</span> et <span style="font-weight: bold;">"nomduvaisseaublocks.png"</span></blockquote>
+<br />
+Avant de partir sur la création graphique de votre vaisseau, nous allons nous attarder sur sa configuration :<br />
+<br />
+<span style="text-decoration: underline;"><span style="font-weight: bold;">ETAPE I</span></span><br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <br />
+<blockquote><cite>Citation :</cite>Ouvrez le fichier <span style="font-weight: bold;">"ship.modinfo"</span> ce fichier va nous servir a déclaré au jeu qu'il y a une modification prioritaire a effectuer.<br />
+<br />
+<div class="codeblock phpcodeblock"><div class="title">Code PHP :<br />
+</div><div class="body"><div dir="ltr"><code><span style="color: #007700">{<br /></span><span style="color: #DD0000">"name"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">""</span><span style="color: #007700">,<br /></span><span style="color: #DD0000">"version"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">""</span><span style="color: #007700">,<br /></span><span style="color: #DD0000">"path"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"."<br /></span><span style="color: #007700">}&nbsp;<br /></span></code></div></div></div>
+Pour plus d'information pour savoir compléter ce fichier, je vous invite a suivre <a href="http://starbound-fr.net/modding-volume-1/" target="_blank">"Le Guide Du Moddeur"</a> mis en place par notre amis "<span style="color: #DAA520;"><span style="font-weight: bold;">Maxigregrze</span></span>"</blockquote>
+<br />
+        </div>
+    </div>
+</div>
+<span style="text-decoration: underline;"><span style="font-weight: bold;">ETAPE II</span></span><br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <br />
+<blockquote><cite>Citation :</cite>Ouvrez le fichier <span style="font-weight: bold;">"universe_server.config"</span><br />
+<br />
+Collez-y ce bout de code que nous allons décortiquer par la suite.<br />
+<div class="codeblock phpcodeblock"><div class="title">Code PHP :<br />
+</div><div class="body"><div dir="ltr"><code><span style="color: #007700">{<br />&nbsp;&nbsp;</span><span style="color: #DD0000">"__merge"&nbsp;</span><span style="color: #007700">:&nbsp;[],<br />&nbsp;&nbsp;</span><span style="color: #DD0000">"speciesShips"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"nomdelarace"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"/ships/human/nomduvaisseau.structure"<br />&nbsp;&nbsp;</span><span style="color: #007700">},<br />}&nbsp;<br /></span></code></div></div></div>
+<br />
+<span style="font-weight: bold;">"__merge" :</span> permet de modifier un fichier du jeu, sans avoir a réecrire totalement tout le fichier d'origine.<br />
+<span style="font-weight: bold;">"speciesShips" :</span> indique au jeu que nous allons modifier les vaisseau de départ d'une race<br />
+<span style="font-weight: bold;">"nomdelarace" :</span> à remplacer par le nom de la race choisit, peut servire aussi pour les race custom, le chemin d’accès ci-après, lui indique le fichier .structure qui sera utilisé comme vaisseau par le personnage.</blockquote>
+<br />
+Avec ça, vous êtes déjà en mesure de modifier le vaisseau de départ de votre race préféré.<br />
+<br />
+        </div>
+    </div>
+</div>
+<span style="text-decoration: underline;"><span style="font-weight: bold;">ETAPE III</span></span><br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <br />
+<blockquote><cite>Citation :</cite>Passons maintenant au dossier se trouvant dans <span style="font-weight: bold;">../ships/</span><br />
+Pour le tuto ce dossier se nomme <span style="font-weight: bold;">"human"</span> mais vous pouvez tout aussi bien le nommé avec le nom d'une race personalisée.<br />
+<br />
+Ouvrez <span style="font-weight: bold;">"nomduvaisseau.structure"</span> que je vais nommé <span style="font-weight: bold;">"dropship2.structure"</span>.<br />
+<br />
+Collez y ceci :<br />
+<div class="codeblock phpcodeblock"><div class="title">Code PHP :<br />
+</div><div class="body"><div dir="ltr"><code><span style="color: #007700">{<br />&nbsp;&nbsp;</span><span style="color: #DD0000">"config"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//sert&nbsp;a&nbsp;definir&nbsp;le&nbsp;carburant&nbsp;maximum&nbsp;contenu&nbsp;par&nbsp;le&nbsp;vaisseau<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"fuelMax"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">1000<br /><br />&nbsp;&nbsp;</span><span style="color: #007700">},<br /><br />&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundOverlays"&nbsp;</span><span style="color: #007700">:&nbsp;[<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Image&nbsp;de&nbsp;l'arière&nbsp;plan&nbsp;du&nbsp;vaisseau<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"image"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"dropship2.png"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Placement&nbsp;de&nbsp;l'image&nbsp;sur&nbsp;un&nbsp;axe,&nbsp;en&nbsp;fonction&nbsp;des&nbsp;coordonée&nbsp;"x"&nbsp;et&nbsp;"y"<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"position"&nbsp;</span><span style="color: #007700">:&nbsp;[-</span><span style="color: #0000BB">7</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">13</span><span style="color: #007700">]<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />&nbsp;&nbsp;],<br /><br />&nbsp;&nbsp;</span><span style="color: #DD0000">"blockKey"&nbsp;</span><span style="color: #007700">:&nbsp;[<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Couleur&nbsp;définit&nbsp;en&nbsp;[rouge,&nbsp;vert,&nbsp;bleu,&nbsp;alpha]<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Est-ce&nbsp;que&nbsp;cette&nbsp;couleur&nbsp;doit&nbsp;etre&nbsp;remplacer&nbsp;par&nbsp;un&nbsp;block&nbsp;en&nbsp;avant&nbsp;plan&nbsp;?<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Est-ce&nbsp;que&nbsp;cette&nbsp;couleur&nbsp;doit&nbsp;etre&nbsp;remplacer&nbsp;par&nbsp;un&nbsp;block&nbsp;en&nbsp;arière&nbsp;plan&nbsp;?<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Bloc&nbsp;qui&nbsp;doit&nbsp;la&nbsp;remplacer&nbsp;en&nbsp;arière&nbsp;plan<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundMat"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexshipwall"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Objet&nbsp;qui&nbsp;sera&nbsp;mis&nbsp;par&nbsp;dessus<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"floranshiplocker"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Parametre&nbsp;de&nbsp;l'objet<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectParameters"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Si&nbsp;c'est&nbsp;un&nbsp;coffre&nbsp;que&nbsp;doit&nbsp;il&nbsp;contenir&nbsp;?<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"treasurePools"&nbsp;</span><span style="color: #007700">:&nbsp;[&nbsp;</span><span style="color: #DD0000">"floranStarterTreasure"&nbsp;</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Niveau&nbsp;de&nbsp;l'objet<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"level"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//L'objet&nbsp;est&nbsp;il&nbsp;récupérable&nbsp;par&nbsp;le&nbsp;joueur&nbsp;?<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"unbreakable"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">142</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">142</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundMat"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexshipwall"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"techstation"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectParameters"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"unbreakable"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">87</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">81</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexfuelhatch"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectParameters"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"unbreakable"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundMat"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexshipdetails"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexshiplight"<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">102</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexshipdoor"<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">174</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">137</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">81</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"shipengine"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectParameters"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"unbreakable"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">156</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundMat"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexshipdetails"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"teleporter"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"flags"&nbsp;</span><span style="color: #007700">:&nbsp;[&nbsp;</span><span style="color: #DD0000">"playerSpawn"&nbsp;</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectParameters"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"unbreakable"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">167</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">167</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"boosterflame"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectParameters"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"unbreakable"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">168</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">168</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">168</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"smallboosterflame"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectParameters"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"unbreakable"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexcaptainschair"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectDirection"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"left"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectParameters"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"unbreakable"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">122</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">122</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">122</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"object"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"invisiblelight"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"objectParameters"&nbsp;</span><span style="color: #007700">:&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"unbreakable"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;&nbsp;&nbsp;},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">144</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundMat"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexshipwall"<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">117</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">144</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundMat"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexshipdetails"<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">},<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"value"&nbsp;</span><span style="color: #007700">:&nbsp;[</span><span style="color: #0000BB">255</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">117</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">255</span><span style="color: #007700">],<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"foregroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundBlock"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"backgroundMat"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"apexshipsupport"<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">}<br />&nbsp;&nbsp;],<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//Image&nbsp;utilise&nbsp;pour&nbsp;placer&nbsp;les&nbsp;bloc&nbsp;en&nbsp;fontion&nbsp;des&nbsp;couleurs.<br />&nbsp;&nbsp;</span><span style="color: #DD0000">"blockImage"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"dropshipblocks2.png"<br /></span><span style="color: #007700">}&nbsp;<br /></span></code></div></div></div>
+Vous l'aurez compris, il faut que nous passion a la partie graphisme.</blockquote>
+<br />
+        </div>
+    </div>
+</div>
+<span style="text-decoration: underline;"><span style="font-weight: bold;">PARTIE GRAPHISME I</span></span><br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <br />
+<blockquote><cite>Citation :</cite>Nous avons deux images, que j'ai nommé <span style="font-weight: bold;">"dropship2.png"</span> et <span style="font-weight: bold;">"dropshipblocks2.png"</span>.<br />
+En fait j'ai simplement récupéré ces deux images des fichier du jeu, elles y sont mais ne sont pas utilisé par le jeu, soit pas encore, soit cela a été abandonner par les développeur.<br />
+Voici les images :<br />
+<span style="font-weight: bold;">dropship2.png</span> (celle ci n'est utile que si vous la modifiez, si vous ne la modifiez pas, supprimez la de votre mod.)<br />
+<img src="http://img15.hostingpics.net/pics/766775dropship2.png" border="0" alt="[Image: 766775dropship2.png]" /><br />
+<span style="font-weight: bold;">dropshipblocks2.png</span> (normalement la votre est toute bleu a l'intérieur, celle ci je l'ai modifier moi même)<br />
+<img src="http://img15.hostingpics.net/pics/499488dropshipblocks2.png" border="0" alt="[Image: 499488dropshipblocks2.png]" /><br />
+<span style="color: #FF0000;"><span style="font-weight: bold;">ATTENTION : ces deux images ont été redimentioné pour le forum, ne pas les copier coller, car cela ne marchera pas, je fournirais le dossier complet en fin de tutoriel.</span></span><br />
+<span style="color: #32CD32;"><span style="font-weight: bold;">NOTE : Je ne sais pas vraiment quel rapport Hauteur/Largeur est utilisé pour ces images, si quelqu'un sais :)</span></span><br />
+<br />
+Vous l'aurez compris, sur la deuxième image, les couleurs corresponde au couleur définit plus haut dans le fichier de configuration du vaisseau.<br />
+Il ne vous reste plus qu'a peaufiné tout ça. <span style="text-decoration: underline;"><span style="font-weight: bold;">BON JEU A VOUS !!!!</span></span><br />
+<br />
+<a href="https://www.dropbox.com/s/lqzk8738em4cr1l/Ship%20Mod.rar" target="_blank">LIENS VERS LE DOSSIER COMPLET</a></blockquote>
+<br />
+        </div>
+    </div>
+</div>]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[[Guide sur le modding] - [Windows]]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=708</link>
+			<pubDate>Thu, 12 Dec 2013 18:53:41 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=708</guid>
+			<description><![CDATA[<div style="text-align: center;">[Guide sur le modding]<br />
+[Windows]</div>
+<br />
+    <br />
+<blockquote><cite>Citation :</cite>Bienvenue dans mon guide sur le modding celui si n'est pas forcement complet mais je m’efforcerais de le rendre un maximum exploitable.<br />
+Avant de commencer je precise que Starbound est très flexible donc les modification sont extrêmement simple et n'importe qui peut se lancer.<br />
+Bien sur pour crée un mod qui va revolutionner le jeu il faudras mettre les main dans le LUA et pour ça je ne vous suit d'aucune utilité x).</blockquote>
+    <br />
+Sommaire : <ul>
+<li>Recherche du dossier racine<br />
+</li>
+<li>Le Dossier Assets<br />
+</li></ul>
+    <br />
+<div style="text-align: center;"><span style="font-size: large;"><span style="font-weight: bold;">[Recherche du dossier racine]</span></span></div>
+Le dossier racine c'est le dossier ou est installer le jeu c'est la bas que toute les modifications vont être effectué en générale il se trouve ici :<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>"C:&#92;Program Files (x86)&#92;Steam&#92;SteamApps&#92;common&#92;Starbound"</code></div></div>
+     <br />
+<br />
+<br />
+Vous devriez avoir à peu près les mêmes dossiers que moi :<br />
+<div style="text-align: center;"><img src="http://i.imgur.com/Libp62O.png" border="0" alt="[Image: Libp62O.png]" /></div>
+    <br />
+<br />
+<span style="font-size: large;"><span style="font-weight: bold;">[Le Dossier Assets]</span></span><br />
+Le dossier Assets est le dossier qui va nous intéresser le plus c'est la bas qu'il y a tout les fichiers du jeu<br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <img src="http://i.imgur.com/oyJ2YEi.png" border="0" alt="[Image: oyJ2YEi.png]" /><br />
+        </div>
+    </div>
+</div>
+Comme vous pouvez le constater si vous fouillez un peu le contenu est riche mais dans le cadre du tuto nous allons simplement nous intéresser à 2 ou trois dossiers et fichiers dans tout ce fouillis organisé.<br />
+    <br />
+<br />
+<span style="font-size: large;"><span style="font-weight: bold;">[La création d'une nouvelle pioche]</span></span><br />
+Nous allons donc pour expliquer les rudiments du modage sur starbound créer une nouvelle pioche<br />
+Pour cela nous allons aller dans :<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>"C:&#92;Program Files (x86)&#92;Steam&#92;SteamApps&#92;common&#92;Starbound&#92;assets&#92;items&#92;tools"</code></div></div>
+     <br />
+Comme vous pouvez le constater il y a tout les outils présent dans starbound:<br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <img src="http://i.imgur.com/HfCcwA8.png" border="0" alt="[Image: HfCcwA8.png]" /><br />
+        </div>
+    </div>
+</div>
+    <br />
+Ici pour nous éviter les premières lignes de code nous allons récupérer par exemple l'item de la pioche en diamant ainsi que ces textures:<br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <img src="http://i.imgur.com/q1WRY4e.png" border="0" alt="[Image: q1WRY4e.png]" /><br />
+        </div>
+    </div>
+</div>
+    <br />
+En ce qui concerne les texture je vous laisse faire garder juste le nom des images nous les modifieront plus tard.<br />
+Ensuite ouvrer le fichier <span style="font-weight: bold;">"diamondpickaxe.miningtool"</span> avec notepad++ ou votre bloc note favoris :p<br />
+Cela devrait vous donner ça ! :<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>{<br />
+     "itemName" : "diamondpickaxe",<br />
+      "inventoryIcon" : "diamondpickaxeicon.png",<br />
+      "dropCollision" : [-4.0, -3.0, 4.0, 3.0],<br />
+      "maxStack" : 1,<br />
+      "rarity" : "common",<br />
+      "inspectionKind" : "tool",<br />
+      "description" : "Pickaxes are so last millennium! This one is made of diamond.",<br />
+      "shortdescription" : "Diamond Pickaxe",<br />
+      "largeImage" : "diamondpickaxebig.png",<br />
+      "image" : "diamondpickaxe.png",<br />
+      "handPosition" : [-3, -4],<br />
+      "fireTime" : 0.3,<br />
+      "swingStart" : -40,<br />
+      "swingFinish" : 60,<br />
+      "blockRadius" : 3,<br />
+      "altBlockRadius" : 1,<br />
+      "twoHanded" : true,<br />
+      "strikeSound" : "/sfx/tools/pickaxe_hit.wav",<br />
+      "durability" : 7500,<br />
+      "durabilityPerUse" : 1,<br />
+      "durabilityRegenChart" : [<br />
+        [ [ "copperore" ], 750], [ [ "silverore" ], 1125], [ [ "goldore" ], 1500], [ [ "platinumore" ], 1875], [ [ "diamond" ], 2250]<br />
+      ],<br />
+      "tileDamage" : 2.7,<br />
+      "tileDamageBlunted" : 0.6<br />
+}</code></div></div>
+     <br />
+Alors là on touche au gros du truc :p<br />
+Comme vous pouvez le voir cela ne ressemble presque pas à du code et si vous avez quelques connaissances en anglais vous comprendrez assez bien chaque ligne.<br />
+    <br />
+Mais pour les autres voilà une mini traduction:<br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <br />
+     "itemName" : Nom de l'objet<br />
+     "inventoryIcon" : Icone de l'image<br />
+     "dropCollision" : Aucune idée a vous de faire des tests<br />
+     "maxStack" : Combien d'objet empilable<br />
+     "rarity" : Rareter de l'objet<br />
+     "inspectionKind" : Groupe de l'objet<br />
+     "description" : Description de l'objet<br />
+     "shortdescription" : Courte description de l'objet<br />
+     "largeImage" : Grande image de l'objet<br />
+     "image" : Image de l'objet<br />
+     "handPosition" : Position de l'objet dans la main du joueur<br />
+     "fireTime" : Vitesse de l'objet<br />
+     "swingStart" : Angle de l'image au demarrage de l'animation<br />
+     "swingFinish" : Angle de l'image à la fin de l'animation<br />
+     "blockRadius" : Le rayon d'action de l'objet<br />
+     "altBlockRadius" : Le rayon d'action de l'objet quand on appuie sur "ALT"<br />
+     "twoHanded" : Si c'est un objet a une ou 2 main<br />
+     "strikeSound" : Bruit ou son que produit l'objet quand celui si est utiliser<br />
+     "durability" : Durabilité de l'objet<br />
+     "durabilityPerUse" : Le nombre de point de durabilité enlever quand utiliser<br />
+     "durabilityRegenChart" : Combien redonne chaque minerais pour la réparation de l'item<br />
+     "tileDamage" : Le taux de dégâts causés au bloc<br />
+     "tileDamageBlunted" : Le taux de dégâts causés au bloc quand la pioche est usée<br />
+        </div>
+    </div>
+</div>
+    <br />
+Voilà maintenant passons à la modification pure et dur de l'objet :p<br />
+Pour cela il n'y a rien de bien compliquer il vous suffit de modifier les dites valeur précédemment traduite :p<br />
+    <br />
+Pour la pioche que j'ai créée sur un autre topic voilà les valeurs :<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>{<br />
+      "itemName" : "powereddiamondpickaxe",<br />
+      "inventoryIcon" : "powereddiamondpickaxeicon.png",<br />
+      "dropCollision" : [-4.0, -3.0, 4.0, 3.0],<br />
+      "maxStack" : 1,<br />
+      "rarity" : "common",<br />
+      "inspectionKind" : "tool",<br />
+      "description" : "The god Pickaxe !",<br />
+      "shortdescription" : "Powered Diamond Pickaxe",<br />
+      "largeImage" : "powereddiamondpickaxe.png",<br />
+      "image" : "powereddiamondpickaxe.png",<br />
+      "handPosition" : [-3, -4],<br />
+      "fireTime" : 0.28,<br />
+      "swingStart" : -40,<br />
+      "swingFinish" : 60,<br />
+      "blockRadius" : 4,<br />
+      "altBlockRadius" : 1,<br />
+      "twoHanded" : true,<br />
+      "strikeSound" : "/sfx/tools/pickaxe_hit.wav",<br />
+      "durability" : 7500,<br />
+      "durabilityPerUse" : 1,<br />
+      "durabilityRegenChart" : [<br />
+        [ [ "copperore" ], 750], [ [ "silverore" ], 1125], [ [ "goldore" ], 1500], [ [ "platinumore" ], 1875], [ [ "diamond" ], 2250]<br />
+      ],<br />
+      "tileDamage" : 2.7,<br />
+      "tileDamageBlunted" : 0.6<br />
+}</code></div></div>
+     <br />
+Et c'est là que je vous demande de faire très attention car si il manque ne serais-ce qu'une virgule votre item ne serais même pas détecté !<br />
+    <br />
+Comme dit plus haut je vous est demander de garder les nom des texture nous allons maintenant les modifier :p<br />
+C'est là qu'il va falloir être rigoureux car il faut que le nom des images corresponde avec ce que vous avez marqué dans le fichier de la pioche<br />
+    <br />
+Exemple :<br />
+   "itemName" : "powereddiamondpickaxe",<br />
+   "image" : "powereddiamondpickaxe.png"<br />
+   "largeImage" : "powereddiamondpickaxe.png"<br />
+   "inventoryIcon" : "powereddiamondpickaxeicon.png"<br />
+   <img src="http://i.imgur.com/edpDrR6.png" border="0" alt="[Image: edpDrR6.png]" /><br />
+    <br />
+Vous voyez bien que chaque ligne correspond bien a chaque image ainsi que le nom de l'item au nom du fichier<br />
+<br />
+<br />
+<span style="font-weight: bold;"><span style="font-size: xx-large;">/!\_Suite En Construction_/!\ EDIT:du 02/02/15</span></span> (Si les modo ou admin souhaite éditer mon post je leur donne ma permission :p)<br />
+<br />
+<span style="font-size: medium;"><span style="font-weight: bold;">/!\_/!\_/!\ Toute utilisation ou copie de ce post sans mon autorisation ou sans aucune source (Auteur donc moi et starbound-fr.net) Sera punis par une sanction encore inconnus a ce jour xD/!\_/!\_/!\</span></span>]]></description>
+			<content:encoded><![CDATA[<div style="text-align: center;">[Guide sur le modding]<br />
+[Windows]</div>
+<br />
+    <br />
+<blockquote><cite>Citation :</cite>Bienvenue dans mon guide sur le modding celui si n'est pas forcement complet mais je m’efforcerais de le rendre un maximum exploitable.<br />
+Avant de commencer je precise que Starbound est très flexible donc les modification sont extrêmement simple et n'importe qui peut se lancer.<br />
+Bien sur pour crée un mod qui va revolutionner le jeu il faudras mettre les main dans le LUA et pour ça je ne vous suit d'aucune utilité x).</blockquote>
+    <br />
+Sommaire : <ul>
+<li>Recherche du dossier racine<br />
+</li>
+<li>Le Dossier Assets<br />
+</li></ul>
+    <br />
+<div style="text-align: center;"><span style="font-size: large;"><span style="font-weight: bold;">[Recherche du dossier racine]</span></span></div>
+Le dossier racine c'est le dossier ou est installer le jeu c'est la bas que toute les modifications vont être effectué en générale il se trouve ici :<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>"C:&#92;Program Files (x86)&#92;Steam&#92;SteamApps&#92;common&#92;Starbound"</code></div></div>
+     <br />
+<br />
+<br />
+Vous devriez avoir à peu près les mêmes dossiers que moi :<br />
+<div style="text-align: center;"><img src="http://i.imgur.com/Libp62O.png" border="0" alt="[Image: Libp62O.png]" /></div>
+    <br />
+<br />
+<span style="font-size: large;"><span style="font-weight: bold;">[Le Dossier Assets]</span></span><br />
+Le dossier Assets est le dossier qui va nous intéresser le plus c'est la bas qu'il y a tout les fichiers du jeu<br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <img src="http://i.imgur.com/oyJ2YEi.png" border="0" alt="[Image: oyJ2YEi.png]" /><br />
+        </div>
+    </div>
+</div>
+Comme vous pouvez le constater si vous fouillez un peu le contenu est riche mais dans le cadre du tuto nous allons simplement nous intéresser à 2 ou trois dossiers et fichiers dans tout ce fouillis organisé.<br />
+    <br />
+<br />
+<span style="font-size: large;"><span style="font-weight: bold;">[La création d'une nouvelle pioche]</span></span><br />
+Nous allons donc pour expliquer les rudiments du modage sur starbound créer une nouvelle pioche<br />
+Pour cela nous allons aller dans :<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>"C:&#92;Program Files (x86)&#92;Steam&#92;SteamApps&#92;common&#92;Starbound&#92;assets&#92;items&#92;tools"</code></div></div>
+     <br />
+Comme vous pouvez le constater il y a tout les outils présent dans starbound:<br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <img src="http://i.imgur.com/HfCcwA8.png" border="0" alt="[Image: HfCcwA8.png]" /><br />
+        </div>
+    </div>
+</div>
+    <br />
+Ici pour nous éviter les premières lignes de code nous allons récupérer par exemple l'item de la pioche en diamant ainsi que ces textures:<br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <img src="http://i.imgur.com/q1WRY4e.png" border="0" alt="[Image: q1WRY4e.png]" /><br />
+        </div>
+    </div>
+</div>
+    <br />
+En ce qui concerne les texture je vous laisse faire garder juste le nom des images nous les modifieront plus tard.<br />
+Ensuite ouvrer le fichier <span style="font-weight: bold;">"diamondpickaxe.miningtool"</span> avec notepad++ ou votre bloc note favoris :p<br />
+Cela devrait vous donner ça ! :<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>{<br />
+     "itemName" : "diamondpickaxe",<br />
+      "inventoryIcon" : "diamondpickaxeicon.png",<br />
+      "dropCollision" : [-4.0, -3.0, 4.0, 3.0],<br />
+      "maxStack" : 1,<br />
+      "rarity" : "common",<br />
+      "inspectionKind" : "tool",<br />
+      "description" : "Pickaxes are so last millennium! This one is made of diamond.",<br />
+      "shortdescription" : "Diamond Pickaxe",<br />
+      "largeImage" : "diamondpickaxebig.png",<br />
+      "image" : "diamondpickaxe.png",<br />
+      "handPosition" : [-3, -4],<br />
+      "fireTime" : 0.3,<br />
+      "swingStart" : -40,<br />
+      "swingFinish" : 60,<br />
+      "blockRadius" : 3,<br />
+      "altBlockRadius" : 1,<br />
+      "twoHanded" : true,<br />
+      "strikeSound" : "/sfx/tools/pickaxe_hit.wav",<br />
+      "durability" : 7500,<br />
+      "durabilityPerUse" : 1,<br />
+      "durabilityRegenChart" : [<br />
+        [ [ "copperore" ], 750], [ [ "silverore" ], 1125], [ [ "goldore" ], 1500], [ [ "platinumore" ], 1875], [ [ "diamond" ], 2250]<br />
+      ],<br />
+      "tileDamage" : 2.7,<br />
+      "tileDamageBlunted" : 0.6<br />
+}</code></div></div>
+     <br />
+Alors là on touche au gros du truc :p<br />
+Comme vous pouvez le voir cela ne ressemble presque pas à du code et si vous avez quelques connaissances en anglais vous comprendrez assez bien chaque ligne.<br />
+    <br />
+Mais pour les autres voilà une mini traduction:<br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <br />
+     "itemName" : Nom de l'objet<br />
+     "inventoryIcon" : Icone de l'image<br />
+     "dropCollision" : Aucune idée a vous de faire des tests<br />
+     "maxStack" : Combien d'objet empilable<br />
+     "rarity" : Rareter de l'objet<br />
+     "inspectionKind" : Groupe de l'objet<br />
+     "description" : Description de l'objet<br />
+     "shortdescription" : Courte description de l'objet<br />
+     "largeImage" : Grande image de l'objet<br />
+     "image" : Image de l'objet<br />
+     "handPosition" : Position de l'objet dans la main du joueur<br />
+     "fireTime" : Vitesse de l'objet<br />
+     "swingStart" : Angle de l'image au demarrage de l'animation<br />
+     "swingFinish" : Angle de l'image à la fin de l'animation<br />
+     "blockRadius" : Le rayon d'action de l'objet<br />
+     "altBlockRadius" : Le rayon d'action de l'objet quand on appuie sur "ALT"<br />
+     "twoHanded" : Si c'est un objet a une ou 2 main<br />
+     "strikeSound" : Bruit ou son que produit l'objet quand celui si est utiliser<br />
+     "durability" : Durabilité de l'objet<br />
+     "durabilityPerUse" : Le nombre de point de durabilité enlever quand utiliser<br />
+     "durabilityRegenChart" : Combien redonne chaque minerais pour la réparation de l'item<br />
+     "tileDamage" : Le taux de dégâts causés au bloc<br />
+     "tileDamageBlunted" : Le taux de dégâts causés au bloc quand la pioche est usée<br />
+        </div>
+    </div>
+</div>
+    <br />
+Voilà maintenant passons à la modification pure et dur de l'objet :p<br />
+Pour cela il n'y a rien de bien compliquer il vous suffit de modifier les dites valeur précédemment traduite :p<br />
+    <br />
+Pour la pioche que j'ai créée sur un autre topic voilà les valeurs :<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>{<br />
+      "itemName" : "powereddiamondpickaxe",<br />
+      "inventoryIcon" : "powereddiamondpickaxeicon.png",<br />
+      "dropCollision" : [-4.0, -3.0, 4.0, 3.0],<br />
+      "maxStack" : 1,<br />
+      "rarity" : "common",<br />
+      "inspectionKind" : "tool",<br />
+      "description" : "The god Pickaxe !",<br />
+      "shortdescription" : "Powered Diamond Pickaxe",<br />
+      "largeImage" : "powereddiamondpickaxe.png",<br />
+      "image" : "powereddiamondpickaxe.png",<br />
+      "handPosition" : [-3, -4],<br />
+      "fireTime" : 0.28,<br />
+      "swingStart" : -40,<br />
+      "swingFinish" : 60,<br />
+      "blockRadius" : 4,<br />
+      "altBlockRadius" : 1,<br />
+      "twoHanded" : true,<br />
+      "strikeSound" : "/sfx/tools/pickaxe_hit.wav",<br />
+      "durability" : 7500,<br />
+      "durabilityPerUse" : 1,<br />
+      "durabilityRegenChart" : [<br />
+        [ [ "copperore" ], 750], [ [ "silverore" ], 1125], [ [ "goldore" ], 1500], [ [ "platinumore" ], 1875], [ [ "diamond" ], 2250]<br />
+      ],<br />
+      "tileDamage" : 2.7,<br />
+      "tileDamageBlunted" : 0.6<br />
+}</code></div></div>
+     <br />
+Et c'est là que je vous demande de faire très attention car si il manque ne serais-ce qu'une virgule votre item ne serais même pas détecté !<br />
+    <br />
+Comme dit plus haut je vous est demander de garder les nom des texture nous allons maintenant les modifier :p<br />
+C'est là qu'il va falloir être rigoureux car il faut que le nom des images corresponde avec ce que vous avez marqué dans le fichier de la pioche<br />
+    <br />
+Exemple :<br />
+   "itemName" : "powereddiamondpickaxe",<br />
+   "image" : "powereddiamondpickaxe.png"<br />
+   "largeImage" : "powereddiamondpickaxe.png"<br />
+   "inventoryIcon" : "powereddiamondpickaxeicon.png"<br />
+   <img src="http://i.imgur.com/edpDrR6.png" border="0" alt="[Image: edpDrR6.png]" /><br />
+    <br />
+Vous voyez bien que chaque ligne correspond bien a chaque image ainsi que le nom de l'item au nom du fichier<br />
+<br />
+<br />
+<span style="font-weight: bold;"><span style="font-size: xx-large;">/!\_Suite En Construction_/!\ EDIT:du 02/02/15</span></span> (Si les modo ou admin souhaite éditer mon post je leur donne ma permission :p)<br />
+<br />
+<span style="font-size: medium;"><span style="font-weight: bold;">/!\_/!\_/!\ Toute utilisation ou copie de ce post sans mon autorisation ou sans aucune source (Auteur donc moi et starbound-fr.net) Sera punis par une sanction encore inconnus a ce jour xD/!\_/!\_/!\</span></span>]]></content:encoded>
+		</item>
+	</channel>
+</rss>

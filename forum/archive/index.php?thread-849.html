@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<title>Starbound-Fr | Forum - Re-Génération d'un univers</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index,follow" />
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="screen.css.html" media="screen" />
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="print.css.html" media="print" />
+</head>
+<body>
+<div id="container">
+<h1><a href="../index.php.html">Starbound-Fr | Forum</a></h1>
+<div class="navigation"><a href="index.php.html">Starbound-Fr | Forum</a> &gt; <a href="index.php%3Fforum-9.html">Le jeu</a> &gt; <a href="index.php%3Fforum-12.html">Tutos, guides et astuces</a> &gt; Re-Génération d'un univers</div>
+<div id="fullversion"><strong>Version complète :</strong> <a href="http://starbound-fr.net/forum/showthread.php?tid=849">Re-Génération d'un univers</a></div>
+<div id="infobox">Vous consultez actuellement la version basse qualité d’un document. <a href="http://starbound-fr.net/forum/showthread.php?tid=849">Voir la version complète</a> avec le bon formatage.</div>
+<div id="content">
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=4.html">Biscotteman</a></h2></div><div class="dateline">18-01-2014, 14h46</div>
+</div>
+<div class="message">MAJ du topic avec l'astuce de Maxigregrze<br />
+[quote]<br />
+Bon,<br />
+Pour changer la seed, il faut déjà aller dans le dossier starbound (trouvable dans les dossiers de steam) puis dans le dossier ./assets/<br />
+Cherchez "celestial.config" et ouvrez-le (de préférence avec notepad++).<br />
+Vous devriez voir ceci, Ligne 29:<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>"sectors" : [<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "alpha",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "Alpha Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 71707887027,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "Alpha",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/1.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : -30,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [1, 1],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;},<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "beta",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "Beta Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 912044941247,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "Beta",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/2.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 0,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [2, 2],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;},<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "gamma",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "Gamma Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 877461781495,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "Gamma",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/3.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 30,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [3, 3],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "grasslands", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;},<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "delta",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "Delta Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 914461284455,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "Delta",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/4.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 60,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [4, 4],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "grasslands", "magma", "tentacles", "tundra", "volcanic", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;},<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "sectorx",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "X Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 427469981495,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "X",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/x.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 90,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [5, 10],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "grasslands", "magma", "tentacles", "tundra", "volcanic", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;}</code></div></div>
+<br />
+(Vous pouvez copier le fichier et le mettre dans un dossier /newseed/, que vous créerez dans ./mods/, comme ça il suffira de supprimer ce dossier pour retrouver les fichiers de base, utile en cas de pépin.) <br />
+<br />
+Chaque secteur a une seed qui lui est propre. Trouver donc le secteur dont vous voulez modifier la seed grâce a son id (je pense que c'est assez explicite pour vous laisser le trouver)<br />
+<br />
+Par exemple , je veux modifier la seed du secteur X:<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "sectorx",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "X Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 427469981495,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "X",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/x.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 90,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [5, 10],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "grasslands", "magma", "tentacles", "tundra", "volcanic", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></div></div>
+<br />
+id: le "nom" donné au secteur uniquement pour la programmation(Par exemple, on le trouve dans le fichier de l'upgrade pour vaisseau)<br />
+name: nom tel qu'il est affiché en jeu.<br />
+sectorSeed: on verra en dessou, mais pour faire clair c'est sur quoi le jeu se basera pour générer l'univers.<br />
+prefix: le nom qui apparaît dans celui des planètes.<br />
+sectorSymbol: la texture de l'icone tel que vue dans le navigateur.<br />
+hueShift: l'emplacement du bouton du secteur dans le navigateur.<br />
+worldParameters: les paramètres des planètes du secteur:<br />
+   -threatLevel: Les niveaux des planètes,ici 5 est le minimum et 10 le maximum.<br />
+   -unlockedBiomes: les biomes trouvables dans ce secteur (Notez qu'il n'y a pas tout les biomes disponibles, il manque, par exemple, le biome "ocean" ou encore le biome "arctic")<br />
+<br />
+<br />
+Donc, pour changer la seed, il faut remplacer le nombre de sectorSeed PAR UN NOMBRE DE 12 CHIFRES, PAS PLUS, NI MOIN. (J'ai pas testé, mais je ne voudrais pas être responsable du crash de votre jeu). Pensez a vérifier qu'il y a bien un virgule après, ça joue aussi pour éviter le crash.<br />
+<br />
+Après , faites la manip dite plus haut et lancer le jeu.<br />
+Vous avez un terrain de jeu unique!</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=1.html">OniriCorpe</a></h2></div><div class="dateline">18-01-2014, 14h49</div>
+</div>
+<div class="message">Il avait été dit que c'était inutile car l'Univers est le même pour tous, seul le point de spawn varie.</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=4.html">Biscotteman</a></h2></div><div class="dateline">18-01-2014, 16h14</div>
+</div>
+<div class="message">My bad. :c</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=75.html">La Chouette</a></h2></div><div class="dateline">18-01-2014, 16h24</div>
+</div>
+<div class="message">Yep, on avait abouti à la véritable astuce dans la discussion : pour véritablement changer d'univers, il faut modifier les seeds des différents secteurs dans le fichier celestial.config<br />
+<br />
+Sans cela, l'univers restera le même peu importe les fichiers supprimés.</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=377.html">maxigregrze</a></h2></div><div class="dateline">18-01-2014, 17h29</div>
+</div>
+<div class="message">Bon,<br />
+Pour changer la seed, il faut déjà aller dans le dossier starbound (trouvable dans les dossiers de steam) puis dans le dossier ./assets/<br />
+Cherchez "celestial.config" et ouvrez-le (de préférence avec notepad++).<br />
+Vous devriez voir ceci, Ligne 29:<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>"sectors" : [<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "alpha",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "Alpha Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 71707887027,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "Alpha",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/1.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : -30,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [1, 1],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;},<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "beta",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "Beta Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 912044941247,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "Beta",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/2.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 0,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [2, 2],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;},<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "gamma",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "Gamma Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 877461781495,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "Gamma",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/3.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 30,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [3, 3],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "grasslands", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;},<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "delta",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "Delta Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 914461284455,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "Delta",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/4.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 60,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [4, 4],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "grasslands", "magma", "tentacles", "tundra", "volcanic", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;},<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "sectorx",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "X Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 427469981495,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "X",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/x.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 90,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [5, 10],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "grasslands", "magma", "tentacles", "tundra", "volcanic", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;}</code></div></div>
+<br />
+(Vous pouvez copier le fichier et le mettre dans un dossier /newseed/, que vous créerez dans ./mods/, comme ça il suffira de supprimer ce dossier pour retrouver les fichiers de base, utile en cas de pépin.) <br />
+<br />
+Chaque secteur a une seed qui lui est propre. Trouver donc le secteur dont vous voulez modifier la seed grâce a son id (je pense que c'est assez explicite pour vous laisser le trouver)<br />
+<br />
+Par exemple , je veux modifier la seed du secteur X:<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "sectorx",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "X Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 427469981495,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "X",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/x.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 90,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [5, 10],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "grasslands", "magma", "tentacles", "tundra", "volcanic", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></div></div>
+<br />
+id: le "nom" donné au secteur uniquement pour la programmation(Par exemple, on le trouve dans le fichier de l'upgrade pour vaisseau)<br />
+name: nom tel qu'il est affiché en jeu.<br />
+sectorSeed: on verra en dessou, mais pour faire clair c'est sur quoi le jeu se basera pour générer l'univers.<br />
+prefix: le nom qui apparaît dans celui des planètes.<br />
+sectorSymbol: la texture de l'icone tel que vue dans le navigateur.<br />
+hueShift: l'emplacement du bouton du secteur dans le navigateur.<br />
+worldParameters: les paramètres des planètes du secteur:<br />
+   -threatLevel: Les niveaux des planètes,ici 5 est le minimum et 10 le maximum.<br />
+   -unlockedBiomes: les biomes trouvables dans ce secteur (Notez qu'il n'y a pas tout les biomes disponibles, il manque, par exemple, le biome "ocean" ou encore le biome "arctic")<br />
+<br />
+<br />
+Donc, pour changer la seed, il faut remplacer le nombre de sectorSeed PAR UN NOMBRE DE 12 CHIFRES, PAS PLUS, NI MOIN. (J'ai pas testé, mais je ne voudrais pas être responsable du crash de votre jeu). Pensez a vérifier qu'il y a bien un virgule après, ça joue aussi pour éviter le crash.<br />
+<br />
+Après , faites la manip dite plus haut et lancer le jeu.<br />
+Vous avez un terrain de jeu unique!</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=471.html">Tobe</a></h2></div><div class="dateline">18-01-2014, 19h32</div>
+</div>
+<div class="message">c’était justement pas un bug, comme mon astuce était inutile, je l'avais supprimée, mais bon, maintenant l'astuce du seed a son topic</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=375.html">73fabien73</a></h2></div><div class="dateline">18-01-2014, 19h51</div>
+</div>
+<div class="message">Sa peut être utile plus tard pour des serveur avec des plugin où les joueur auront un inventaire indépendant de leur autre solo ou multi pour éviter que les joueur aille sur des planète référencé sur le wiki car elles contienne de trop bon objet.</div>
+</div>
+</div>
+<div class="navigation"><a href="index.php.html">Starbound-Fr | Forum</a> &gt; <a href="index.php%3Fforum-9.html">Le jeu</a> &gt; <a href="index.php%3Fforum-12.html">Tutos, guides et astuces</a> &gt; Re-Génération d'un univers</div>
+</div>
+<div id="footer">
+Moteur <a href="http://www.mybb.com">MyBB</a>, &copy; 2002-2016 <a href="http://www.mybb.com">MyBB Group</a>
+</div>
+</body>
+</html>

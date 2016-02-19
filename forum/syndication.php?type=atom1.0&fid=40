@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<title type="html"><![CDATA[Starbound-Fr | Forum - Mods]]></title>
+	<subtitle type="html"><![CDATA[Starbound-Fr | Forum - http://starbound-fr.net/forum]]></subtitle>
+	<link rel="self" href="http://starbound-fr.net/forum/syndication.php"/>
+	<id>http://starbound-fr.net/forum/</id>
+	<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/"/>
+	<updated>2016-02-18T18:16:47Z</updated>
+	<generator uri="http://www.mybb.com">MyBB</generator>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2015-04-28T09:41:00Z</published>
+		<updated>2015-04-28T09:42:13Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=1295" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=1295</id>
+		<title type="html" xml:space="preserve"><![CDATA[1 idée de mod]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=1295"><![CDATA[Bonsoir n'étant pas modeur c'est a vous que je m'adresse.<br />
+<br />
+Vous en avez marre que la nuit tombe? De ne pas avoir de torch sur vous? De vous perdre dans le noir? d'être en téraformage en pleine nuit?<br />
+Mon idée de mod serait comme une sorte de "vision nocturne" de Minecraft, le mod une fois qu'il est installer nous permet de voir de nuit comme de jour, sans enlevez les effet d'ombre. <img src="http://starbound-fr.net/forum/images/smilies/mwahahaha.png" alt=":D" title=":D" class="smilie smilie_64" />  Se serait une deuxième version du /fullbright mais constamment dans le jeux et pas besoin d’être modo pour l'avoir. <img src="http://starbound-fr.net/forum/images/smilies/mwahahaha.png" alt=":D" title=":D" class="smilie smilie_64" /><br />
+<br />
+en bref on na pas de changement de lumière quand on passe du jour à la nuit <img src="http://starbound-fr.net/forum/images/smilies/mwahahaha.png" alt=":D" title=":D" class="smilie smilie_64" /><br />
+<br />
+Je sais pas si cela est compliqué mais il serait très utile ^^<br />
+(surtout pour ceux qui font des long téraformage et qui en on marre de la nuit).]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2014-11-24T17:12:25Z</published>
+		<updated>2015-04-22T15:25:13Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=1132" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=1132</id>
+		<title type="html" xml:space="preserve"><![CDATA[Traduction française [Reprise]]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=1132"><![CDATA[ATTENTION :<br />
+<br />
+NE FONCTIONNE PAS AVEC LES DERNIÈRES VERSIONS DU JEU !<br />
+<br />
+<br />
+Bonjour à tous,<br />
+J'ai continué la traduction Française du jeu avec pour base la traduction de la team "7team-fr".<br />
+J'ai contacté "Tobe" un membre de cette team pour reprendre la traduction du jeu qui est d'accord.<br />
+<br />
+<span style="font-weight: bold;">Étapes :</span><br />
+1/ Télécharger le mod de base de la 7team-FR.<br />
+2/ Installer le comme expliqué sur la page.<br />
+3/ Télécharger mon .zip.<br />
+4/ Extraire le .zip dans le dossier de la 7team-FR dans le dossier mod. Remplacer les fichiers existants.<br />
+5/ Jouer<br />
+<br />
+<span style="font-weight: bold;">Liens :</span><br />
+- <a href="http://starbound-fr.net/traduction-francais-01/" target="_blank">Traduction 7team-FR</a><br />
+- <a href="http://www.mediafire.com/download/tq099cyhj0i4bp4/Starbound-fr-v0.2-ByLinyor.zip" target="_blank">Traduction Linyor v0.2</a> <br />
+- <a href="https://docs.google.com/forms/d/1La2B4ZsFqAwqTX7ivhnUmXw_Mn7B7JfYLbF_-F_72Pg/viewform?usp=send_form" target="_blank">Rapporter un bug</a> (de mon patch)<br />
+<br />
+<span style="font-weight: bold;">Changelog Patch Linyor :</span><br />
+Version 0.2 = +358 fichiers trad soit 763 au total. (lien mis à jour)<br />
+Version 0.1 = 405 fichiers trad.<br />
+<br />
+Pour tous soucis de traduction ou autres problèmes n'hésitez pas à me contacter <a href="https://docs.google.com/forms/d/1La2B4ZsFqAwqTX7ivhnUmXw_Mn7B7JfYLbF_-F_72Pg/viewform?usp=send_form" target="_blank">ici</a>.<br />
+Bon jeu à tous.]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2014-03-14T21:25:03Z</published>
+		<updated>2014-03-17T11:58:33Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=982" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=982</id>
+		<title type="html" xml:space="preserve"><![CDATA[[7TEAM_FR][SONDAGE TERMINÉ] Votre avis nous intéresse !]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=982"><![CDATA[Bonjour a tous, 7TEAM_FR est la team s'occupant actuellement de la traduction en français du jeu (Une version alpha de la traduction devrais vous être distribué dans les jours a venir.).<br />
+<br />
+Cependant, nous sommes actuellement en grand débat scientifiquement scientifique, sur le pourquoi du comment, traduire le mot "HOME" dans le jeu.<br />
+<br />
+Certain me diront "Hey t'est bête, ça veut dire maison !"<br />
+Ouais, ok mais le souci vois tu, c'est que cliquer sur un bouton "Définir comme maison" ou encore "Vers la maison", me chagrine un peu et me fait me sentir, tel E.T. dans son vélo volant au dessus de l'horizon tel un grand albatros... eu.. je m'égare la.<br />
+<br />
+Nous avons donc décidé, et cela dictatorialement, que on allais vous demander votre avis.<br />
+<br />
+Voici l'objet du délits :<br />
+<br />
+<span style="font-weight: bold;">Traduire HOME par FOYER </span><br />
+<img src="http://img11.hostingpics.net/pics/474764consolebody.png" border="0" alt="[Image: 474764consolebody.png]" /><br />
+<br />
+<span style="font-weight: bold;">Traduire HOME par BASE</span><br />
+<img src="http://img11.hostingpics.net/pics/498088consolebody2.png" border="0" alt="[Image: 498088consolebody2.png]" />]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2014-02-12T01:15:58Z</published>
+		<updated>2014-03-03T01:02:12Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=916" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=916</id>
+		<title type="html" xml:space="preserve"><![CDATA[Starmod, un logiciel de modding pour Starbound]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=916"><![CDATA[Bonjour tout le monde.<br />
+<br />
+Je travaille quelques temps (1 mois et demi) sur un logiciel de développement de mods pour Starbound (appelé de façon très originale Starmod).<br />
+<br />
+Cela fait à peu prêt 1 mois que je <a href="http://community.playstarbound.com/index.php?threads/starmod-a-modding-tool.55327/" target="_blank">postais que les forums officiels</a> ayant complètement oublié de le faire pour Starbound-fr!<br />
+<br />
+Starmod est donc un logiciel de modding pour ce très cher Starbound, j'ai commencé à le créer dans le but de faciliter le modding pour ce jeu, notamment éviter la recherche intempestive de fichiers json, de devoir connaitre leurs attributs etc etc..<br />
+<br />
+L'idée est que au travers de différentes interfaces, on puisse créer simplement divers objets, effets, animations, projectiles et j'en passe beaucoup.<br />
+<br />
+Starmod sera également destiné aux développeurs de mods plus important car il est muni de divers éditeurs de texte (Texte normal, Json et Lua) ainsi que d'un outil d'autocomplétion en Lua( cf: autocompletion.png) et (d'ici peu) d'un validateur Json.<br />
+Il sera donc possible de créer des scripts Lua, de les ajouter à des objets afin d'en personnaliser le comportement...<br />
+<br />
+Jusqu'à présent, j'ai conçu l'interface principale du logiciel. Je viens également de passer un temps fou à créer la bibliothèque d'objets ( cf: ObjView.png, la liste sur la gauche de l'image), car elle m'a imposé de créer de façon rigoureuse une hiérarchie de données, j'ai également du analyser pas mal de fichiers json avec l'aide de fichiers d'aide que j'ai glané sur Internet. <br />
+<br />
+Cette bibliothèque est presque terminée (j'en ai fait le plus gros morceau) et j'ai passé pas loin de 3 semaines dessus!<br />
+<br />
+Grâce à cette bibliothèque, je peux dresser une liste de l'ensemble des objets présents dans le jeu, en filtrer l'affichage etc, ce qui facilite <span style="font-weight: bold;">considérablement</span> les recherches!<br />
+Il s'agit également des fondations du logiciel puisque toute création d'objet qui soit se fera en interface avec cette bibliothèque.<br />
+<br />
+J'ai également crée une interface basique de création d'armes (qui fonctionne!). Pour l'anecdote, la première arme que j'ai crée a été responsable de l'annihilation partielle d'une planète sur laquelle j'étais...<br />
+<br />
+Le logiciel est également muni d'un outil permettant d'installer directement le mod dans votre jeu mais aussi de le compresser dans un fichier .zip en vue de le distribuer.<br />
+<br />
+Concernant la localisation, le soft est actuellement en anglais, cependant, j'ai <span style="font-weight: bold;">entièrement prévu</span> le logiciel pour qu'il soit traduisible, une version française sortira bien évidemment très rapidement <img src="http://starbound-fr.net/forum/images/smilies/mwahahaha.png" alt=":D" title=":D" class="smilie smilie_64" /><br />
+<br />
+Sur des considérations plus techniques, il sera dans un premier temps compatible pour Windows 7, Vista (32/64bits) ainsi que pour Linux (Ubuntu, Debian, Fedora, Mint et j'en passe) 32/64 bits. Une compatibilité Mac arrivera rapidement je vous l'assure!<br />
+<br />
+Somme toutes, l'état de développement du logiciel est assez peu avancé, il me reste <span style="font-weight: bold;">énormément</span> de choses à faire.<br />
+Cependant, j'ai décidé aujourd'hui que j'allais sortir une version alpha. Une telle chose va me permettre de traquer les bugs plus rapidement et j'espère avoir des retours et des suggestions de la communauté afin de me permettre d'améliorer le logiciel et d'ajouter des fonctionnalités.<br />
+<br />
+Le site dispose actuellement d'un site à l'adresse suivante: <a href="http://starbound-mod.net/" target="_blank">http://starbound-mod.net/</a><br />
+<br />
+Cependant, comme pour les forums officiels, je continuerais à mettre les avancées du logiciel sur ce forum :)<br />
+<br />
+Voilà, je pense ne rien avoir oublié (même si à cette heure ci, ça ne m'étonnerait pas!)<br />
+<br />
+À la prochaine :)<br /><!-- start: postbit_attachments_attachment -->
+<br /><!-- start: attachment_icon -->
+<img src="http://starbound-fr.net/forum/images/attachtypes/image.gif" title="PNG Image" border="0" alt=".png" />
+<!-- end: attachment_icon -->&nbsp;&nbsp;<a href="attachment.php?aid=106" target="_blank" title="">weaponAndGlitchy.png</a> (Taille : 171,88 Ko / Téléchargements : 26)
+<!-- end: postbit_attachments_attachment --><br /><!-- start: postbit_attachments_attachment -->
+<br /><!-- start: attachment_icon -->
+<img src="http://starbound-fr.net/forum/images/attachtypes/image.gif" title="PNG Image" border="0" alt=".png" />
+<!-- end: attachment_icon -->&nbsp;&nbsp;<a href="attachment.php?aid=107" target="_blank" title="">ObjView.png</a> (Taille : 162,75 Ko / Téléchargements : 18)
+<!-- end: postbit_attachments_attachment --><br /><!-- start: postbit_attachments_attachment -->
+<br /><!-- start: attachment_icon -->
+<img src="http://starbound-fr.net/forum/images/attachtypes/image.gif" title="PNG Image" border="0" alt=".png" />
+<!-- end: attachment_icon -->&nbsp;&nbsp;<a href="attachment.php?aid=108" target="_blank" title="">autocompletion.png</a> (Taille : 160,89 Ko / Téléchargements : 19)
+<!-- end: postbit_attachments_attachment -->]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2014-01-23T22:14:52Z</published>
+		<updated>2014-01-23T22:14:52Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=869" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=869</id>
+		<title type="html" xml:space="preserve"><![CDATA[[Mod] Industrialization]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=869"><![CDATA["An industrial style mod, Inspired by Minecraft: Industrialcraft"<br />
+<br />
+Je tenais à vous présenter ce mod, étant donné que je suis le second beta-testeur du mod en question, il faut bien faire tourner tout ça sur la communauté française !<br />
+<br />
+Avant tout, un lien vers le site officiel et le lien de téléchargement du même coup :<br />
+<br />
+<a href="http://community.playstarbound.com/index.php?resources/industrialization-starbound-edition-ise.122/" target="_blank">http://community.playstarbound.com/index...n-ise.122/</a><br />
+<br />
+Pour commencer, ce mod, va ajouter des machines électriques, parce que bon, on à des vaisseaux spactiaux et on ce demerde avec des moteurs au charbon et des fours en pierre quand même...<br />
+<br />
+Question-réponse :<br />
+<br />
+<img src="http://starbound-fr.net/forum/images/smilies/mhh.png" alt="Mhh" title="Mhh" class="smilie smilie_61" /> Bah t'es marrant mais comment ça marche tout ça, et comment ce débloque les nouveaux crafts ?<br />
+<br />
+:cool: C'est simple y'a du tutoriel ajouté en plus, avec de quoi te faire comprendre la logique du système de déblocage de recettes, rien de compliqué, et certains recettes sont même disponible des votre spawn, comme la recette de la pousse de l'arbres à résine.<br />
+<br />
+<img src="http://starbound-fr.net/forum/images/smilies/mhh.png" alt="Mhh" title="Mhh" class="smilie smilie_61" /> Pourquoi sur des vidéos j'ai vu des mecs qui jouaient avec des items que je n'ai pas même si j'aurais du débloquer le craft ?<br />
+<br />
+:cool: ça doit faire partie d'un add-on du mod, un ajout facultatif si tu prefere, cela inclue les systèmes automatique pour l'agriculture transgénique ou des races issue d'autre mods ayant été moddé pour pouvoir acquérir leur version des items (les autres races customs auront la version humaine).<br />
+<br />
+<img src="http://starbound-fr.net/forum/images/smilies/mhh.png" alt="Mhh" title="Mhh" class="smilie smilie_61" /> Ouai mais avec les mises à jour je vais devoir attendre que le mod soit à jour pour pouvoir rejouer...<br />
+<br />
+:cool: Ne te méprend pas, le système de modding de starbound est asses développer pour pouvoir mettre un mod à jour en changeant une ligne dans le code, sauf conflit, ce qui à peut de chance d'arriver, et qui est de toute façon simple à réglé. De plus le moddeur est très actif, attendez vous à une mise à jour du mod dans l'heure qui suit la mise à jour !<br />
+<br />
+<img src="http://starbound-fr.net/forum/images/smilies/mhh.png" alt="Mhh" title="Mhh" class="smilie smilie_61" /> Et niveau serveur..?<br />
+<br />
+:cool: Large question. Pour commencer, tu peux crafter les items du mod et les avoir dans ton inventaire, mais si tu les pose tu les perds définitivement, autrement dit, ne pose aucun item du mod dans ton vaisseau, ou fait toi un perso different pour le mod. Autrement si tu veux jouer sur un serveur comportant ce mod, demandez à la personne ayant fais le mod () sur steam, il y à un serveur officiel, et pour faire un serveur personnel, faites la meme manip' que d'habitude, mais avec le mod installé.<br />
+<br />
+<span style="font-family: Impact;"> Ajoute des screenshots </span>]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2014-01-04T22:33:47Z</published>
+		<updated>2014-01-05T22:58:16Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=824" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=824</id>
+		<title type="html" xml:space="preserve"><![CDATA[Michan's Stars Modpack]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=824"><![CDATA[/!\ Avertissement Préalable : Ce topic parle d'un Modpack, aucun contenu ne m'appartient par conséquent, néanmoins, essayant d'apprendre le modding de Starbound, cela arrivera peut-être un jour !<br />
+<br />
+<!-- start: video_youtube_embed --><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xzSq-q0_YG4" frameborder="0" allowfullscreen></iframe><br />
+<!-- end: video_youtube_embed --><br />
+A écouter en même temps, mueheheh.<br />
+<br />
+Bonjour à tous !<br />
+<br />
+Je viens ici vous présenter un Modpack qui n'ajoute pas moins de 68 Mods (J'crois hein), et que je mets à jour régulièrement. Je l'ai créé dans l'ordre de mon propre plaisir de jeu, c'est pourquoi il ne contient pas de contenu dénaturant le jeu (Des nouveaux minerais etc.) mais uniquement des choses qui s'y intègrent bien, selon moi, ainsi que du contenu ayant quelconque rapport avec le Japon (LES VANITY ITEMS D'ANGEL BEATS.. OMG LES FIGURINES DE TOUHOU)<br />
+<br />
+Enfin bref, je m'égare.<br />
+<br />
+En toute franchise, certains des auteurs de ces mods (Je pense notamment aux Auteurs du Mega Man X Mod) ont clairement indiqué leur refus de voir leur mod sur un Modpack. Je comprends leur souhait et je comprendrais donc le refus de ce topic, néanmoins je ne pensais pas partager le Modpack à la base, et je ne compte pas me priver d'un Mod pour le faire.<br />
+<br />
+Comme dit précédemment, je réapprovisionne mon Modpack tous les jours, voire plusieurs fois par jour, avec les nouvelles updates des mods déjà installés, ainsi que les dernières sorties qui me plaisent.<br />
+<br />
+Tous les liens vers les mods individuellement sont inclus dans le Readme de l'Archive.<br />
+<br />
+Tous s'installent dans votre répertoire "Starbound\mods" sans aucun problème.<br />
+<br />
+Je n'ai malheureusement pas pu inclure deux de mes mods préférés, qui sont les mods MoarMusic (Il était trop lourd, mais le remix de Gerudo Valley au dessus en fait partie, c'est vous dire qu'il vaut le coup) et Navigation 1080p (J'voulais pas emmerder les gens qui avaient des petites résolutions)<br />
+<br />
+Vous pouvez toujours me proposer des mods, mais je n'ajouterais que ceux qui me plaisent personnellement.<br />
+<br />
+Merci de votre écoute.<br />
+<br />
+<div style="text-align: right;">Le Michan dans les étoiles.</div>
+<br />
+---------------------<br />
+<br />
+Liste des Mods Intégrés :<br />
+<br />
+• Tabula Rasa : Mod très connu, il est surtout un support pour les autres moddeurs afin de tester leurs Items. <br />
+<br />
+• Community Hairstyles Pack : Compilation de différents mods d'ajouts de coiffures à diverses classes !<br />
+<br />
+• Race Ningen : Rajoute une race supposé remplacer les humains. Leur seule différence réside au niveau des coiffures (Plusieurs coiffures inspirés de Manga) ainsi que leurs yeux, agrandis dans un style d'anime japonais.<br />
+<br />
+• Freaks of Nature et AnTiMonster : Rajoute des parties de Monstre nouvelles à génération, permettant de voir des créateurs encore plus étrange <img src="http://starbound-fr.net/forum/images/smilies/epic.png" alt="Epic" title="Epic" class="smilie smilie_50" /><br />
+<br />
+• Legend of Zelda : Link Mod : Rajoute de nombreux Items issus de l'Univers TLOZ (Master Zord, bouclier Miroir, Bouclier Hylien ou encore Mojo, les trois illustres tuniques d'Ocarina of Time) ainsi que plusieurs musiques d'OoT pour les Instruments.<br />
+<br />
+• Mega Man X Items Mod : BLASTERS, ARMURES ET TANT D'AUTRES SONT AU RENDEZ VOUS &#x26;t3<br />
+<br />
+• Keyblades Mod : Bah ça rajoute des Keyblades issus de la série Kingdom Hearts. Vous allez pas me faire chier non plus.<br />
+<br />
+• Hole Drills : Rajoute trois foreuses permettant de creuser le sol, chacune plus rapide et plus puissante, on peut également récupérer leur loot par un clic droit sur elles à l'arrêt.<br />
+<br />
+ • Nudity Overhaul : Les 6 Races de bases sont déclinées dans une version nudiste. Oui oui. Et on rajoute pour l'occasion trois set d'Items : Les Items de Vanité qui retirent tout apparence, les Items "Censorbar" qui rajoutent des barres de censure sur les parties intimes (Vraiment fun au passage) et des Sous-vêtements.<br />
+<br />
+• Better Fuels : Permet d'utiliser des ressources de haut niveau comme Fuel. FINI L'CHARBON.<br />
+<br />
+• Placeable Atsmosphere Generator : Vous permet de générer une petite atmosphère autour de la zone où vous posez l'objet, un bon moyen d'aller sur les planètes sans Atmosphère quand on a la flemme de se faire une combinaison, comme moi !<br />
+<br />
+• More Capes : Rajoute diverses capes, uniquement pour l'Estéthique, sauf une, une Cape "de viande" qui maintiendra plus facilement votre faim !<br />
+<br />
+• Vidya : Ajoute une nouvelle "Table de Craft" : Une Borne d'Arcade qui vous permet de crafter toutes vos consoles de jeux préférées ! A vous votre Nintendo 64 côtoyée par votre Gamecube Grise et son GBA Player !<br />
+  <br />
+• TF2 Dispenser : Items fabriqués à l'Aide de Stimpacks Rouges (Ou cheaté par la Tabula Rasa e_e) rendant une quantité Astronomique de vie à la seconde lorsque l'on est dans sa range. On a enfin fini l'attente de 25 ans pour regen' sa vie dans son lit.<br />
+<br />
+• Kawa's Mods : Différents mods rajoutant des Items décoratifs ! (Posters issus de My Little Pony, Oreilles de Pikachu, ou encore costume de Lapin)<br />
+<br />
+• Craftable Pixels Capsules : Vous permet de fabriquer des capsules afin de les replacer, c'est un bon moyen de stocker ses pixels ou de faire des cadeaux ! En plus c'est joli :3<br />
+<br />
+• Extented Saplings : Un Incontournable rajoutant des Saplings à tous les arbres qui n'en ont pas pour le moment. Du boulot en moins pour l'équipe des dev' ?<br />
+<br />
+• Fireworks Mod : Vous permet de faire des FEUX D'ARTIFICES ! Et ils sont jolis en plus, et de tous types.<br />
+<br />
+• Pixel Compressor Upgrades : Vous permet d'améliorer votre Pixel Compressor en V2, V3 ou V3, chaque amélioration apportant un meilleur ratio Pixel/Voxel !<br />
+<br />
+• Tuxedo Mod : Bah ça ajoute un Smoking.<br />
+<br />
+• Pillow Mod : Vous permet d'obtenir un coussin sur la Tabula Rasa. C'est une arme non léthale, vous permettant de faire des batailles de polochons épiques dans votre jardin alien !<br />
+<br />
+• Flare Synthetizer : Nouvel instrument de chiptune inspiré des puces son de la NES !<br />
+<br />
+• Lightdrones : Ajoute trois Items pour le dos, chacun plus puissant que l'autre. Ils produisent de plus en plus de lumière et vous maintiennent au chaud.<br />
+<br />
+• Doge Poster : Wow, such doge. very poster.<br />
+<br />
+• Enviro-Safe : Ajoute quelques items pour cuire des aliments ou encore se regénérer.<br />
+<br />
+• Deckard's Coat and Pants : Comme son nom l'indique, il ajoute deux items de Vanité.<br />
+<br />
+• The Burrower : Ajoute une foreuse sur lequel se pose le personnage pendant qu'elle creuse.<br />
+<br />
+• Weapons Pack : ... Ajoute des armes. Si si je vous jure.<br />
+<br />
+• Concert Equipment : Vous permet de construire votre propre scène de concert avec ses spots lumineux et ses poutres en acier. Très bons éléments décoratifs en plus.<br />
+<br />
+• Advanced Tools : Upgrade des Pioches pour proposer des Pioches dont le manche est renforcé par du Slime ou encore des Pioches orné de Rubis. Ou mieux, la combinaison des deux..<br />
+<br />
+• Description Plates : Items intéressants permettant de se repérer dans son rangement, on peut crafter différents types de plaques avec différents mots dessus ("Weapons" "Armor" "Food" etc.) dans différents matériaux.<br />
+<br />
+• Hatsya Souji's BuildEx : Ajoute de la Terre comprimée et son dérivé en plate-forme. Très esthétique puisque ressemble à une Brique Marron. Bon moyen de recycler sa dirt.<br />
+<br />
+• Collectable Figurines : Ajoute diverses figurines issus de l'univers Touhou avec des crafts vous forçant à explorer tous types de planètes, et quelques figurines d'autres univers<br />
+<br />
+*Suite plus tard*<br />
+<br />
+----------------------------<br />
+<br />
+Place au readme s'il vous intéresse <img src="http://starbound-fr.net/forum/images/smilies/happehz.png" alt="Happehz" title="Happehz" class="smilie smilie_53" /> : <a href="http://puu.sh/69FcP.txt" target="_blank">http://puu.sh/69FcP.txt</a><br />
+Il est aussi dans l'archive mais c'est si vous voulez voir ce que le Modpack contient, m'voyez.<br />
+<br />
+Et le lien du Modpack : <a href="http://www.mediafire.com/download/4u8vcbkvie3o1w3/Michan%27s+Stars+Modpackrar" target="_blank">http://www.mediafire.com/download/4u8vcb...Modpackrar</a><br />
+<br />
+Dernière Mise à Jour du ModPack : 05/01/2014 à 13h30.]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2014-01-02T23:50:21Z</published>
+		<updated>2014-01-03T00:09:02Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=817" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=817</id>
+		<title type="html" xml:space="preserve"><![CDATA[[Mod] [spaceship] Dead Squirrel's Firefly]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=817"><![CDATA[Dead Squirrel's Firefly est un mod particulièrement bien réussit vous permettant d'utiliser le vaisseau de la série télévisé Firefly <a href="http://politicaljesus.com/wp-content/uploads/2010/12/serenity1.jpg" target="_blank">image1</a> <a href="http://media-cache-ec0.pinimg.com/736x/bf/18/37/bf1837e14cd119908fadf3c2d69de757.jpg" target="_blank"> image2 </a><br />
+<br />
+vous pouvez le télécharger <span style="color: #0000CD;"><a href="http://community.playstarbound.com/index.php?resources/dead-squirrels-firefly.785/" target="_blank">--&#x26;t ici &#x26;t--</a> </span> et y trouverez le descriptif de son installation.<br />
+<img src="http://i.imgur.com/peTFTNe.jpg" border="0" alt="[Image: peTFTNe.jpg]" /><br />
+<br />
+La beauté de ce vaisseau nous montre la puissance de la communauté de starbound à pouvoir rendre le jeux encore plus passionnant :)]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2013-12-30T23:09:33Z</published>
+		<updated>2013-12-30T23:12:25Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=806" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=806</id>
+		<title type="html" xml:space="preserve"><![CDATA[[Mod] superstim!]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=806"><![CDATA[SuperStim est un mod qui est actuellement en création et qui as pour but d'ajoutée des "stimpack"(les seringue colorée) améliorez!<br />
+<br />
+petit problème, c'est que je n'arrive pas a le faire fonctionnez.<br />
+<br />
+vous pouvez installez le mod (si ça marche pour vous) ici:<br />
+<!-- start: postbit_attachments_attachment -->
+<br /><!-- start: attachment_icon -->
+<img src="http://starbound-fr.net/forum/images/attachtypes/tar.gif" title="" border="0" alt=".rar" />
+<!-- end: attachment_icon -->&nbsp;&nbsp;<a href="attachment.php?aid=99" target="_blank" title="">SuperStim!.rar</a> (Taille : 18,97 Ko / Téléchargements : 2)
+<!-- end: postbit_attachments_attachment --><br />
+<br />
+(je vais continuez les recherche et si ça aboutit je le modifie pour faire une vrai présentation)]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2013-12-18T19:06:07Z</published>
+		<updated>2013-12-18T19:06:07Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=759" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=759</id>
+		<title type="html" xml:space="preserve"><![CDATA[Koasiomod en construction]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=759"><![CDATA[Bonjour tout le monde je suis Koasiop et pour ceux qui ne souvienne pas de moi, Je suis Maximylien2. J'ai changé de pseudo car je l'aimais pas et... Eh bien on n'est pas ici pour se présenter hein?<br />
+<br />
+Koasiomod, j'ai passé plus de 7 heures de modding en tout et je n'ai presque rien de fait mais bon au moins je l'ai commencé donc je dois le terminer.<br />
+<br />
+Ce mod est un genre de nouveau monde qui va rajouter, Armes, Biomes, Planètes, Table de craft, Minerais, Créatures, Races. Donc ce mod va être GROS.<br />
+<br />
+Je ne suis qu'un débutant pour créer des mods et si quelq'un voudrait m'aider, Sil vous plait, contacter moi par mp. Si vous êtes bon en spriting ou en modding, je vous veux :3 <br />
+<br />
+Je vous montre les images, Minerais; <a href="http://puu.sh/5QPum" target="_blank">http://puu.sh/5QPum</a> , <a href="http://puu.sh/5QPBU" target="_blank">http://puu.sh/5QPBU</a><br />
+Table de craft; <a href="http://puu.sh/5QPEn" target="_blank">http://puu.sh/5QPEn</a> , <a href="http://puu.sh/5QPGR" target="_blank">http://puu.sh/5QPGR</a><br />
+Barre, <a href="http://puu.sh/5QRea.jpg" target="_blank">http://puu.sh/5QRea.jpg</a><br />
+<br />
+Je suis vraiment désolé pour les erreurs en écriture car je suis beaucoup stressé ces temps-ci pour une raison familliale. Sur-ce je vous souhaite une bonne journée/soirée<br />
+<br />
+et voici la photo de mon chat! <a href="http://puu.sh/5JdyT" target="_blank">http://puu.sh/5JdyT</a><br />
+et de mon chien! <a href="http://puu.sh/5IEhn" target="_blank">http://puu.sh/5IEhn</a>]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2013-12-15T10:22:42Z</published>
+		<updated>2013-12-15T10:22:42Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=734" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=734</id>
+		<title type="html" xml:space="preserve"><![CDATA[2 idées plutot interessantes]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=734"><![CDATA[salut a tous n'etant pas moddeur c'est a vous que je m'adresse <br />
+tout le monde parle de la fin de terraria et tout et je me demandais s'il serait possible d'implementer <span style="font-weight: bold;">entierement</span> le jeu terraria sur starbound en faisant une planete haut lvl planete qui serait biome terraria avec corruption purification et tout le toutime et que dedans on puisse faire<br />
+-les armes<br />
+-les boss<br />
+-les minerais<br />
+tout se debloquerais au moment ou on arrive sur la planete<br />
+<br />
+et ma seconde idée ce serait de faire un texture pack <span style="text-decoration: underline;"><span style="font-weight: bold;">just for fun</span></span> avec toutes les textures de minecraft?<br />
+alors possible?<img src="http://starbound-fr.net/forum/images/smilies/Ghost.png" alt="Fantôme" title="Fantôme" class="smilie smilie_81" />]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2013-12-15T08:03:12Z</published>
+		<updated>2013-12-15T17:26:40Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=733" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=733</id>
+		<title type="html" xml:space="preserve"><![CDATA[[MOD] Lampe De Poche De Couleur]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=733"><![CDATA[Petit MOD sympatique que j'ai fait :)<br />
+<br />
+[MOD] Lampe torche de couleurs . ( MOD Français )<br />
+Photo : <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=204092006" target="_blank">http://steamcommunity.com/sharedfiles/fi...=204092006</a><br />
+Lien de téléchargement : <a href="https://mega.co.nz/#!149wWKCQ!CmEIaVLJ2AHAbAJt4kbNkURyQhpUIywm5fPgjv4TuU0" target="_blank">https://mega.co.nz/#!149wWKCQ!CmEIaVLJ2A...fPgjv4TuU0</a><br />
+<br />
+- C:\Program Files (x86)\Steam\SteamApps\common\Starbound\assets ( n'oublier pas de sauvegarder votre dossier assets en cas ou mon MOD ne vous plais pas ou que vous voulais retrouver votre jeux original . )]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2013-12-14T04:43:18Z</published>
+		<updated>2013-12-15T17:20:42Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=726" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=726</id>
+		<title type="html" xml:space="preserve"><![CDATA[[MOD] Toute Mes Créations]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=726"><![CDATA[Donc voilà, j'ai décidé de traduire le jeu en français de faire un pack de texture et d'ajouter du contenu au jeu en même Temps. Je sais que c'est compliqué et long, mais le résultat sera là.<br />
+<br />
+Toutes les 19 h je mettrais le lien pour que vous puissiez tester ce que j'ai fait et me dire ce qui et bien et pas bien.<br />
+<br />
+En attendant voici quelques photos de ce que j'ai fait pour le moment :<br />
+<br />
+Photo 1 : <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=203885116" target="_blank">http://steamcommunity.com/sharedfiles/fi...=203885116</a> ( PROCHAINE MAJ)<br />
+Photo 2 : <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=203884855" target="_blank">http://steamcommunity.com/sharedfiles/fi...=203884855</a> ( PROCHAINE MAJ)<br />
+Photo 3 : <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=204030259" target="_blank">http://steamcommunity.com/sharedfiles/fi...=204030259</a> ( PROCHAINE MAJ)<br />
+Photo 4 : <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=203829433" target="_blank">http://steamcommunity.com/sharedfiles/fi...=203829433</a><br />
+<br />
+Lien  de téléchargement : <a href="https://mega.co.nz/#!t1VRUaoY!P0-XoT2OajIeSuYfGXCY2l49tw43jaXiSJJDhl2ffyI" target="_blank">https://mega.co.nz/#!t1VRUaoY!P0-XoT2Oaj...JJDhl2ffyI</a> <br />
+- C:\Program Files (x86)\Steam\SteamApps\common\Starbound\assets  ( n'oublier pas de sauvegarder votre dossier assets en cas ou mon pack ne vous plais pas ou que vous voulais retrouver votre jeux original . ) je rappelle que je n'ai que modifie le menu et quelque trucs en jeux . ( Tout les bugs du menu serons corrigés )<br />
+<br />
+<br />
+[MOD] Lampe torche de couleurs .<br />
+Photo : <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=204092006" target="_blank">http://steamcommunity.com/sharedfiles/fi...=204092006</a><br />
+Lien  de téléchargement : <a href="https://mega.co.nz/#!149wWKCQ!CmEIaVLJ2AHAbAJt4kbNkURyQhpUIywm5fPgjv4TuU0" target="_blank">https://mega.co.nz/#!149wWKCQ!CmEIaVLJ2A...fPgjv4TuU0</a> <br />
+Ce MOD sera adapté a mon pack de texture + ma traduction en français .]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2013-12-13T21:48:55Z</published>
+		<updated>2014-03-15T20:52:19Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=725" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=725</id>
+		<title type="html" xml:space="preserve"><![CDATA[OVNI Pingouin (NERF)]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=725"><![CDATA[<span style="font-style: italic;"><span style="font-weight: bold;"> Bonjour à tous,<br />
+<br />
+pour ceux et celles qui trouveraient comme moi que le premier boss est carrément trop fort au moment ou il apparaît dans le jeu, j'ai pris la liberté de le nerfé de moitié.<br />
+<br />
+Il passe donc de 500pts de vie à 250pts, et ses attaques on vu leur puissance divisé par deux.<br />
+<br />
+A vous de me dire si cela est assez, ou pas.<br />
+<br />
+Voici le RAR, a décompresser dans le dossier :</span></span><br />
+<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>**repertoire_du_jeu**&#92;assets&#92;monsters&#92;unique</code></div></div>
+<br />
+<blockquote><cite>Citation :</cite><a href="http://www.mediafire.com/download/i3if6vjvs79rse9/penguinUfo.rar" target="_blank">penguinUfo.rar</a></blockquote>
+<br />
+<span style="font-style: italic;"><span style="font-weight: bold;">Voici pour vous, bon jeu.</span></span>]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2013-12-08T21:35:18Z</published>
+		<updated>2013-12-13T16:02:21Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=690" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=690</id>
+		<title type="html" xml:space="preserve"><![CDATA[[Mod]-[Item_Pioche] Powered Pickaxe]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=690"><![CDATA[Salut je vous présente mon premier mod :p<br />
+<span style="font-weight: bold;"><div style="text-align: center;">La powered Pickaxe !</div></span><br />
+<div style="text-align: center;"><img src="http://i.imgur.com/3zDZjdw.png" border="0" alt="[Image: 3zDZjdw.png]" /></div>
+Elle est plus rapide qu'une pioche en diamant et mine en 4X4<br />
+<br />
+La recette : <br />
+-Moltencore x1<br />
+-Diamant x8<br />
+-Pioche en diamand x1<br />
+-Pixel x2000<br />
+<br />
+Pour installer le mod c'est très simple j'ai crée une console Windows qui automatise le tout vous pouvez vérifier le code c'est pas malveillant<br />
+<br />
+Sous Windows:<br />
+Pour installer : PoweredPickaxe_Install<br />
+Pour le désinstaller une autre console est présente elle se nomme : PoweredPickaxe_Clean<br />
+<br />
+Pour MAC ou Linux:<br />
+Glisser déposer le Dossier assets dans le zip<br />
+<br />
+<br />
+Download : <a href="https://mega.co.nz/#!pJ0TyLJR!F6rA-Uv4AkcBoI7KgP6BcmZsaZ4E_SLSHpBPitkFGVU" target="_blank">https://mega.co.nz/#!pJ0TyLJR!F6rA-Uv4Ak...pBPitkFGVU</a>]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2013-12-08T17:41:37Z</published>
+		<updated>2014-02-13T23:22:28Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=673" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=673</id>
+		<title type="html" xml:space="preserve"><![CDATA[[MOD] Traduction française]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=673"><![CDATA[<blockquote><cite>Important. a écrit :</cite><span style="font-size: large;">J'invite ceux et celles qui veulent aider a bosser a la traduction, a m'ajouter sur Skype ""nel-winter (Tobe)"" En précisant le sujet de votre ajout, car sinon je ne saurais pas ou vous ranger et n'accepterais donc pas :)</span><br />
+<span style="font-weight: bold;">Thread verrouillé. Un nouveau sera créé lorsqu'une versiion assez stable (au niveau des fichiers) du jeu sera publiée.</span></blockquote>
+<br />
+Voilà, si ça intéresse des personnes je me suis lancé dans la traduction de Starbound.<br />
+<br />
+<a href="http://imageshack.us/a/img35/3494/cqvm.jpg" target="_blank"><img src="http://imageshack.us/scaled/avatar96/35/cqvm.jpg" border="0" alt="[Image: cqvm.jpg]" /></a><br />
+<br />
+Police d'écriture modifié pour les accents mais ne fonctionne pas l'hors de l'affichage des quêtes et autre. Bizarre<br />
+<br />
+Traduction Interface [70%]:<br />
+<br />
+Menu Principal: 100%<br />
+Menu Choix du Personnage: 50% (Je l'avais faites mais je vais la modifier pour remplacer "Choisir Personnage" par "Choix du Personnage")<br />
+Menu <a href="http://img14.imageshack.us/img14/7397/e0aw.jpg" target="_blank">Création Personnage</a>: 80% (Il faut modifier la fenêtre de création car elle est trop petite pour faire apparaitre: Couleur des cheveux, etc...)<br />
+Menu Multijoueur: 100%<br />
+Menu Options: 100%<br />
+Quête: 80%<br />
+Boutons: 80%<br />
+Vaisseau: 0%<br />
+...<br />
+<br />
+Traduction texte [5%]:<br />
+<br />
+Quêtes Tutorial: 40% (ça me prends la tête car faut pas dépassé 6 lignes et demi, donc je suis obligé de voir avec la fenêtre de la quête mais aussi avec le journal des quêtes.)<br />
+Quêtes: 0%<br />
+<br />
+Si vous voulez aider bah allez-y.<br />
+<br />
+<a href="http://imageshack.us/a/img38/1738/wx1l.jpg" target="_blank"><img src="http://imageshack.us/scaled/avatar96/38/wx1l.jpg" border="0" alt="[Image: wx1l.jpg]" /></a><a href="http://imageshack.us/photo/my-images/843/4zyp.jpg/" target="_blank"><img src="http://imageshack.us/a/img843/4510/4zyp.th.jpg" border="0" alt="[Image: 4zyp.th.jpg]" /></a><a href="http://imageshack.us/a/img197/9250/oc79.jpg" target="_blank"><img src="http://imageshack.us/scaled/avatar96/197/oc79.jpg" border="0" alt="[Image: oc79.jpg]" /></a><a href="http://img5.imageshack.us/img5/2016/js30.jpg" target="_blank"><img src="http://imageshack.us/scaled/thumb/5/js30.jpg" border="0" alt="[Image: js30.jpg]" /></a>]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2013-12-08T01:33:53Z</published>
+		<updated>2013-12-08T01:33:53Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=675" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=675</id>
+		<title type="html" xml:space="preserve"><![CDATA[[MOD] Prise en charge des accents]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=675"><![CDATA[Bonsoir,<br />
+<br />
+  J'ai modifié la police du jeu afin qu'elle prenne en compte la plupart des accents de notre belle langue française plutôt que d'afficher des carrés tout moches. :3<br />
+<br />
+exemple :<br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            Bon, là c'est un peu moche parce que c'est zoomé mais sinon ça passe assez bien.<br />
+<img src="http://puu.sh/5Fxrl.jpg" border="0" alt="[Image: 5Fxrl.jpg]" /><br />
+        </div>
+    </div>
+</div>
+<br />
+<span style="font-weight: bold;">Comment installer ce "mod" ?</span><br />
+<br />
+1- Télécharger le fichier : <a href="http://www.petit-fichier.fr/2013/12/08/hobo/" target="_blank">http://www.petit-fichier.fr/2013/12/08/hobo/</a><br />
+2- Le copier dans C:\Program Files\Steam\SteamApps\common\Starbound\assets (remplacez le fichier existant ou renommez-le)<br />
+<br />
+Et puis c'est tout :)<br />
+<br />
+<br />
+PS : la qualité des accents est pas terrible pour certains, je retravaillerais peut être dessus]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2013-12-05T18:12:24Z</published>
+		<updated>2013-12-06T09:38:30Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=640" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=640</id>
+		<title type="html" xml:space="preserve"><![CDATA[Vos Musiques dans le Jeu !]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=640"><![CDATA[<span style="font-size: small;">Vous voulez joué du ACDC ou Nyan cat dans Starbound ? C'est très simple et en seulement trois étapes :<br />
+<br />
+1) Trouver sur internet la partition .abc de votre musique et copiez la dans un fichier texte ( Grosse liste de partition : <a href="http://reissendewoelfe.de/abc/" target="_blank">http://reissendewoelfe.de/abc/</a> )<br />
+2) Enregistrez ce dossier sur le bureau et modifiez l'extension ".txt" par ".abc"<br />
+<br />
+3) Deplaçez votre partition ".abc" dans votre dossier "Songs" de Starbound<br />
+( ...\Steam\SteamApps\...\Starbound\assets\songs )</span><br />
+<br />
+<span style="font-size: large;">Voila ! plus qu'a choisir la partition dans le menu de l'instrument !</span><br />
+<br />
+Retalyx s'est amusé ...<br />
+<br />
+<!-- start: video_youtube_embed --><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sz0wI74wPSM" frameborder="0" allowfullscreen></iframe><br />
+<!-- end: video_youtube_embed -->]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+</feed>

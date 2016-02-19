@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<title>Starbound-Fr | Forum - [Guide sur le modding] - [Windows]</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index,follow" />
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="screen.css.html" media="screen" />
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="print.css.html" media="print" />
+</head>
+<body>
+<div id="container">
+<h1><a href="../index.php.html">Starbound-Fr | Forum</a></h1>
+<div class="navigation"><a href="index.php.html">Starbound-Fr | Forum</a> &gt; <a href="index.php%3Fforum-9.html">Le jeu</a> &gt; <a href="index.php%3Fforum-40.html">Mods</a> &gt; <a href="index.php%3Fforum-43.html">Tutos</a> &gt; [Guide sur le modding] - [Windows]</div>
+<div id="fullversion"><strong>Version complète :</strong> <a href="http://starbound-fr.net/forum/showthread.php?tid=708">[Guide sur le modding] - [Windows]</a></div>
+<div id="infobox">Vous consultez actuellement la version basse qualité d’un document. <a href="http://starbound-fr.net/forum/showthread.php?tid=708">Voir la version complète</a> avec le bon formatage.</div>
+<div id="content">
+<div class="multipage"><strong>Pages :</strong> <strong>1</strong> <a href="index.php%3Fthread-708-2.html">2</a> </div><div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=80.html">BleuDiamant</a></h2></div><div class="dateline">12-12-2013, 20h53</div>
+</div>
+<div class="message"><div style="text-align: center;">[Guide sur le modding]<br />
+[Windows]</div>
+<br />
+    <br />
+<blockquote><cite>Citation :</cite>Bienvenue dans mon guide sur le modding celui si n'est pas forcement complet mais je m’efforcerais de le rendre un maximum exploitable.<br />
+Avant de commencer je precise que Starbound est très flexible donc les modification sont extrêmement simple et n'importe qui peut se lancer.<br />
+Bien sur pour crée un mod qui va revolutionner le jeu il faudras mettre les main dans le LUA et pour ça je ne vous suit d'aucune utilité x).</blockquote>
+    <br />
+Sommaire : <ul>
+<li>Recherche du dossier racine<br />
+</li>
+<li>Le Dossier Assets<br />
+</li></ul>
+    <br />
+<div style="text-align: center;"><span style="font-size: large;"><span style="font-weight: bold;">[Recherche du dossier racine]</span></span></div>
+Le dossier racine c'est le dossier ou est installer le jeu c'est la bas que toute les modifications vont être effectué en générale il se trouve ici :<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>"C:&#92;Program Files (x86)&#92;Steam&#92;SteamApps&#92;common&#92;Starbound"</code></div></div>
+     <br />
+<br />
+<br />
+Vous devriez avoir à peu près les mêmes dossiers que moi :<br />
+<div style="text-align: center;"><img src="http://i.imgur.com/Libp62O.png" border="0" alt="[Image: Libp62O.png]" /></div>
+    <br />
+<br />
+<span style="font-size: large;"><span style="font-weight: bold;">[Le Dossier Assets]</span></span><br />
+Le dossier Assets est le dossier qui va nous intéresser le plus c'est la bas qu'il y a tout les fichiers du jeu<br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <img src="http://i.imgur.com/oyJ2YEi.png" border="0" alt="[Image: oyJ2YEi.png]" /><br />
+        </div>
+    </div>
+</div>
+Comme vous pouvez le constater si vous fouillez un peu le contenu est riche mais dans le cadre du tuto nous allons simplement nous intéresser à 2 ou trois dossiers et fichiers dans tout ce fouillis organisé.<br />
+    <br />
+<br />
+<span style="font-size: large;"><span style="font-weight: bold;">[La création d'une nouvelle pioche]</span></span><br />
+Nous allons donc pour expliquer les rudiments du modage sur starbound créer une nouvelle pioche<br />
+Pour cela nous allons aller dans :<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>"C:&#92;Program Files (x86)&#92;Steam&#92;SteamApps&#92;common&#92;Starbound&#92;assets&#92;items&#92;tools"</code></div></div>
+     <br />
+Comme vous pouvez le constater il y a tout les outils présent dans starbound:<br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <img src="http://i.imgur.com/HfCcwA8.png" border="0" alt="[Image: HfCcwA8.png]" /><br />
+        </div>
+    </div>
+</div>
+    <br />
+Ici pour nous éviter les premières lignes de code nous allons récupérer par exemple l'item de la pioche en diamant ainsi que ces textures:<br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <img src="http://i.imgur.com/q1WRY4e.png" border="0" alt="[Image: q1WRY4e.png]" /><br />
+        </div>
+    </div>
+</div>
+    <br />
+En ce qui concerne les texture je vous laisse faire garder juste le nom des images nous les modifieront plus tard.<br />
+Ensuite ouvrer le fichier <span style="font-weight: bold;">"diamondpickaxe.miningtool"</span> avec notepad++ ou votre bloc note favoris :p<br />
+Cela devrait vous donner ça ! :<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>{<br />
+     "itemName" : "diamondpickaxe",<br />
+      "inventoryIcon" : "diamondpickaxeicon.png",<br />
+      "dropCollision" : [-4.0, -3.0, 4.0, 3.0],<br />
+      "maxStack" : 1,<br />
+      "rarity" : "common",<br />
+      "inspectionKind" : "tool",<br />
+      "description" : "Pickaxes are so last millennium! This one is made of diamond.",<br />
+      "shortdescription" : "Diamond Pickaxe",<br />
+      "largeImage" : "diamondpickaxebig.png",<br />
+      "image" : "diamondpickaxe.png",<br />
+      "handPosition" : [-3, -4],<br />
+      "fireTime" : 0.3,<br />
+      "swingStart" : -40,<br />
+      "swingFinish" : 60,<br />
+      "blockRadius" : 3,<br />
+      "altBlockRadius" : 1,<br />
+      "twoHanded" : true,<br />
+      "strikeSound" : "/sfx/tools/pickaxe_hit.wav",<br />
+      "durability" : 7500,<br />
+      "durabilityPerUse" : 1,<br />
+      "durabilityRegenChart" : [<br />
+        [ [ "copperore" ], 750], [ [ "silverore" ], 1125], [ [ "goldore" ], 1500], [ [ "platinumore" ], 1875], [ [ "diamond" ], 2250]<br />
+      ],<br />
+      "tileDamage" : 2.7,<br />
+      "tileDamageBlunted" : 0.6<br />
+}</code></div></div>
+     <br />
+Alors là on touche au gros du truc :p<br />
+Comme vous pouvez le voir cela ne ressemble presque pas à du code et si vous avez quelques connaissances en anglais vous comprendrez assez bien chaque ligne.<br />
+    <br />
+Mais pour les autres voilà une mini traduction:<br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <br />
+     "itemName" : Nom de l'objet<br />
+     "inventoryIcon" : Icone de l'image<br />
+     "dropCollision" : Aucune idée a vous de faire des tests<br />
+     "maxStack" : Combien d'objet empilable<br />
+     "rarity" : Rareter de l'objet<br />
+     "inspectionKind" : Groupe de l'objet<br />
+     "description" : Description de l'objet<br />
+     "shortdescription" : Courte description de l'objet<br />
+     "largeImage" : Grande image de l'objet<br />
+     "image" : Image de l'objet<br />
+     "handPosition" : Position de l'objet dans la main du joueur<br />
+     "fireTime" : Vitesse de l'objet<br />
+     "swingStart" : Angle de l'image au demarrage de l'animation<br />
+     "swingFinish" : Angle de l'image à la fin de l'animation<br />
+     "blockRadius" : Le rayon d'action de l'objet<br />
+     "altBlockRadius" : Le rayon d'action de l'objet quand on appuie sur "ALT"<br />
+     "twoHanded" : Si c'est un objet a une ou 2 main<br />
+     "strikeSound" : Bruit ou son que produit l'objet quand celui si est utiliser<br />
+     "durability" : Durabilité de l'objet<br />
+     "durabilityPerUse" : Le nombre de point de durabilité enlever quand utiliser<br />
+     "durabilityRegenChart" : Combien redonne chaque minerais pour la réparation de l'item<br />
+     "tileDamage" : Le taux de dégâts causés au bloc<br />
+     "tileDamageBlunted" : Le taux de dégâts causés au bloc quand la pioche est usée<br />
+        </div>
+    </div>
+</div>
+    <br />
+Voilà maintenant passons à la modification pure et dur de l'objet :p<br />
+Pour cela il n'y a rien de bien compliquer il vous suffit de modifier les dites valeur précédemment traduite :p<br />
+    <br />
+Pour la pioche que j'ai créée sur un autre topic voilà les valeurs :<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>{<br />
+      "itemName" : "powereddiamondpickaxe",<br />
+      "inventoryIcon" : "powereddiamondpickaxeicon.png",<br />
+      "dropCollision" : [-4.0, -3.0, 4.0, 3.0],<br />
+      "maxStack" : 1,<br />
+      "rarity" : "common",<br />
+      "inspectionKind" : "tool",<br />
+      "description" : "The god Pickaxe !",<br />
+      "shortdescription" : "Powered Diamond Pickaxe",<br />
+      "largeImage" : "powereddiamondpickaxe.png",<br />
+      "image" : "powereddiamondpickaxe.png",<br />
+      "handPosition" : [-3, -4],<br />
+      "fireTime" : 0.28,<br />
+      "swingStart" : -40,<br />
+      "swingFinish" : 60,<br />
+      "blockRadius" : 4,<br />
+      "altBlockRadius" : 1,<br />
+      "twoHanded" : true,<br />
+      "strikeSound" : "/sfx/tools/pickaxe_hit.wav",<br />
+      "durability" : 7500,<br />
+      "durabilityPerUse" : 1,<br />
+      "durabilityRegenChart" : [<br />
+        [ [ "copperore" ], 750], [ [ "silverore" ], 1125], [ [ "goldore" ], 1500], [ [ "platinumore" ], 1875], [ [ "diamond" ], 2250]<br />
+      ],<br />
+      "tileDamage" : 2.7,<br />
+      "tileDamageBlunted" : 0.6<br />
+}</code></div></div>
+     <br />
+Et c'est là que je vous demande de faire très attention car si il manque ne serais-ce qu'une virgule votre item ne serais même pas détecté !<br />
+    <br />
+Comme dit plus haut je vous est demander de garder les nom des texture nous allons maintenant les modifier :p<br />
+C'est là qu'il va falloir être rigoureux car il faut que le nom des images corresponde avec ce que vous avez marqué dans le fichier de la pioche<br />
+    <br />
+Exemple :<br />
+   "itemName" : "powereddiamondpickaxe",<br />
+   "image" : "powereddiamondpickaxe.png"<br />
+   "largeImage" : "powereddiamondpickaxe.png"<br />
+   "inventoryIcon" : "powereddiamondpickaxeicon.png"<br />
+   <img src="http://i.imgur.com/edpDrR6.png" border="0" alt="[Image: edpDrR6.png]" /><br />
+    <br />
+Vous voyez bien que chaque ligne correspond bien a chaque image ainsi que le nom de l'item au nom du fichier<br />
+<br />
+<br />
+<span style="font-weight: bold;"><span style="font-size: xx-large;">/!\_Suite En Construction_/!\ EDIT:du 02/02/15</span></span> (Si les modo ou admin souhaite éditer mon post je leur donne ma permission :p)<br />
+<br />
+<span style="font-size: medium;"><span style="font-weight: bold;">/!\_/!\_/!\ Toute utilisation ou copie de ce post sans mon autorisation ou sans aucune source (Auteur donc moi et starbound-fr.net) Sera punis par une sanction encore inconnus a ce jour xD/!\_/!\_/!\</span></span></div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=437.html">Mr.Alex</a></h2></div><div class="dateline">12-12-2013, 21h03</div>
+</div>
+<div class="message">Super tuto ! Bien expliqué :)</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=154.html">Esprix</a></h2></div><div class="dateline">12-12-2013, 21h56</div>
+</div>
+<div class="message">Une sanction inconnue ? j'aime ! <img src="../images/smilies/pussycat.png.html" alt=":3" title=":3" class="smilie smilie_83" /><br />
+<br />
+Plus sérieusement, bravo pour le pavé et merci, bonne continuation ! :)<br />
+(Vivement la suite <img src="../images/smilies/pussycat.png.html" alt=":3" title=":3" class="smilie smilie_83" /> )</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=4.html">Biscotteman</a></h2></div><div class="dateline">12-12-2013, 22h24</div>
+</div>
+<div class="message">Merci pour ce tuto très bien expliqué ! ça va en ravir plus d'un <img src="../images/smilies/mwahahaha.png.html" alt=":D" title=":D" class="smilie smilie_64" /></div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=448.html">Azeternels</a></h2></div><div class="dateline">12-12-2013, 22h58</div>
+</div>
+<div class="message">Merci beaucoup je pence que sa va servir a plus d'un !</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=1.html">OniriCorpe</a></h2></div><div class="dateline">12-12-2013, 23h32</div>
+</div>
+<div class="message">Super. <img src="../images/smilies/mwahahaha.png.html" alt=":D" title=":D" class="smilie smilie_64" /><br />
+<br />
+Néanmoins, aurais-tu l'amabilité de te relire ?<br />
+J'ai reçu dans la modération une plainte concernant l'écriture de ton tutoriel.<br />
+Ce qui me semble être justifié. ^^"</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=80.html">BleuDiamant</a></h2></div><div class="dateline">13-12-2013, 08h24</div>
+</div>
+<div class="message">Merci à tous ça me fait super plaisir <img src="../images/smilies/mwahahaha.png.html" alt=":D" title=":D" class="smilie smilie_64" /><br />
+<br />
+<blockquote><cite><span> (12-12-2013, 23h32)</span>KiwiiCorporation a écrit : <a href="http://starbound-fr.net/forum/showthread.php?pid=12770#pid12770">[ -> ]</a></cite>Super. <img src="../images/smilies/mwahahaha.png.html" alt=":D" title=":D" class="smilie smilie_64" /><br />
+<br />
+Néanmoins, aurais-tu l'amabilité de te relire ?<br />
+J'ai reçu dans la modération une plainte concernant l'écriture de ton tutoriel.<br />
+Ce qui me semble être justifié. ^^"</blockquote>
+<br />
+J'effectue le nécessaire ce soir après les cours (Désoler <img src="../images/smilies/triste.png.html" alt="Triste" title="Triste" class="smilie smilie_31" /> c'est pas mon fort)</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=430.html">Roshi</a></h2></div><div class="dateline">13-12-2013, 09h16</div>
+</div>
+<div class="message">"swingStart" : Angle de l'image au demarrage de l'animation<br />
+"swingFinish" : Angle de l'image à la fin de l'animation<br />
+"altBlockRadius" : Le rayon d'action de l'objet quand tu appuie sur ALT<br />
+"tileDamage" : Le taux de dégâts causés au bloc<br />
+"tileDamageBlunted" : Le taux de dégâts causés au bloc quand la pioche est usée<br />
+<br />
+Quand a "dropCollision" il me semble que c'est une hitbox qui défini a quelle distance l'objet peut etre ramassé.</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=293.html">faragoo</a></h2></div><div class="dateline">15-12-2013, 23h19</div>
+</div>
+<div class="message">Merci pour ce tuto du tonnerre! Et merci aussi au dev pour avoir permis un système de modding aussi simple!</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=429.html">Sword26</a></h2></div><div class="dateline">17-12-2013, 11h39</div>
+</div>
+<div class="message">Merci pour ce tutoriel, moi qui avais envie de modder, j'essayerais de m'y mettre un de ces quatre ^^.</div>
+</div>
+<div class="multipage"><strong>Pages :</strong> <strong>1</strong> <a href="index.php%3Fthread-708-2.html">2</a> </div></div>
+<div class="navigation"><a href="index.php.html">Starbound-Fr | Forum</a> &gt; <a href="index.php%3Fforum-9.html">Le jeu</a> &gt; <a href="index.php%3Fforum-40.html">Mods</a> &gt; <a href="index.php%3Fforum-43.html">Tutos</a> &gt; [Guide sur le modding] - [Windows]</div>
+</div>
+<div id="footer">
+Moteur <a href="http://www.mybb.com">MyBB</a>, &copy; 2002-2016 <a href="http://www.mybb.com">MyBB Group</a>
+</div>
+</body>
+</html>

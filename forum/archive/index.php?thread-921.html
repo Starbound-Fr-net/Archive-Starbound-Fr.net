@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<title>Starbound-Fr | Forum - Spawning aléatoire [Résolu]</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index,follow" />
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="screen.css.html" media="screen" />
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="print.css.html" media="print" />
+</head>
+<body>
+<div id="container">
+<h1><a href="../index.php.html">Starbound-Fr | Forum</a></h1>
+<div class="navigation"><a href="index.php.html">Starbound-Fr | Forum</a> &gt; <a href="index.php%3Fforum-9.html">Le jeu</a> &gt; <a href="index.php%3Fforum-40.html">Mods</a> &gt; <a href="index.php%3Fforum-42.html">Aide au modding</a> &gt; Spawning aléatoire [Résolu]</div>
+<div id="fullversion"><strong>Version complète :</strong> <a href="http://starbound-fr.net/forum/showthread.php?tid=921">Spawning aléatoire [Résolu]</a></div>
+<div id="infobox">Vous consultez actuellement la version basse qualité d’un document. <a href="http://starbound-fr.net/forum/showthread.php?tid=921">Voir la version complète</a> avec le bon formatage.</div>
+<div id="content">
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=675.html">Flow</a></h2></div><div class="dateline">16-02-2014, 19h13</div>
+</div>
+<div class="message">Re tout le monde,<br />
+<br />
+Je souhaiterais savoir comment faire pour faire apparaître aléatoirement  un objet dans les coffre existant, quelqu'un aurait un idée ?</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=377.html">maxigregrze</a></h2></div><div class="dateline">16-02-2014, 21h22</div>
+</div>
+<div class="message">Les fichiers des loots sont dans ./assets/treasure/<br />
+<br />
+Un fichier .treasurepool ressemble a ça:<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>{<br />
+&nbsp;&nbsp;"raexithchest" : [<br />
+&nbsp;&nbsp;&nbsp;&nbsp;[1, {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"pool" : [<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.2, [ "raexithscientisthead" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.1, [ "raexithsacredspear" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.03, [ "sacredraexithhead" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.03, [ "sacredraexithchest" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.03, [ "sacredraexithpants" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.05, [ "grandomrocket" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.05, [ "randomriffle" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.1, [ "raexithmicrophone"] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.1, [ "raexithdrum" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.1, [ "raexithguitar" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.1, [ "raexithore", 16] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.1, [ "raexithbar", 8] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.005, [ "adgeartech-chip" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.005, [ "raexitharmortech-chip" ] ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"poolRounds" : [<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.25, 2],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.30, 4],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.25, 6],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.20, 8]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"levelVariance" : [0, 0],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"allowDuplication" : false<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} ]<br />
+&nbsp;&nbsp;],<br />
+&nbsp;&nbsp;"raexithchestcorrupted" : [<br />
+&nbsp;&nbsp;&nbsp;&nbsp;[1, {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"pool" : [<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.2, [ "raexithscientisthead" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.1, [ "raexithsacredspear" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.03, [ "sacredraexithhead" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.03, [ "sacredraexithchest" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.03, [ "sacredraexithpants" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.05, [ "grandomrocket" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.05, [ "randomriffle" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.1, [ "raexithmicrophone"] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.1, [ "raexithdrum" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.1, [ "raexithguitar" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.1, [ "raexithore", 16] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.1, [ "raexithbar", 8] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.005, [ "adgeartech-chip" ] ],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.005, [ "raexitharmortech-chip" ] ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"poolRounds" : [<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.25, 2],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.30, 4],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.25, 6],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[0.20, 8]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"levelVariance" : [0, 0],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"allowDuplication" : false<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} ]<br />
+&nbsp;&nbsp;]<br />
+}</code></div></div>
+(ici, le code est issu de mon mod)<br />
+<br />
+Les modifiers ne sont pas chose aisée: en effet, chaque item a une fraction de 1, qui représente sa chance d’apparaître. Ajouter un objet signifierais modifier tout les autres, du moin pour garder les même pourcentages. Dans mon cas, il n'y a pas beaucoup d'items, mais dans, par exemple, les fichiers du coffre normal, il y a énormément d'item, et en rajouter serait fastidieux. Je te conseille de copier ./assets/treasure/basictreasure.treasurepools dans ton dossier de mod, de trouver un item que tu pense inutile et le remplacer par ton item. Ou alors , tu le rajoute et tu modifie les valeurs, mais dans ce cas...<br />
+<br />
+Si tu veux ajouter tes propres coffres, c'est un peux plus compliqué, ça demande de crée/rajouter un nouveau biome/mini-biome. Donc je te conseille d'attendre encore un peux avant ça.<br />
+<br />
+Et encore, n'hésite pas a poser des question , je sert a ça.</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=675.html">Flow</a></h2></div><div class="dateline">16-02-2014, 21h28</div>
+</div>
+<div class="message">Super, je pense que ce sera plus simple si je l'ajoute dans le fichier mods, donc si j'ai bien compris je peu ajouter un spawn d'ojbjet en passant par mods&gt;crée objet, puis remplacer dans ce dossier un objet non utilisé et le remplacer par mon mod? <br />
+<br />
+Ok mais j'ai un léger problème, mon dossier assets est plus que vide ! j'ai quelque fichier dedans mais rien qui ressemble à ce que je vois sur le site... c'est normal ?</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=377.html">maxigregrze</a></h2></div><div class="dateline">16-02-2014, 21h32</div>
+</div>
+<div class="message">Depuis la dèrnière Maj, les assets sont compressé dans un .pak . Il te faudra le décompresser DANS UN AUTRE DOSSIER (pour éviter les conflits tel que "deux items ont le même nom") grace a un utilitaire fournis.  Ce tutoriel en anglais t'expliquera comment faire: <a href="http://community.playstarbound.com/index.php?threads/quick-guide-to-unpack-your-starbound-assets-folder.66583/" target="_blank">http://community.playstarbound.com/index...der.66583/</a></div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=675.html">Flow</a></h2></div><div class="dateline">16-02-2014, 21h46</div>
+</div>
+<div class="message">Merci merci et merci encore !<br />
+<hr /><span style="font-weight: bold;">Message fusionné :</span><br />
+J'aurais une autre question, une fois le fichier décompressé est-il possible de supprimé les fichiers pack et de fonctionner sur les fichier "unpack" ?</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=4.html">Biscotteman</a></h2></div><div class="dateline">16-02-2014, 22h27</div>
+</div>
+<div class="message">C'est possible en modifiant le fichier bootstrap.config je pense :)</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=675.html">Flow</a></h2></div><div class="dateline">16-02-2014, 22h44</div>
+</div>
+<div class="message">Non malheuresement, ça doit fonctionner après repacking de l'asset, tan pis merci quand même</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=377.html">maxigregrze</a></h2></div><div class="dateline">17-02-2014, 10h46</div>
+</div>
+<div class="message">Il faut l'unpack dans un workspace personnel. Et si tu modifie quelque chose par erreur, ça n'a pas d'effet sur le jeu.</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=675.html">Flow</a></h2></div><div class="dateline">20-02-2014, 01h19</div>
+</div>
+<div class="message">C est a dire...? Parce que mon workspace est déjà fait, j ai l unpack dans ce workspace qui me sert d exemple et parfois de copie lorsque je modifi un item pour le rajouter dans un mod, mais toujours est il que dans la logique je me sert de l unpack comme d un outil pour copier des codes recipe/item mais je ne modifi rien de cet unpack et même quand je le Fait c est dans un dossier différent de manière a avoir un backup de fichier .pak(après unpacking du fichier)ce qui dans tout les cas n a aucune influence sur le jeu puisqu'il se base sur le .pak pour lancer le jeu (même lorsque l'asset unpack se trouve dans le dossier asset) en modifiant le boostrap j'ai juste réussi a faire planter le démarrage malgré les nombreux chemin d accès essayé rien y fait, si je pouvais trouver comment codé l'unpack(avec le logiciel de base dans le meilleurs des cas) je pourrais essayer de modé sans passer par le fichier mods (en admetant que c est possible évidement a moins que ma petite expérience m est conduit dans l erreur ) les anciennes versions devait êtres méchamment plus simples a codé que  l'actuelle, si quelqu un a une expérience a ce niveau ça serait chouette qu il nous en fasse profiter. A voir !</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=1.html">OniriCorpe</a></h2></div><div class="dateline">20-02-2014, 16h01</div>
+</div>
+<div class="message">Bonjour, pouvez-vous aérer un peu vos messages ?<br />
+Ils ne donnent pas envie de lire en l'état. :/</div>
+</div>
+</div>
+<div class="navigation"><a href="index.php.html">Starbound-Fr | Forum</a> &gt; <a href="index.php%3Fforum-9.html">Le jeu</a> &gt; <a href="index.php%3Fforum-40.html">Mods</a> &gt; <a href="index.php%3Fforum-42.html">Aide au modding</a> &gt; Spawning aléatoire [Résolu]</div>
+</div>
+<div id="footer">
+Moteur <a href="http://www.mybb.com">MyBB</a>, &copy; 2002-2016 <a href="http://www.mybb.com">MyBB Group</a>
+</div>
+</body>
+</html>

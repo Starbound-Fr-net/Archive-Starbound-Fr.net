@@ -1,0 +1,1221 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!-- start: showthread -->
+<html xml:lang="fr" lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Présentation : Yui</title>
+<!-- start: headerinclude -->
+<link rel="alternate" type="application/rss+xml" title="Derniers sujets (RSS 2.0)" href="syndication.php" />
+<link rel="alternate" type="application/atom+xml" title="Derniers sujets (Atom 1.0)" href="syndication.php%3Ftype=atom1.0" />
+<link href='http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,200italic,400italic,600italic' rel='stylesheet' type='text/css'>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<script type="text/javascript" src="jscripts/jquery.js%3Fver=1800.html"></script>
+<script type="text/javascript" src="jscripts/jquery.plugins.min.js%3Fver=1800.html"></script>
+<script type="text/javascript" src="jscripts/general.js%3Fver=1800.html"></script>
+<script type="text/javascript" src="images/vienna/jquery-ui.js.html"></script>
+<script type="text/javascript" src="images/vienna/jquery.tipsy.js.html"></script>
+<script type="text/javascript" src="images/vienna/jquery.cookie.js.html"></script>
+
+
+<script type='text/javascript'> 
+jQuery(function() {
+jQuery("a").tipsy({gravity: jQuery.fn.tipsy.autoNS});
+jQuery("title").tipsy({gravity: jQuery.fn.tipsy.autoNS});
+jQuery("img").tipsy({gravity: jQuery.fn.tipsy.autoNS});
+jQuery("i").tipsy({gravity: jQuery.fn.tipsy.autoNS});
+jQuery("span").tipsy({gravity: jQuery.fn.tipsy.autoNS});
+jQuery("div").tipsy({gravity: jQuery.fn.tipsy.autoNS});
+  });
+</script>
+
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/css3.css.html" />
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/global.css.html" />
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/dd.css.html" />
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/profiles.css.html" />
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/contactdropdown.css.html" />
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/tipsy.css.html" />
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/extra.css.html" />
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/showthread.css.html" />
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/star_ratings.css.html" />
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/spoiler.css.html" />
+
+<script type="text/javascript">
+<!--
+	lang.unknown_error = "Une erreur inconnue s’est produite.";
+
+	lang.select2_match = "Un résultat est disponible, appuyez sur entrée pour le sélectionner.";
+	lang.select2_matches = "{1} résultats sont disponibles, utilisez les flèches haut et bas pour naviguer.";
+	lang.select2_nomatches = "Pas de résultat";
+	lang.select2_inputtooshort_single = "Entrez un ou plusieurs caractères";
+	lang.select2_inputtooshort_plural = "Entrez {1} caractères ou plus";
+	lang.select2_inputtoolong_single = "Supprimez un caractère";
+	lang.select2_inputtoolong_plural = "Supprimez {1} caractères";
+	lang.select2_selectiontoobig_single = "Vous ne pouvez sélectionner qu’un élément";
+	lang.select2_selectiontoobig_plural = "Vous ne pouvez sélectionner que {1} éléments";
+	lang.select2_loadmore = "Chargement de plus de résultats…";
+	lang.select2_searching = "Recherche…";
+
+	var cookieDomain = ".starbound-fr.net";
+	var cookiePath = "/forum/";
+	var cookiePrefix = "";
+	var deleteevent_confirm = "Êtes-vous sûr de vouloir supprimer cet événement ?";
+	var removeattach_confirm = "Êtes-vous sûr de vouloir supprimer la pièce jointe sélectionnée ?";
+	var loading_text = 'Chargement. <br />Patientez...';
+	var saving_changes = 'Sauvegarde des changements...';
+	var use_xmlhttprequest = "1";
+	var my_post_key = "af64ca80572eb9fc6ef9aaceade70def";
+	var rootpath = "http://starbound-fr.net/forum";
+	var imagepath = "http://starbound-fr.net/forum/images/vienna/";
+  	var yes_confirm = "Oui";
+	var no_confirm = "Non";
+	var MyBBEditor = null;
+	var spinner_image = "http://starbound-fr.net/forum/images/vienna//spinner.gif";
+	var spinner = "<img src='" + spinner_image +"' alt='' />";
+// -->
+</script>
+<!-- end: headerinclude -->
+<script type="text/javascript">
+<!--
+	var quickdelete_confirm = "Êtes-vous sûr de vouloir supprimer ce message ?";
+	var quickrestore_confirm = "Êtes-vous sûr de vouloir restaurer ce message ?";
+	var allowEditReason = "1";
+	lang.save_changes = "Enregistrer les modifications";
+	lang.cancel_edit = "Annuler l’édition";
+	lang.quick_edit_update_error = "Il y a eu une erreur lors de l’édition de votre réponse :";
+	lang.quick_reply_post_error = "Il y a eu une erreur lors de l’envoi de votre réponse :";
+	lang.quick_delete_error = "Il y a eu une erreur lors de la suppression de votre réponse :";
+	lang.quick_delete_success = "Le message a bien été supprimé.";
+	lang.quick_delete_thread_success = "Le sujet a bien été supprimé.";
+	lang.quick_restore_error = "Une erreur est survenue lors de la restauration de votre réponse :";
+	lang.quick_restore_success = "Le message a bein été restauré.";
+	lang.editreason = "Raison de la modification";
+// -->
+</script>
+<!-- jeditable (jquery) -->
+<script type="text/javascript" src="jscripts/report.js%3Fver=1800.html"></script>
+<script src="jscripts/jeditable/jeditable.min.js.html"></script>
+<script type="text/javascript" src="jscripts/thread.js%3Fver=1800.html"></script>
+</head>
+<body id="forums">
+	<!-- start: header -->
+<a name="top" id="top"></a>
+<div id="mainwidth">
+  
+<div class="menu" style="margin-top: 0px;">
+    <ul>
+<li id="nav-portal"><a href="../index.html"><i style="font-size: 14px;" class="fa fa-home fa-fw"></i> Accueil et Actus</a></li>
+      
+<li id="nav-forums"> <a href="index.php.html"><i style="font-size: 14px;" class="fa fa-globe fa-fw"></i> Forums</a></li>
+
+<li id="nav-portal"><a href="http://starbound-fr.net/chat/"><i style="font-size: 14px;" class="fa fa-weixin fa-fw"></i> Chat :)</a></li>
+      
+<li id="nav-search"> <a href="search.php.html"><i style="font-size: 14px;" class="fa fa-search fa-fw"></i> Recherche</a></li>
+      
+<li id="nav-member"> <a href="memberlist.php.html"><i style="font-size: 14px;" class="fa fa-user fa-fw"></i> Membres</a></li>
+      
+<li id="nav-help" class="float_right"> <a href="misc.php%3Faction=help.html"><i style="font-size: 14px;" class="fa fa-life-ring fa-fw"></i> Aide</a></li>
+   <ul>
+</div>
+
+<br />
+
+   <div id="float_right"> <!-- start: header_welcomeblock_guest -->
+<div class="float_right" style="margin-top: 25px">
+<a href="member.php%3Faction=login.html" onclick="$('#quick_login').modal({ fadeDuration: 250, keepelement: true }); return false;" class="login fstatg">
+<font color="#fff"><i class="fa fa-check-circle-o fa-fw"></i> <strong>Connexion</strong></font>
+</a> 
+&nbsp; <a href="member.php%3Faction=register.html" title="Si vous n'êtes pas encore membre de notre communautez, n'hésitez plus !" class="fstat">
+   <font color="white"><i class="fa fa-check-circle-o fa-fw"></i>  Créer un compte</font>
+</a>
+</span></div>
+				
+				<div class="modal" id="quick_login" style="display: none;">
+					<form method="post" action="http://starbound-fr.net/forum/member.php">
+						<input name="action" type="hidden" value="do_login" />
+						<input name="url" type="hidden" value="" />
+						<input name="quick_login" type="hidden" value="1" />
+       <table width="100%" cellspacing="0" cellpadding="5" border="0" class="tborder" style="padding: 20px;">
+							<tr>
+								<td class="thead" colspan="2"><strong>Se connecter</strong></td>
+							</tr>
+							<tr>
+								<td class="trow1" width="25%"><strong>Utilisateur/Email :</strong></td>
+								<td class="trow1"><input name="quick_username" id="quick_login_username" type="text" value="" class="textbox initial_focus" /></td>
+							</tr>
+							<tr>
+								<td class="trow2"><strong>Mot de passe :</strong></td>
+								<td class="trow2">
+									<input name="quick_password" id="quick_login_password" type="password" value="" class="textbox" /> <a href="member.php%3Faction=lostpw.html" class="lost_password">Mot de passe oublié ?</a>
+								</td>
+							</tr>
+							<tr>
+								<td class="trow1">&nbsp;</td>
+								<td class="trow1 remember_me">
+									<input name="quick_remember" id="quick_login_remember" type="checkbox" value="yes" class="checkbox" checked="checked" />
+									<label for="quick_login_remember">Se rappeler</label>
+								</td>
+							</tr>
+							<tr>
+								<td class="trow2" colspan="2">
+									<div align="center"><input name="submit" type="submit" class="button" value="Se connecter" /></div>
+								</td>
+							</tr>
+						</table>
+					</form>
+				</div>
+				<script type="text/javascript">
+					$("#quick_login input[name='url']").val($(location).attr('href'));
+				</script>
+<!-- end: header_welcomeblock_guest --></div>
+<div id="logo" style="margin-top: -20px;">
+				<div class="wrapper">
+					<div id="float_left"><a href="index.php.html"><img class="logo-site" src="../wp-content/themes/sb-fr/images/logo.png.html" alt="Starbound-Fr | Forum" /></a>
+                  
+              			<!-- <p class="slogan-site"><h1>Communauté francophone autour de Starbound</h1></p> -->
+                  </div>
+                              </div>
+                         </div>
+      <div id="mbox" style="margin-top: 0px;">
+<div id="container">
+		<a name="top" id="top"></a>
+		<div id="header">
+		<div id="content">
+			<div class="wrapper">
+                 <!-- start: nav -->
+<div class="navigation">
+<!-- start: nav_bit -->
+<a href="index.php.html">Starbound-Fr | Forum</a><!-- start: nav_sep -->
+<i style="font-size: 13px; margin-top: 0px;" class="fa fa-angle-right fa-fw"></i></li>
+<!-- end: nav_sep -->
+<!-- end: nav_bit --><!-- start: nav_bit -->
+<a href="forumdisplay.php%3Ffid=3.html">Forum général</a><!-- start: nav_sep -->
+<i style="font-size: 13px; margin-top: 0px;" class="fa fa-angle-right fa-fw"></i></li>
+<!-- end: nav_sep -->
+<!-- end: nav_bit --><!-- start: nav_bit -->
+<a href="forumdisplay.php%3Ffid=5.html">Présentations</a>
+<!-- end: nav_bit --><!-- start: nav_sep_active -->
+<i style="font-size: 13px; margin-top: 0px;" class="fa fa-angle-right fa-fw"></i></li>
+<!-- end: nav_sep_active --><!-- start: nav_bit_active -->
+<span class="active">Présentation : Yui</span>
+<!-- end: nav_bit_active -->
+</div>
+<!-- end: nav --><br />
+                
+				
+				
+				
+				 <!-- BAM --><!-- start: bam_announcement_container -->
+
+<style>
+	.bam_announcement.yellow {
+		background: #FFF6BF;
+		border: 1px solid #FFD324;
+	}
+
+	.bam_announcement.green {
+		background: #D6ECA6;
+		border: 1px solid #8DC93E;
+	}
+
+	.bam_announcement.blue {
+		background: #ADCBE7;
+		border: 1px solid #0F5C8E;
+	}
+
+	.bam_announcement.red {
+		background: #FBE3E4;
+		border: 1px solid #A5161A;
+	}
+
+	.bam_announcement {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px; 
+		text-align: center;
+		margin: 10px auto;
+		padding: 8px 12px;
+		background: #EBEBEB;
+		color: #000000;
+		border: 1px solid #ADADAD;
+	}
+
+	.bam_date {
+		color: #636161;
+		font-size: 0.78em;
+		margin-left: 6px;
+	}	
+
+	/* Insert Custom CSS Here */
+</style>
+<div class="bam_announcements"></div>
+<!-- end: bam_announcement_container --><!-- /BAM --> 
+                
+<!-- end: header -->
+	
+	
+	<div class="float_left">
+		
+	</div>
+	<div class="float_right">
+		
+	</div>
+	
+	<table border="0" cellspacing="0" cellpadding="5" class="tborder tfixed clear">
+		<tr>
+			<td class="thead">
+				<div class="float_right">
+					<span class="smalltext"><strong><a href="javascript:;" id="thread_modes">Modes de sujets</a></strong></span>
+				</div>
+				<div>
+					<strong>Présentation : Yui</strong>
+				</div>
+			</td>
+		</tr>
+<tr><td id="posts_container">
+	<div id="posts">
+		<!-- start: postbit_classic -->
+
+<a name="pid17586" id="pid17586"></a>
+<div class="post classic " style="" id="post_17586">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=1007.html">Yui</a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=1007.html"><img src="http://starbound-fr.net/forum/uploads/avatars/avatar_1007.gif?dateline=1439711000" alt="" width="119" height="119" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				Survivant<br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 5
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=1007.html"><strong class="reputation_neutral">0</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=1007.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="http://starbound-fr.net/forum/showthread.php?tid=1367&amp;pid=17586#pid17586" title="Présentation : Yui">#1</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">16-08-2015, 09h42 <span class="post_edit" id="edited_by_17586"></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_17586">
+    	Bonjour !<br />
+<br />
+Moi c'est Yui, enfin Julie dans la vrai vie, j'ai 18 ans, et j'ai commencé à jouer à starbound depuis le début (par ce que j'ai jouer à Terraria avant xD) Mais j'ai arrêté après le wipe de mon personnage =S, j'ai repris il y a une semaine.<br />
+Sinon je joue généralement à différent jeux en ligne (par ce que j'aime pas trop jouer seule ^^).<br />
+<br />
+Je joue une avian, et voici son histoire :<br />
+<div style="text-align: center;"><img src="http://nsa37.casimages.com/img/2015/08/15/150815114915908942.gif" border="0" alt="[Image: 150815114915908942.gif]" /></div>
+<br />
+<div style="text-align: center;"><span style="color: #0040FF;"><span style="font-weight: bold;">Planète [Beta Algedi 42III b] Village Vahili - Jour 12 158 535</span></span></div>
+Il faisait encore frais dans Vahili, un petit village isolé dans la campagne, mais le soleil montra ses premiers rayons, et l'un d'eux passa à travers la fenêtre d'une petite maison faite de pierre et de paille. C'était la forge de Ragnar et Spirea Asahi, deux jeunes forgerons, et ce matin allait être le plus beau de leur vie.<br />
+La douce chaleur et l'éblouissante lumière de ce rayon agita un petit œuf, Spirea se trouvant à côté appela Ragnar qui accourut afin d'assister au spectacle. L’œuf s'agita de gauche à droite, puis se fissura, c'est alors la coquille se sépara en deux dévoilant un petit poussin !<br />
+<div style="text-align: center;"><img src="http://nsa37.casimages.com/img/2015/08/14/150814010052261615.gif" width="90" height="48" border="0" alt="[Image: 150814010052261615.gif]" /></div>
+Naquit ainsi Yui, petite fille au plumage bleu ciel, dont l'ancienne du village avait prédit de grandes aventures.<br />
+<br />
+<div style="text-align: center;"><img src="http://nsa38.casimages.com/img/2015/08/15/150815125640713255.png" width="73" height="100" border="0" alt="[Image: 150815125640713255.png]" /></div>
+À l'âge de ses 4 ans, un soir orageux, tout le monde était paisiblement en-train de dormir... tout le monde, sauf Yui qui à chaque éclaire fissurant le ciel, vit des ombres se dessiner sur les murs de sa chambre, des ombres laissant imaginer d'horribles monstres. Terrifiée elle décida d'aller voir ses parents. En se dirigeant doucement en direction de la chambre de son père et sa mère, Yui se figea de terreur en entendant la porte de l'entrée grincer en s'ouvrant. Un éclair dévoila la silhouette d'un gigantesque monstre qui ne rentrait même pas dans le cadre de la porte. Ce dernier se dirigea dans la chambre des parents, qui dormaient profondément, il tendit en direction du ciel un long couteau avant le l'insérer à plusieurs reprises dans le corps des parents de la petit Yui, qui assisté malgré elle à l'horrible scène.<br />
+L'assassin reparti et disparue dans l'orage orchestré par la foudre, en ignorant la petite fille...<br />
+<br />
+Devenue orpheline elle fut recueillie par son oncle Karl, un mineur de fond.<br />
+<br />
+<div style="text-align: center;"><span style="color: #0040FF;"><span style="font-weight: bold;">Planète [Beta Algedi 42III b] Montagne de fer - Jour 12 293 683</span></span></div>
+Au début Yui n'arrivait pas à dormir, elle ne faisait que des cauchemars, son oncle ne sachant quoi faire fit appel à l’ancienne du village. Elle lui proposa de lui concocter un mélange qui permettrait à quiconque en boirait, de combattre ses cauchemars ! Mais les ingrédients pour une telle potion coûte cher. Karl lui répondit que la santé de sa petite nièce est bien plus importante que l'argent.<br />
+Le traitement mit du temps à faire effet dû à la fragilité de la petite, mais après quelque temps elle a su vaincre ses peurs !<br />
+<br />
+De nouveau en forme, elle travailla dur avec son oncle afin de dénicher les plus belles perles des mines. Elle avait le don de tomber sur de gros filons. Ce métier est devenue sa passion.<br />
+Mais le commerce n'était pas au top dans la région principalement orienté dans l'agriculture, peu de personnes avaient besoin de minerais. Alors Yui décida de reprendre en parallèle le travail de ses parents.<br />
+Arrivée à ses 18 ans, elle décida de partir à l'aventure, afin de découvrir qui a assassiné ses parents....<br />
+<br />
+Elle commença par acheter un vaisseau avec les quelques économies que son oncle lui a passé. Ce n'était pas un vaisseau de luxe, mais il était amplement suffisant pour se rendre sur des planètes voisines. <br />
+<div style="text-align: center;"><img src="http://nsa37.casimages.com/img/2015/08/15/150815121253627798.gif" width="300" height="102" border="0" alt="[Image: 150815121253627798.gif]" /></div>
+Yui, accompagné de Biscotte son petit lapin, s'envola pour [Beta Rho Gem 9790 VII c], c’est ici qu'elle installa ça 1er base.<br />
+<div style="text-align: center;"><img src="http://nsa38.casimages.com/img/2015/08/13/150813045852938226.gif" width="21" height="18" border="0" alt="[Image: 150813045852938226.gif]" /></div>
+<br />
+<br />
+<div style="text-align: center;"><span style="color: #0040FF;"><span style="font-weight: bold;">Planète [Beta Rho Gem 9790 VII c] Inconnue - Jour 0</span></span></div>
+<div style="text-align: center;"><img src="http://nsa38.casimages.com/img/2015/08/13/15081304380732545.gif" width="74" height="74" border="0" alt="[Image: 15081304380732545.gif]" /></div>
+Par chance sur cette planète il n'y avait pas trop d’animaux féroces, et grâce à l'apprentissage que son oncle lui a enseigné, elle a pu se débrouiller pour survivre.<br />
+Elle y découvrit des merveilles, et de superbes minerais. Si son oncle était là il serait aux anges =).<br />
+<div style="text-align: center;"><img src="http://nsa38.casimages.com/img/2015/08/13/150813042724418553.gif" width="54" height="89" border="0" alt="[Image: 150813042724418553.gif]" /></div>
+Avec tous ces matériaux, elle a pu retaper son petit vaisseau, pouvant ainsi aller plus loin et plus rapidement.<br />
+Mais au bout d'un moment elle finit par avoir épuisé tous les ressources de cette petite planète, alors elle décida de partir à la recherche d'autres aventuriers, car la solitude commencée à peser.<br />
+<br />
+<br />
+<br />
+Voilà à bientôt =) ! 
+	</div>
+	<center>
+      </center>
+	<div class="post_meta" id="post_meta_17586">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				<!-- start: postbit_quote -->
+<a href="newreply.php%3Ftid=1367&amp;replyto=17586.html" title="Citer ce message dans une réponse" class="postbit_quote"><i style="font-size: 14px;" class="fa fa-quote-right fa-fw"></i> Citer </a> &nbsp;
+<!-- end: postbit_quote -->
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic --><!-- start: postbit_classic -->
+
+<a name="pid17587" id="pid17587"></a>
+<div class="post classic " style="" id="post_17587">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=848.html">Rhaeloth</a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=848.html"><img src="uploads/avatars/avatar_848.png%3Fdateline=1450114464.html" alt="" width="185" height="185" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				Amical mais très dangereux<br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 45
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=848.html"><strong class="reputation_positive">4</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=848.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="http://starbound-fr.net/forum/showthread.php?tid=1367&amp;pid=17587#pid17587" title="RE: Présentation : Yui">#2</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">16-08-2015, 11h20 <span class="post_edit" id="edited_by_17587"></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_17587">
+    	Bonjour et bienvenue !  <img src="images/smilies/mwahahaha.png.html" alt=":D" title=":D" class="smilie smilie_64" /> <br />
+<br />
+Ooohh que j'adore les présentations avec un background du personnage, j'en ai déjà fait mais jamais sur Starbound, il faudrait que je m'y intéresse aussi.<br />
+C'est même très bien illustré ! Mais maintenant si tu veux rejoindre d'autres aventuriers c'est là : <a href="forumdisplay.php%3Ffid=46.html" target="_blank">http://starbound-fr.net/forum/forumdisplay.php?fid=46</a>  <img src="images/smilies/pussycat.png.html" alt=":3" title=":3" class="smilie smilie_83" /> 
+	</div>
+	<center>
+      <!-- start: postbit_signature -->
+<div class="signature scaleimages">
+<div style="text-align: center;"><img src="http://img.xooimage.com/files110/6/3/7/br2-48d19f5.png" border="0" alt="[Image: br2-48d19f5.png]" /></div>
+
+</div>
+<!-- end: postbit_signature --></center>
+	<div class="post_meta" id="post_meta_17587">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				<!-- start: postbit_quote -->
+<a href="newreply.php%3Ftid=1367&amp;replyto=17587.html" title="Citer ce message dans une réponse" class="postbit_quote"><i style="font-size: 14px;" class="fa fa-quote-right fa-fw"></i> Citer </a> &nbsp;
+<!-- end: postbit_quote -->
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic --><!-- start: postbit_classic -->
+
+<a name="pid17589" id="pid17589"></a>
+<div class="post classic " style="" id="post_17589">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=1007.html">Yui</a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=1007.html"><img src="http://starbound-fr.net/forum/uploads/avatars/avatar_1007.gif?dateline=1439711000" alt="" width="119" height="119" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				Survivant<br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 5
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=1007.html"><strong class="reputation_neutral">0</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=1007.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="http://starbound-fr.net/forum/showthread.php?tid=1367&amp;pid=17589#pid17589" title="RE: Présentation : Yui">#3</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">16-08-2015, 14h20 <span class="post_edit" id="edited_by_17589"></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_17589">
+    	Merci =)<br />
+Je viens de poster ma candidature ! 
+	</div>
+	<center>
+      </center>
+	<div class="post_meta" id="post_meta_17589">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				<!-- start: postbit_quote -->
+<a href="newreply.php%3Ftid=1367&amp;replyto=17589.html" title="Citer ce message dans une réponse" class="postbit_quote"><i style="font-size: 14px;" class="fa fa-quote-right fa-fw"></i> Citer </a> &nbsp;
+<!-- end: postbit_quote -->
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic --><!-- start: postbit_classic -->
+
+<a name="pid17592" id="pid17592"></a>
+<div class="post classic " style="" id="post_17592">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=1.html"><span style="color: green;"><strong><em>OniriCorpe</em></strong></span></a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=1.html"><img src="uploads/avatars/avatar_1.jpg%3Fdateline=1422600174.html" alt="" width="185" height="185" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				ZZDZZAZZ4ZZZZIZZ9ZZ ZZ<br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 1 982
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=1.html"><strong class="reputation_positive">47</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_www -->
+<a href="https://oniricorpe.eu/" target="_blank" title="Visiter le site internet de cet utilisateur" class="postbit_website"><i style="font-size: 11px;" class="fa fa-globe fa-fw"></i></a> &nbsp;
+<!-- end: postbit_www --><!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=1.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="http://starbound-fr.net/forum/showthread.php?tid=1367&amp;pid=17592#pid17592" title="RE: Présentation : Yui">#4</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">16-08-2015, 20h03 <span class="post_edit" id="edited_by_17592"></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_17592">
+    	Cool, enfin une vraie présentation <img src="images/smilies/pussycat.png.html" alt=":3" title=":3" class="smilie smilie_83" /><br />
+<br />
+<span style="color: red;">* OniriCorpe ouvre un fichier texte pour répondre en même temps que la lecture.</span><br />
+<br />
+Terraria... tu étais sur terraria.fr, à l'époque ? <img src="images/smilies/mwahahaha.png.html" alt=":D" title=":D" class="smilie smilie_64" /><br />
+<br />
+Perso, jouer à plusieurs ça m'éneeerve, car j'aime prendre des pauses à n'importe quel moment :c<br />
+<br />
+Techniquement l'œuf bouge de droite à  gauche, pouis de gauche à droite (etc), mais ça c'est mon côté chieur pro' qui parle.<br />
+<br />
+Au final, je n'ai eu à commenter beaucoup, l'histoire  est plutôt bien écrite ! Seules quelques fautes m'ont fait tiquer, je pense qu'une relecture aurait permit de les retirer :p<br />
+<br />
+J'ai accepté ta demande d'accès au serveur de jeu. <img src="images/smilies/oeil.png.html" alt="Wink" title="Wink" class="smilie smilie_68" /><br />
+<br />
+À bientôt ! 
+	</div>
+	<center>
+      <!-- start: postbit_signature -->
+<div class="signature scaleimages">
+<img src="https://oniricorpe.eu/img/sign.png" border="0" alt="[Image: sign.png]" /><br />
+<br />
+OniriCorpe, c'est moi ! ^○^﻿/<br />
+(Et c'est un jeu de mot nase. <img src="images/smilies/mouark.png.html" alt="Mouark" title="Mouark" class="smilie smilie_63" /> )<br />
+<br />
+<span style="font-size: large;"><a href="https://oniricorpe.eu/" target="_blank">Va visiter mon site perso ! <img src="images/smilies/poptop.png.html" alt="Poptop" title="Poptop" class="smilie smilie_21" /></a></span>
+</div>
+<!-- end: postbit_signature --></center>
+	<div class="post_meta" id="post_meta_17592">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				<!-- start: postbit_quote -->
+<a href="newreply.php%3Ftid=1367&amp;replyto=17592.html" title="Citer ce message dans une réponse" class="postbit_quote"><i style="font-size: 14px;" class="fa fa-quote-right fa-fw"></i> Citer </a> &nbsp;
+<!-- end: postbit_quote -->
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic --><!-- start: postbit_classic -->
+
+<a name="pid17595" id="pid17595"></a>
+<div class="post classic " style="" id="post_17595">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=1007.html">Yui</a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=1007.html"><img src="http://starbound-fr.net/forum/uploads/avatars/avatar_1007.gif?dateline=1439711000" alt="" width="119" height="119" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				Survivant<br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 5
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=1007.html"><strong class="reputation_neutral">0</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=1007.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="http://starbound-fr.net/forum/showthread.php?tid=1367&amp;pid=17595#pid17595" title="RE: Présentation : Yui">#5</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">16-08-2015, 20h51 <span class="post_edit" id="edited_by_17595"></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_17595">
+    	Merci =D !<br />
+<br />
+Terraria j'y ai surtout jouer avec un ami à l'époque. Et non je n'étais pas sur terraria.fr.<br />
+Oh ben il y a bien des jeux où l'on peut jouer à plusieurs tout en prenant des pause sans que ça gène les autres =P<br />
+<br />
+Pour l’œuf tout dépend du point de vue =P. (je chipote à mon tour)<br />
+<br />
+Pour les fautes c'est un peu normal, j'ai du mal, mais je tente de faire attention =).<br />
+<br />
+Merci beaucoup =) et à bientôt ! 
+	</div>
+	<center>
+      </center>
+	<div class="post_meta" id="post_meta_17595">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				<!-- start: postbit_quote -->
+<a href="newreply.php%3Ftid=1367&amp;replyto=17595.html" title="Citer ce message dans une réponse" class="postbit_quote"><i style="font-size: 14px;" class="fa fa-quote-right fa-fw"></i> Citer </a> &nbsp;
+<!-- end: postbit_quote -->
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic --><!-- start: postbit_classic -->
+
+<a name="pid17599" id="pid17599"></a>
+<div class="post classic " style="" id="post_17599">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=332.html">Dreynguid</a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=332.html"><img src="uploads/avatars/avatar_332.png%3Fdateline=1425469193.html" alt="" width="167" height="250" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				♪ Pa~Pada~Pum ♫ Pa~Pum ♪<br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 94
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=332.html"><strong class="reputation_positive">4</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=332.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="http://starbound-fr.net/forum/showthread.php?tid=1367&amp;pid=17599#pid17599" title="RE: Présentation : Yui">#6</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">18-08-2015, 16h28 <span class="post_edit" id="edited_by_17599"></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_17599">
+    	Salut et bienvenue !<br />
+<br />
+Ton histoire me fait quand même me poser quelques questions :<br />
+Concernant la planète d'origine d'Yui, as-tu déterminé la durée des jours et celle d'une année ?<br />
+<br />
+Yui naît au jour 12 158 535 de la planète [Beta Algedi 42III b] et n'a pas encore ses 18 ans au jour 12 293 683. A moins que le numéro du jour dépende aussi du lieu sur la planète (village Vahili puis montagne de Fer), il s'est passé 135 148 jours entre ces deux dates. Soit l'équivalent d'environs 370 années humaines (sans prendre en compte, du coup, la différence de durée des jours entre notre planète et la sienne).<br />
+De plus, le fait qu'elle se décide à partir à ses 18 ans m'indique que 18 ans est donc l'age de maturité comme sur Terre (au pays près).<br />
+Donc soit la planète a des jours et années vraiment courts, soit les avians ont une pitain de longévité de malade. Ou soit Yui est en fait supra vieille, mais je ne pense pas.<br />
+<br />
+Bon, ok, je chipote un peu à mon tour. M'enfin, 'me suis quand même bien amusé :p 
+	</div>
+	<center>
+      </center>
+	<div class="post_meta" id="post_meta_17599">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				<!-- start: postbit_quote -->
+<a href="newreply.php%3Ftid=1367&amp;replyto=17599.html" title="Citer ce message dans une réponse" class="postbit_quote"><i style="font-size: 14px;" class="fa fa-quote-right fa-fw"></i> Citer </a> &nbsp;
+<!-- end: postbit_quote -->
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic --><!-- start: postbit_classic -->
+
+<a name="pid17600" id="pid17600"></a>
+<div class="post classic " style="" id="post_17600">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=1007.html">Yui</a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=1007.html"><img src="http://starbound-fr.net/forum/uploads/avatars/avatar_1007.gif?dateline=1439711000" alt="" width="119" height="119" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				Survivant<br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 5
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=1007.html"><strong class="reputation_neutral">0</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=1007.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="http://starbound-fr.net/forum/showthread.php?tid=1367&amp;pid=17600#pid17600" title="RE: Présentation : Yui">#7</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">18-08-2015, 18h31 <span class="post_edit" id="edited_by_17600"><!-- start: postbit_editedby -->
+<span class="edited_post">(Modification du message : 18-08-2015, 18h44 par <a href="member.php%3Faction=profile&amp;uid=1007.html">Yui</a>.)</span>
+<!-- end: postbit_editedby --></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_17600">
+    	Hé hé, la planète à des journée de durée de 16 min =D<br />
+<img src="http://nsa37.casimages.com/img/2015/08/18/150818063117850691.gif" border="0" alt="[Image: 150818063117850691.gif]" /><br />
+Et le jour 12 293 683 je dis avoir plus de 4ans et pas 18ans  =P<br />
+12 158 535 + ((( 365 jours *24 heures * 60 minutes )/ 16 minutes) * 4 ans ) = 12 289 935<br />
+et 12 289 935 &lt; 12 293 683<br />
+^^<br />
+<br />
+Et 18 ans par ce que j'ai 18 ans =P 
+	</div>
+	<center>
+      </center>
+	<div class="post_meta" id="post_meta_17600">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				<!-- start: postbit_quote -->
+<a href="newreply.php%3Ftid=1367&amp;replyto=17600.html" title="Citer ce message dans une réponse" class="postbit_quote"><i style="font-size: 14px;" class="fa fa-quote-right fa-fw"></i> Citer </a> &nbsp;
+<!-- end: postbit_quote -->
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic --><!-- start: postbit_classic -->
+
+<a name="pid17601" id="pid17601"></a>
+<div class="post classic " style="" id="post_17601">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=1.html"><span style="color: green;"><strong><em>OniriCorpe</em></strong></span></a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=1.html"><img src="uploads/avatars/avatar_1.jpg%3Fdateline=1422600174.html" alt="" width="185" height="185" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				ZZDZZAZZ4ZZZZIZZ9ZZ ZZ<br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 1 982
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=1.html"><strong class="reputation_positive">47</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_www -->
+<a href="https://oniricorpe.eu/" target="_blank" title="Visiter le site internet de cet utilisateur" class="postbit_website"><i style="font-size: 11px;" class="fa fa-globe fa-fw"></i></a> &nbsp;
+<!-- end: postbit_www --><!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=1.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="http://starbound-fr.net/forum/showthread.php?tid=1367&amp;pid=17601#pid17601" title="RE: Présentation : Yui">#8</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">18-08-2015, 20h49 <span class="post_edit" id="edited_by_17601"></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_17601">
+    	Ça se tient. <img src="images/smilies/monocle.png.html" alt="Monocle" title="Monocle" class="smilie smilie_62" /> 
+	</div>
+	<center>
+      <!-- start: postbit_signature -->
+<div class="signature scaleimages">
+<img src="https://oniricorpe.eu/img/sign.png" border="0" alt="[Image: sign.png]" /><br />
+<br />
+OniriCorpe, c'est moi ! ^○^﻿/<br />
+(Et c'est un jeu de mot nase. <img src="images/smilies/mouark.png.html" alt="Mouark" title="Mouark" class="smilie smilie_63" /> )<br />
+<br />
+<span style="font-size: large;"><a href="https://oniricorpe.eu/" target="_blank">Va visiter mon site perso ! <img src="images/smilies/poptop.png.html" alt="Poptop" title="Poptop" class="smilie smilie_21" /></a></span>
+</div>
+<!-- end: postbit_signature --></center>
+	<div class="post_meta" id="post_meta_17601">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				<!-- start: postbit_quote -->
+<a href="newreply.php%3Ftid=1367&amp;replyto=17601.html" title="Citer ce message dans une réponse" class="postbit_quote"><i style="font-size: 14px;" class="fa fa-quote-right fa-fw"></i> Citer </a> &nbsp;
+<!-- end: postbit_quote -->
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic --><!-- start: postbit_classic -->
+
+<a name="pid17618" id="pid17618"></a>
+<div class="post classic " style="" id="post_17618">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=332.html">Dreynguid</a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=332.html"><img src="uploads/avatars/avatar_332.png%3Fdateline=1425469193.html" alt="" width="167" height="250" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				♪ Pa~Pada~Pum ♫ Pa~Pum ♪<br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 94
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=332.html"><strong class="reputation_positive">4</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=332.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="showthread.php%3Ftid=1367&amp;action=lastpost.html#pid17618" title="RE: Présentation : Yui">#9</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">21-08-2015, 12h17 <span class="post_edit" id="edited_by_17618"></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_17618">
+    	<blockquote><cite>Citation :</cite>Hé hé, la planète à des journée de durée de 16 min =D</blockquote>
+C'est donc ça !<br />
+<br />
+<br />
+<blockquote><cite>Citation :</cite>Et le jour 12 293 683 je dis avoir plus de 4ans et pas 18ans =P</blockquote>
+Oui...<br />
+J'avais bien dit qu'au jour 12 293 683 tu n'avais pas encore 18 ans, mais après pour les calculs je suis parti du principe que tu avais tes 18 ans ^^'<br />
+'Suis allé un peu trop vite ! 
+	</div>
+	<center>
+      </center>
+	<div class="post_meta" id="post_meta_17618">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				<!-- start: postbit_quote -->
+<a href="newreply.php%3Ftid=1367&amp;replyto=17618.html" title="Citer ce message dans une réponse" class="postbit_quote"><i style="font-size: 14px;" class="fa fa-quote-right fa-fw"></i> Citer </a> &nbsp;
+<!-- end: postbit_quote -->
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic -->
+	</div>
+</td></tr>
+		<tr>
+			<td class="tfoot">
+				<div class="float_left">
+     <a href="http://starbound-fr.net/forum/showthread.php?tid=1367&amp;action=nextoldest"><strong><i style="font-size: 19px;" class="fa fa-angle-left fa-fw"></i></strong></a></div>
+                  
+                <div class="float_right">
+     <a href="http://starbound-fr.net/forum/showthread.php?tid=1367&amp;action=nextnewest"><strong><i style="font-size: 19px;" class="fa fa-angle-right fa-fw"></i></strong></a></div>
+			</td>
+		</tr>
+	</table>
+	<div class="float_left">
+		
+	</div>
+	<div style="padding-top: 4px;" class="float_right">
+		
+	</div>
+	<br class="clear" />
+	
+	
+	
+	<br />
+<!--
+<div style="margin-top: 4px; margin-left: 20px;" class="float_left">
+
+<a title="Digg" href="http://digg.com/submit?url=http://starbound-fr.net/forum/showthread.php?tid=1367" target="_blank">
+  <img src="images/vienna/di.png" alt="Digg" /></a> &nbsp;
+
+<a title="Delicious" href="http://del.icio.us/post?url=http://starbound-fr.net/forum/showthread.php?tid=1367&title=Présentation : Yui" target="_blank"><img src="images/vienna/de.png" alt="Delicious" /></a> &nbsp;
+
+<a title="Reddit" href="http://reddit.com/submit?url=http://starbound-fr.net/forum/showthread.php?tid=1367&title=Présentation : Yui" target="_blank"><img src="images/vienna/re.png" alt="Reddit" /></a> &nbsp;
+
+<a title="Facebook" href="http://www.facebook.com/share.php?u=http://starbound-fr.net/forum/showthread.php?tid=1367" target="_blank"><img src="images/vienna/fb.png" alt="Facebook" /></a> &nbsp;
+
+<a title="Twitter" href="http://twitter.com/home?status=Présentation : Yui - http://starbound-fr.net/forum/showthread.php?tid=1367" target="_blank"><img src="images/vienna/tw.png" alt="Twitter" /></a> &nbsp;
+
+<a title="StumbleUpon" href="http://www.stumbleupon.com/submit?url=http://starbound-fr.net/forum/showthread.php?tid=1367" target="_blank"><img src="images/vienna/su.png" alt="StumbleUpon" /></a> &nbsp;
+
+</div>
+-->
+	<div class="float_right" style="text-align: right;">
+	
+		<!-- start: forumjump_advanced -->
+<form action="http://starbound-fr.net/forum/forumdisplay.php" method="get">
+<select name="fid" class="forumjump">
+<option value="-1" >Choisissez un forum :</option>
+<option value="-1">--------------------</option>
+<option value="-4">Messages privés</option>
+<option value="-3">Panneau de configuration</option>
+<option value="-5">Qui est en ligne</option>
+<option value="-2">Recherche</option>
+<option value="-1">Accueil du forum</option>
+<!-- start: forumjump_bit -->
+<option value="3" > Forum général</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="4" >-- Site &amp; Forum</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="5" selected="selected">-- Présentations</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="8" >-- Aide &amp; Suggestions</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="24" >---- Site</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="25" >---- Forum</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="26" >---- Autre</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="6" >-- Salon</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="31" >---- Autres jeux Indés</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="7" >---- Le coin des artistes</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="23" >---- Role play</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="30" >------ Commentaires des RP</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="9" > Le jeu</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="10" >-- News</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="11" >-- Discussions générales</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="41" >-- Section RôlePlay</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="12" >-- Tutos, guides et astuces</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="22" >-- Aide &amp; Conseils</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="40" >-- Mods</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="42" >---- Aide au modding</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="43" >---- Tutos</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="13" > Multijoueur</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="32" >-- Serveur officiel de Starbound-Fr</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="46" >---- Candidatures</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="47" >---- Planètes protégées</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="34" >---- Réclamations</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="44" >---- Candidatures Archivées</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="14" >-- Serveurs</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="15" >-- Problèmes et Aide</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="16" > Vos créations</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="17" >-- Vidéos</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="18" >-- Screenshots &amp; Fan-Art</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="35" > Terraria</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="38" >-- Blabla Terraria</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="36" >-- Serveurs</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="37" >-- Mods &amp; Maps</option>
+<!-- end: forumjump_bit -->
+</select>
+<!-- start: gobutton -->
+<input type="submit" class="button" value="Valider" />
+<!-- end: gobutton -->
+</form>
+<script type="text/javascript">
+<!--
+	$(".forumjump").change(function() {
+		var option = $(".forumjump").get(0).selectedIndex.value;
+
+		if(option < 0)
+		{
+			window.location=('forumdisplay.php?fid='+option)
+			return
+		}
+
+		window.location=('forumdisplay.php?fid='+option)
+	})
+//-->
+</script>
+<!-- end: forumjump_advanced -->
+	</div>
+	<br class="clear" />
+	<!-- start: showthread_usersbrowsing -->
+<br />
+<table border="0" cellspacing="0" cellpadding="5" class="tborder">
+<tr><td class="thead"><strong>Utilisateur(s) parcourant ce sujet : </strong></td></tr>
+<tr><td class="trow1">
+<span class="smalltext">1 visiteur(s)</span>
+</td></tr>
+</table>
+<br />
+<!-- end: showthread_usersbrowsing -->
+	<!-- start: footer -->
+
+	</div>
+</div>
+
+</div></div>
+
+
+
+<div id="footer">
+	<div class="upper">
+		<div class="wrapper">
+			
+			
+			<ul class="menu2 bottom_links" style="margin-top: 10px;">
+              <li><a href="misc.php%3Faction=syndication.html"><i style="font-size: 16px;" class="fa fa-rss fa-fw"></i> &nbsp;</a></li>
+				<li><a href="showthread.php%3Ftid=1367.html#top">Retourner en haut &nbsp;</a></li>
+				<li><a href="archive/index.php%3Fthread-1367.html">Mode allégé &nbsp;</a></li>
+                <!-- start: footer_contactus -->
+ <a href="http://starbound-fr.net/contactez-nous/"> &nbsp;Contact</a>
+<!-- end: footer_contactus -->
+			</ul>
+		</div>
+	</div>
+	<div class="lower">
+		<div class="wrapper">
+			<div class="smalltext"><span id="current_time">Theme © 2014 iAndrew Modifié </span></div>
+			<span id="copyright">
+				<!-- MyBB is free software developed and maintained by a volunteer community.
+					It would be much appreciated by the MyBB Group if you left the full copyright and "powered by" notice intact,
+					to show your support for MyBB.  If you choose to remove or modify the copyright below,
+					you may be refused support on the MyBB Community Forums.
+
+					This is free software, support us and we'll support you. -->
+				Moteur <a href="http://www.mybb.com" target="_blank">MyBB</a>, &copy; 2002-2016 <a href="http://www.mybb.com" target="_blank">MyBB Group</a>.
+				<!-- End powered by -->
+			</span>
+          
+          <!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//p.starbound-fr.net/";
+    _paq.push(['setTrackerUrl', u+'piwique.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwique.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://p.starbound-fr.net/piwique.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+		</div>
+	</div>
+</div>
+<!-- The following piece of code allows MyBB to run scheduled tasks. DO NOT REMOVE --><!-- start: task_image -->
+<img src="task.php" width="1" height="1" alt="" />
+<!-- end: task_image --><!-- End task image code -->
+
+</div>
+<!-- end: footer -->
+	<div id="thread_modes_popup" class="popup_menu" style="display: none;">
+<div class="popup_item_container"><a href="http://starbound-fr.net/forum/showthread.php?mode=linear&amp;tid=1367&amp;pid=17586#pid17586" class="popup_item">Affichage linéaire</a></div>
+      
+<div class="popup_item_container"><a href="http://starbound-fr.net/forum/showthread.php?mode=threaded&amp;tid=1367&amp;pid=17586#pid17586" class="popup_item">Affichage hiérarchique</a></div>
+      
+<div class="popup_item_container"><a href="http://starbound-fr.net/printthread.php?tid=1367" class="popup_item">Voir une version imprimable</a></div>
+      
+<div class="popup_item_container"><a href="usercp2.php%3Faction=addsubscription&amp;tid=1367&amp;my_post_key=af64ca80572eb9fc6ef9aaceade70def.html" class="popup_item">S’abonner au sujet</a></div>
+      
+<div class="popup_item_container"><a href="polls.php%3Faction=newpoll&amp;tid=1367.html" class="popup_item">Ajouter un sondage à ce sujet</a></div>
+      
+<div class="popup_item_container"><a href="sendthread.php%3Ftid=1367.html" class="popup_item">Envoyer le sujet à un ami</a></div>
+  </div>
+	<script type="text/javascript">
+	// <!--
+		if(use_xmlhttprequest == "1")
+		{
+			$("#thread_modes").popupMenu();
+		}
+	// -->
+	</script>
+</body>
+</html>
+<!-- end: showthread -->

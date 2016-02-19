@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<title type="html"><![CDATA[Starbound-Fr | Forum - Mods & Maps]]></title>
+	<subtitle type="html"><![CDATA[Starbound-Fr | Forum - http://starbound-fr.net/forum]]></subtitle>
+	<link rel="self" href="http://starbound-fr.net/forum/syndication.php"/>
+	<id>http://starbound-fr.net/forum/</id>
+	<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/"/>
+	<updated>2016-02-18T18:17:55Z</updated>
+	<generator uri="http://www.mybb.com">MyBB</generator>
+</feed>

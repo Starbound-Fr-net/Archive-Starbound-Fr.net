@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<title type="html"><![CDATA[Starbound-Fr | Forum - Planètes protégées]]></title>
+	<subtitle type="html"><![CDATA[Starbound-Fr | Forum - http://starbound-fr.net/forum]]></subtitle>
+	<link rel="self" href="http://starbound-fr.net/forum/syndication.php"/>
+	<id>http://starbound-fr.net/forum/</id>
+	<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/"/>
+	<updated>2016-02-18T18:17:09Z</updated>
+	<generator uri="http://www.mybb.com">MyBB</generator>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2015-04-22T22:55:07Z</published>
+		<updated>2015-04-22T22:55:07Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=1238" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=1238</id>
+		<title type="html" xml:space="preserve"><![CDATA[Spawn Accueil]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=1238"><![CDATA[Prout.<br />
+<br />
+Protégé.<br />
+<br />
+Pas de grief.<br />
+<br />
+Coffres accessibles.]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2015-03-02T23:28:20Z</published>
+		<updated>2015-04-22T22:54:33Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=1187" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=1187</id>
+		<title type="html" xml:space="preserve"><![CDATA[Spawn Véritable]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=1187"><![CDATA[J'inaugure ce nouveau sous forum. \o/<br />
+(Comme tous les nouveaux sous-forums, nan ? <img src="http://starbound-fr.net/forum/images/smilies/;D.png" alt=";D" title=";D" class="smilie smilie_40" /> )<br />
+<br />
+<br />
+<img src="http://up.oniricorpe.eu/i/0303002507.png" border="0" alt="[Image: 0303002507.png]" /><br />
+<br />
+<br />
+Voici notre bâtiment public de spawn.<br />
+<br />
+Celui-ci est beau (mais trop chargé :p), et c'est dans le but de le préserver que la planète est protégée.<br />
+<br />
+Si vous êtes nouveau et que vous devez miner, merci de vous référer à ce message : « <a href="http://starbound-fr.net/forum/showthread.php?tid=1185" target="_blank">Bien débuter sur notre serveur</a> ».<br />
+<br />
+Les gens sous whitelist sont les suivants : les admins et Rhaeloth (ayant participé à la construction).<br />
+<br />
+Si vous souhaitez être ajoutés à la whitelist, merci de demander en postant ci dessous.<br />
+<br />
+Ce sujet sert aussi à se concerter sur les modifications et améliorations possible. :)<br />
+<br />
+<br />
+À bientôt en jeu !]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+</feed>

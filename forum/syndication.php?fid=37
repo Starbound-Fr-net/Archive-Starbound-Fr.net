@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title><![CDATA[Starbound-Fr | Forum - Mods & Maps]]></title>
+		<link>http://starbound-fr.net/forum/</link>
+		<description><![CDATA[Starbound-Fr | Forum - http://starbound-fr.net/forum]]></description>
+		<pubDate>Thu, 18 Feb 2016 18:17:55 +0000</pubDate>
+		<generator>MyBB</generator>
+	</channel>
+</rss>

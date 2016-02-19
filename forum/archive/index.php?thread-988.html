@@ -1,0 +1,416 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<title>Starbound-Fr | Forum - TUTO - Synchronisation de mods entre le serveur et ces utilisateurs</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index,follow" />
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="screen.css.html" media="screen" />
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="print.css.html" media="print" />
+</head>
+<body>
+<div id="container">
+<h1><a href="../index.php.html">Starbound-Fr | Forum</a></h1>
+<div class="navigation"><a href="index.php.html">Starbound-Fr | Forum</a> &gt; <a href="index.php%3Fforum-13.html">Multijoueur</a> &gt; <a href="index.php%3Fforum-15.html">Problèmes et Aide</a> &gt; TUTO - Synchronisation de mods entre le serveur et ces utilisateurs</div>
+<div id="fullversion"><strong>Version complète :</strong> <a href="http://starbound-fr.net/forum/showthread.php?tid=988">TUTO - Synchronisation de mods entre le serveur et ces utilisateurs</a></div>
+<div id="infobox">Vous consultez actuellement la version basse qualité d’un document. <a href="http://starbound-fr.net/forum/showthread.php?tid=988">Voir la version complète</a> avec le bon formatage.</div>
+<div id="content">
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=77.html">Purexo</a></h2></div><div class="dateline">16-03-2014, 02h15</div>
+</div>
+<div class="message">Bonjour à tous, je me présente : pour faire vite je suis un administrateur de <a href="http://staria.fr" target="_blank">Staria</a>, j'ai mis en place le serveur multi avec un système de mods synchronisé entre le serveur et les clients.<br />
+Et c'est ce système que je vais vous expliqué afin que vous puissiez l'adapté à votre sauce.<br />
+<br />
+<span style="font-weight: bold;">Prérequis :</span><ul>
+<li>Quelques connaissances/bases en script (.bat .sh)<br />
+</li>
+<li>Connaissance sur le principe de dépot collaboratif (nous utiliserons SVN)<br />
+</li>
+<li>De la débrouillardise. et de la patience.<br />
+</li>
+<li>Connaissance de base sur le modding starbound et du fonctionnement du bootloader de starbound parce-que c'est sur ça qu'on va en parti agir.<br />
+</li>
+<li>Avoir un depot  SVN (il me semble que qu'un depot github propose un acces SVN) ou un serveur SVN.<br />
+</li>
+<li>Un acces ssh à votre serveur si possible.</li></ul>
+<br />
+<span style="font-weight: bold;">La théorie :</span><br />
+    Le but est de trouver un système, relativement simple pour l'utilisateur pour l'instalation et qu'ensuite il n'ai rien (ou presque) à faire. Afin de permettre aux utilisateurs d'un serveur de disposer des mêmes mods que celui-ci (sauf exception) et ceux malgres des mise à jours.<br />
+    Pour cela nous allons passer par une solution très connu des developpeurs : un depot. généralement utilisé pour versionné sont travail afin de travailler de manière colaborative sur un même projet. Nous utiliserons SVN (avec tortoiseSVN pour l'interface graphique très pratique sur windows). Ce dépot servira à synchroniser les fichiers nessessaire aux serveurs et aux clients comprenant :<ul>
+<li>les scripts/launcheurs (adapté à chaques OS) permettant de lancer starbound avec les bons parametres.<br />
+</li>
+<li>les mods</li></ul>
+    En parallèle à cela nous aurons besoin de plusieurs fichiers bootstrap.config (l'original, une version pour demarer le jeu pour aller sur le serveur, et une version pour jouer en solo, et autant que vous voudrez :p) spécifiant quels sont les dossiers de mods sont à utiliser, de même pour les sauvegardes.<br />
+    Ainsi que des launchers (script d'OS) permettant de copier le fichier bootstrap voulu à l'emplacement adequat pour que le jeu load les bons fichiers, puis de lancer le jeu.<br />
+<br />
+<span style="font-weight: bold;">Etape n°1 : Réflexion sur l'architecture de ficher :</span><br />
+    De mon coté j'avais fusionné le dépot avec le dossier de starbound ce qui m'a été reproché pour diverses raisons nous allons donc mettre le dossier acceuillant le depot dans la racine du dossier Starbound pour que ce sois moins bordélique. cidessous arboressance simplifié du dossier de starbound<br />
+    Starbound :<br />
+     -assets<br />
+     -linux<br />
+     -mods<br />
+     -win32<br />
+     -serveur (dossier racinde du depot)<br />
+     --bootstrap<br />
+     ---bootstrap.config (copie de l'originale)<br />
+     ---bootstrapmac.config<br />
+     ---bootstrapsolo.config (config pour lancer le jeu en solo)<br />
+     ---bootstrapmulti.config (config pour lancer le jeu pour votre serveur.)<br />
+     ---bootstrapmacsolo.config<br />
+     ---bootstrapmacmulti.config<br />
+     --modsolo (emplacement pour les mods utilisé en solo par le client)<br />
+     --modmulti (ici serons placé les mods de votre serveur)<br />
+     --launcherwindows.bat (à lancer par les utilisateurs de windows)<br />
+     --launcherlinux.sh<br />
+     --launchermac.sh (ces launchers donnerons le choix à l'utilisateurs sur quel bootstrap ils veulent démarer le jeu)<br />
+<br />
+<br />
+<span style="font-weight: bold;">Etape n°2 : Mise en place du depot :</span><br />
+    Vous avez deux possibilités :<ul>
+<li>Sois vous passer par un hub/forge en ligne comme github permettant l'utilisation de svn. (plus simple)<br />
+</li>
+<li>Sois vous creer un serveur SVN (si vous disposez d'un VPS par exemple) en ce cas je vous laisse vous debrouiller ^^. et vous creer un depot sur celui ci.</li></ul>
+    Pour ce tuto on passera par github (certains ce demanderons alors pourquoi ne pas utiliser git alors, simplement parceque pour avoir git en cli sur windows c'est pas évident)<br />
+    Si vous n'en avez pas, creer vous un compte sur github. Une fois loggé vous aurez une barre en haut de votre page avec un petit "+" selectionné "repository"<br />
+    Choisissez un nom pour votre depot (ce nom remplacera "serveur" dans l'arboressance de la racine de Starbound)<br />
+    selectionner "Initialize this repository with a README" vous pourrez y mettre des instructions pour vos "clients" : tuto instalation, brèves, etc...<br />
+    selectionner creer en bas et vous atterrirez sur la page d'acceuil de votre depot nouvellement créer avec un fichier README.md votre fameux fichier lisez moi c'est un simple fichier texte. pour mettre un peu en forme la syntaxe c'est le MARKDOWN.<br />
+    Le plus important pour vous maintenant c'est de pouvoir ajouter des fichiers à votre dépots ^^. pour cela vous aurez d'abord besoin de l'importer sur votre ordi (dans la racine de starbound) mais avant ça il faut que vous puissiez le faire (via svn) <img src="../images/smilies/oeil.png.html" alt="Wink" title="Wink" class="smilie smilie_68" /><br />
+<br />
+<br />
+<span style="font-weight: bold;">Etape n°3 : Instalation de SVN :</span><br />
+Windows : TortoiseSVN.<br />
+    téléchargez <a href="http://tortoisesvn.net/" target="_blank">TortoiseSVN</a> qui est un client svn, il vous permettra de synchroniser votre dépot local avec votre dépot distant, et vice versa.<br />
+    Lancer l'instalation. Et sur cet écran <img src="http://i.imgur.com/oDtTkNX.png" border="0" alt="[Image: oDtTkNX.png]" /> séléctionné "command line client tool" (et pour vos utilisateurs, précisé leurs, c'est super super important sinon ce que l'on va faire ne seras pas simple, on passe par un .bat qui lui va ce charger de demander la synchro avec le dépot et si le cli n'est pas installé ça marchera pas)<br />
+Linux : Subversion.<br />
+    Ici ce seras très simple (linux oblige). ouvrez un terminal.<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>sudo apt-get install subversion</code></div></div>
+ voila c'est fait ^^.<br />
+    Pour les mega feignasse sous ubuntu : <a href="apt://subversion" target="_blank">Subversion</a><br />
+    Pour la couche graphique je vous invite à regarder par la : <a href="http://doc.ubuntu-fr.org/subversion#client_svn_graphique" target="_blank">http://doc.ubuntu-fr.org/subversion#clie..._graphique</a><br />
+MacOSX : à remplir (je n'y connais rien au mac et j'aime pas apple d'ailleur)<br />
+<br />
+<br />
+<span style="font-weight: bold;">Etape n°4 : Importer et remplir le dépot :</span><br />
+    Importation : cliquez sur subversion dans github en bas à droite <img src="http://i.imgur.com/HOuYibS.png" border="0" alt="[Image: HOuYibS.png]" />, copiez l'url donné.<br />
+    Ouvrez un terminal dans le dossier de la racine de starbound.<br />
+    Windows : <div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>svn import .&#92;nomdevotredepot URL_svn</code></div></div>
+    Linux/Mac <div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>svn import ./nomdevotredepot URL_svn</code></div></div>
+    exemple : <div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>svn import ./staria https://github.com/purexo/Staria</code></div></div>
+<br />
+<br />
+<span style="font-weight: bold;">Etape n°5 : Fonctionnement d'un depot :</span><br />
+    Il faut savoir que mettre des choses dans le depot local (dossier) ne suffi pas à ceux que ceux ci sois uploader sur le dépot distant/source.<br />
+    Il y a un principe d'indexation de fichier et seul les fichiers indexés serons envoyés sur le dépot source et cette oppération s'appelle un commit<br />
+    et l'opération qui consiste mettre à jours le dépot local à partir du dépot source s'appel un checkout (check : verification, out : en-dehors)<br />
+    Voila pour les grandes lignes de la gestion d'un depot (en tout cas ce que nous aurons besoins.)<br />
+    Ah oui, et concernant l'indexation, on peut/doit indexer les ajouts de dossiers/fichiers, les modifications, suppressions pour faire le commit.<br />
+<br />
+<br />
+<span style="font-weight: bold;">Etape n°6 : Gestion des mods :</span><br />
+    Rapel, on passe par un système de versionnage svn. impliquant le fait que les fichiers entre client et serveur peuvent être différent si le client le modifie après la mise à jours.<br />
+    Je ne vous explique le principe seulement avec tortoiseSVN<br />
+<br />
+    <span style="text-decoration: underline;">Modifications de fichiers :</span><br />
+    [*]suite à une modification de différents fichiers indéxés dans le dépot :<ul>
+<li>ce positionner sur la racine de starbound<br />
+</li>
+<li>clique droit &gt; SVN commit (les fichiers modifié serons coché par défaut pour l'upload vers le serveur.)<br />
+</li>
+<li>verifiez que tous les fichiers souhaités soient cochés.<br />
+</li>
+<li>OK</li></ul>
+    <br />
+    <span style="text-decoration: underline;">Ajout de fichiers (mods) :</span> (lors du premier commit un loggin et un mdp vous serons demandé, vous pourrez choisir de sauvegarder ces informations)<ul>
+<li>positionner les fichiers au bon endroit<br />
+</li>
+<li>sélectionnez les différents fichiers/dossiers à rajouter<br />
+</li>
+<li>clique-droit &gt; tortoiseSVN &gt; add (suivez les instructions, verifier que les fichiers cochés sont correcte, puis appuyez sur OK) (ceci met à jours localement les fichiers indexer pour le dépôt)<br />
+</li>
+<li>clique droit &gt; SVN commit (ceci va mettre a jours les fichiers indexés : modification, ajout, suppression ...)<br />
+</li>
+<li>OK</li></ul>
+    <br />
+    <span style="text-decoration: underline;">Suppression de fichier (mods) :</span><ul>
+<li>sélectionnez les différents fichiers/dossiers à supprimer<br />
+</li>
+<li>clique-droit &gt; tortoiseSVN &gt; delete (index la suppression /!\ supprime localement le fichier.)<br />
+</li>
+<li>clique droit &gt; SVN commit (ceci va mettre a jours les fichiers indexés : modification, ajout, suppression ...)<br />
+</li>
+<li>OK</li></ul>
+    <br />
+    Pensez que les fichiers que vous ajouter serons disponible pour tout le monde...<br />
+    Pour prendre en charge les nouveaux mods ou fichiers par le serveur starbound, il est impératif de redémarrer celui-ci (entrainant la mise à jours de son dépot local svn, donc la prise en charge des nouveau mods au redémarrage)<br />
+<br />
+<br />
+<span style="font-weight: bold;">Etape n°7 : fichiers cotés utilisateurs :</span><br />
+plaçons nous dans le dépot local<br />
+creer un dossier bootstrap,<br />
+copié le bootstrap.config de windows (il est identique à ceux de linux) sous le nom de bootstrap.config<br />
+copié le bootstrap.config de mac sous le nom de bootstrapmac.config<br />
+creer un fichier bootstrapsolo.config : // Remplacer "serveur" le nom de votre dépot (cf étape 4)<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>{<br />
+&nbsp;&nbsp;"assetSources" : [<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"../assets/packed.pak",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"../assets/music",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"../assets/user"<br />
+&nbsp;&nbsp;],<br />
+&nbsp;&nbsp;"modSource" : "../serveur/modsolo",<br />
+&nbsp;&nbsp;"storageDirectory" : "../serveur/savsolo"<br />
+}</code></div></div>
+creer un fichier bootstrapmulti.config : // Remplacer "serveur" le nom de votre dépot<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>{<br />
+&nbsp;&nbsp;"assetSources" : [<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"../assets/packed.pak",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"../assets/music",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"../assets/user"<br />
+&nbsp;&nbsp;],<br />
+&nbsp;&nbsp;"modSource" : "../serveur/modmulti",<br />
+&nbsp;&nbsp;"storageDirectory" : "../serveur/modmulti"<br />
+}</code></div></div>
+creer un fichier bootstrapmacsolo.config : <div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>{<br />
+&nbsp;&nbsp;"assetSources" : [<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"../../../assets/packed.pak",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"../../../assets/music",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"../../../assets/user"<br />
+&nbsp;&nbsp;],<br />
+&nbsp;&nbsp;"modSource" : "../../../serveur/modsolo",<br />
+&nbsp;&nbsp;"storageDirectory" : "../../../serveur/savsolo"<br />
+}</code></div></div>
+creer un fichier bootstrapmacmulti.config : <div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>{<br />
+&nbsp;&nbsp;"assetSources" : [<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"../../../assets/packed.pak",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"../../../assets/music",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"../../../assets/user"<br />
+&nbsp;&nbsp;],<br />
+&nbsp;&nbsp;"modSource" : "../../../serveur/modmulti",<br />
+&nbsp;&nbsp;"storageDirectory" : "../../../serveur/savmulti"<br />
+}</code></div></div>
+<br />
+Ces fichiers bootstrap permettrons via nos script (que nous allons bientot rediger) d'utiliser les bons dossiers de sauvegarde et de mods afin de bien séparer la configuration solo de la configuration multi.<br />
+Création des fichiers launcherwin.bat, launcherlinux.sh, launchermac.sh.<br />
+De mon coté j'avais fait un launcher pour le solo un launcher pour le multi mais c'est un peu chiant et ça fait trop de fichier. Notre objectif seras donc de creer un launcher en ligne de commande ou l'utilisateur choisira si il souhaite lancer son jeu pour jouer en multijoueur sur votre serveur ou en solo.<br />
+Pour windows : launcherwin.bat<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>:debut<br />
+echo /--------------------------------<br />
+echo | Pour jouer en solo : tapez '1'<br />
+echo | Pour jouer en multi : tapez '2'<br />
+echo | Pour quitter tapez 'q'<br />
+echo &#92;--------------------------------<br />
+<br />
+::command<br />
+set /p choix=<br />
+if %choix%==1 then goto Solo<br />
+if %choix%==2 then goto Multi<br />
+if %choix%==q then goto Quit<br />
+<br />
+::Si ce n'est pas 1, 2 ou q alors c'est que ce n'est pas bon<br />
+echo Votre choix n'est pas correcte %choix%<br />
+Goto debut<br />
+<br />
+:Solo<br />
+COPY bootstrap&#92;bootstrapsolo.config ..&#92;win32&#92;bootstrap.config<br />
+..&#92;win32&#92;launcher&#92;launcher.exe<br />
+COPY bootstrap&#92;bootstrap.config ..&#92;win32&#92;bootstrap.config<br />
+exit<br />
+<br />
+:Multi<br />
+svn update .&#92;<br />
+COPY bootstrap&#92;bootstrapmulti.config ..&#92;win32&#92;bootstrap.config<br />
+..&#92;win32&#92;launcher&#92;launcher.exe<br />
+COPY bootstrap&#92;bootstrap.config ..&#92;win32&#92;bootstrap.config<br />
+exit</code></div></div>
+<br />
+Pour linux : launcherlinux.sh (ne pas oublier le chmod +x sur les .sh) : <div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>if [ &#36;# == "0" ]<br />
+then<br />
+&nbsp;&nbsp;&nbsp;&nbsp;echo préciser si vous avez un linux 64 bit ou 32 bit (tapez 32 ou 64), dans le doute tapez 32.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;read OS<br />
+&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;case &#36;OS in<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;32);;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;64);;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*) echo saisie incorecte choisissez entre 32 ou 64<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sh launcherlinux.sh<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; exit<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;esac<br />
+else <br />
+&nbsp;&nbsp;&nbsp;&nbsp;OS = &#36;#<br />
+fi<br />
+<br />
+echo /--------------------------------<br />
+echo | Pour jouer en solo : tapez '1'<br />
+echo | Pour jouer en multi : tapez '2'<br />
+echo | Pour quitter tapez 'q'<br />
+echo &#92;--------------------------------<br />
+echo Choisissez votre option :<br />
+read choix<br />
+<br />
+case &#36;choix in<br />
+&nbsp;&nbsp;&nbsp;&nbsp;1)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cp bootstrap/bootstrapsolo.config ../linux`&#36;OS`/bootstrap.config<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;../linux`&#36;OS`/starbound<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cp bootstrap/bootstrap.config ../linux`&#36;OS`/bootstrap.config ;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;2)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;svn update ./<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cp bootstrap/bootstrapmulti.config ../linux`&#36;OS`/bootstrap.config<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;../linux`&#36;OS`/starbound<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cp bootstrap/bootstrap.config ../linux`&#36;OS`/bootstrap.config ;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;q)&nbsp;&nbsp;exit ;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;*) echo saisie incorecte<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sh launcherlinux.sh<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; exit<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ;;<br />
+esac</code></div></div>
+<br />
+Pour Mac : launchermac.sh (ne pas oublier le chmod +x sur les .sh) : <div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>echo "/--------------------------------"<br />
+echo "| Pour jouer en solo : tapez '1' "<br />
+echo "| Pour jouer en multi : tapez '2'"<br />
+echo "| Pour quitter tapez 'q'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "<br />
+echo "&#92;--------------------------------"<br />
+echo Choisissez votre option :<br />
+read choix<br />
+<br />
+case &#36;choix in<br />
+&nbsp;&nbsp;&nbsp;&nbsp;1)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cp bootstrap/bootstrapmacsolo.config ../Starbound.app/Contents/MacOS/bootstrap.config<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ../Starbound.app/Contents/MacOS/starbound<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cp bootstrap/bootstrapmac.config ../Starbound.app/Contents/MacOS/bootstrap.config<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;2)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; svn update ./<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cp bootstrap/bootstrapmacmulti.config ../Starbound.app/Contents/MacOS/bootstrap.config<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ../Starbound.app/Contents/MacOS/starbound<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cp bootstrap/bootstrapmac.config ../Starbound.app/Contents/MacOS/bootstrap.config<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;q) <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; exit<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ;;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;*) <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; echo saisie incorecte<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sh launchermac.sh<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; exit<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ;;<br />
+esac</code></div></div>
+<br />
+Conclusion :<br />
+Voila vous avec maintenant un depot svn pouvant heberger des mods pour votre serveur.<br />
+Vous devriez vous retrouver avec une arboressance semblable à l'étape 1.<br />
+Je reste à l'écoute pour vous conseiller si besoin, n'hesitez pas à faire des suggestions ou me corriger si j'ai fais des fautes (c'est pas impossible)<br />
+N'hésitez pas à adapté cette solution à vos besoins et partager votre experience dans les commentaires.<br />
+Le but de cette mise en place et de faire en sorte que les utilisateurs et une config adapté pour votre serveur ainsi qu'une sauvegarde pour celui-ci, mais gardez en tête que nous ne pouvons rien faire pour l'empecher d'ajouter des mods, d'importer / exporter ses sauvegardes et ainsi "tricher". Mais c'est déja un bon début.<br />
+La mise en place est certe un peu longue mais une fois ceci fait, il vous seras très simple d'ajouter/retirer des mods et ceux de manière totalement transparente pour l'utilisateur qui lui n'auras qu'a lancer le script et choisir avec quelle config il veut jouer (et par conséquent mettre à jours les mods avant de lancer le jeu, automatiquement ^^)<br />
+<br />
+<span style="text-decoration: underline;">Les utilisateurs : "tu nous as pas dit ce qu'ils devaient faire eux." :</span><br />
+ça me paraissait évident. ils ont simplement besoin de faire l'étape 3 (instalation d'un client svn) et l'étape 4 (import du dossier svn). ensuite ils n'auront qu'a lancer le launcher adapté ce trouvant dans le depot et ça fonctionnera tout seul.<br />
+<br />
+<span style="text-decoration: underline;">Et pour le serveur starbound ? :</span><br />
+Comme pour l'utilisateur : étape 3 et 4.<br />
+mais prenons en compte que le serveur ne fonctionnera que pour une config : la config serveur.<br />
+Donc prenez le bootstrapmulti.config adapté à votre OS serveur, collez le sous le nom de bootstrap.config au lieu adapté.<br />
+Et creez un petit script qui mettra a jours le svn, puis qui lancera le serveur.<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>svn update chemindevotredepotlocal<br />
+chemindel’exécutabledestarboundserveur</code></div></div>
+Et voila vous n'avez plus qu'a lancer ce script pour démarer le serveur avec vos mods a jours ^^.<br />
+<br />
+PS : Kiwii si tu passe par la, pourrais tu épingler ce topic qui pourrais être utile je pense.<br />
+Merci Kiwii.<br />
+<br />
+Vous pourrez voir ici un modèle/exemple de mise en place (finalement j'ai utilisé git et non svn car l'import svn avait une arborescence différente)<br />
+<a href="https://github.com/purexo/Staria" target="_blank">Ma mise en place pour staria</a></div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=1.html">OniriCorpe</a></h2></div><div class="dateline">16-03-2014, 04h49</div>
+</div>
+<div class="message"><span style="color: red;">* OniriCorpe passe par là.</span><br />
+<span style="color: red;">* OniriCorpe épingle.</span></div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=4.html">Biscotteman</a></h2></div><div class="dateline">16-03-2014, 12h18</div>
+</div>
+<div class="message">Woh, c'est compliqué :o<br />
+Perso j'ai juste fait un ptit .bat qui synchronise un dossier FTP avec le dossier local, via un système simple de vérification (un .txt donnant la version du modpack).<br />
+M'enfin après y'a sans doute moins de fonctionnalités que sur ton truc ^^</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=77.html">Purexo</a></h2></div><div class="dateline">16-03-2014, 12h47</div>
+</div>
+<div class="message">C'est vrai que ça peut paraitre complexe, mais pour l'utilisateur c'est excessivement simple ^^.<br />
+Et c'est aussi simple pour l'administrateur l'ajout/suppression de mods ce fait en quelques cliques.<br />
+De plus l'utilisation de svn permet évidement le versionnage de fichier automatique, différentes branches.<br />
+<br />
+Le système mis en place permet de créer autant de config distincte que nécessaire. tout en gardant une config vierge si le jeu est lancé à partir de steam. Apres c'est vrai que un simple modpack via FTP peut faire plus ou moins pareil ^^.</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=21.html">Brockway</a></h2></div><div class="dateline">16-03-2014, 23h34</div>
+</div>
+<div class="message">J'admire le travail ! Néanmoins un partage du dernier modpack dans les news revient plus ou moins au même, et je dois l'avouer marche très bien.<br />
+<br />
+Notons aussi que les devs nous préparent une synchro automatique, (le serveur enverra les mods au client) pour bientôt.</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=1.html">OniriCorpe</a></h2></div><div class="dateline">10-05-2014, 22h06</div>
+</div>
+<div class="message">Pourquoi le dire ?<br />
+Enfin pourquoi le dire de cette façon surtout...<br />
+Pour moi ça peut être assimilé à du flood.</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=4.html">Biscotteman</a></h2></div><div class="dateline">11-05-2014, 12h08</div>
+</div>
+<div class="message">De quoi ? :o</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=1.html">OniriCorpe</a></h2></div><div class="dateline">11-05-2014, 23h24</div>
+</div>
+<div class="message">Un message supprimé, qui disait « J'ai absolument rien compris... ».</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=4.html">Biscotteman</a></h2></div><div class="dateline">12-05-2014, 19h08</div>
+</div>
+<div class="message">Ah, ok ^^'</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=751.html">Kunsachu</a></h2></div><div class="dateline">14-05-2014, 23h50</div>
+</div>
+<div class="message">C'est pas moi ^^" (quoi que...)</div>
+</div>
+</div>
+<div class="navigation"><a href="index.php.html">Starbound-Fr | Forum</a> &gt; <a href="index.php%3Fforum-13.html">Multijoueur</a> &gt; <a href="index.php%3Fforum-15.html">Problèmes et Aide</a> &gt; TUTO - Synchronisation de mods entre le serveur et ces utilisateurs</div>
+</div>
+<div id="footer">
+Moteur <a href="http://www.mybb.com">MyBB</a>, &copy; 2002-2016 <a href="http://www.mybb.com">MyBB Group</a>
+</div>
+</body>
+</html>

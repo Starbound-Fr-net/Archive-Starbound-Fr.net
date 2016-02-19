@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title><![CDATA[Starbound-Fr | Forum - Site & Forum]]></title>
+		<link>http://starbound-fr.net/forum/</link>
+		<description><![CDATA[Starbound-Fr | Forum - http://starbound-fr.net/forum]]></description>
+		<pubDate>Thu, 18 Feb 2016 17:59:32 +0000</pubDate>
+		<generator>MyBB</generator>
+		<item>
+			<title><![CDATA[Le gros blackout de PH]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1348</link>
+			<pubDate>Sun, 19 Jul 2015 02:38:44 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1348</guid>
+			<description><![CDATA[Pour en discuter si vous voulez. <img src="http://starbound-fr.net/forum/images/smilies/calim.gif" alt="Calimero" title="Calimero" class="smilie smilie_86" />]]></description>
+			<content:encoded><![CDATA[Pour en discuter si vous voulez. <img src="http://starbound-fr.net/forum/images/smilies/calim.gif" alt="Calimero" title="Calimero" class="smilie smilie_86" />]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Grosse optimisation :)]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1126</link>
+			<pubDate>Sat, 16 Aug 2014 02:14:11 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1126</guid>
+			<description><![CDATA[J'ai pas mal bossé sur l'optimisation du site ce soir, en particulier sur la mise en cache.<br />
+<br />
+<a href="http://up.oniricorpe.eu/i/1608041140.png" target="_blank">J'ai testé le site</a> sur <a href="http://tools.pingdom.com/fpt/" target="_blank">Pingdon</a> et on a actuellement un score de 94/100, ça reste honorable. :)<br />
+<br />
+J'ai voulu comparer avec notre « principal concurrent », qui a eu 64/100 <a href="http://up.oniricorpe.eu/i/1608041013.png" target="_blank">lorsque je l'ai testé</a>.<br />
+On fait comme on peut, après tout. <img src="http://starbound-fr.net/forum/images/smilies/calim.gif" alt="Calimero" title="Calimero" class="smilie smilie_86" /><br />
+<br />
+Donc normalement, le site devrait être plus rapide chez tout le monde ! <img src="http://starbound-fr.net/forum/images/smilies/mwahahaha.png" alt=":D" title=":D" class="smilie smilie_64" /><br />
+<br />
+Ah et c'est cool, on est repassés dans le vert sur WoT ! &lt;3]]></description>
+			<content:encoded><![CDATA[J'ai pas mal bossé sur l'optimisation du site ce soir, en particulier sur la mise en cache.<br />
+<br />
+<a href="http://up.oniricorpe.eu/i/1608041140.png" target="_blank">J'ai testé le site</a> sur <a href="http://tools.pingdom.com/fpt/" target="_blank">Pingdon</a> et on a actuellement un score de 94/100, ça reste honorable. :)<br />
+<br />
+J'ai voulu comparer avec notre « principal concurrent », qui a eu 64/100 <a href="http://up.oniricorpe.eu/i/1608041013.png" target="_blank">lorsque je l'ai testé</a>.<br />
+On fait comme on peut, après tout. <img src="http://starbound-fr.net/forum/images/smilies/calim.gif" alt="Calimero" title="Calimero" class="smilie smilie_86" /><br />
+<br />
+Donc normalement, le site devrait être plus rapide chez tout le monde ! <img src="http://starbound-fr.net/forum/images/smilies/mwahahaha.png" alt=":D" title=":D" class="smilie smilie_64" /><br />
+<br />
+Ah et c'est cool, on est repassés dans le vert sur WoT ! &lt;3]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Transfert du nom de domaine]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1113</link>
+			<pubDate>Mon, 21 Jul 2014 08:31:08 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1113</guid>
+			<description><![CDATA[Salut,<br />
+<br />
+Hier j'ai transféré le nom de domaine du site (starbound-fr.net, pour les ignorants <img src="http://starbound-fr.net/forum/images/smilies/pussycat.png" alt=":3" title=":3" class="smilie smilie_83" /> ) chez <a href="https://www.gandi.net/" target="_blank">gandi.net</a>.<br />
+<br />
+On peut déjà voir que l'accès au site est un poil plus rapide, sans toucher au serveur qui soutient le site.<br />
+Comme quoi, tout compte. Et j'ai bien fait de le transférer là bas.<br />
+<br />
+Néanmoins, le site est resté inaccessible une bonne partie de la soirée d'hier, et ce, à cause d'une petite faute de frappe. Je vous prie de m'excuser.<br />
+<br />
+Allez, c'est tout pour aujourd'hui.<br />
+<br />
+Bonnes visites sur Starbound-Fr.net !]]></description>
+			<content:encoded><![CDATA[Salut,<br />
+<br />
+Hier j'ai transféré le nom de domaine du site (starbound-fr.net, pour les ignorants <img src="http://starbound-fr.net/forum/images/smilies/pussycat.png" alt=":3" title=":3" class="smilie smilie_83" /> ) chez <a href="https://www.gandi.net/" target="_blank">gandi.net</a>.<br />
+<br />
+On peut déjà voir que l'accès au site est un poil plus rapide, sans toucher au serveur qui soutient le site.<br />
+Comme quoi, tout compte. Et j'ai bien fait de le transférer là bas.<br />
+<br />
+Néanmoins, le site est resté inaccessible une bonne partie de la soirée d'hier, et ce, à cause d'une petite faute de frappe. Je vous prie de m'excuser.<br />
+<br />
+Allez, c'est tout pour aujourd'hui.<br />
+<br />
+Bonnes visites sur Starbound-Fr.net !]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Proposez des sondages à mettre sur le blog]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1045</link>
+			<pubDate>Mon, 12 May 2014 19:27:12 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1045</guid>
+			<description><![CDATA[Salut les gredins !<br />
+<br />
+Alors moi et mes sbires, on en chie pour trouver de nouveaux sondages à mettre sur le blog, donc j'pense que ça s'rait bien d'vous donner la possibilité de proposer. :)<br />
+<br />
+Allez, j'vous donne la liste de ceux qui sont déjà passés.<br />
+(J'ai viré celles du genre « Quelle race jouerez-vous à la sortie du jeu ? »)<br />
+<br />
+<blockquote><cite>Citation :</cite>Comment avez-vous connu le site ?<br />
+Êtes-vous interressé par le forum ?<br />
+Avez-vous parlé du site à votre entourage ?<br />
+Espérez-vous une version "boite" du jeu ?<br />
+Nous suivez-vous sur les réseaux sociaux ?<br />
+Quel est votre âge ?<br />
+Trouvez-vous la formule actuelle du site correcte ?<br />
+Bonnes vacances ? :3<br />
+Pensez-vous que le système de peinture ajoute de la profondeur au gameplay ?<br />
+Pensez vous que la stratégie de communication de ChuckleFish est adaptée ?<br />
+Considérez-vous que le staff bosse suffisamment sur le site ? <span style="font-size: x-small;">(Et les gens étaient contents :333)</span><br />
+Êtes-vous inscrit sur notre forum ?<br />
+Pensez-vous que ce module de sondage hebdomadaire est utile?<br />
+Pour quelles raisons n'êtes vous pas inscrit sur notre forum ?<br />
+Pas de sondage, ce sont les vacances :3<br />
+Il fait beau chez vous ?<br />
+Utilisez-vous les flux RSS ?<br />
+Avec quel système d'exploitation jouerez-vous à Starbound ?<br />
+Avec quel moyen de payement envisagez-vous d'acheter Starbound ?<br />
+Êtes-vous satisfait de la RoadMap ?<br />
+Avez-vous pré-commandé Starbound ?<br />
+Appréciez-vous les soundtracks du jeu ?<br />
+Quelle est votre couleur préférée des chiffres de l'alphabet ?<br />
+Voudriez-vous que des events soient organisés ?<br />
+Serez-vous intéréssés par le modage du jeu dès sa sortie ?<br />
+Que pensez-vous du nouveau fond d'écran ?<br />
+Et un ! Et deux !<br />
+Le nombre des commentaires par article qui est affiché sur l'accueil est-il utile pour vous ?<br />
+Les Novakids ne seront normalement pas disponibles lors de la bêta, cela vous semble-t-il dommageable ?<br />
+Voulez-vous un nouveau sondage ?<br />
+Êtes-vous content du travail des nouveaux rédacteurs ?<br />
+Après avoir imaginé le meilleur pour Starbound, avez-vous peur d'être finalement déçus par le jeu ?<br />
+Que pensez-vous de l'“étiquetage“ du vaisseau ?<br />
+À partir de quel stade de la bêta jouerez-vous au jeu ?<br />
+« Si ça fait mal, c'est que ça fait du bien. »<br />
+Avez-vous rencontré des bugs dans Starbound?<br />
+Avez-vous installé des mods ?<br />
+Le jeu s'exécute-t-il correctement chez vous ?<br />
+Jouez-vous encore au jeu ou attendez-vous la prochaine mise à jour qui fera la dernière suppression des parties ?<br />
+Comment avez-vous connu Starbound ?<br />
+Voudriez-vous que maxigregrze reprenne la chronique de modding ?<br />
+Hâte de pouvoir agrandir votre vaisseau ?</blockquote>
+]]></description>
+			<content:encoded><![CDATA[Salut les gredins !<br />
+<br />
+Alors moi et mes sbires, on en chie pour trouver de nouveaux sondages à mettre sur le blog, donc j'pense que ça s'rait bien d'vous donner la possibilité de proposer. :)<br />
+<br />
+Allez, j'vous donne la liste de ceux qui sont déjà passés.<br />
+(J'ai viré celles du genre « Quelle race jouerez-vous à la sortie du jeu ? »)<br />
+<br />
+<blockquote><cite>Citation :</cite>Comment avez-vous connu le site ?<br />
+Êtes-vous interressé par le forum ?<br />
+Avez-vous parlé du site à votre entourage ?<br />
+Espérez-vous une version "boite" du jeu ?<br />
+Nous suivez-vous sur les réseaux sociaux ?<br />
+Quel est votre âge ?<br />
+Trouvez-vous la formule actuelle du site correcte ?<br />
+Bonnes vacances ? :3<br />
+Pensez-vous que le système de peinture ajoute de la profondeur au gameplay ?<br />
+Pensez vous que la stratégie de communication de ChuckleFish est adaptée ?<br />
+Considérez-vous que le staff bosse suffisamment sur le site ? <span style="font-size: x-small;">(Et les gens étaient contents :333)</span><br />
+Êtes-vous inscrit sur notre forum ?<br />
+Pensez-vous que ce module de sondage hebdomadaire est utile?<br />
+Pour quelles raisons n'êtes vous pas inscrit sur notre forum ?<br />
+Pas de sondage, ce sont les vacances :3<br />
+Il fait beau chez vous ?<br />
+Utilisez-vous les flux RSS ?<br />
+Avec quel système d'exploitation jouerez-vous à Starbound ?<br />
+Avec quel moyen de payement envisagez-vous d'acheter Starbound ?<br />
+Êtes-vous satisfait de la RoadMap ?<br />
+Avez-vous pré-commandé Starbound ?<br />
+Appréciez-vous les soundtracks du jeu ?<br />
+Quelle est votre couleur préférée des chiffres de l'alphabet ?<br />
+Voudriez-vous que des events soient organisés ?<br />
+Serez-vous intéréssés par le modage du jeu dès sa sortie ?<br />
+Que pensez-vous du nouveau fond d'écran ?<br />
+Et un ! Et deux !<br />
+Le nombre des commentaires par article qui est affiché sur l'accueil est-il utile pour vous ?<br />
+Les Novakids ne seront normalement pas disponibles lors de la bêta, cela vous semble-t-il dommageable ?<br />
+Voulez-vous un nouveau sondage ?<br />
+Êtes-vous content du travail des nouveaux rédacteurs ?<br />
+Après avoir imaginé le meilleur pour Starbound, avez-vous peur d'être finalement déçus par le jeu ?<br />
+Que pensez-vous de l'“étiquetage“ du vaisseau ?<br />
+À partir de quel stade de la bêta jouerez-vous au jeu ?<br />
+« Si ça fait mal, c'est que ça fait du bien. »<br />
+Avez-vous rencontré des bugs dans Starbound?<br />
+Avez-vous installé des mods ?<br />
+Le jeu s'exécute-t-il correctement chez vous ?<br />
+Jouez-vous encore au jeu ou attendez-vous la prochaine mise à jour qui fera la dernière suppression des parties ?<br />
+Comment avez-vous connu Starbound ?<br />
+Voudriez-vous que maxigregrze reprenne la chronique de modding ?<br />
+Hâte de pouvoir agrandir votre vaisseau ?</blockquote>
+]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[[Concours] Gagnez votre copie de Starbound !]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=480</link>
+			<pubDate>Tue, 04 Jun 2013 20:14:54 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=480</guid>
+			<description><![CDATA[<span style="font-size: x-large;">Lisez bien les règles sous l'image !</span><br />
+<span style="font-size: large;">Si le lien de votre présentation est manquant, c'est éliminatoire !</span><br />
+<br />
+<div style="text-align: center;"><img src="http://starbound-fr.net/wp-content/uploads/2013/06/Random-Contest-SB-FR.png" border="0" alt="[Image: Random-Contest-SB-FR.png]" /></div>
+<br />
+<span style="font-size: x-large;">Pré-requis :</span><ul>
+<li><span style="font-weight: bold;">Être inscrit</span> sur notre forum. (<a href="http://starbound-fr.net/forum/member.php?action=register" target="_blank">Page d'inscription.</a>)<br />
+</li>
+<li><span style="font-weight: bold;">S'être présenté</span> convenablement sur le forum, et <span style="text-decoration: underline;"><span style="font-weight: bold;">mettre le lien de la présentation dans votre message de participation</span></span>. (<a href="http://starbound-fr.net/forum/forum-5.html" target="_blank">Section des présentations.</a>)<br />
+</li>
+<li>Écris <span style="font-weight: bold;">un joli message</span> accompagnant ton message, traduisant le bonheur que tu éprouverais si tu gagnais, à quel point tu aimes le jeu.<br />
+</li>
+<li>Gardes à l'esprit que <span style="text-decoration: underline;">seul le premier message</span> que tu posteras sur cette discution sera compté comme une participation, chaque message dans les normes sera listé hors du forum pour un comptage loyal.<br />
+</li></ul>
+<ul>
+<li>Vous avez jusqu'au mercredi 19 juin 2013, inclu, pour participer !<br />
+</li></ul>
+<br />
+Il n'y a pour le moment qu'un seul lot, offert par Cailbur.<br />
+Vous pouvez vous aussi offrir des packs pour augmenter le nombre de gagnants ! :)<br />
+<br />
+<span style="font-weight: bold;">Bonne chance !</span><br />
+<br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <br />
+n° de tirage - #n° message - Pseudo<br />
+<br />
+1 #2 ShuShien (pas de présentation linkée)<br />
+2 #3 BleuDiamant<br />
+3 #4 JurassicBastoo<br />
+4 #5 ShanerS317<br />
+5 #6 Lyra62 (pas de présentation linkée)<br />
+6 #8 ql28<br />
+7 #9 Azergame<br />
+8 #10 Nigth<br />
+9 #11 Soron (pas de présentation linkée)<br />
+10 #12 Magicman<br />
+11 #14 Dimion<br />
+12 #16 Sven<br />
+13 #17 Stryke12 (pas de présentation linkée)<br />
+14 #19 XantoFighter<br />
+15 #20 Aru<br />
+16 #21 elouan<br />
+17 #22 Lord-Penguin<br />
+18 #23 Zackombre<br />
+19 #24 Ugarimpty<br />
+20 #27 Tienosim<br />
+21 #28 spiwit<br />
+22 #29 SkyFoux<br />
+23 #30 seidan<br />
+24 #31 Equinokt<br />
+25 #39 Dreygon<br />
+26 #40 Loris45<br />
+27 #41 tartiflette<br />
+28 #44 Haynator<br />
+29 #46 Karkao<br />
+30 #47 Indoe<br />
+31 #53 Pouzee<br />
+32 #54 Makiavel<br />
+33 #55 BlindEye<br />
+<br />
+<br />
+Cette liste est bien au chaud sur mon PC, c'est pour montrer si elle est à jour.<br />
+<br />
+        </div>
+    </div>
+</div>]]></description>
+			<content:encoded><![CDATA[<span style="font-size: x-large;">Lisez bien les règles sous l'image !</span><br />
+<span style="font-size: large;">Si le lien de votre présentation est manquant, c'est éliminatoire !</span><br />
+<br />
+<div style="text-align: center;"><img src="http://starbound-fr.net/wp-content/uploads/2013/06/Random-Contest-SB-FR.png" border="0" alt="[Image: Random-Contest-SB-FR.png]" /></div>
+<br />
+<span style="font-size: x-large;">Pré-requis :</span><ul>
+<li><span style="font-weight: bold;">Être inscrit</span> sur notre forum. (<a href="http://starbound-fr.net/forum/member.php?action=register" target="_blank">Page d'inscription.</a>)<br />
+</li>
+<li><span style="font-weight: bold;">S'être présenté</span> convenablement sur le forum, et <span style="text-decoration: underline;"><span style="font-weight: bold;">mettre le lien de la présentation dans votre message de participation</span></span>. (<a href="http://starbound-fr.net/forum/forum-5.html" target="_blank">Section des présentations.</a>)<br />
+</li>
+<li>Écris <span style="font-weight: bold;">un joli message</span> accompagnant ton message, traduisant le bonheur que tu éprouverais si tu gagnais, à quel point tu aimes le jeu.<br />
+</li>
+<li>Gardes à l'esprit que <span style="text-decoration: underline;">seul le premier message</span> que tu posteras sur cette discution sera compté comme une participation, chaque message dans les normes sera listé hors du forum pour un comptage loyal.<br />
+</li></ul>
+<ul>
+<li>Vous avez jusqu'au mercredi 19 juin 2013, inclu, pour participer !<br />
+</li></ul>
+<br />
+Il n'y a pour le moment qu'un seul lot, offert par Cailbur.<br />
+Vous pouvez vous aussi offrir des packs pour augmenter le nombre de gagnants ! :)<br />
+<br />
+<span style="font-weight: bold;">Bonne chance !</span><br />
+<br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <br />
+n° de tirage - #n° message - Pseudo<br />
+<br />
+1 #2 ShuShien (pas de présentation linkée)<br />
+2 #3 BleuDiamant<br />
+3 #4 JurassicBastoo<br />
+4 #5 ShanerS317<br />
+5 #6 Lyra62 (pas de présentation linkée)<br />
+6 #8 ql28<br />
+7 #9 Azergame<br />
+8 #10 Nigth<br />
+9 #11 Soron (pas de présentation linkée)<br />
+10 #12 Magicman<br />
+11 #14 Dimion<br />
+12 #16 Sven<br />
+13 #17 Stryke12 (pas de présentation linkée)<br />
+14 #19 XantoFighter<br />
+15 #20 Aru<br />
+16 #21 elouan<br />
+17 #22 Lord-Penguin<br />
+18 #23 Zackombre<br />
+19 #24 Ugarimpty<br />
+20 #27 Tienosim<br />
+21 #28 spiwit<br />
+22 #29 SkyFoux<br />
+23 #30 seidan<br />
+24 #31 Equinokt<br />
+25 #39 Dreygon<br />
+26 #40 Loris45<br />
+27 #41 tartiflette<br />
+28 #44 Haynator<br />
+29 #46 Karkao<br />
+30 #47 Indoe<br />
+31 #53 Pouzee<br />
+32 #54 Makiavel<br />
+33 #55 BlindEye<br />
+<br />
+<br />
+Cette liste est bien au chaud sur mon PC, c'est pour montrer si elle est à jour.<br />
+<br />
+        </div>
+    </div>
+</div>]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[À nos 6 mois !]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=299</link>
+			<pubDate>Thu, 24 Jan 2013 23:00:09 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=299</guid>
+			<description><![CDATA[Bonjour,<br />
+<br />
+En ce jour de 25 janvier 2013, j'ai l'intention de fêter les six mois de cet amas de bits qu'est Starbound-Fr.net !<br />
+Six mois, en soit ce n'est rien, pas un véritable anniversaire.<br />
+Néanmoins j'ai tenu à marqué cela en mettant un logo spécial pendant le week-end.<br />
+<img src="http://starbound-fr.net/images/logo_6mois.png" border="0" alt="[Image: logo_6mois.png]" /><br />
+<br />
+J'vais faire le point sur l'avancée du site depuis son début :)<br />
+<br />
+Je tiens à remercier Hapistorique, sans lui et ses magnifiques idées de rassemblement de personnes ne souhaitant que rester dans leur communauté respectives, nous n'aurions jamais lancé ce site, qui est devenu, maintenant la référence francophone sur Starbound ! :)<br />
+<br />
+Je remercie tous ceux qui ont contribué à Starbound-Fr.net alors qu'il n'était qu'au stade de projet ! <img src="http://starbound-fr.net/forum/images/smilies/mwahahaha.png" alt=":D" title=":D" class="smilie smilie_64" /><br />
+Sans eux je n'aurai pas eu la motivation que j'ai en ce jour pour maintenir le site et son équipe si soudée et en forme !<br />
+<br />
+Parmi les gens présents au premier jour, certains se sont démarqués, comme Silverthedragon, LetalShade, Horyzone, ql28, Biscotteman, Christianx4 et d'autres...<br />
+Il se peut que j'en ai oublié, ça remonte à assez loin et je ne faisait pas forcément attention à l'époque ^^'<br />
+<br />
+Petit bonus, un screen du thème originel avec les articles actuels <img src="http://starbound-fr.net/forum/images/smilies/gargl.png" alt="Gargl" title="Gargl" class="smilie smilie_80" /><br />
+<img src="http://puu.sh/1S6I0" border="0" alt="[Image: 1S6I0]" /><br />
+<br />
+Les membres fondateurs de starbound.fr étant présents avec nous (ql28 et horyzone m'avaient rejoint en tant que co-administrateurs peut après, 2/3 jours maximum <img src="http://starbound-fr.net/forum/images/smilies/happehz.png" alt="Happehz" title="Happehz" class="smilie smilie_53" /> ) ce qui nous a permis de ne pas repartir du zéro absolu...<br />
+Nous avions aussi eu un très bon soutien des membres de Staria, premier projet de serveur Starbound francophone, déjà pas mal soudé, qui avait été fondé en prenant la base de Terraride (ex-serveur Terraria) par Horyzone, à qui j'avais proposé mon aide pour la mise en place d'un site web.<br />
+<br />
+Après quelques jours, nous avons mis en place l'ancêtre du thème actuel, que j'ai quasiment entièrement modifié afin de correspondre aux besoins de la communauté. Le forum à ensuite ouvert ses portes au public, après une grosse galère à mettre en place... -_-<br />
+Il fût très vite hyper-actif. Mais pas un nid à flood pour autant ! La communauté était mature et l'est restée :)<br />
+<br />
+Plus tard, nous avions conclu un partenariat avec Dobe Ophi, faisant d'excellentes vidéos sur le développement de Starbound. Au début il était réticent vis-à-vis de notre site, car deux communautés alors que le jeu était loin d'être sorti à cette période... à première vue s'pas tip-top.<br />
+Suite à l'explication du pourquoi du pars'que (dans ta face ukhdfskcq&lt;es&lt;dxfxsdlfcx gdf!) il fût donc accordé un partenariat donc. Ce qui "boosta" nos visiteurs, faisant ainsi un peu mieux connaitre et référencer notre site nouvellement né.<br />
+<br />
+Le bébé, devenu gros, a su se démarquer et attirer les regards vers lui, plusieurs sites du réseau mondial ont parlé de lui, nous en fûmes fier.<br />
+<br />
+Un jour, un nouveau membre fit sa candidature en tant que rédacteur. Sa personnalité et son dévouement nous ont par la suite étés très précieux, il est à présent modérateur sur le forum, aux côtés de Geckoala. Il s'agit bien sûr de Klemar, très vite devenu indispensable !<br />
+<br />
+Plus tard, sur l'IRC, un certain Yayap13 fit- son entrée. Proposant un partenariat entre notre communauté et la sienne : Cubeworld-France.net<br />
+Retissant au début, puis par la suite accepté.<br />
+<br />
+Nous sommes actuellement 6 mois -jour pour jour- après l'ouverture de Starbound-Fr.net, et, je suis fier de la tournure de cet univers !<br />
+<br />
+Le pari était fortement risqué, starbound.fr étant très bien implanté à ce moment là, c'était un suicide... Mais la détermination de tous ceux voulant un endroit libre et mature où s'exprimer entre fans de l'avant-Starbound à été déterminante !<br />
+Grâce à vous tous, même ma personnalité à changée, mais ça c'est autre chose... <img src="http://starbound-fr.net/forum/images/smilies/uh.png" alt="Uh ?" title="Uh ?" class="smilie smilie_84" /><br />
+Le forum compte à l'heure de publication de ce message :<ul>
+<li>146 membres enregistrés<br />
+</li>
+<li>5,278 messages<br />
+</li>
+<li>276 discussions<br />
+</li>
+<li>35,36 messages postés par jour en moyenne<br />
+</li>
+<li>0,98 nouveaux membres par jour</li></ul>
+<br />
+Quant au site :<ul>
+<li>59 Articles<br />
+</li>
+<li>738 Commentaires<br />
+</li>
+<li>Toujours au minimum plus de 1000 vues par jour, même les jours les plus faibles, et ce depuis plusieurs mois, et cela augmente.<br />
+</li>
+<li>Des dizaines de membres actifs tous les jours !</li></ul>
+<br />
+Cela peut paraître peu pur certains, peut être même pour le site "concurrent", car il est possible qu'il reçoive un peu plus de visites, mais c'est déjà bien au delà de mes espérances !! Je n'ai qu'une chose à vous dire.<br />
+<span style="font-weight: bold;">MERCI POUR TOUT.</span><br />
+<br />
+Six mois, ce n'est qu'une demie-année, et je pense que la route que nous suivons, qui était jadis un vulgaire chemin cahoteux deviendras une belle autoroute sans péage. (C'est surtout pour dire qu'il n'y aura pas de relâchement et que nous ne vous demanderons assurément rien en retour. Même pas de ne pas bloquer ou cliquer sur les pubs qui reviendrons courant février, ici vous êtes tous libres de vos choix, tant que vous êtes mature et amiables.)<br />
+<br />
+Franchement, je vous remercie tous du fond du cœur pour m'avoir aidé à ré-écrire le début de l'histoire francophone du jeu Starbound !<br />
+<br />
+Et vous, quel est votre point de vue ? :)]]></description>
+			<content:encoded><![CDATA[Bonjour,<br />
+<br />
+En ce jour de 25 janvier 2013, j'ai l'intention de fêter les six mois de cet amas de bits qu'est Starbound-Fr.net !<br />
+Six mois, en soit ce n'est rien, pas un véritable anniversaire.<br />
+Néanmoins j'ai tenu à marqué cela en mettant un logo spécial pendant le week-end.<br />
+<img src="http://starbound-fr.net/images/logo_6mois.png" border="0" alt="[Image: logo_6mois.png]" /><br />
+<br />
+J'vais faire le point sur l'avancée du site depuis son début :)<br />
+<br />
+Je tiens à remercier Hapistorique, sans lui et ses magnifiques idées de rassemblement de personnes ne souhaitant que rester dans leur communauté respectives, nous n'aurions jamais lancé ce site, qui est devenu, maintenant la référence francophone sur Starbound ! :)<br />
+<br />
+Je remercie tous ceux qui ont contribué à Starbound-Fr.net alors qu'il n'était qu'au stade de projet ! <img src="http://starbound-fr.net/forum/images/smilies/mwahahaha.png" alt=":D" title=":D" class="smilie smilie_64" /><br />
+Sans eux je n'aurai pas eu la motivation que j'ai en ce jour pour maintenir le site et son équipe si soudée et en forme !<br />
+<br />
+Parmi les gens présents au premier jour, certains se sont démarqués, comme Silverthedragon, LetalShade, Horyzone, ql28, Biscotteman, Christianx4 et d'autres...<br />
+Il se peut que j'en ai oublié, ça remonte à assez loin et je ne faisait pas forcément attention à l'époque ^^'<br />
+<br />
+Petit bonus, un screen du thème originel avec les articles actuels <img src="http://starbound-fr.net/forum/images/smilies/gargl.png" alt="Gargl" title="Gargl" class="smilie smilie_80" /><br />
+<img src="http://puu.sh/1S6I0" border="0" alt="[Image: 1S6I0]" /><br />
+<br />
+Les membres fondateurs de starbound.fr étant présents avec nous (ql28 et horyzone m'avaient rejoint en tant que co-administrateurs peut après, 2/3 jours maximum <img src="http://starbound-fr.net/forum/images/smilies/happehz.png" alt="Happehz" title="Happehz" class="smilie smilie_53" /> ) ce qui nous a permis de ne pas repartir du zéro absolu...<br />
+Nous avions aussi eu un très bon soutien des membres de Staria, premier projet de serveur Starbound francophone, déjà pas mal soudé, qui avait été fondé en prenant la base de Terraride (ex-serveur Terraria) par Horyzone, à qui j'avais proposé mon aide pour la mise en place d'un site web.<br />
+<br />
+Après quelques jours, nous avons mis en place l'ancêtre du thème actuel, que j'ai quasiment entièrement modifié afin de correspondre aux besoins de la communauté. Le forum à ensuite ouvert ses portes au public, après une grosse galère à mettre en place... -_-<br />
+Il fût très vite hyper-actif. Mais pas un nid à flood pour autant ! La communauté était mature et l'est restée :)<br />
+<br />
+Plus tard, nous avions conclu un partenariat avec Dobe Ophi, faisant d'excellentes vidéos sur le développement de Starbound. Au début il était réticent vis-à-vis de notre site, car deux communautés alors que le jeu était loin d'être sorti à cette période... à première vue s'pas tip-top.<br />
+Suite à l'explication du pourquoi du pars'que (dans ta face ukhdfskcq&lt;es&lt;dxfxsdlfcx gdf!) il fût donc accordé un partenariat donc. Ce qui "boosta" nos visiteurs, faisant ainsi un peu mieux connaitre et référencer notre site nouvellement né.<br />
+<br />
+Le bébé, devenu gros, a su se démarquer et attirer les regards vers lui, plusieurs sites du réseau mondial ont parlé de lui, nous en fûmes fier.<br />
+<br />
+Un jour, un nouveau membre fit sa candidature en tant que rédacteur. Sa personnalité et son dévouement nous ont par la suite étés très précieux, il est à présent modérateur sur le forum, aux côtés de Geckoala. Il s'agit bien sûr de Klemar, très vite devenu indispensable !<br />
+<br />
+Plus tard, sur l'IRC, un certain Yayap13 fit- son entrée. Proposant un partenariat entre notre communauté et la sienne : Cubeworld-France.net<br />
+Retissant au début, puis par la suite accepté.<br />
+<br />
+Nous sommes actuellement 6 mois -jour pour jour- après l'ouverture de Starbound-Fr.net, et, je suis fier de la tournure de cet univers !<br />
+<br />
+Le pari était fortement risqué, starbound.fr étant très bien implanté à ce moment là, c'était un suicide... Mais la détermination de tous ceux voulant un endroit libre et mature où s'exprimer entre fans de l'avant-Starbound à été déterminante !<br />
+Grâce à vous tous, même ma personnalité à changée, mais ça c'est autre chose... <img src="http://starbound-fr.net/forum/images/smilies/uh.png" alt="Uh ?" title="Uh ?" class="smilie smilie_84" /><br />
+Le forum compte à l'heure de publication de ce message :<ul>
+<li>146 membres enregistrés<br />
+</li>
+<li>5,278 messages<br />
+</li>
+<li>276 discussions<br />
+</li>
+<li>35,36 messages postés par jour en moyenne<br />
+</li>
+<li>0,98 nouveaux membres par jour</li></ul>
+<br />
+Quant au site :<ul>
+<li>59 Articles<br />
+</li>
+<li>738 Commentaires<br />
+</li>
+<li>Toujours au minimum plus de 1000 vues par jour, même les jours les plus faibles, et ce depuis plusieurs mois, et cela augmente.<br />
+</li>
+<li>Des dizaines de membres actifs tous les jours !</li></ul>
+<br />
+Cela peut paraître peu pur certains, peut être même pour le site "concurrent", car il est possible qu'il reçoive un peu plus de visites, mais c'est déjà bien au delà de mes espérances !! Je n'ai qu'une chose à vous dire.<br />
+<span style="font-weight: bold;">MERCI POUR TOUT.</span><br />
+<br />
+Six mois, ce n'est qu'une demie-année, et je pense que la route que nous suivons, qui était jadis un vulgaire chemin cahoteux deviendras une belle autoroute sans péage. (C'est surtout pour dire qu'il n'y aura pas de relâchement et que nous ne vous demanderons assurément rien en retour. Même pas de ne pas bloquer ou cliquer sur les pubs qui reviendrons courant février, ici vous êtes tous libres de vos choix, tant que vous êtes mature et amiables.)<br />
+<br />
+Franchement, je vous remercie tous du fond du cœur pour m'avoir aidé à ré-écrire le début de l'histoire francophone du jeu Starbound !<br />
+<br />
+Et vous, quel est votre point de vue ? :)]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Lettre ouverte à l'ensemble de la communauté francophone de Starbound]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=246</link>
+			<pubDate>Sat, 15 Dec 2012 17:50:09 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=246</guid>
+			<description><![CDATA[J'en ai clairement marre de ces histoires avec @FrStarbound...<br />
+De plus le problème causé par @Slup11 (que je ne connais pas, et je ne comprends pas pourquoi il se mêle d'affaires inconnues pour lui) m'as vraiment foutu le moral plus bas que terre...<br />
+<br />
+J'ai très mal dormi (pour le peu de sommeil que j'ai pu bénéficier. J'ai mal travaillé ce matin, le patron a du me donner mon aprem. Je me suis tellement énervé vers 11h15 que mes tremblement et mon mal de dos sont revenus.<br />
+<br />
+J'ai mal apprécié le fait que @PvDyxx (Doxx) disent qu'il cherche à régler le différend entre les deux sites alors qu'il n'as vraiment pas hésité à dénoncer que le bordel de "son" IRC était causé par moi et les membres de mon site.<br />
+<br />
+N'ayant fait que brièvement expliquer que j'en avait rien à faire de leur site, que je j'entretenais le mien par passion et amour pour les fans. Je me sent profondément outré.<br />
+<br />
+Ainsi donc, je suis dans le regret de vous annoncer mon départ (temporaire ?) de starbound-fr.net ! Si j'ai choisi de donner (beaucoup trop ...) de mon temps à des gens, alors qu'à la base je suis à tendance misanthrope et assez instable.<br />
+Mon parcours avec les membres du site m'as permis de beaucoup modifier ma pensée. Depuis, j'apprécie plus le contact avec les gens, en particulier ceux qui m'ont aidé ces dernières semaines.<br />
+<br />
+Certains se rappelleront de mon absence prolongée sur terraria.fr !<br />
+Elle m'avait permis de prendre beaucoup de recul. J'espère que ce nouvel éloignement fera de même. Mais comme on dit : "A chaque fois que l'histoire se répète, le prix augmente."<br />
+<br />
+Quand à starbound.fr ; je sais que vos plagiats et diffamations ne cesseront pas.<br />
+J'accuse aussi le fait que kicker et bannir un utilisateur voulant s'exprimer de manière objective n'est pas une solution. De surcroit si la raison évoquée est que votre IRC est "reservé aux membres de starbound.fr"...<br />
+Quand nous avons vous kické sans autre raison que des insultes répétés sur notre propre chan ..? C'est pas difficile, je ne punis jamais sans raison réfléchie. J'espère qu'il en est de même pour les autres admins (qui pour l'un deux n'est pas assez présent à mon goût, mais il a ses raisons évidement.)<br />
+<br />
+Mes comptes (@KiwiiCorp &amp; Starbound_Fr) sont bloqués par @FrStarbound, sans raison apparente.<br />
+<br />
+Je ne vais pas m'éterniser. Je prends congé.<br />
+Il en est décidé ainsi, libre aux membres de l'équipe restants de faire ce qu'ils veulent, mais toujours dans le respect des personnes, bien entendu.<br />
+<br />
+Je ne veut plus entendre parler de starbound.fr, du moins de son équipe.<br />
+<br />
+Je reviendrai quand bon me semblera.<br />
+<br />
+A bientôt je l'espère.<br />
+<br />
+KiwiiCorporation.<br />
+<br />
+<a href="http://www.twitlonger.com/show/kc29el" target="_blank">http://www.twitlonger.com/show/kc29el</a>]]></description>
+			<content:encoded><![CDATA[J'en ai clairement marre de ces histoires avec @FrStarbound...<br />
+De plus le problème causé par @Slup11 (que je ne connais pas, et je ne comprends pas pourquoi il se mêle d'affaires inconnues pour lui) m'as vraiment foutu le moral plus bas que terre...<br />
+<br />
+J'ai très mal dormi (pour le peu de sommeil que j'ai pu bénéficier. J'ai mal travaillé ce matin, le patron a du me donner mon aprem. Je me suis tellement énervé vers 11h15 que mes tremblement et mon mal de dos sont revenus.<br />
+<br />
+J'ai mal apprécié le fait que @PvDyxx (Doxx) disent qu'il cherche à régler le différend entre les deux sites alors qu'il n'as vraiment pas hésité à dénoncer que le bordel de "son" IRC était causé par moi et les membres de mon site.<br />
+<br />
+N'ayant fait que brièvement expliquer que j'en avait rien à faire de leur site, que je j'entretenais le mien par passion et amour pour les fans. Je me sent profondément outré.<br />
+<br />
+Ainsi donc, je suis dans le regret de vous annoncer mon départ (temporaire ?) de starbound-fr.net ! Si j'ai choisi de donner (beaucoup trop ...) de mon temps à des gens, alors qu'à la base je suis à tendance misanthrope et assez instable.<br />
+Mon parcours avec les membres du site m'as permis de beaucoup modifier ma pensée. Depuis, j'apprécie plus le contact avec les gens, en particulier ceux qui m'ont aidé ces dernières semaines.<br />
+<br />
+Certains se rappelleront de mon absence prolongée sur terraria.fr !<br />
+Elle m'avait permis de prendre beaucoup de recul. J'espère que ce nouvel éloignement fera de même. Mais comme on dit : "A chaque fois que l'histoire se répète, le prix augmente."<br />
+<br />
+Quand à starbound.fr ; je sais que vos plagiats et diffamations ne cesseront pas.<br />
+J'accuse aussi le fait que kicker et bannir un utilisateur voulant s'exprimer de manière objective n'est pas une solution. De surcroit si la raison évoquée est que votre IRC est "reservé aux membres de starbound.fr"...<br />
+Quand nous avons vous kické sans autre raison que des insultes répétés sur notre propre chan ..? C'est pas difficile, je ne punis jamais sans raison réfléchie. J'espère qu'il en est de même pour les autres admins (qui pour l'un deux n'est pas assez présent à mon goût, mais il a ses raisons évidement.)<br />
+<br />
+Mes comptes (@KiwiiCorp &amp; Starbound_Fr) sont bloqués par @FrStarbound, sans raison apparente.<br />
+<br />
+Je ne vais pas m'éterniser. Je prends congé.<br />
+Il en est décidé ainsi, libre aux membres de l'équipe restants de faire ce qu'ils veulent, mais toujours dans le respect des personnes, bien entendu.<br />
+<br />
+Je ne veut plus entendre parler de starbound.fr, du moins de son équipe.<br />
+<br />
+Je reviendrai quand bon me semblera.<br />
+<br />
+A bientôt je l'espère.<br />
+<br />
+KiwiiCorporation.<br />
+<br />
+<a href="http://www.twitlonger.com/show/kc29el" target="_blank">http://www.twitlonger.com/show/kc29el</a>]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[C'est Nonoël ! :3]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=236</link>
+			<pubDate>Sat, 08 Dec 2012 20:53:25 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=236</guid>
+			<description><![CDATA[Coucou petit lutin violé (ou violet je sais plus...)<br />
+<br />
+<div style="text-align: center;"><!-- start: video_youtube_embed --><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L9O4WD7an8s" frameborder="0" allowfullscreen></iframe><br />
+<!-- end: video_youtube_embed --><br />
+Ça c'est de la grande chanson française ! <img src="http://starbound-fr.net/forum/images/smilies/ZOHMAHGAWD.png" alt="ZOHMAHGAWD" title="ZOHMAHGAWD" class="smilie smilie_39" /></div>
+<br />
+T'as vu ça mon petit ? La période la plus lucrative de l'année ! <img src="http://starbound-fr.net/forum/images/smilies/pussycat.png" alt=":3" title=":3" class="smilie smilie_83" /><br />
+C'est le moment du verglas, donc ça marche aussi pour notre cousin Belzébuth ! <img src="http://starbound-fr.net/forum/images/smilies/scarything.png" alt="Scary" title="Scary" class="smilie smilie_90" /><br />
+<br />
+La période où tout le monde y gagne ! C'est un moment où nous devons vivre ensemble pour éviter les camions qui glissent sur la glace <img src="http://starbound-fr.net/forum/images/smilies/UMAD.png" alt="UMAD" title="UMAD" class="smilie smilie_32" /><br />
+<br />
+Serrons-nous les coudes, et les jambes, ça nous tiendra chaud ! :)<br />
+Viens pas petit. Cet endroit est le plus chaud de mon corps <img src="http://starbound-fr.net/forum/images/smilies/mwahahaha.png" alt=":D" title=":D" class="smilie smilie_64" /><br />
+Voilà ! <img src="http://starbound-fr.net/forum/images/smilies/pedosmiley.png" alt="pedosmiley" title="pedosmiley" class="smilie smilie_91" />°<br />
+<br />
+Vous pouvez admirer cet arbre de circonstance :<br />
+<br />
+<div style="text-align: center;"><img src="http://starbound-fr.net/images/nonoel/sapin.gif" border="0" alt="[Image: sapin.gif]" /></div>
+<br />
+Ainsi que le logo associé :<br />
+<br />
+<div style="text-align: center;"><img src="http://starbound-fr.net/logo.png" border="0" alt="[Image: logo.png]" /></div>
+<br />
+Le second à en partie été réalisé par <span style="font-weight: bold;">Majojo</span> ! (le papa en rouge. OUI C'EST TON VRAI PÈRE, TA MAMAN T'AS MENTI !!)<br />
+Tandis que le premier à été confectionné par <span style="font-weight: bold;">Biscotteman</span>, élu elfe de l'année par les soins du Croque-mitaines (c'est dommage, vos aurez froid aux mains maintenant...). Dommage pour lui, il reste moins d'un mois avant la fin de l'année ! <img src="http://starbound-fr.net/forum/images/smilies/pftchch.png" alt="Pftchch" title="Pftchch" class="smilie smilie_73" /><br />
+(Oui j'ai inversé l'ordre <img src="http://starbound-fr.net/forum/images/smilies/calim.gif" alt="Calimero" title="Calimero" class="smilie smilie_86" /> )<br />
+<br />
+Au nom de toutes mes personnalités, je vous souhaite un joyeux Nonoël ! <img src="http://starbound-fr.net/forum/images/smilies/nowzoidbergisfamous.png" alt="Nowzoidbergisfamous" title="Nowzoidbergisfamous" class="smilie smilie_66" /><br />
+<br />
+<br />
+<span style="font-weight: bold;">° :</span> Ce smiley possède une grande histoire ici, mais mieux vaut ne point l'évoquer ! <img src="http://starbound-fr.net/forum/images/smilies/gné.png" alt="Gney ..?" title="Gney ..?" class="smilie smilie_82" />]]></description>
+			<content:encoded><![CDATA[Coucou petit lutin violé (ou violet je sais plus...)<br />
+<br />
+<div style="text-align: center;"><!-- start: video_youtube_embed --><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L9O4WD7an8s" frameborder="0" allowfullscreen></iframe><br />
+<!-- end: video_youtube_embed --><br />
+Ça c'est de la grande chanson française ! <img src="http://starbound-fr.net/forum/images/smilies/ZOHMAHGAWD.png" alt="ZOHMAHGAWD" title="ZOHMAHGAWD" class="smilie smilie_39" /></div>
+<br />
+T'as vu ça mon petit ? La période la plus lucrative de l'année ! <img src="http://starbound-fr.net/forum/images/smilies/pussycat.png" alt=":3" title=":3" class="smilie smilie_83" /><br />
+C'est le moment du verglas, donc ça marche aussi pour notre cousin Belzébuth ! <img src="http://starbound-fr.net/forum/images/smilies/scarything.png" alt="Scary" title="Scary" class="smilie smilie_90" /><br />
+<br />
+La période où tout le monde y gagne ! C'est un moment où nous devons vivre ensemble pour éviter les camions qui glissent sur la glace <img src="http://starbound-fr.net/forum/images/smilies/UMAD.png" alt="UMAD" title="UMAD" class="smilie smilie_32" /><br />
+<br />
+Serrons-nous les coudes, et les jambes, ça nous tiendra chaud ! :)<br />
+Viens pas petit. Cet endroit est le plus chaud de mon corps <img src="http://starbound-fr.net/forum/images/smilies/mwahahaha.png" alt=":D" title=":D" class="smilie smilie_64" /><br />
+Voilà ! <img src="http://starbound-fr.net/forum/images/smilies/pedosmiley.png" alt="pedosmiley" title="pedosmiley" class="smilie smilie_91" />°<br />
+<br />
+Vous pouvez admirer cet arbre de circonstance :<br />
+<br />
+<div style="text-align: center;"><img src="http://starbound-fr.net/images/nonoel/sapin.gif" border="0" alt="[Image: sapin.gif]" /></div>
+<br />
+Ainsi que le logo associé :<br />
+<br />
+<div style="text-align: center;"><img src="http://starbound-fr.net/logo.png" border="0" alt="[Image: logo.png]" /></div>
+<br />
+Le second à en partie été réalisé par <span style="font-weight: bold;">Majojo</span> ! (le papa en rouge. OUI C'EST TON VRAI PÈRE, TA MAMAN T'AS MENTI !!)<br />
+Tandis que le premier à été confectionné par <span style="font-weight: bold;">Biscotteman</span>, élu elfe de l'année par les soins du Croque-mitaines (c'est dommage, vos aurez froid aux mains maintenant...). Dommage pour lui, il reste moins d'un mois avant la fin de l'année ! <img src="http://starbound-fr.net/forum/images/smilies/pftchch.png" alt="Pftchch" title="Pftchch" class="smilie smilie_73" /><br />
+(Oui j'ai inversé l'ordre <img src="http://starbound-fr.net/forum/images/smilies/calim.gif" alt="Calimero" title="Calimero" class="smilie smilie_86" /> )<br />
+<br />
+Au nom de toutes mes personnalités, je vous souhaite un joyeux Nonoël ! <img src="http://starbound-fr.net/forum/images/smilies/nowzoidbergisfamous.png" alt="Nowzoidbergisfamous" title="Nowzoidbergisfamous" class="smilie smilie_66" /><br />
+<br />
+<br />
+<span style="font-weight: bold;">° :</span> Ce smiley possède une grande histoire ici, mais mieux vaut ne point l'évoquer ! <img src="http://starbound-fr.net/forum/images/smilies/gné.png" alt="Gney ..?" title="Gney ..?" class="smilie smilie_82" />]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Down du 10/11/12]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=170</link>
+			<pubDate>Sat, 10 Nov 2012 18:15:39 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=170</guid>
+			<description><![CDATA[Salut,<br />
+<br />
+Le site web à été indisponible durant une heure et quart à partir de 17h31.<br />
+<br />
+Nous ne savons pas encore ce qu'il s'est passé.<br />
+<br />
+Nous n'avons pour l'instant rien dans les logs...<br />
+<br />
+Merci.]]></description>
+			<content:encoded><![CDATA[Salut,<br />
+<br />
+Le site web à été indisponible durant une heure et quart à partir de 17h31.<br />
+<br />
+Nous ne savons pas encore ce qu'il s'est passé.<br />
+<br />
+Nous n'avons pour l'instant rien dans les logs...<br />
+<br />
+Merci.]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Starbound-fr et les résaux sociaux]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=139</link>
+			<pubDate>Fri, 02 Nov 2012 09:34:05 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=139</guid>
+			<description><![CDATA[Nous partons à la conquête des réseaux sociaux (<img src="http://starbound-fr.net/forum/images/smilies/shhhh.png" alt="Shhhh" title="Shhhh" class="smilie smilie_27" /> )<br />
+<br />
+Vous pouvez dès à présent nous rejoindre sur Twitter, Facebook et Steam et cliquant :<br />
+<br />
+<a href="http://www.facebook.com/StarboundFr" target="_blank"><img src="http://starbound-fr.net/forum/images/smilies/fleche.png" alt="Flèche" title="Flèche" class="smilie smilie_75" /> ici pour Facebook</a><br />
+<a href="https://twitter.com/Starbound_Fr" target="_blank"><img src="http://starbound-fr.net/forum/images/smilies/fleche.png" alt="Flèche" title="Flèche" class="smilie smilie_75" /> là pour Twitter</a><br />
+<a href="http://steamcommunity.com/groups/starbound-fr" target="_blank"><img src="http://starbound-fr.net/forum/images/smilies/fleche.png" alt="Flèche" title="Flèche" class="smilie smilie_75" /> et ici pour Steam</a><br />
+<br />
+Notons aussi la possibilité pour chacun de partager les articles du site sur les réseaux sociaux grâce à l'ajout d'une barre de partage en bas des articles. <span style="font-size: x-small;">(merci kiwii ♥)</span><br />
+<br />
+Nous publions régulièrement des infos sur Twitter et Facebook concernant les news, les vidéos, ou des petites choses qui ne nécessitent pas un article entier :)<br />
+<br />
+Alors n'hésitez pas à nous suivre, partagez ces liens :cool:]]></description>
+			<content:encoded><![CDATA[Nous partons à la conquête des réseaux sociaux (<img src="http://starbound-fr.net/forum/images/smilies/shhhh.png" alt="Shhhh" title="Shhhh" class="smilie smilie_27" /> )<br />
+<br />
+Vous pouvez dès à présent nous rejoindre sur Twitter, Facebook et Steam et cliquant :<br />
+<br />
+<a href="http://www.facebook.com/StarboundFr" target="_blank"><img src="http://starbound-fr.net/forum/images/smilies/fleche.png" alt="Flèche" title="Flèche" class="smilie smilie_75" /> ici pour Facebook</a><br />
+<a href="https://twitter.com/Starbound_Fr" target="_blank"><img src="http://starbound-fr.net/forum/images/smilies/fleche.png" alt="Flèche" title="Flèche" class="smilie smilie_75" /> là pour Twitter</a><br />
+<a href="http://steamcommunity.com/groups/starbound-fr" target="_blank"><img src="http://starbound-fr.net/forum/images/smilies/fleche.png" alt="Flèche" title="Flèche" class="smilie smilie_75" /> et ici pour Steam</a><br />
+<br />
+Notons aussi la possibilité pour chacun de partager les articles du site sur les réseaux sociaux grâce à l'ajout d'une barre de partage en bas des articles. <span style="font-size: x-small;">(merci kiwii ♥)</span><br />
+<br />
+Nous publions régulièrement des infos sur Twitter et Facebook concernant les news, les vidéos, ou des petites choses qui ne nécessitent pas un article entier :)<br />
+<br />
+Alors n'hésitez pas à nous suivre, partagez ces liens :cool:]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Mumble.]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=136</link>
+			<pubDate>Thu, 01 Nov 2012 16:50:04 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=136</guid>
+			<description><![CDATA[Nous possédons un serveur Mumble, pensez à y faire un tour :)<br />
+<br />
+[Serveur Mumble retiré]<br />
+<br />
+<a href="http://www.mumble.com/mumble-download.php" target="_blank"><span style="text-decoration: underline;"><span style="font-weight: bold;">Télécharger Mumble</span></span></a>]]></description>
+			<content:encoded><![CDATA[Nous possédons un serveur Mumble, pensez à y faire un tour :)<br />
+<br />
+[Serveur Mumble retiré]<br />
+<br />
+<a href="http://www.mumble.com/mumble-download.php" target="_blank"><span style="text-decoration: underline;"><span style="font-weight: bold;">Télécharger Mumble</span></span></a>]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[[TUTO] Mettre un avatar sur vos commentaires sur le site.]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=125</link>
+			<pubDate>Sat, 27 Oct 2012 13:06:53 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=125</guid>
+			<description><![CDATA[Alors ça t'intéresse de plus avoir un des avatars généré aléatoirement ? <img src="http://starbound-fr.net/forum/images/smilies/mouark.png" alt="Mouark" title="Mouark" class="smilie smilie_63" /><br />
+<br />
+Hey bien, jeune briguant, tu es au bon endroit, mais ne vole rien dans cette maison, autrement ton compte sera bon ! <img src="http://starbound-fr.net/forum/images/smilies/monocle.png" alt="Monocle" title="Monocle" class="smilie smilie_62" /><br />
+<br />
+Premièrement, tu te rends ici : <a href="https://fr.gravatar.com/" target="_blank"><span style="font-weight: bold;">Gravatar, A Globally Recognized Avatar</span></a>.<br />
+<br />
+Puis tu entres ton e-mail ici :<br />
+<div style="text-align: center;"><img src="http://puu.sh/1jgP2" border="0" alt="[Image: 1jgP2]" /></div>
+<br />
+Confirmez votre adresse en cliquant sur le lien cliquable envoyé par courriel.<br />
+<br />
+Puis remplissez les champs qui vous sont présentés :<br />
+<div style="text-align: center;"><img src="http://puu.sh/1jgRE" border="0" alt="[Image: 1jgRE]" /></div>
+<br />
+Cliquez sur "<a href="https://fr.gravatar.com/gravatars/new" target="_blank">Rajouter une image en cliquant ici !</a>"<br />
+<br />
+Choisissez d'où vous voulez tirer votre image :<br />
+<div style="text-align: center;"><img src="http://puu.sh/1jgTQ" border="0" alt="[Image: 1jgTQ]" /></div>
+<br />
+Indiquez l'adresse de votre image, en fonction de votre choix.<br />
+<br />
+Recadrez votre image.<br />
+<br />
+Puis choisissez la classe de cette image, en fonction de sa "sensibilité".<br />
+<br />
+C'est fini ! :)<br />
+Vous n'avez plus qu'à indiquer l'email à laquelle est attaché votre avatar sur les sites sur lesquels vous voulez l'utiliser.<br />
+<br />
+Notez que vous pouvez enregistrer plusieurs adresses e-mail sur un même compte Gravatar. <img src="http://starbound-fr.net/forum/images/smilies/oeil.png" alt="Wink" title="Wink" class="smilie smilie_68" />]]></description>
+			<content:encoded><![CDATA[Alors ça t'intéresse de plus avoir un des avatars généré aléatoirement ? <img src="http://starbound-fr.net/forum/images/smilies/mouark.png" alt="Mouark" title="Mouark" class="smilie smilie_63" /><br />
+<br />
+Hey bien, jeune briguant, tu es au bon endroit, mais ne vole rien dans cette maison, autrement ton compte sera bon ! <img src="http://starbound-fr.net/forum/images/smilies/monocle.png" alt="Monocle" title="Monocle" class="smilie smilie_62" /><br />
+<br />
+Premièrement, tu te rends ici : <a href="https://fr.gravatar.com/" target="_blank"><span style="font-weight: bold;">Gravatar, A Globally Recognized Avatar</span></a>.<br />
+<br />
+Puis tu entres ton e-mail ici :<br />
+<div style="text-align: center;"><img src="http://puu.sh/1jgP2" border="0" alt="[Image: 1jgP2]" /></div>
+<br />
+Confirmez votre adresse en cliquant sur le lien cliquable envoyé par courriel.<br />
+<br />
+Puis remplissez les champs qui vous sont présentés :<br />
+<div style="text-align: center;"><img src="http://puu.sh/1jgRE" border="0" alt="[Image: 1jgRE]" /></div>
+<br />
+Cliquez sur "<a href="https://fr.gravatar.com/gravatars/new" target="_blank">Rajouter une image en cliquant ici !</a>"<br />
+<br />
+Choisissez d'où vous voulez tirer votre image :<br />
+<div style="text-align: center;"><img src="http://puu.sh/1jgTQ" border="0" alt="[Image: 1jgTQ]" /></div>
+<br />
+Indiquez l'adresse de votre image, en fonction de votre choix.<br />
+<br />
+Recadrez votre image.<br />
+<br />
+Puis choisissez la classe de cette image, en fonction de sa "sensibilité".<br />
+<br />
+C'est fini ! :)<br />
+Vous n'avez plus qu'à indiquer l'email à laquelle est attaché votre avatar sur les sites sur lesquels vous voulez l'utiliser.<br />
+<br />
+Notez que vous pouvez enregistrer plusieurs adresses e-mail sur un même compte Gravatar. <img src="http://starbound-fr.net/forum/images/smilies/oeil.png" alt="Wink" title="Wink" class="smilie smilie_68" />]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Recrutement.]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=102</link>
+			<pubDate>Fri, 12 Oct 2012 18:19:12 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=102</guid>
+			<description><![CDATA[Vous voulez rédiger des articles pour le site ?<br />
+Modérer le forum ?<br />
+<br />
+Faites vos candidatures ici, tout en sachant que même si nous sommes très intéressés, il n'est pas dit que nous ayons besoin de vos services actuellement.<br />
+<br />
+Les candidats à la rédaction devrons présenter un article "type" et ceux à la modération une présentation complète d'eux (incluant âge, motivation, études, temps libre...) j'insiste sur l'assiduité des personnes.<br />
+<br />
+Ceux-ci devront être fait pas MP à moi-même sur ce forum.<br />
+<br />
+Merci,<br />
+<span style="font-style: italic;">KiwiiCorporation</span>.]]></description>
+			<content:encoded><![CDATA[Vous voulez rédiger des articles pour le site ?<br />
+Modérer le forum ?<br />
+<br />
+Faites vos candidatures ici, tout en sachant que même si nous sommes très intéressés, il n'est pas dit que nous ayons besoin de vos services actuellement.<br />
+<br />
+Les candidats à la rédaction devrons présenter un article "type" et ceux à la modération une présentation complète d'eux (incluant âge, motivation, études, temps libre...) j'insiste sur l'assiduité des personnes.<br />
+<br />
+Ceux-ci devront être fait pas MP à moi-même sur ce forum.<br />
+<br />
+Merci,<br />
+<span style="font-style: italic;">KiwiiCorporation</span>.]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Référencement sur Playstarbound.com]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=43</link>
+			<pubDate>Thu, 06 Sep 2012 21:42:52 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=43</guid>
+			<description><![CDATA[C'était juste pour vous dire que nous avons obtenu le référencement sur le forum officiel de Starbound.<br />
+<br />
+<br />
+EPIC WIN!!!<br />
+<br />
+<img src="http://savvy-living.com/wp-content/uploads/2012/08/VictoryMeme.png" border="0" alt="[Image: VictoryMeme.png]" /><br />
+<br />
+<br />
+EDIT : Nous sommes maintenant la seule communauté officielle <img src="http://starbound-fr.net/forum/images/smilies/mwahahaha.png" alt=":D" title=":D" class="smilie smilie_64" />]]></description>
+			<content:encoded><![CDATA[C'était juste pour vous dire que nous avons obtenu le référencement sur le forum officiel de Starbound.<br />
+<br />
+<br />
+EPIC WIN!!!<br />
+<br />
+<img src="http://savvy-living.com/wp-content/uploads/2012/08/VictoryMeme.png" border="0" alt="[Image: VictoryMeme.png]" /><br />
+<br />
+<br />
+EDIT : Nous sommes maintenant la seule communauté officielle <img src="http://starbound-fr.net/forum/images/smilies/mwahahaha.png" alt=":D" title=":D" class="smilie smilie_64" />]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Chasse au screen]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=38</link>
+			<pubDate>Tue, 04 Sep 2012 22:10:48 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=38</guid>
+			<description><![CDATA[J'ai remarqué que la page du site "screenshot" était peu remplit en comparaison du nombre impressionnant de screenshots qui traine sur la toile <img src="http://starbound-fr.net/forum/images/smilies/Unfair.png" alt="Unfair" title="Unfair" class="smilie smilie_33" />.<br />
+<br />
+Je fait donc appel a mes pouvoirs d'admin pour lancer une chasse au screens ! <img src="http://starbound-fr.net/forum/images/smilies/yoda.png" alt="Yoda" title="Yoda" class="smilie smilie_38" /><br />
+Trouvez autant de screen que vous pourrez et postez les sur ce sujet <img src="http://starbound-fr.net/forum/images/smilies/Vikinnnn.png" alt="Vikinnnn" title="Vikinnnn" class="smilie smilie_34" />.<br />
+<br />
+La personne ayant ramené le maximum de screen obtiendras un avatar starbound personnalisé a ses souhait (créé par le staff de starbound-fr.net) comme celui ci: <img src="http://puu.sh/121hI" border="0" alt="[Image: 121hI]" /> ou celui la: <img src="http://puu.sh/124K3" border="0" alt="[Image: 124K3]" /> <br />
+et si cette personne en a déjà un ben elle pourra offrir cette chance a la personne de son choix ou juste en demander un d'un personnage quelconque. <img src="http://starbound-fr.net/forum/images/smilies/nowzoidbergisfamous.png" alt="Nowzoidbergisfamous" title="Nowzoidbergisfamous" class="smilie smilie_66" /><br />
+<br />
+tous a vos outils de recherche, et que le meilleur gagne <img src="http://starbound-fr.net/forum/images/smilies/kitteh.png" alt="Kitteh" title="Kitteh" class="smilie smilie_56" />]]></description>
+			<content:encoded><![CDATA[J'ai remarqué que la page du site "screenshot" était peu remplit en comparaison du nombre impressionnant de screenshots qui traine sur la toile <img src="http://starbound-fr.net/forum/images/smilies/Unfair.png" alt="Unfair" title="Unfair" class="smilie smilie_33" />.<br />
+<br />
+Je fait donc appel a mes pouvoirs d'admin pour lancer une chasse au screens ! <img src="http://starbound-fr.net/forum/images/smilies/yoda.png" alt="Yoda" title="Yoda" class="smilie smilie_38" /><br />
+Trouvez autant de screen que vous pourrez et postez les sur ce sujet <img src="http://starbound-fr.net/forum/images/smilies/Vikinnnn.png" alt="Vikinnnn" title="Vikinnnn" class="smilie smilie_34" />.<br />
+<br />
+La personne ayant ramené le maximum de screen obtiendras un avatar starbound personnalisé a ses souhait (créé par le staff de starbound-fr.net) comme celui ci: <img src="http://puu.sh/121hI" border="0" alt="[Image: 121hI]" /> ou celui la: <img src="http://puu.sh/124K3" border="0" alt="[Image: 124K3]" /> <br />
+et si cette personne en a déjà un ben elle pourra offrir cette chance a la personne de son choix ou juste en demander un d'un personnage quelconque. <img src="http://starbound-fr.net/forum/images/smilies/nowzoidbergisfamous.png" alt="Nowzoidbergisfamous" title="Nowzoidbergisfamous" class="smilie smilie_66" /><br />
+<br />
+tous a vos outils de recherche, et que le meilleur gagne <img src="http://starbound-fr.net/forum/images/smilies/kitteh.png" alt="Kitteh" title="Kitteh" class="smilie smilie_56" />]]></content:encoded>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<title type="html"><![CDATA[Starbound-Fr | Forum - Serveurs]]></title>
+	<subtitle type="html"><![CDATA[Starbound-Fr | Forum - http://starbound-fr.net/forum]]></subtitle>
+	<link rel="self" href="http://starbound-fr.net/forum/syndication.php"/>
+	<id>http://starbound-fr.net/forum/</id>
+	<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/"/>
+	<updated>2016-02-18T18:17:53Z</updated>
+	<generator uri="http://www.mybb.com">MyBB</generator>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2013-09-28T11:26:22Z</published>
+		<updated>2013-09-28T11:26:22Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=568" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=568</id>
+		<title type="html" xml:space="preserve"><![CDATA[aide serveur]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=568"><![CDATA[Salutation ! Je cherche un serveur Terraria avec <br />
+une ambiance conviviale ! Serveur ouvert h 24 ou non ! Je voudrais juste jouer en coop ! Voila merci d'avoir lut ! <br />
+<br />
+Cordialement Ouioui1997.<br />
+P.S je suis pas souvent sur le forum... Mais je pence a vous !<br />
+Hier je vous est fais un petit don ! Bonne journée!]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+</feed>

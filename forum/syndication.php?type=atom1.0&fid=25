@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<title type="html"><![CDATA[Starbound-Fr | Forum - Forum]]></title>
+	<subtitle type="html"><![CDATA[Starbound-Fr | Forum - http://starbound-fr.net/forum]]></subtitle>
+	<link rel="self" href="http://starbound-fr.net/forum/syndication.php"/>
+	<id>http://starbound-fr.net/forum/</id>
+	<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/"/>
+	<updated>2016-02-18T18:15:06Z</updated>
+	<generator uri="http://www.mybb.com">MyBB</generator>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2015-08-31T12:36:05Z</published>
+		<updated>2015-08-31T12:36:05Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=1388" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=1388</id>
+		<title type="html" xml:space="preserve"><![CDATA[Problème de connexions au chat IRC]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=1388"><![CDATA[Je n'arriva pas à me connecter au chat IRC <img src="http://starbound-fr.net/forum/images/smilies/kiwi.gif" alt="Kiwi" title="Kiwi" class="smilie smilie_57" /> <br />
+Hier, je suis allé sur le chat irc, j'ai prit un pseudo, un mdp, je me suis connecté, j'ai parlé, et je suis aller me couché.<br />
+Jusque là, normal.<br />
+Mais le le lendemain, j'ai essayé de me connecté, et la, "Pseudo déjà utilisé."<br />
+Même avec le mdp. Après, j'ai essayé de me connecté avec une différence dans mon pseudo, et la pareil, "Pseudo déjà utilisé."<br />
+Donc dîtes moi si vous connaissez la réponse à mon problème, dîtes le moi !]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2015-01-30T10:02:44Z</published>
+		<updated>2015-02-23T02:22:34Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=1134" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=1134</id>
+		<title type="html" xml:space="preserve"><![CDATA[Les bugs du forum]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=1134"><![CDATA[- <del>Responsive foireux sur les avatars</del> <span style="color: #33cc33;">Corrigé</span><br />
+<br />
+<del>- Date/heure de publication/modification des messages non visible</del> <span style="color: #33cc33;">Corrigé bitch</span><br />
+<del>- Responsive foireux SOUS les avatars ( <a href="http://puu.sh/feaer/4f94020e2c.png" target="_blank">http://puu.sh/feaer/4f94020e2c.png</a> ) - </del><span style="color: #ff3333;">C'est pas dramatique, et j'arrive pas a corriger ça sans niquer toute la mise en page <img src="http://starbound-fr.net/forum/images/smilies/triste.png" alt="Triste" title="Triste" class="smilie smilie_31" /></span><br />
+<del>- Page principale du forum : La case activité récente n'affiche rien</del> <span style="color: #33cc33;">Corrigé</span><br />
+<del>- L'édition rapide ne marche pas (il manque la case pour valider l'édition) - En cours de recherche. en attendant : met toi dans la case du dessous et appui sur entrée ;-)</del><span style="color: #33cc33;"> Corrigé</span>]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2014-03-28T10:01:05Z</published>
+		<updated>2014-03-28T10:01:05Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=996" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=996</id>
+		<title type="html" xml:space="preserve"><![CDATA[une partie d'aide pour l'info]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=996"><![CDATA[Aimant ce forum et voulant l'aider a accueillir plus de personne et a s'améliorer je propose la mise en place une rubrique qui permetrai d'aider les personne ayant un problème avec leur ordi ou des question a ce sujet cela permetrai peut être d'attiplus de monde et de leur faire d'ecouvrire le jeux.<br />
+C'est pour ces raison que je propose cette rubrique info.]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2014-03-27T12:30:02Z</published>
+		<updated>2014-03-27T12:30:02Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=993" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=993</id>
+		<title type="html" xml:space="preserve"><![CDATA[La partie bas débit]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=993"><![CDATA[Salut a tous aujourd'hui j'ai découvert la partie bas débit du site car je visiter le site avec mon téléphone car je m'ennuyer un peut a mon stage XD.<br />
+Alors voila j'ai deja vue des version pour téléphone de certain forum avec des graphisme plus performant que c'elle du forum ,alors je voudrais savoir si ce serai possible de changer les graphisme de notre version.<br />
+Si il faut vue que j'ai deja fait des forum je peut toujours voir pour aider si besoin  il faudra juste que je revoie les codage.]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2014-02-26T12:33:36Z</published>
+		<updated>2014-02-26T12:33:36Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=947" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=947</id>
+		<title type="html" xml:space="preserve"><![CDATA[Plus d'info]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=947"><![CDATA[Bonjour je suis sur le forum depuis peut comme vous pouvez le voir.<br />
+Et j'ai remarquai que appart l'admin je ne sais pas qui sont les modo, rédacteur etc...<br />
+<br />
+Alors je propose Pour le Forum ce que j'avais vue sur un autre Forum, un code couleur avec une légende la où l'on vois qui est en ligne, ce qui permettrais de savoir qui est quoi à tous le monde et même à ce qui ne sont pas du forum.<br />
+<br />
+Sur ce bonne journée]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2013-08-15T20:28:21Z</published>
+		<updated>2013-08-15T20:28:21Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=553" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=553</id>
+		<title type="html" xml:space="preserve"><![CDATA[En-tête du forum]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=553"><![CDATA[Salut tout le monde, une idée m'est venu à l'esprit lors de ma connexion sur le forum. Je me suis dis qu'il serait agréable de voir des images défilés au niveau de l'en-tête du forum.<br />
+<br />
+<img src="http://imageshack.us/a/img196/9272/1jt2.png" border="0" alt="[Image: 1jt2.png]" /><br />
+<br />
+A cet endroit là, il serait cool de faire défilé toutes les images que nous avons eu jusque maintenant.<br />
+C'est une idée parmi tant d'autres pour rendre encore plus agréable le visionnage du fofo :).]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2013-06-09T09:33:19Z</published>
+		<updated>2013-06-16T09:09:56Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=495" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=495</id>
+		<title type="html" xml:space="preserve"><![CDATA[Image dans signature]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=495"><![CDATA[Je sais que ça pourrait être débile mais pourquoi quand je veux mettre une image pour ma signature, ça marche pas?<br />
+Je pense que je m'y prend bien pour la manip' mais quand je fais aperçu, c'est un p*tain de lien et non l'image souhaitée.<br />
+Un peu d'aide s'il vous plait.]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2013-04-15T20:46:00Z</published>
+		<updated>2013-04-15T20:46:00Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=372" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=372</id>
+		<title type="html" xml:space="preserve"><![CDATA[Idée et suggestions pour le jeu]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=372"><![CDATA[<span style="font-size: medium;"><span style="font-weight: bold;">Salut à tous alors j'étais en train de me balader sur le forum et du coup j'ai remarquer qu'il n'y avait pas de forum pour les suggestions des joueurs pour Starbound.. ce qui me surprend car du coup j'ai des idées pour le jeu et j'aurais aimer les partager et je pense ne pas être le seul a vouloir proposer des idées pour le jeu. Breff alors je pense qu'un forum ajouter à la section ''Le jeu'' nommé Idées et suggestions serais apprécié par tous.</span></span>         <img src="http://starbound-fr.net/forum/images/smilies/pftchch.png" alt="Pftchch" title="Pftchch" class="smilie smilie_73" /><br />
+<br />
+Cordialement Tomha2 <img src="http://starbound-fr.net/forum/images/smilies/epic.png" alt="Epic" title="Epic" class="smilie smilie_50" />]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2012-12-08T10:50:22Z</published>
+		<updated>2012-12-08T10:50:22Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=234" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=234</id>
+		<title type="html" xml:space="preserve"><![CDATA[Changement du postbit]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=234"><![CDATA[Coucou tout le monde !<br />
+Comme vous avez pu remarquer sur le forum, le postbit a été récemment changé !<br />
+Qu'est-ce que ça fait ? Simple !<br />
+On passe de ça : <br />
+<img src="http://files.vbulletin.com/doc_images/styles/postbit_new.png" border="0" alt="[Image: postbit_new.png]" /><br />
+<br />
+à ça : <br />
+<img src="http://puu.sh/1yuc4" border="0" alt="[Image: 1yuc4]" /><br />
+<br />
+Ce changement permet, entre autres, un meilleur confort de lecture et une plus grande liberté concernant les dimensions des avatars :)<br />
+Donnez ici vos avis concernant ce changement, si vous préférez ainsi, ou bien si c'était mieux avant <img src="http://starbound-fr.net/forum/images/smilies/mwahahaha.png" alt=":D" title=":D" class="smilie smilie_64" />]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2012-11-09T07:08:36Z</published>
+		<updated>2012-11-09T11:35:08Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=162" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=162</id>
+		<title type="html" xml:space="preserve"><![CDATA[Ninja !!!]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=162"><![CDATA[Salut tout le monde,<br />
+J'ai vu un truc (ou plus tôt pas vu ^^) pour les Smileys sur le forum et le chat :<br />
+Il manque un Fucking Smiley de Ninja !<br />
+<br />
+Du coup ben j'en ai fait un en espérant qu'il soit accepté <img src="http://starbound-fr.net/forum/images/smilies/pussycat.png" alt=":3" title=":3" class="smilie smilie_83" /><br />
+<img src="http://puu.sh/1o6VZ" border="0" alt="[Image: 1o6VZ]" /><br />
+Maxoumi c'est chargé de recolorisé en jaune le smiley (parce que un ninja orange bof bof ^^)<br />
+<br />
+et animé sa donne ça (Maxoumi c'est aussi chargé de l'animation <img src="http://starbound-fr.net/forum/images/smilies/oeil.png" alt="Wink" title="Wink" class="smilie smilie_68" />, on a bien galéré pour faire un gif correct.) : <img src="http://puu.sh/1o7DU" border="0" alt="[Image: 1o7DU]" /> Oppa Ninja Style<br />
+<br />
+PS : Je t'aime <img src="http://starbound-fr.net/forum/images/smilies/kiwi.gif" alt="Kiwi" title="Kiwi" class="smilie smilie_57" /> ( <img src="http://starbound-fr.net/forum/images/smilies/Pedobear.png" alt="Pedobear" title="Pedobear" class="smilie smilie_71" /> )<br />
+<br />
+EDIT : j'ai édité le ninja pour qu'il fasse le même format que le <img src="http://starbound-fr.net/forum/images/smilies/Vikinnnn.png" alt="Vikinnnn" title="Vikinnnn" class="smilie smilie_34" /> ça donne donc ça : <img src="http://puu.sh/1oa76" border="0" alt="[Image: 1oa76]" />]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+</feed>

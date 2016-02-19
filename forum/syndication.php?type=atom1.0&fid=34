@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<title type="html"><![CDATA[Starbound-Fr | Forum - Réclamations]]></title>
+	<subtitle type="html"><![CDATA[Starbound-Fr | Forum - http://starbound-fr.net/forum]]></subtitle>
+	<link rel="self" href="http://starbound-fr.net/forum/syndication.php"/>
+	<id>http://starbound-fr.net/forum/</id>
+	<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/"/>
+	<updated>2016-02-18T18:17:10Z</updated>
+	<generator uri="http://www.mybb.com">MyBB</generator>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2015-03-25T17:08:06Z</published>
+		<updated>2015-04-19T23:07:42Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=1207" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=1207</id>
+		<title type="html" xml:space="preserve"><![CDATA[Liste des bannis]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=1207"><![CDATA[Probablement destruction de spawn (avant la mise en place des protections et demande de candidatures (remerciez-les.) :<br />
+Dewd<br />
+Megadarkspartan<br />
+SparTatouine<br />
+wimmer<br />
+Zadix<br />
+<br />
+LordSavas : Incitations au cheat et multiples non-respect des règles avérés.<br />
+<br />
+SteelDeuce: Personnage cheaté ayant explicitement engendré des erreurs au niveau du serveur.<br />
+<br />
+Lexi : Connard d'anglophone qui demande éperdument à se faire sucer une excroissance.]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2015-02-27T15:16:17Z</published>
+		<updated>2015-02-27T16:44:08Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=1170" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=1170</id>
+		<title type="html" xml:space="preserve"><![CDATA[Banni du serveur ?]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=1170"><![CDATA[Heu... Il semblerait que je suis banni du serveur Starbound-fr.net... Quand j'essaie de me connecter, ça me dit sans aucune forme d'émotion : "You are banned", tel un criminel en fuite. Késako ?]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2014-04-09T18:33:57Z</published>
+		<updated>2014-04-09T18:33:57Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=1008" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=1008</id>
+		<title type="html" xml:space="preserve"><![CDATA[Les admins dorment ou quoi ?]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=1008"><![CDATA[Je veux pas passé pour un casse co*ille mais les admins ne sont pas hypers présents... Genre dans les candidatures ça fait un bail que personne n'a reçu de réponse en fait donc voilà :/]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+</feed>

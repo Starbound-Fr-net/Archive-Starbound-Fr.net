@@ -1,0 +1,1333 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!-- start: showthread -->
+<html xml:lang="fr" lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Mumble x Teamspeak</title>
+<!-- start: headerinclude -->
+<link rel="alternate" type="application/rss+xml" title="Derniers sujets (RSS 2.0)" href="syndication.php" />
+<link rel="alternate" type="application/atom+xml" title="Derniers sujets (Atom 1.0)" href="syndication.php%3Ftype=atom1.0" />
+<link href='http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,200italic,400italic,600italic' rel='stylesheet' type='text/css'>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<script type="text/javascript" src="jscripts/jquery.js%3Fver=1800.html"></script>
+<script type="text/javascript" src="jscripts/jquery.plugins.min.js%3Fver=1800.html"></script>
+<script type="text/javascript" src="jscripts/general.js%3Fver=1800.html"></script>
+<script type="text/javascript" src="images/vienna/jquery-ui.js.html"></script>
+<script type="text/javascript" src="images/vienna/jquery.tipsy.js.html"></script>
+<script type="text/javascript" src="images/vienna/jquery.cookie.js.html"></script>
+
+
+<script type='text/javascript'> 
+jQuery(function() {
+jQuery("a").tipsy({gravity: jQuery.fn.tipsy.autoNS});
+jQuery("title").tipsy({gravity: jQuery.fn.tipsy.autoNS});
+jQuery("img").tipsy({gravity: jQuery.fn.tipsy.autoNS});
+jQuery("i").tipsy({gravity: jQuery.fn.tipsy.autoNS});
+jQuery("span").tipsy({gravity: jQuery.fn.tipsy.autoNS});
+jQuery("div").tipsy({gravity: jQuery.fn.tipsy.autoNS});
+  });
+</script>
+
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/css3.css.html" />
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/global.css.html" />
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/dd.css.html" />
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/profiles.css.html" />
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/contactdropdown.css.html" />
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/tipsy.css.html" />
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/extra.css.html" />
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/showthread.css.html" />
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/star_ratings.css.html" />
+<link type="text/css" rel="stylesheet" href="cache/themes/theme7/spoiler.css.html" />
+
+<script type="text/javascript">
+<!--
+	lang.unknown_error = "Une erreur inconnue s’est produite.";
+
+	lang.select2_match = "Un résultat est disponible, appuyez sur entrée pour le sélectionner.";
+	lang.select2_matches = "{1} résultats sont disponibles, utilisez les flèches haut et bas pour naviguer.";
+	lang.select2_nomatches = "Pas de résultat";
+	lang.select2_inputtooshort_single = "Entrez un ou plusieurs caractères";
+	lang.select2_inputtooshort_plural = "Entrez {1} caractères ou plus";
+	lang.select2_inputtoolong_single = "Supprimez un caractère";
+	lang.select2_inputtoolong_plural = "Supprimez {1} caractères";
+	lang.select2_selectiontoobig_single = "Vous ne pouvez sélectionner qu’un élément";
+	lang.select2_selectiontoobig_plural = "Vous ne pouvez sélectionner que {1} éléments";
+	lang.select2_loadmore = "Chargement de plus de résultats…";
+	lang.select2_searching = "Recherche…";
+
+	var cookieDomain = ".starbound-fr.net";
+	var cookiePath = "/forum/";
+	var cookiePrefix = "";
+	var deleteevent_confirm = "Êtes-vous sûr de vouloir supprimer cet événement ?";
+	var removeattach_confirm = "Êtes-vous sûr de vouloir supprimer la pièce jointe sélectionnée ?";
+	var loading_text = 'Chargement. <br />Patientez...';
+	var saving_changes = 'Sauvegarde des changements...';
+	var use_xmlhttprequest = "1";
+	var my_post_key = "af64ca80572eb9fc6ef9aaceade70def";
+	var rootpath = "http://starbound-fr.net/forum";
+	var imagepath = "http://starbound-fr.net/forum/images/vienna/";
+  	var yes_confirm = "Oui";
+	var no_confirm = "Non";
+	var MyBBEditor = null;
+	var spinner_image = "http://starbound-fr.net/forum/images/vienna//spinner.gif";
+	var spinner = "<img src='" + spinner_image +"' alt='' />";
+// -->
+</script>
+<!-- end: headerinclude -->
+<script type="text/javascript">
+<!--
+	var quickdelete_confirm = "Êtes-vous sûr de vouloir supprimer ce message ?";
+	var quickrestore_confirm = "Êtes-vous sûr de vouloir restaurer ce message ?";
+	var allowEditReason = "1";
+	lang.save_changes = "Enregistrer les modifications";
+	lang.cancel_edit = "Annuler l’édition";
+	lang.quick_edit_update_error = "Il y a eu une erreur lors de l’édition de votre réponse :";
+	lang.quick_reply_post_error = "Il y a eu une erreur lors de l’envoi de votre réponse :";
+	lang.quick_delete_error = "Il y a eu une erreur lors de la suppression de votre réponse :";
+	lang.quick_delete_success = "Le message a bien été supprimé.";
+	lang.quick_delete_thread_success = "Le sujet a bien été supprimé.";
+	lang.quick_restore_error = "Une erreur est survenue lors de la restauration de votre réponse :";
+	lang.quick_restore_success = "Le message a bein été restauré.";
+	lang.editreason = "Raison de la modification";
+// -->
+</script>
+<!-- jeditable (jquery) -->
+<script type="text/javascript" src="jscripts/report.js%3Fver=1800.html"></script>
+<script src="jscripts/jeditable/jeditable.min.js.html"></script>
+<script type="text/javascript" src="jscripts/thread.js%3Fver=1800.html"></script>
+</head>
+<body id="forums">
+	<!-- start: header -->
+<a name="top" id="top"></a>
+<div id="mainwidth">
+  
+<div class="menu" style="margin-top: 0px;">
+    <ul>
+<li id="nav-portal"><a href="../index.html"><i style="font-size: 14px;" class="fa fa-home fa-fw"></i> Accueil et Actus</a></li>
+      
+<li id="nav-forums"> <a href="index.php.html"><i style="font-size: 14px;" class="fa fa-globe fa-fw"></i> Forums</a></li>
+
+<li id="nav-portal"><a href="http://starbound-fr.net/chat/"><i style="font-size: 14px;" class="fa fa-weixin fa-fw"></i> Chat :)</a></li>
+      
+<li id="nav-search"> <a href="search.php.html"><i style="font-size: 14px;" class="fa fa-search fa-fw"></i> Recherche</a></li>
+      
+<li id="nav-member"> <a href="memberlist.php.html"><i style="font-size: 14px;" class="fa fa-user fa-fw"></i> Membres</a></li>
+      
+<li id="nav-help" class="float_right"> <a href="misc.php%3Faction=help.html"><i style="font-size: 14px;" class="fa fa-life-ring fa-fw"></i> Aide</a></li>
+   <ul>
+</div>
+
+<br />
+
+   <div id="float_right"> <!-- start: header_welcomeblock_guest -->
+<div class="float_right" style="margin-top: 25px">
+<a href="member.php%3Faction=login.html" onclick="$('#quick_login').modal({ fadeDuration: 250, keepelement: true }); return false;" class="login fstatg">
+<font color="#fff"><i class="fa fa-check-circle-o fa-fw"></i> <strong>Connexion</strong></font>
+</a> 
+&nbsp; <a href="member.php%3Faction=register.html" title="Si vous n'êtes pas encore membre de notre communautez, n'hésitez plus !" class="fstat">
+   <font color="white"><i class="fa fa-check-circle-o fa-fw"></i>  Créer un compte</font>
+</a>
+</span></div>
+				
+				<div class="modal" id="quick_login" style="display: none;">
+					<form method="post" action="http://starbound-fr.net/forum/member.php">
+						<input name="action" type="hidden" value="do_login" />
+						<input name="url" type="hidden" value="" />
+						<input name="quick_login" type="hidden" value="1" />
+       <table width="100%" cellspacing="0" cellpadding="5" border="0" class="tborder" style="padding: 20px;">
+							<tr>
+								<td class="thead" colspan="2"><strong>Se connecter</strong></td>
+							</tr>
+							<tr>
+								<td class="trow1" width="25%"><strong>Utilisateur/Email :</strong></td>
+								<td class="trow1"><input name="quick_username" id="quick_login_username" type="text" value="" class="textbox initial_focus" /></td>
+							</tr>
+							<tr>
+								<td class="trow2"><strong>Mot de passe :</strong></td>
+								<td class="trow2">
+									<input name="quick_password" id="quick_login_password" type="password" value="" class="textbox" /> <a href="member.php%3Faction=lostpw.html" class="lost_password">Mot de passe oublié ?</a>
+								</td>
+							</tr>
+							<tr>
+								<td class="trow1">&nbsp;</td>
+								<td class="trow1 remember_me">
+									<input name="quick_remember" id="quick_login_remember" type="checkbox" value="yes" class="checkbox" checked="checked" />
+									<label for="quick_login_remember">Se rappeler</label>
+								</td>
+							</tr>
+							<tr>
+								<td class="trow2" colspan="2">
+									<div align="center"><input name="submit" type="submit" class="button" value="Se connecter" /></div>
+								</td>
+							</tr>
+						</table>
+					</form>
+				</div>
+				<script type="text/javascript">
+					$("#quick_login input[name='url']").val($(location).attr('href'));
+				</script>
+<!-- end: header_welcomeblock_guest --></div>
+<div id="logo" style="margin-top: -20px;">
+				<div class="wrapper">
+					<div id="float_left"><a href="index.php.html"><img class="logo-site" src="../wp-content/themes/sb-fr/images/logo.png.html" alt="Starbound-Fr | Forum" /></a>
+                  
+              			<!-- <p class="slogan-site"><h1>Communauté francophone autour de Starbound</h1></p> -->
+                  </div>
+                              </div>
+                         </div>
+      <div id="mbox" style="margin-top: 0px;">
+<div id="container">
+		<a name="top" id="top"></a>
+		<div id="header">
+		<div id="content">
+			<div class="wrapper">
+                 <!-- start: nav -->
+<div class="navigation">
+<!-- start: nav_bit -->
+<a href="index.php.html">Starbound-Fr | Forum</a><!-- start: nav_sep -->
+<i style="font-size: 13px; margin-top: 0px;" class="fa fa-angle-right fa-fw"></i></li>
+<!-- end: nav_sep -->
+<!-- end: nav_bit --><!-- start: nav_bit -->
+<a href="forumdisplay.php%3Ffid=13.html">Multijoueur</a><!-- start: nav_sep -->
+<i style="font-size: 13px; margin-top: 0px;" class="fa fa-angle-right fa-fw"></i></li>
+<!-- end: nav_sep -->
+<!-- end: nav_bit --><!-- start: nav_bit -->
+<a href="forumdisplay.php%3Ffid=32.html">Serveur officiel de Starbound-Fr</a>
+<!-- end: nav_bit --><!-- start: nav_sep_active -->
+<i style="font-size: 13px; margin-top: 0px;" class="fa fa-angle-right fa-fw"></i></li>
+<!-- end: nav_sep_active --><!-- start: nav_bit_active -->
+<span class="active">Mumble x Teamspeak</span>
+<!-- end: nav_bit_active -->
+</div>
+<!-- end: nav --><br />
+                
+				
+				
+				
+				 <!-- BAM --><!-- start: bam_announcement_container -->
+
+<style>
+	.bam_announcement.yellow {
+		background: #FFF6BF;
+		border: 1px solid #FFD324;
+	}
+
+	.bam_announcement.green {
+		background: #D6ECA6;
+		border: 1px solid #8DC93E;
+	}
+
+	.bam_announcement.blue {
+		background: #ADCBE7;
+		border: 1px solid #0F5C8E;
+	}
+
+	.bam_announcement.red {
+		background: #FBE3E4;
+		border: 1px solid #A5161A;
+	}
+
+	.bam_announcement {
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px; 
+		text-align: center;
+		margin: 10px auto;
+		padding: 8px 12px;
+		background: #EBEBEB;
+		color: #000000;
+		border: 1px solid #ADADAD;
+	}
+
+	.bam_date {
+		color: #636161;
+		font-size: 0.78em;
+		margin-left: 6px;
+	}	
+
+	/* Insert Custom CSS Here */
+</style>
+<div class="bam_announcements"></div>
+<!-- end: bam_announcement_container --><!-- /BAM --> 
+                
+<!-- end: header -->
+	
+	<!-- start: showthread_poll_results -->
+<table border="0" cellspacing="0" cellpadding="5" class="tborder tfixed">
+<colgroup>
+<col style="width: 35%" />
+<col style="width: 50%" />
+<col style="width: 7%" />
+</colgroup>
+<tr>
+<td class="thead" colspan="4" style="text-align: center;"><strong>Sondage : Voulez-vous un serveur Mumble ?</strong><br /><span class="smalltext">Ce sondage est fermé.</span></td>
+</tr>
+<!-- start: showthread_poll_resultbit -->
+<tr>
+<td class="trow1 scaleimages" style="text-align: right;">Obawi didon !</td>
+<td class="trow1"><div class="pollbar" style="width: 61%" title="60.61%"><span class="percent">60.61%</span></div></td>
+<td class="trow1" style="text-align: center;">20</td>
+<td class="trow1" style="text-align: center;">60.61%</td>
+</tr>
+<!-- end: showthread_poll_resultbit --><!-- start: showthread_poll_resultbit -->
+<tr>
+<td class="trow1 scaleimages" style="text-align: right;">Oh bah bof en fait...</td>
+<td class="trow1"><div class="pollbar" style="width: 18%" title="18.18%"><span class="percent">18.18%</span></div></td>
+<td class="trow1" style="text-align: center;">6</td>
+<td class="trow1" style="text-align: center;">18.18%</td>
+</tr>
+<!-- end: showthread_poll_resultbit --><!-- start: showthread_poll_resultbit -->
+<tr>
+<td class="trow1 scaleimages" style="text-align: right;">Je préfère TeamSpeak !</td>
+<td class="trow1"><div class="pollbar" style="width: 21%" title="21.21%"><span class="percent">21.21%</span></div></td>
+<td class="trow1" style="text-align: center;">7</td>
+<td class="trow1" style="text-align: center;">21.21%</td>
+</tr>
+<!-- end: showthread_poll_resultbit -->
+<tr>
+<td class="tfoot" colspan="2" style="text-align: right;"><strong>Total</strong></td>
+<td class="tfoot" style="text-align: center;"><strong>33 vote(s)</strong></td>
+<td class="tfoot" style="text-align: center;"><strong>100%</strong></td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="2" border="0" style="width: 100%; text-align: center;">
+<tr>
+<td style="text-align: left;"><span class="smalltext">* Vous avez voté pour cette proposition.</span></td>
+<td style="text-align: right;"><span class="smalltext">[<a href="polls.php%3Faction=showresults&amp;pid=38.html">Voir les résultats</a>]</span></td>
+</tr>
+</table>
+<br />
+<!-- end: showthread_poll_results -->
+	<div class="float_left">
+		<!-- start: multipage -->
+<div class="pagination">
+<span class="pages">Pages (3) :</span>
+<!-- start: multipage_prevpage -->
+<a href="showthread.php%3Ftid=612.html" class="pagination_previous">&laquo; Précédent</a>
+<!-- end: multipage_prevpage --><!-- start: multipage_page -->
+<a href="showthread.php%3Ftid=612.html" class="pagination_page">1</a>
+<!-- end: multipage_page --><!-- start: multipage_page_current -->
+ <span class="pagination_current">2</span>
+<!-- end: multipage_page_current --><!-- start: multipage_page -->
+<a href="showthread.php%3Ftid=612&amp;page=3.html" class="pagination_page">3</a>
+<!-- end: multipage_page --><!-- start: multipage_nextpage -->
+<a href="showthread.php%3Ftid=612&amp;page=3.html" class="pagination_next">Suivant &raquo;</a>
+<!-- end: multipage_nextpage -->
+</div>
+<!-- end: multipage -->
+	</div>
+	<div class="float_right">
+		<!-- start: showthread_newreply_closed -->
+<a href="newreply.php%3Ftid=612.html" class="button closed_button"><i style="font-size: 14px;" class="fa fa-lock fa-fw"></i> Sujet clos</a>&nbsp;
+<!-- end: showthread_newreply_closed -->
+	</div>
+	<!-- start: showthread_ratethread -->
+<div style="margin-top: 6px; padding-right: 10px;" class="float_right">
+		<script type="text/javascript">
+		<!--
+			lang.ratings_update_error = "";
+		// -->
+		</script>
+		<script type="text/javascript" src="jscripts/rating.js%3Fver=1800.html"></script>
+		<div class="inline_rating">
+			<ul class="star_rating star_rating_notrated" id="rating_thread_612">
+				<li style="width: 60%" class="current_rating" id="current_rating_612">Moyenne : 3.2 (5 vote(s))</li>
+				<li><a class="one_star" title="1 étoile sur 5" href="ratethread.php%3Ftid=612&amp;rating=1&amp;my_post_key=af64ca80572eb9fc6ef9aaceade70def.html">1</a></li>
+				<li><a class="two_stars" title="2 étoiles sur 5" href="ratethread.php%3Ftid=612&amp;rating=2&amp;my_post_key=af64ca80572eb9fc6ef9aaceade70def.html">2</a></li>
+				<li><a class="three_stars" title="3 étoiles sur 5" href="ratethread.php%3Ftid=612&amp;rating=3&amp;my_post_key=af64ca80572eb9fc6ef9aaceade70def.html">3</a></li>
+				<li><a class="four_stars" title="4 étoiles sur 5" href="ratethread.php%3Ftid=612&amp;rating=4&amp;my_post_key=af64ca80572eb9fc6ef9aaceade70def.html">4</a></li>
+				<li><a class="five_stars" title="5 étoiles sur 5" href="ratethread.php%3Ftid=612&amp;rating=5&amp;my_post_key=af64ca80572eb9fc6ef9aaceade70def.html">5</a></li>
+			</ul>
+		</div>
+</div>
+<!-- end: showthread_ratethread -->
+	<table border="0" cellspacing="0" cellpadding="5" class="tborder tfixed clear">
+		<tr>
+			<td class="thead">
+				<div class="float_right">
+					<span class="smalltext"><strong><a href="javascript:;" id="thread_modes">Modes de sujets</a></strong></span>
+				</div>
+				<div>
+					<strong>Mumble x Teamspeak</strong>
+				</div>
+			</td>
+		</tr>
+<tr><td id="posts_container">
+	<div id="posts">
+		<!-- start: postbit_classic -->
+
+<a name="pid12042" id="pid12042"></a>
+<div class="post classic " style="" id="post_12042">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=395.html">sasukap</a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=395.html"><img src="http://starbound-fr.net/forum/uploads/avatars/avatar_395.jpg?dateline=1386002782" alt="" width="185" height="125" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				Capitaine <br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 27
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=395.html"><strong class="reputation_positive">1</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=395.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="showthread.php%3Ftid=612&amp;pid=12042.html#pid12042" title="RE: Mumble">#11</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">03-12-2013, 10h17 <span class="post_edit" id="edited_by_12042"></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_12042">
+    	Je pense qu'un mumble est une bonne idée. J'ai été pas mal de temps sur des serveurs minecraft, terraria et je peux vous dire que l'on s'amuse bien plus en parlant au micro avec les joueurs du serveur qu'en écrivant au tchat. Après je précise que c'est mon avis :) 
+	</div>
+	<center>
+      <!-- start: postbit_signature -->
+<div class="signature scaleimages">
+<br />
+<br />
+<a href="http://steamsignature.com" target="_blank"><img src="http://steamsignature.com/profile/french/76561198042048719.png" border="0" alt="[Image: 76561198042048719.png]" /></a><br />
+<br />
+<br />
+
+</div>
+<!-- end: postbit_signature --></center>
+	<div class="post_meta" id="post_meta_12042">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic --><!-- start: postbit_classic -->
+
+<a name="pid12044" id="pid12044"></a>
+<div class="post classic " style="" id="post_12044">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=344.html">KuroCanapay</a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=344.html"><img src="images/default_avatar.png.html" alt="" width="100" height="100" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				Survivant<br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 15
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=344.html"><strong class="reputation_positive">2</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=344.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="showthread.php%3Ftid=612&amp;pid=12044.html#pid12044" title="RE: Mumble">#12</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">03-12-2013, 11h35 <span class="post_edit" id="edited_by_12044"></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_12044">
+    	Désolé Kiwii, ce n'est pas de la méchanceté hein. J'essaye juste de comprendre pourquoi, m'en veux pas d'essayer. Je te critiques peut-être de façon biaisé mais je trouve que t'essaye pas trop de me comprendre au final. <br />
+<br />
+Désolé mon but c'est pas de faire chier les gens, c'est juste que j'aimerais que les réactions de tous soit intelligentes et réfléchies. Je ne sais pas si c'est le cas avec ce que tu as écrit plus loin mais je te prie au moins de comprendre mon incompréhension concernant ton avis sur la question. 
+	</div>
+	<center>
+      </center>
+	<div class="post_meta" id="post_meta_12044">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic --><!-- start: postbit_classic -->
+
+<a name="pid12046" id="pid12046"></a>
+<div class="post classic " style="" id="post_12046">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=386.html">Malokran</a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=386.html"><img src="http://starbound-fr.net/forum/uploads/avatars/avatar_386.jpg?dateline=1385712794" alt="" width="129" height="129" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				Survivant<br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 16
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=386.html"><strong class="reputation_neutral">0</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=386.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="showthread.php%3Ftid=612&amp;pid=12046.html#pid12046" title="RE: Mumble">#13</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">03-12-2013, 13h09 <span class="post_edit" id="edited_by_12046"></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_12046">
+    	Je suis pas fan de serveur vocal, mais c'est du au fait que mon ordi est dans le salon, avec le bruit qu'il y a autours c'est ps forcément agréable, et je n'aime pas trop le micro casque j'ai l'impression de me couper de la maison.<br />
+<br />
+Mais s'il y en a un je passerais peut être de temps en temps en journée quand c'est plus calme chez moi sur le vocal :) 
+	</div>
+	<center>
+      </center>
+	<div class="post_meta" id="post_meta_12046">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic --><!-- start: postbit_classic -->
+
+<a name="pid12047" id="pid12047"></a>
+<div class="post classic " style="" id="post_12047">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=395.html">sasukap</a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=395.html"><img src="http://starbound-fr.net/forum/uploads/avatars/avatar_395.jpg?dateline=1386002782" alt="" width="185" height="125" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				Capitaine <br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 27
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=395.html"><strong class="reputation_positive">1</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=395.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="showthread.php%3Ftid=612&amp;pid=12047.html#pid12047" title="RE: Mumble">#14</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">03-12-2013, 13h21 <span class="post_edit" id="edited_by_12047"></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_12047">
+    	Y'a un truc que je comprends pas, venir mumble ne veut pas dire parler; vous pouvez venir mumble sans micro, l'un n’empêche pas l'autre.  <img src="images/smilies/yoda.png.html" alt="Yoda" title="Yoda" class="smilie smilie_38" /> 
+	</div>
+	<center>
+      <!-- start: postbit_signature -->
+<div class="signature scaleimages">
+<br />
+<br />
+<a href="http://steamsignature.com" target="_blank"><img src="http://steamsignature.com/profile/french/76561198042048719.png" border="0" alt="[Image: 76561198042048719.png]" /></a><br />
+<br />
+<br />
+
+</div>
+<!-- end: postbit_signature --></center>
+	<div class="post_meta" id="post_meta_12047">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic --><!-- start: postbit_classic -->
+
+<a name="pid12050" id="pid12050"></a>
+<div class="post classic " style="" id="post_12050">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=1.html"><span style="color: green;"><strong><em>OniriCorpe</em></strong></span></a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=1.html"><img src="uploads/avatars/avatar_1.jpg%3Fdateline=1422600174.html" alt="" width="185" height="185" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				ZZDZZAZZ4ZZZZIZZ9ZZ ZZ<br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 1 982
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=1.html"><strong class="reputation_positive">47</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_www -->
+<a href="https://oniricorpe.eu/" target="_blank" title="Visiter le site internet de cet utilisateur" class="postbit_website"><i style="font-size: 11px;" class="fa fa-globe fa-fw"></i></a> &nbsp;
+<!-- end: postbit_www --><!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=1.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="showthread.php%3Ftid=612&amp;pid=12050.html#pid12050" title="RE: Mumble">#15</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">03-12-2013, 13h56 <span class="post_edit" id="edited_by_12050"><!-- start: postbit_editedby -->
+<span class="edited_post">(Modification du message : 03-12-2013, 13h58 par <a href="member.php%3Faction=profile&amp;uid=1.html">OniriCorpe</a>.)</span>
+<!-- end: postbit_editedby --></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_12050">
+    	<blockquote><cite>Citation :</cite>"ça m'a saoulé au bout quelques minutes" Je vois que t'as pas vraiment essayé.</blockquote>
+Je répète : Apprends à lire.<br />
+J'y avais passé près de 3 mois.<br />
+<br />
+<blockquote><cite>Citation :</cite>Et aussi c'est un peu con dans ton boulot d'admin de "sélectionner" les gens avec qui tu parles de la sorte, même si c'est en vocal mais bon c'est ton boulot pas le mien. J'aimerais juste pas que ça pose des problèmes si jamais la commu se développe vite et que tu te fais prendre de court. </blockquote>
+Je n'ai pas vraiment envie d'être admin, si je le suis c'est juste pour qu'il existe une communauté Starbound viable, si tu es contre, vas-t-en.<br />
+<br />
+<blockquote><cite>Citation :</cite>Mais c'est totalement ton choix de venir sur TS, par contre c'est celui des membres du forums de décider si ils veulent un TS officiel Starbound-fr et je penses que tu as déjà des personnes que tu pourrais assigner à la modération de ce chat vocal.</blockquote>
+Ais-je seulement indiqué une seule fois que je ne voulais pas que les membres de la communauté aient un serveur vocal ? Non. Ferme la et apprends à lire. J'ai édité le sondage pour ajouter le TS que vous voulez tant. J'ai simplement donné mon avis personnel sur la chose.<br />
+<br />
+<blockquote><cite>Citation :</cite>Enfin comme je l'ai déjà dit, c'est ton boulot pas le mien, mais évite de trop impliquer tes choix personnels dans ta politique de modération et d'administration. Et je te ne dis pas ça en l'air, crois moi, j'ai déjà vu ce que ça fait. </blockquote>
+Effectivement, ta gueule.<br />
+<br />
+<blockquote><cite>Citation :</cite>Désolé Kiwii, ce n'est pas de la méchanceté hein. J'essaye juste de comprendre pourquoi, m'en veux pas d'essayer. Je te critiques peut-être de façon biaisé mais je trouve que t'essaye pas trop de me comprendre au final. </blockquote>
+Sans commentaire. <img src="images/smilies/wtf.png.html" alt="Wtf" title="Wtf" class="smilie smilie_35" /><br />
+<br />
+<blockquote><cite>Citation :</cite>Désolé mon but c'est pas de faire chier les gens, c'est juste que j'aimerais que les réactions de tous soit intelligentes et réfléchies. Je ne sais pas si c'est le cas avec ce que tu as écrit plus loin mais je te prie au moins de comprendre mon incompréhension concernant ton avis sur la question. </blockquote>
+Ne cherche pas à forcer la mise, c'est tout. Tu cherches à enfoncer des portes ouvertes mais tu ne vois pas le petit bout de parquet qui dépasse et te fera trébucher. 
+	</div>
+	<center>
+      <!-- start: postbit_signature -->
+<div class="signature scaleimages">
+<img src="https://oniricorpe.eu/img/sign.png" border="0" alt="[Image: sign.png]" /><br />
+<br />
+OniriCorpe, c'est moi ! ^○^﻿/<br />
+(Et c'est un jeu de mot nase. <img src="images/smilies/mouark.png.html" alt="Mouark" title="Mouark" class="smilie smilie_63" /> )<br />
+<br />
+<span style="font-size: large;"><a href="https://oniricorpe.eu/" target="_blank">Va visiter mon site perso ! <img src="images/smilies/poptop.png.html" alt="Poptop" title="Poptop" class="smilie smilie_21" /></a></span>
+</div>
+<!-- end: postbit_signature --></center>
+	<div class="post_meta" id="post_meta_12050">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic --><!-- start: postbit_classic -->
+
+<a name="pid12052" id="pid12052"></a>
+<div class="post classic " style="" id="post_12052">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=271.html">Indoe</a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=271.html"><img src="uploads/avatars/avatar_271.png%3Fdateline=1366566615.html" alt="" width="185" height="158" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				Distributeur de pains<br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 646
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=271.html"><strong class="reputation_positive">16</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=271.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="showthread.php%3Ftid=612&amp;pid=12052.html#pid12052" title="RE: Mumble">#16</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">03-12-2013, 14h26 <span class="post_edit" id="edited_by_12052"></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_12052">
+    	Au delà des différences de volume, de la qualité de voix très variable entre les membres, du connard qui met sa musique à fond pour que tout le monde en profite, les VOIP sont des interfaces qui me polluent. De mon côté, je préfère rester à l'écoute de mon environnement direct (mon chez moi quoi), pouvoir écouter tranquillement ma musique, ou tout simplement entendre quand on me parle IRL.<br />
+Après pour ceux qui vivent seuls ou qui ne voient pas d'inconvénient à se couper du monde ou à emmerder leurs colocataires, pourquoi pas ?<br />
+Mais perso je préfère largement le chat texte pour communiquer. Et puis sinon, quel intérêt pour les smileys dans Starbound ? ^^ 
+	</div>
+	<center>
+      <!-- start: postbit_signature -->
+<div class="signature scaleimages">
+<img src="http://img15.hostingpics.net/pics/859825Signature.png" border="0" alt="[Image: 859825Signature.png]" />
+</div>
+<!-- end: postbit_signature --></center>
+	<div class="post_meta" id="post_meta_12052">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic --><!-- start: postbit_classic -->
+
+<a name="pid12055" id="pid12055"></a>
+<div class="post classic " style="" id="post_12055">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=386.html">Malokran</a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=386.html"><img src="http://starbound-fr.net/forum/uploads/avatars/avatar_386.jpg?dateline=1385712794" alt="" width="129" height="129" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				Survivant<br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 16
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=386.html"><strong class="reputation_neutral">0</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=386.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="showthread.php%3Ftid=612&amp;pid=12055.html#pid12055" title="RE: Mumble">#17</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">03-12-2013, 14h45 <span class="post_edit" id="edited_by_12055"></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_12055">
+    	<blockquote><cite>Indoe a écrit :</cite>Au delà des différences de volume, de la qualité de voix très variable entre les membres, du connard qui met sa musique à fond pour que tout le monde en profite, les VOIP sont des interfaces qui me polluent. De mon côté, je préfère rester à l'écoute de mon environnement direct (mon chez moi quoi), pouvoir écouter tranquillement ma musique, ou tout simplement entendre quand on me parle IRL.<br />
+Après pour ceux qui vivent seuls ou qui ne voient pas d'inconvénient à se couper du monde ou à emmerder leurs colocataires, pourquoi pas ?<br />
+Mais perso je préfère largement le chat texte pour communiquer. Et puis sinon, quel intérêt pour les smileys dans Starbound ? ^^</blockquote>
+<br />
+Même point de vue <img src="images/smilies/mwahahaha.png.html" alt=":D" title=":D" class="smilie smilie_64" /> 
+	</div>
+	<center>
+      </center>
+	<div class="post_meta" id="post_meta_12055">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic --><!-- start: postbit_classic -->
+
+<a name="pid12071" id="pid12071"></a>
+<div class="post classic " style="" id="post_12071">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=280.html">DarkHunter17</a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=280.html"><img src="uploads/avatars/avatar_280.png%3Fdateline=1390250949.html" alt="" width="185" height="185" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				Dat guy<br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 327
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=280.html"><strong class="reputation_positive">1</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=280.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="showthread.php%3Ftid=612&amp;pid=12071.html#pid12071" title="RE: Mumble">#18</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">03-12-2013, 20h48 <span class="post_edit" id="edited_by_12071"></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_12071">
+    	Au pire, j'suis en train de penser, y a toujours skype pour ceux qui veulent causer vocalement...certes c'est de la merde, mais c'est moins compliquer a mettre ne place qu'un serveur mumble/TS.<br />
+<br />
+Perso je resterai sans doute a l'écris, mais si y a un mumble je passerai je pense. 
+	</div>
+	<center>
+      <!-- start: postbit_signature -->
+<div class="signature scaleimages">
+<div style="text-align: center;"><img src="http://img833.imageshack.us/img833/1669/z95c.png" border="0" alt="[Image: z95c.png]" /></div>
+</div>
+<!-- end: postbit_signature --></center>
+	<div class="post_meta" id="post_meta_12071">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic --><!-- start: postbit_classic -->
+
+<a name="pid12074" id="pid12074"></a>
+<div class="post classic " style="" id="post_12074">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=4.html"><span style="color: #f6731d;"><strong>Biscotteman</strong></span></a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=4.html"><img src="uploads/avatars/avatar_4.png%3Fdateline=1391852778.html" alt="" width="157" height="250" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				Super-héros qui bosse dur ☻<br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 1 741
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=4.html"><strong class="reputation_positive">77</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=4.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="showthread.php%3Ftid=612&amp;pid=12074.html#pid12074" title="RE: Mumble">#19</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">03-12-2013, 21h31 <span class="post_edit" id="edited_by_12074"><!-- start: postbit_editedby -->
+<span class="edited_post">(Modification du message : 04-12-2013, 17h10 par <a href="member.php%3Faction=profile&amp;uid=4.html">Biscotteman</a>.)</span>
+<!-- end: postbit_editedby --></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_12074">
+    	Bon alors déjà je suis déçu, en même pas une journée c'est déjà le bordel sur mon topic.<br />
+Jvais être franc : Si vous voulez débattre, ne vous INSULTEZ pas. Ni d'agressions. Ou vous faites ça ailleurs quoi merde.<br />
+De deux, pour Purexo: Je vais passer sur le "Tu pourrais avoir la décence de laisser le choix"... Si tu avais simplement demandé "Pourquoi n'as-tu pas proposé un serveur TeamSpeak ?", je t'aurais répondu que je n'en ai pas à disposition gratuitement, contrairement à un serveur Mumble <img src="images/smilies/oeil.png.html" alt="Wink" title="Wink" class="smilie smilie_68" /><br />
+Donc voilà. Je précise donc : Je propose un serveur Mumble à slots illimités. Si vous souhaitez un serveur TS, apparemment la communauté Staria peut en mettre un à disposition :)<br />
+On verra selon les sondages ^^<br />
+Et au risque de me répéter, je trouve ça dommage que ce topic parte autant en vrille alors que tout ça partait d'une bonne intention. Jpense que c'est tout ce que j'ai à dire. Je fermerais le sondage dans une semaine. 
+	</div>
+	<center>
+      <!-- start: postbit_signature -->
+<div class="signature scaleimages">
+<div style="text-align: center;"><img src="http://puu.sh/7gt1L.png" border="0" alt="[Image: 7gt1L.png]" /></div>
+<div style="text-align: center;">Si vous aimez ce que je fais, remerciez-moi en me donnant un <a href="reputation.php%3Fuid=4.html" target="_blank">point de réputation <img src="images/smilies/oeil.png.html" alt="Wink" title="Wink" class="smilie smilie_68" /></a><br />
+<img src="http://144.76.203.227/osu!Post/signature.php?u=1019554" border="0" alt="[Image: signature.php?u=1019554]" /><br />
+</div>
+
+</div>
+<!-- end: postbit_signature --></center>
+	<div class="post_meta" id="post_meta_12074">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic --><!-- start: postbit_classic -->
+
+<a name="pid12112" id="pid12112"></a>
+<div class="post classic " style="" id="post_12112">
+<div class="post_author scaleimages">
+  <div class="arrow_box">
+	<div class="author_information">
+       <!-- start: postbit_offline -->
+<img src="images/vienna/buddy_offline.png.html" title="Hors ligne" alt="Hors ligne" class="buddy_status" />
+<!-- end: postbit_offline --> <strong><span class="protext"><a href="member.php%3Faction=profile&amp;uid=77.html"><span style="color: green;"><strong><em>Purexo</em></strong></span></a></span></strong>  
+      <br />
+      <!-- start: postbit_avatar -->
+<div class="author_avatar"><a href="member.php%3Faction=profile&amp;uid=77.html"><img src="uploads/avatars/avatar_77.png%3Fdateline=1424700828.html" alt="" width="185" height="185" /></a></div>
+<!-- end: postbit_avatar -->
+			<span class="smalltext">
+				Ponystrateur<br />
+				<img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><img src="images/pixel.png.html" border="0" alt="*" /><br />
+			</span>
+	</div>
+	<div class="author_statistics">
+		<!-- start: postbit_author_user -->
+    Messages : 83
+	<!-- start: postbit_reputation -->
+<br />Réputation : <!-- start: postbit_reputation_formatted_link -->
+<a href="reputation.php%3Fuid=77.html"><strong class="reputation_positive">3</strong></a>
+<!-- end: postbit_reputation_formatted_link -->
+<!-- end: postbit_reputation -->
+<!-- end: postbit_author_user --> 
+      <div class="postbit_buttons author_buttons float_left" style="padding-top: 8px;">
+		<!-- start: postbit_www -->
+<a href="https://purexo.eu/" target="_blank" title="Visiter le site internet de cet utilisateur" class="postbit_website"><i style="font-size: 11px;" class="fa fa-globe fa-fw"></i></a> &nbsp;
+<!-- end: postbit_www --><!-- start: postbit_find -->
+<a href="search.php%3Faction=finduser&amp;uid=77.html" title="Trouver tous les messages de cet utilisateur" class="postbit_find"><i style="font-size: 11px;" class="fa fa-search fa-fw"></i></a> &nbsp;
+<!-- end: postbit_find -->
+	</div>
+</div></div></div>
+<div class="post_content">
+	<div class="post_head">
+		<!-- start: postbit_posturl -->
+<div class="float_right" style="vertical-align: top">
+<strong><a href="showthread.php%3Ftid=612&amp;pid=12112.html#pid12112" title="RE: Mumble">#20</a></strong>
+
+</div>
+<!-- end: postbit_posturl -->
+		
+		<span class="post_date">04-12-2013, 09h22 <span class="post_edit" id="edited_by_12112"></span></span>
+	
+	</div>
+   
+	<div class="post_body scaleimages" id="pid_12112">
+    	Boarf, étant donné notre cordialité plutôt fluctuante j'avais envi de te faire un petit taunt :p le "Tu pourrais avoir la décence de laisser le choix" était pas à prendre au premier degré, dsl si tu ne l'avais pas saisi.<br />
+<br />
+Sinon concernant mon offre, elle tient toujours. Il me reste un serveur virtuel sur ma licence et une 100aine de slots. (c'est ajustable si vraiment il y a besoin de plus de 100 place) 
+	</div>
+	<center>
+      <!-- start: postbit_signature -->
+<div class="signature scaleimages">
+<a href="https://purexo.eu/blog/" target="_blank"><img src="http://up.purexo.eu/img/BannerPerso.png" border="0" alt="[Image: BannerPerso.png]" /></a><br />
+Raccourcisseur de liens : <a href="http://pupu.eu/" target="_blank">http://pupu.eu/</a><br />
+
+</div>
+<!-- end: postbit_signature --></center>
+	<div class="post_meta" id="post_meta_12112">
+	</div>
+</div>
+<div class="post_controls">
+
+	<div class="postbit_buttons post_management_buttons float_right">
+				
+	</div>
+</div>
+</div>
+<!-- end: postbit_classic -->
+	</div>
+</td></tr>
+		<tr>
+			<td class="tfoot">
+				<div class="float_left">
+     <a href="showthread.php%3Ftid=612&amp;action=nextoldest.html"><strong><i style="font-size: 19px;" class="fa fa-angle-left fa-fw"></i></strong></a></div>
+                  
+                <div class="float_right">
+     <a href="showthread.php%3Ftid=612&amp;action=nextnewest.html"><strong><i style="font-size: 19px;" class="fa fa-angle-right fa-fw"></i></strong></a></div>
+			</td>
+		</tr>
+	</table>
+	<div class="float_left">
+		<!-- start: multipage -->
+<div class="pagination">
+<span class="pages">Pages (3) :</span>
+<!-- start: multipage_prevpage -->
+<a href="showthread.php%3Ftid=612.html" class="pagination_previous">&laquo; Précédent</a>
+<!-- end: multipage_prevpage --><!-- start: multipage_page -->
+<a href="showthread.php%3Ftid=612.html" class="pagination_page">1</a>
+<!-- end: multipage_page --><!-- start: multipage_page_current -->
+ <span class="pagination_current">2</span>
+<!-- end: multipage_page_current --><!-- start: multipage_page -->
+<a href="showthread.php%3Ftid=612&amp;page=3.html" class="pagination_page">3</a>
+<!-- end: multipage_page --><!-- start: multipage_nextpage -->
+<a href="showthread.php%3Ftid=612&amp;page=3.html" class="pagination_next">Suivant &raquo;</a>
+<!-- end: multipage_nextpage -->
+</div>
+<!-- end: multipage -->
+	</div>
+	<div style="padding-top: 4px;" class="float_right">
+		<!-- start: showthread_newreply_closed -->
+<a href="newreply.php%3Ftid=612.html" class="button closed_button"><i style="font-size: 14px;" class="fa fa-lock fa-fw"></i> Sujet clos</a>&nbsp;
+<!-- end: showthread_newreply_closed -->
+	</div>
+	<br class="clear" />
+	
+	
+	
+	<br />
+<!--
+<div style="margin-top: 4px; margin-left: 20px;" class="float_left">
+
+<a title="Digg" href="http://digg.com/submit?url=http://starbound-fr.net/forum/showthread.php?tid=612" target="_blank">
+  <img src="images/vienna/di.png" alt="Digg" /></a> &nbsp;
+
+<a title="Delicious" href="http://del.icio.us/post?url=http://starbound-fr.net/forum/showthread.php?tid=612&title=Mumble x Teamspeak" target="_blank"><img src="images/vienna/de.png" alt="Delicious" /></a> &nbsp;
+
+<a title="Reddit" href="http://reddit.com/submit?url=http://starbound-fr.net/forum/showthread.php?tid=612&title=Mumble x Teamspeak" target="_blank"><img src="images/vienna/re.png" alt="Reddit" /></a> &nbsp;
+
+<a title="Facebook" href="http://www.facebook.com/share.php?u=http://starbound-fr.net/forum/showthread.php?tid=612" target="_blank"><img src="images/vienna/fb.png" alt="Facebook" /></a> &nbsp;
+
+<a title="Twitter" href="http://twitter.com/home?status=Mumble x Teamspeak - http://starbound-fr.net/forum/showthread.php?tid=612" target="_blank"><img src="images/vienna/tw.png" alt="Twitter" /></a> &nbsp;
+
+<a title="StumbleUpon" href="http://www.stumbleupon.com/submit?url=http://starbound-fr.net/forum/showthread.php?tid=612" target="_blank"><img src="images/vienna/su.png" alt="StumbleUpon" /></a> &nbsp;
+
+</div>
+-->
+	<div class="float_right" style="text-align: right;">
+	
+		<!-- start: forumjump_advanced -->
+<form action="http://starbound-fr.net/forum/forumdisplay.php" method="get">
+<select name="fid" class="forumjump">
+<option value="-1" >Choisissez un forum :</option>
+<option value="-1">--------------------</option>
+<option value="-4">Messages privés</option>
+<option value="-3">Panneau de configuration</option>
+<option value="-5">Qui est en ligne</option>
+<option value="-2">Recherche</option>
+<option value="-1">Accueil du forum</option>
+<!-- start: forumjump_bit -->
+<option value="3" > Forum général</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="4" >-- Site &amp; Forum</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="5" >-- Présentations</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="8" >-- Aide &amp; Suggestions</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="24" >---- Site</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="25" >---- Forum</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="26" >---- Autre</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="6" >-- Salon</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="31" >---- Autres jeux Indés</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="7" >---- Le coin des artistes</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="23" >---- Role play</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="30" >------ Commentaires des RP</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="9" > Le jeu</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="10" >-- News</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="11" >-- Discussions générales</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="41" >-- Section RôlePlay</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="12" >-- Tutos, guides et astuces</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="22" >-- Aide &amp; Conseils</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="40" >-- Mods</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="42" >---- Aide au modding</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="43" >---- Tutos</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="13" > Multijoueur</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="32" selected="selected">-- Serveur officiel de Starbound-Fr</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="46" >---- Candidatures</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="47" >---- Planètes protégées</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="34" >---- Réclamations</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="44" >---- Candidatures Archivées</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="14" >-- Serveurs</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="15" >-- Problèmes et Aide</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="16" > Vos créations</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="17" >-- Vidéos</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="18" >-- Screenshots &amp; Fan-Art</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="35" > Terraria</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="38" >-- Blabla Terraria</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="36" >-- Serveurs</option>
+<!-- end: forumjump_bit --><!-- start: forumjump_bit -->
+<option value="37" >-- Mods &amp; Maps</option>
+<!-- end: forumjump_bit -->
+</select>
+<!-- start: gobutton -->
+<input type="submit" class="button" value="Valider" />
+<!-- end: gobutton -->
+</form>
+<script type="text/javascript">
+<!--
+	$(".forumjump").change(function() {
+		var option = $(".forumjump").get(0).selectedIndex.value;
+
+		if(option < 0)
+		{
+			window.location=('forumdisplay.php?fid='+option)
+			return
+		}
+
+		window.location=('forumdisplay.php?fid='+option)
+	})
+//-->
+</script>
+<!-- end: forumjump_advanced -->
+	</div>
+	<br class="clear" />
+	<!-- start: showthread_usersbrowsing -->
+<br />
+<table border="0" cellspacing="0" cellpadding="5" class="tborder">
+<tr><td class="thead"><strong>Utilisateur(s) parcourant ce sujet : </strong></td></tr>
+<tr><td class="trow1">
+<span class="smalltext">1 visiteur(s)</span>
+</td></tr>
+</table>
+<br />
+<!-- end: showthread_usersbrowsing -->
+	<!-- start: footer -->
+
+	</div>
+</div>
+
+</div></div>
+
+
+
+<div id="footer">
+	<div class="upper">
+		<div class="wrapper">
+			
+			
+			<ul class="menu2 bottom_links" style="margin-top: 10px;">
+              <li><a href="misc.php%3Faction=syndication.html"><i style="font-size: 16px;" class="fa fa-rss fa-fw"></i> &nbsp;</a></li>
+				<li><a href="showthread.php%3Fmode=linear&amp;tid=612&amp;pid=12042.html#top">Retourner en haut &nbsp;</a></li>
+				<li><a href="archive/index.php%3Fthread-612.html">Mode allégé &nbsp;</a></li>
+                <!-- start: footer_contactus -->
+ <a href="http://starbound-fr.net/contactez-nous/"> &nbsp;Contact</a>
+<!-- end: footer_contactus -->
+			</ul>
+		</div>
+	</div>
+	<div class="lower">
+		<div class="wrapper">
+			<div class="smalltext"><span id="current_time">Theme © 2014 iAndrew Modifié </span></div>
+			<span id="copyright">
+				<!-- MyBB is free software developed and maintained by a volunteer community.
+					It would be much appreciated by the MyBB Group if you left the full copyright and "powered by" notice intact,
+					to show your support for MyBB.  If you choose to remove or modify the copyright below,
+					you may be refused support on the MyBB Community Forums.
+
+					This is free software, support us and we'll support you. -->
+				Moteur <a href="http://www.mybb.com" target="_blank">MyBB</a>, &copy; 2002-2016 <a href="http://www.mybb.com" target="_blank">MyBB Group</a>.
+				<!-- End powered by -->
+			</span>
+          
+          <!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//p.starbound-fr.net/";
+    _paq.push(['setTrackerUrl', u+'piwique.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwique.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://p.starbound-fr.net/piwique.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+		</div>
+	</div>
+</div>
+<!-- The following piece of code allows MyBB to run scheduled tasks. DO NOT REMOVE --><!-- start: task_image -->
+<img src="task.php" width="1" height="1" alt="" />
+<!-- end: task_image --><!-- End task image code -->
+
+</div>
+<!-- end: footer -->
+	<div id="thread_modes_popup" class="popup_menu" style="display: none;">
+<div class="popup_item_container"><a href="showthread.php%3Fmode=linear&amp;tid=612&amp;pid=12042.html#pid12042" class="popup_item">Affichage linéaire</a></div>
+      
+<div class="popup_item_container"><a href="showthread.php%3Fmode=threaded&amp;tid=612&amp;pid=12042.html#pid12042" class="popup_item">Affichage hiérarchique</a></div>
+      
+<div class="popup_item_container"><a href="http://starbound-fr.net/printthread.php?tid=612" class="popup_item">Voir une version imprimable</a></div>
+      
+<div class="popup_item_container"><a href="usercp2.php%3Faction=addsubscription&amp;tid=612&amp;my_post_key=af64ca80572eb9fc6ef9aaceade70def.html" class="popup_item">S’abonner au sujet</a></div>
+      
+<div class="popup_item_container"><a href="polls.php%3Faction=newpoll&amp;tid=612.html" class="popup_item">Ajouter un sondage à ce sujet</a></div>
+      
+<div class="popup_item_container"><a href="sendthread.php%3Ftid=612.html" class="popup_item">Envoyer le sujet à un ami</a></div>
+  </div>
+	<script type="text/javascript">
+	// <!--
+		if(use_xmlhttprequest == "1")
+		{
+			$("#thread_modes").popupMenu();
+		}
+	// -->
+	</script>
+</body>
+</html>
+<!-- end: showthread -->

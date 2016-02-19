@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title><![CDATA[Starbound-Fr | Forum - Tutos, guides et astuces]]></title>
+		<link>http://starbound-fr.net/forum/</link>
+		<description><![CDATA[Starbound-Fr | Forum - http://starbound-fr.net/forum]]></description>
+		<pubDate>Thu, 18 Feb 2016 17:59:36 +0000</pubDate>
+		<generator>MyBB</generator>
+		<item>
+			<title><![CDATA[Serveur SVP]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1428</link>
+			<pubDate>Thu, 07 Jan 2016 19:20:32 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1428</guid>
+			<description><![CDATA[Je cherche un serveur privé pour moi et mes potes, et quand je dis priver, c'est à dire que l'on peut aller sur les vaisseaux des autres. Voilà, si quelqu'un en a un (on est 3 ou 4).<br />
+Si personne n'en trouve, vous pourriez m'expliquer comment en faire un ?]]></description>
+			<content:encoded><![CDATA[Je cherche un serveur privé pour moi et mes potes, et quand je dis priver, c'est à dire que l'on peut aller sur les vaisseaux des autres. Voilà, si quelqu'un en a un (on est 3 ou 4).<br />
+Si personne n'en trouve, vous pourriez m'expliquer comment en faire un ?]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Comment avoir plein d’objet facilement]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1024</link>
+			<pubDate>Thu, 01 May 2014 00:17:08 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1024</guid>
+			<description><![CDATA[Vous savez quand vous trouvé un coffre, vous n'avez qu'a le prendre et le<br />
+reposé il sera remplit de nouveau objet :)]]></description>
+			<content:encoded><![CDATA[Vous savez quand vous trouvé un coffre, vous n'avez qu'a le prendre et le<br />
+reposé il sera remplit de nouveau objet :)]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Réponse pour le durasteel]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1003</link>
+			<pubDate>Thu, 03 Apr 2014 14:22:46 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1003</guid>
+			<description><![CDATA[Le durasteel est une métal que tu débloque <span style="text-decoration: underline;"><span style="font-weight: bold;">APRÈS</span></span> avoir battu le dragon il est composé de charbon et de titanium voila]]></description>
+			<content:encoded><![CDATA[Le durasteel est une métal que tu débloque <span style="text-decoration: underline;"><span style="font-weight: bold;">APRÈS</span></span> avoir battu le dragon il est composé de charbon et de titanium voila]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Skyrails ?]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=989</link>
+			<pubDate>Tue, 18 Mar 2014 17:53:34 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=989</guid>
+			<description><![CDATA[Salut à tous j'aimerais bien savoir que sont et à quoi servent les skyrails merci.]]></description>
+			<content:encoded><![CDATA[Salut à tous j'aimerais bien savoir que sont et à quoi servent les skyrails merci.]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Modifier notre personnage]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=965</link>
+			<pubDate>Tue, 04 Mar 2014 23:40:44 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=965</guid>
+			<description><![CDATA[<div style="text-align: justify;"><span style="font-size: large;">Salut bande de buh !</span><br />
+<br />
+J'ai eut la curiosité récemment de regarder dans les fichiers de personnage.<br />
+Il s'avère qu'il est facile de modifier, par exemple, son nom, sa posture ou sa coupe de cheveux. Sympathique si on veut changer un peu de look ou d'identité. Il ne semble pas y avoir de répercutions sur le long terme... (dans le doute, faudrait faire une copie des fichiers liés à nos perso !)<br />
+Je vous préviens, je me suis lancé dedans en amateur et j'ai pas encore beaucoup expérimenté la chose.<br />
+<br />
+<span style="font-weight: bold;">On trouve ces fichiers</span> dans le dossier (...)/Starbound/player/.<br />
+En fait, quand on joue avec un personnage donné, 3 fichiers sont modifiés en même temps : <span style="font-style: italic;">tralala.player</span>, <span style="font-style: italic;">trucmuch.shipworld</span> et <span style="font-style: italic;">bidulechouette.metadata</span> ; j'imagine donc que les trois fichiers sont liés au personnage. Je ne sais pas ce que contiennent les deux derniers, mais c'est bien sûr dans le premier (qui se termine par <span style="font-style: italic;">.player</span>) qu'on trouve les informations liées au personnage.<br />
+Si vous voulez comme moi vous lancer dans la gueule du loup et vous amuser un peu (car y'a moyen de s'amuser), je vous invite à ouvrir le fichier <span style="font-style: italic;">.player</span> avec un logiciel approprié (pour le peu que je connaisse : notepad, geedit, bloc-note si vous être téméraire...).<br />
+<br />
+<span style="font-weight: bold;">Une fois que vous avez ouvert le document,</span> vous vous trouvez probablement devant un gros pâté de texte un petit peu intimidant, avec des mots que l'on peut reconnaître (en anglais, forcément) et des caractères spéciaux qui reviennent souvent (genre <span style="font-weight: bold;"><span style="font-size: x-small;">[NULL]</span></span>, <span style="font-size: x-small;"><span style="font-weight: bold;">[SOH]</span></span>...).<br />
+<span style="font-weight: bold;">Là-dedans,</span> les info que l'on cherche sont groupés dans une même région, située à la fin. Vous la trouverez facilement en recherchant (<span style="font-style: italic;">avec ctrl+F</span>) le nom de votre personnage (pourvu qu'il ne s'appelle pas "name" ou "data"...).<br />
+Vous vous trouverez dés lors dans un bloc contenant des mots clés tels que :<br />
+"<span style="font-style: italic;">species</span>", "<span style="font-style: italic;">gender</span>", "<span style="font-style: italic;">hairType</span>", "<span style="font-style: italic;">facialHairGroup</span>" (ça doit dépendre aussi de l'espèce?) souvent suivis d'un chiffre ou d'un autre mot (par exemple "<span style="font-style: italic;">22</span>", "<span style="font-style: italic;">apex</span>", "<span style="font-style: italic;">female</span>"...).<br />
+Les attributs et leurs valeurs sont séparés d'un ou deux caractères spéciaux. On tombe aussi sur des trucs à priori incompréhensibles (je n'ai pas encore été à postériori).<br />
+<br />
+<span style="font-weight: bold;">Certains paramètres ne sont pas changeables :</span> j'ai tenté de changer le sexe de mon personnage <del>(pas assez lo)</del> mais il/elle n'est alors plus visible dans la liste des personnages. J'imagine qu'il en serait de même pour sa race. Mon florain restera un florain !<br />
+<br />
+<span style="font-weight: bold;">Les paramètres que j'ai pu changer</span> (sans avoir tout essayer) sont donc :<br />
+<span style="font-weight: bold;">- Le nom</span> (je l'ai fait avec un autre perso y'a quelques temps)<br />
+<span style="font-weight: bold;">- La coupe de cheveux</span><br />
+<span style="font-weight: bold;">- La posture</span>, et je me suis beaucoup amusé avec ça !<br />
+En effet, la posture est donnée en deux parties : "<span style="font-style: italic;">personalityIdle</span>" (concerne le bas du corps, les jambes) et "<span style="font-style: italic;">personalityArmIdle</span>" (concerne le haut du corps, les bras). A la suite de ces deux mots, vous trouverez un chiffre qui variera de <span style="font-weight: bold;">1 </span>à <span style="font-weight: bold;">5</span>. Dans l'ordre, les chiffres correspondent aux postures normal, fier bras-sur-hanche, craintif/prudent, fier torse-gonflé et "Oh! Une jolie fleur !". La chose marrante, c'est que vous pouvez donner deux comportements différents.<br />
+<span style="font-weight: bold;">Voici donc Peter Pan et Iron Man.</span><br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <img src="http://www.image-share.com/upload/2462/217.png" border="0" alt="[Image: 217.png]" /><img src="http://www.image-share.com/upload/2462/216.png" border="0" alt="[Image: 216.png]" /><br />
+        </div>
+    </div>
+</div>
+<br />
+<span style="font-weight: bold;">-&gt; Je n'ai essayé aucune autre modification pour l'instant,</span> n'ayant pas bien localisé la couleur de peau/cheveux... J'imagine par ailleurs qu'il est possible de changer notre type de vaisseau. Peut être sur le fichier <span style="font-style: italic;">(...).shipworld</span>.<br />
+<br />
+<span style="font-weight: bold;">Pour conclure,</span> je le répète : je me suis lancé dedans en amateur sans comprendre la plupart de ce qu'il y avait dans le/les fichiers. Aussi je ne connais pas les potentiels risques qu'il y aurait à trifouiller ces fichiers !<br />
+Vous voilà avertis, ainsi je ne me sentirais nullement responsable en cas de suppression de votre perso pour cause de modification de fichier, ou alors avec un brin de fierté amusée.<br />
+<br />
+Par ailleurs, ce dans quoi je me suis lancé n'avait pas non-plus pour but de tricher, juste de changer le look/le nom de mon personnage (un peu d'eugénisme dans un monde sans coiffeur interstellaire) et, au passage, de comprendre un tout petit peu comment ça tourne. Puis c'est fun de jouer avec Peter Pan. Mais on a bien l'air con. M'enfin bref!<br />
+<br />
+Voilà, je vous invite maintenant à compléter le peu d'informations que j'ai mis, à partager vos expériences ou autres <span style="font-style: italic;">:p</span> (ou pas)<br />
+Amusez vous bien, bande de buh !</div>]]></description>
+			<content:encoded><![CDATA[<div style="text-align: justify;"><span style="font-size: large;">Salut bande de buh !</span><br />
+<br />
+J'ai eut la curiosité récemment de regarder dans les fichiers de personnage.<br />
+Il s'avère qu'il est facile de modifier, par exemple, son nom, sa posture ou sa coupe de cheveux. Sympathique si on veut changer un peu de look ou d'identité. Il ne semble pas y avoir de répercutions sur le long terme... (dans le doute, faudrait faire une copie des fichiers liés à nos perso !)<br />
+Je vous préviens, je me suis lancé dedans en amateur et j'ai pas encore beaucoup expérimenté la chose.<br />
+<br />
+<span style="font-weight: bold;">On trouve ces fichiers</span> dans le dossier (...)/Starbound/player/.<br />
+En fait, quand on joue avec un personnage donné, 3 fichiers sont modifiés en même temps : <span style="font-style: italic;">tralala.player</span>, <span style="font-style: italic;">trucmuch.shipworld</span> et <span style="font-style: italic;">bidulechouette.metadata</span> ; j'imagine donc que les trois fichiers sont liés au personnage. Je ne sais pas ce que contiennent les deux derniers, mais c'est bien sûr dans le premier (qui se termine par <span style="font-style: italic;">.player</span>) qu'on trouve les informations liées au personnage.<br />
+Si vous voulez comme moi vous lancer dans la gueule du loup et vous amuser un peu (car y'a moyen de s'amuser), je vous invite à ouvrir le fichier <span style="font-style: italic;">.player</span> avec un logiciel approprié (pour le peu que je connaisse : notepad, geedit, bloc-note si vous être téméraire...).<br />
+<br />
+<span style="font-weight: bold;">Une fois que vous avez ouvert le document,</span> vous vous trouvez probablement devant un gros pâté de texte un petit peu intimidant, avec des mots que l'on peut reconnaître (en anglais, forcément) et des caractères spéciaux qui reviennent souvent (genre <span style="font-weight: bold;"><span style="font-size: x-small;">[NULL]</span></span>, <span style="font-size: x-small;"><span style="font-weight: bold;">[SOH]</span></span>...).<br />
+<span style="font-weight: bold;">Là-dedans,</span> les info que l'on cherche sont groupés dans une même région, située à la fin. Vous la trouverez facilement en recherchant (<span style="font-style: italic;">avec ctrl+F</span>) le nom de votre personnage (pourvu qu'il ne s'appelle pas "name" ou "data"...).<br />
+Vous vous trouverez dés lors dans un bloc contenant des mots clés tels que :<br />
+"<span style="font-style: italic;">species</span>", "<span style="font-style: italic;">gender</span>", "<span style="font-style: italic;">hairType</span>", "<span style="font-style: italic;">facialHairGroup</span>" (ça doit dépendre aussi de l'espèce?) souvent suivis d'un chiffre ou d'un autre mot (par exemple "<span style="font-style: italic;">22</span>", "<span style="font-style: italic;">apex</span>", "<span style="font-style: italic;">female</span>"...).<br />
+Les attributs et leurs valeurs sont séparés d'un ou deux caractères spéciaux. On tombe aussi sur des trucs à priori incompréhensibles (je n'ai pas encore été à postériori).<br />
+<br />
+<span style="font-weight: bold;">Certains paramètres ne sont pas changeables :</span> j'ai tenté de changer le sexe de mon personnage <del>(pas assez lo)</del> mais il/elle n'est alors plus visible dans la liste des personnages. J'imagine qu'il en serait de même pour sa race. Mon florain restera un florain !<br />
+<br />
+<span style="font-weight: bold;">Les paramètres que j'ai pu changer</span> (sans avoir tout essayer) sont donc :<br />
+<span style="font-weight: bold;">- Le nom</span> (je l'ai fait avec un autre perso y'a quelques temps)<br />
+<span style="font-weight: bold;">- La coupe de cheveux</span><br />
+<span style="font-weight: bold;">- La posture</span>, et je me suis beaucoup amusé avec ça !<br />
+En effet, la posture est donnée en deux parties : "<span style="font-style: italic;">personalityIdle</span>" (concerne le bas du corps, les jambes) et "<span style="font-style: italic;">personalityArmIdle</span>" (concerne le haut du corps, les bras). A la suite de ces deux mots, vous trouverez un chiffre qui variera de <span style="font-weight: bold;">1 </span>à <span style="font-weight: bold;">5</span>. Dans l'ordre, les chiffres correspondent aux postures normal, fier bras-sur-hanche, craintif/prudent, fier torse-gonflé et "Oh! Une jolie fleur !". La chose marrante, c'est que vous pouvez donner deux comportements différents.<br />
+<span style="font-weight: bold;">Voici donc Peter Pan et Iron Man.</span><br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <img src="http://www.image-share.com/upload/2462/217.png" border="0" alt="[Image: 217.png]" /><img src="http://www.image-share.com/upload/2462/216.png" border="0" alt="[Image: 216.png]" /><br />
+        </div>
+    </div>
+</div>
+<br />
+<span style="font-weight: bold;">-&gt; Je n'ai essayé aucune autre modification pour l'instant,</span> n'ayant pas bien localisé la couleur de peau/cheveux... J'imagine par ailleurs qu'il est possible de changer notre type de vaisseau. Peut être sur le fichier <span style="font-style: italic;">(...).shipworld</span>.<br />
+<br />
+<span style="font-weight: bold;">Pour conclure,</span> je le répète : je me suis lancé dedans en amateur sans comprendre la plupart de ce qu'il y avait dans le/les fichiers. Aussi je ne connais pas les potentiels risques qu'il y aurait à trifouiller ces fichiers !<br />
+Vous voilà avertis, ainsi je ne me sentirais nullement responsable en cas de suppression de votre perso pour cause de modification de fichier, ou alors avec un brin de fierté amusée.<br />
+<br />
+Par ailleurs, ce dans quoi je me suis lancé n'avait pas non-plus pour but de tricher, juste de changer le look/le nom de mon personnage (un peu d'eugénisme dans un monde sans coiffeur interstellaire) et, au passage, de comprendre un tout petit peu comment ça tourne. Puis c'est fun de jouer avec Peter Pan. Mais on a bien l'air con. M'enfin bref!<br />
+<br />
+Voilà, je vous invite maintenant à compléter le peu d'informations que j'ai mis, à partager vos expériences ou autres <span style="font-style: italic;">:p</span> (ou pas)<br />
+Amusez vous bien, bande de buh !</div>]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Conseil au débutant]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=948</link>
+			<pubDate>Thu, 27 Feb 2014 11:28:51 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=948</guid>
+			<description><![CDATA[Salut à tous,<br />
+<br />
+après avoir vue le post de popenn j'ai eu envie de faire une petite liste de conseil pour les débutant qui sera mis a jour cette liste est la pour aider ceux qui découvre le jeux.<br />
+<br />
+<span style="color: #FF0000;">Les commandes:</span><br />
+<br />
+Z,Q,S,D: comme la plus part des jeux c'est l'équivalent des touches directionnel.<br />
+Espace: pour le saut.<br />
+E: c'est pour utiliser (ouvrire/fermer porte/coffre etc...) ne confondez pas avec minecraft ce n'est pas l'invetaire.<br />
+C: pour le menu de craft.<br />
+I : c'est celui ci pour ouvrir l’inventaire.<br />
+Ctrl : Si vous le maintenez vous pouvez déplacez la camera autour de vous.<br />
+A: permet de jetez les objets au sol.<br />
+X: accéder au objet placer aux emplacement L et R.<br />
+w: inverser les objet aux emplacement L et R.<br />
+Maj: permet de casser/placer qu'un seul bloc/objet.<br />
+<br />
+<span style="color: #FF0000;">La récolte de ressource:</span><br />
+<br />
+Dans Starbound vous ne commencer pas avec rien pour le minage quand vous démarrez vous obtenez(dans le coffre de votre vaisseau) le manipulateur de matière qui casse/pose en 2x2 pour que vous puissiez aller plus vite vous pouvez cous craftez une pioche(casse en 3x3) pour toute sorte de minerez et une hache pour le bois.<br />
+<br />
+Si vous être en train de miner vous pouvez choisir en récupérer l’arrière plan ou le premier pour cela Click droit(arrière plan) ou gauche(premier plan) (cela marche aussi pour la pose).  <br />
+<br />
+Pour vous facilitez la récolte de ressource en allant dans les profondeur des planètes plus vous serez proche du centre plus les minerez seront concentrez et précieux, pour minez plus vite allez sur une planète de type désert et cherchez une zone avec plein de sable fin car quand vous minez les bloc glisse vers vous en faisant sauter tous le minerez présents .<br />
+<br />
+Vous pouvez aussi avec une houe jouer au fermier car grâce a elle vous pourrez labourez le sol pour planter toute les graine que vous trouver  une fois celle si poussez au maximum appuyer simplement sur E pour récoltez.<br />
+<br />
+<span style="color: #FF6347;">Visiter l'univers</span><br />
+<br />
+Une fois lancez vous voudrez surement voir autre chose que votre première planète pour cela pas de problème il vous suffis d'aller sur votre faisceau et de prendre les commande a ce moment la vous verrez apparaître une carte de l'univers dans laquelle vous pourrez naviguez grâce à la souris avec les clique des souris vous pourrez zoomer et de-zoomer grâce a cela vous pourrez choisir une planète une fois choisie cliquez dessus et cliquez sur le gros bouton rouge écrit go.<br />
+<br />
+Arriver sur la planète téléportez vous dessus et la a vous de voir vous pouvez explorez pour chercher des construction ou minez directement dans les profondeur.<br />
+<br />
+Pour que vous ayez plus de choix de Biome et des difficultés plus grande il va vous falloir augmentez votre technologie cela vous permettrez de débloquez de nouvelles zone de votre univers pour cela il va falloir crafter des carte d'amélioration et pour pouvoir les crafter vous allez devoir récupérer des éléments spécifique en détruisant des boss pour cela vous devrez les invoquez âpre vous être armez convenablement.<br />
+<br />
+Objets et pixel:<br />
+<br />
+Pour avoir vite et facilement des objets et des pixel il vous suffit d'explorer la surface de la planète pour trouver des construction généralement habiter et défendue ces construction peuvent vous donner du file a retirer mais surtout de beau trésor.<br />
+Vous pouvez pour les pixel utiliser la fonderie qui permet de transformer les minerai en pixel.<br />
+Si vous trouver un objet dis décoratif et que vous l'avez qu'une fois et que vous en voulais d'autres (ex:portes) vous pouvez utiliser l'imprimante 3D qui vous permet apres avoir scanner l'objet de le reproduire contre quelques pixels (le scan détruit l'objet).]]></description>
+			<content:encoded><![CDATA[Salut à tous,<br />
+<br />
+après avoir vue le post de popenn j'ai eu envie de faire une petite liste de conseil pour les débutant qui sera mis a jour cette liste est la pour aider ceux qui découvre le jeux.<br />
+<br />
+<span style="color: #FF0000;">Les commandes:</span><br />
+<br />
+Z,Q,S,D: comme la plus part des jeux c'est l'équivalent des touches directionnel.<br />
+Espace: pour le saut.<br />
+E: c'est pour utiliser (ouvrire/fermer porte/coffre etc...) ne confondez pas avec minecraft ce n'est pas l'invetaire.<br />
+C: pour le menu de craft.<br />
+I : c'est celui ci pour ouvrir l’inventaire.<br />
+Ctrl : Si vous le maintenez vous pouvez déplacez la camera autour de vous.<br />
+A: permet de jetez les objets au sol.<br />
+X: accéder au objet placer aux emplacement L et R.<br />
+w: inverser les objet aux emplacement L et R.<br />
+Maj: permet de casser/placer qu'un seul bloc/objet.<br />
+<br />
+<span style="color: #FF0000;">La récolte de ressource:</span><br />
+<br />
+Dans Starbound vous ne commencer pas avec rien pour le minage quand vous démarrez vous obtenez(dans le coffre de votre vaisseau) le manipulateur de matière qui casse/pose en 2x2 pour que vous puissiez aller plus vite vous pouvez cous craftez une pioche(casse en 3x3) pour toute sorte de minerez et une hache pour le bois.<br />
+<br />
+Si vous être en train de miner vous pouvez choisir en récupérer l’arrière plan ou le premier pour cela Click droit(arrière plan) ou gauche(premier plan) (cela marche aussi pour la pose).  <br />
+<br />
+Pour vous facilitez la récolte de ressource en allant dans les profondeur des planètes plus vous serez proche du centre plus les minerez seront concentrez et précieux, pour minez plus vite allez sur une planète de type désert et cherchez une zone avec plein de sable fin car quand vous minez les bloc glisse vers vous en faisant sauter tous le minerez présents .<br />
+<br />
+Vous pouvez aussi avec une houe jouer au fermier car grâce a elle vous pourrez labourez le sol pour planter toute les graine que vous trouver  une fois celle si poussez au maximum appuyer simplement sur E pour récoltez.<br />
+<br />
+<span style="color: #FF6347;">Visiter l'univers</span><br />
+<br />
+Une fois lancez vous voudrez surement voir autre chose que votre première planète pour cela pas de problème il vous suffis d'aller sur votre faisceau et de prendre les commande a ce moment la vous verrez apparaître une carte de l'univers dans laquelle vous pourrez naviguez grâce à la souris avec les clique des souris vous pourrez zoomer et de-zoomer grâce a cela vous pourrez choisir une planète une fois choisie cliquez dessus et cliquez sur le gros bouton rouge écrit go.<br />
+<br />
+Arriver sur la planète téléportez vous dessus et la a vous de voir vous pouvez explorez pour chercher des construction ou minez directement dans les profondeur.<br />
+<br />
+Pour que vous ayez plus de choix de Biome et des difficultés plus grande il va vous falloir augmentez votre technologie cela vous permettrez de débloquez de nouvelles zone de votre univers pour cela il va falloir crafter des carte d'amélioration et pour pouvoir les crafter vous allez devoir récupérer des éléments spécifique en détruisant des boss pour cela vous devrez les invoquez âpre vous être armez convenablement.<br />
+<br />
+Objets et pixel:<br />
+<br />
+Pour avoir vite et facilement des objets et des pixel il vous suffit d'explorer la surface de la planète pour trouver des construction généralement habiter et défendue ces construction peuvent vous donner du file a retirer mais surtout de beau trésor.<br />
+Vous pouvez pour les pixel utiliser la fonderie qui permet de transformer les minerai en pixel.<br />
+Si vous trouver un objet dis décoratif et que vous l'avez qu'une fois et que vous en voulais d'autres (ex:portes) vous pouvez utiliser l'imprimante 3D qui vous permet apres avoir scanner l'objet de le reproduire contre quelques pixels (le scan détruit l'objet).]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Quelques conseils pour un débutant svp ;)]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=932</link>
+			<pubDate>Sat, 22 Feb 2014 21:54:10 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=932</guid>
+			<description><![CDATA[Bonjour à tous, <br />
+<br />
+J'ai débuté le jeu il y a peu et j'aimerais savoir comment faire pousser le blé ? J'y arrive très pour les arbres mais je ne parviens pas à planter ma seed de blé<br />
+<br />
+Et aussi savoir ou trouver un marchand, il se pourrait que j'ai pillé quelque temple avian ^^<br />
+<br />
+Merci d'avance !  =)]]></description>
+			<content:encoded><![CDATA[Bonjour à tous, <br />
+<br />
+J'ai débuté le jeu il y a peu et j'aimerais savoir comment faire pousser le blé ? J'y arrive très pour les arbres mais je ne parviens pas à planter ma seed de blé<br />
+<br />
+Et aussi savoir ou trouver un marchand, il se pourrait que j'ai pillé quelque temple avian ^^<br />
+<br />
+Merci d'avance !  =)]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[[Astuce] Avoir du charbon illimité !]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=892</link>
+			<pubDate>Wed, 29 Jan 2014 12:14:39 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=892</guid>
+			<description><![CDATA[Bonjour à tous ! <br />
+<br />
+Voila, après avoir joué 150 heures, j'avais eu envie de trouver un moyen simple et rapide de trouver du charbon.<br />
+<br />
+Et je l'ai trouvé ! :)<br />
+<br />
+<!-- start: video_youtube_embed --><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T3h-sAmaun8" frameborder="0" allowfullscreen></iframe><br />
+<!-- end: video_youtube_embed --><br />
+<br />
+Certes, peut-être qu'il existe d'autres méthodes, n'hésitez pas à commenter ce sujet si vous en trouver une meilleure  <img src="http://starbound-fr.net/forum/images/smilies/oeil.png" alt="Wink" title="Wink" class="smilie smilie_68" />]]></description>
+			<content:encoded><![CDATA[Bonjour à tous ! <br />
+<br />
+Voila, après avoir joué 150 heures, j'avais eu envie de trouver un moyen simple et rapide de trouver du charbon.<br />
+<br />
+Et je l'ai trouvé ! :)<br />
+<br />
+<!-- start: video_youtube_embed --><br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T3h-sAmaun8" frameborder="0" allowfullscreen></iframe><br />
+<!-- end: video_youtube_embed --><br />
+<br />
+Certes, peut-être qu'il existe d'autres méthodes, n'hésitez pas à commenter ce sujet si vous en trouver une meilleure  <img src="http://starbound-fr.net/forum/images/smilies/oeil.png" alt="Wink" title="Wink" class="smilie smilie_68" />]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Re-Génération d'un univers]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=849</link>
+			<pubDate>Sat, 18 Jan 2014 12:46:49 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=849</guid>
+			<description><![CDATA[MAJ du topic avec l'astuce de Maxigregrze<br />
+[quote]<br />
+Bon,<br />
+Pour changer la seed, il faut déjà aller dans le dossier starbound (trouvable dans les dossiers de steam) puis dans le dossier ./assets/<br />
+Cherchez "celestial.config" et ouvrez-le (de préférence avec notepad++).<br />
+Vous devriez voir ceci, Ligne 29:<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>"sectors" : [<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "alpha",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "Alpha Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 71707887027,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "Alpha",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/1.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : -30,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [1, 1],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;},<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "beta",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "Beta Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 912044941247,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "Beta",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/2.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 0,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [2, 2],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;},<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "gamma",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "Gamma Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 877461781495,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "Gamma",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/3.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 30,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [3, 3],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "grasslands", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;},<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "delta",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "Delta Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 914461284455,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "Delta",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/4.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 60,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [4, 4],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "grasslands", "magma", "tentacles", "tundra", "volcanic", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;},<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "sectorx",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "X Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 427469981495,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "X",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/x.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 90,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [5, 10],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "grasslands", "magma", "tentacles", "tundra", "volcanic", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;}</code></div></div>
+<br />
+(Vous pouvez copier le fichier et le mettre dans un dossier /newseed/, que vous créerez dans ./mods/, comme ça il suffira de supprimer ce dossier pour retrouver les fichiers de base, utile en cas de pépin.) <br />
+<br />
+Chaque secteur a une seed qui lui est propre. Trouver donc le secteur dont vous voulez modifier la seed grâce a son id (je pense que c'est assez explicite pour vous laisser le trouver)<br />
+<br />
+Par exemple , je veux modifier la seed du secteur X:<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "sectorx",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "X Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 427469981495,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "X",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/x.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 90,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [5, 10],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "grasslands", "magma", "tentacles", "tundra", "volcanic", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></div></div>
+<br />
+id: le "nom" donné au secteur uniquement pour la programmation(Par exemple, on le trouve dans le fichier de l'upgrade pour vaisseau)<br />
+name: nom tel qu'il est affiché en jeu.<br />
+sectorSeed: on verra en dessou, mais pour faire clair c'est sur quoi le jeu se basera pour générer l'univers.<br />
+prefix: le nom qui apparaît dans celui des planètes.<br />
+sectorSymbol: la texture de l'icone tel que vue dans le navigateur.<br />
+hueShift: l'emplacement du bouton du secteur dans le navigateur.<br />
+worldParameters: les paramètres des planètes du secteur:<br />
+   -threatLevel: Les niveaux des planètes,ici 5 est le minimum et 10 le maximum.<br />
+   -unlockedBiomes: les biomes trouvables dans ce secteur (Notez qu'il n'y a pas tout les biomes disponibles, il manque, par exemple, le biome "ocean" ou encore le biome "arctic")<br />
+<br />
+<br />
+Donc, pour changer la seed, il faut remplacer le nombre de sectorSeed PAR UN NOMBRE DE 12 CHIFRES, PAS PLUS, NI MOIN. (J'ai pas testé, mais je ne voudrais pas être responsable du crash de votre jeu). Pensez a vérifier qu'il y a bien un virgule après, ça joue aussi pour éviter le crash.<br />
+<br />
+Après , faites la manip dite plus haut et lancer le jeu.<br />
+Vous avez un terrain de jeu unique!]]></description>
+			<content:encoded><![CDATA[MAJ du topic avec l'astuce de Maxigregrze<br />
+[quote]<br />
+Bon,<br />
+Pour changer la seed, il faut déjà aller dans le dossier starbound (trouvable dans les dossiers de steam) puis dans le dossier ./assets/<br />
+Cherchez "celestial.config" et ouvrez-le (de préférence avec notepad++).<br />
+Vous devriez voir ceci, Ligne 29:<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>"sectors" : [<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "alpha",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "Alpha Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 71707887027,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "Alpha",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/1.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : -30,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [1, 1],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;},<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "beta",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "Beta Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 912044941247,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "Beta",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/2.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 0,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [2, 2],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;},<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "gamma",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "Gamma Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 877461781495,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "Gamma",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/3.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 30,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [3, 3],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "grasslands", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;},<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "delta",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "Delta Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 914461284455,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "Delta",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/4.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 60,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [4, 4],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "grasslands", "magma", "tentacles", "tundra", "volcanic", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;},<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "sectorx",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "X Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 427469981495,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "X",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/x.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 90,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [5, 10],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "grasslands", "magma", "tentacles", "tundra", "volcanic", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;}</code></div></div>
+<br />
+(Vous pouvez copier le fichier et le mettre dans un dossier /newseed/, que vous créerez dans ./mods/, comme ça il suffira de supprimer ce dossier pour retrouver les fichiers de base, utile en cas de pépin.) <br />
+<br />
+Chaque secteur a une seed qui lui est propre. Trouver donc le secteur dont vous voulez modifier la seed grâce a son id (je pense que c'est assez explicite pour vous laisser le trouver)<br />
+<br />
+Par exemple , je veux modifier la seed du secteur X:<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id" : "sectorx",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name" : "X Sector",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSeed" : 427469981495,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"prefix" : "X",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"sectorSymbol" : "/celestial/sector/x.png",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hueShift" : 90,<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worldParameters" : {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"threatLevel" : [5, 10],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"unlockedBiomes" : [ "arid", "desert", "forest", "snow", "moon", "jungle", "grasslands", "magma", "tentacles", "tundra", "volcanic", "barren", "asteroidfield" ]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></div></div>
+<br />
+id: le "nom" donné au secteur uniquement pour la programmation(Par exemple, on le trouve dans le fichier de l'upgrade pour vaisseau)<br />
+name: nom tel qu'il est affiché en jeu.<br />
+sectorSeed: on verra en dessou, mais pour faire clair c'est sur quoi le jeu se basera pour générer l'univers.<br />
+prefix: le nom qui apparaît dans celui des planètes.<br />
+sectorSymbol: la texture de l'icone tel que vue dans le navigateur.<br />
+hueShift: l'emplacement du bouton du secteur dans le navigateur.<br />
+worldParameters: les paramètres des planètes du secteur:<br />
+   -threatLevel: Les niveaux des planètes,ici 5 est le minimum et 10 le maximum.<br />
+   -unlockedBiomes: les biomes trouvables dans ce secteur (Notez qu'il n'y a pas tout les biomes disponibles, il manque, par exemple, le biome "ocean" ou encore le biome "arctic")<br />
+<br />
+<br />
+Donc, pour changer la seed, il faut remplacer le nombre de sectorSeed PAR UN NOMBRE DE 12 CHIFRES, PAS PLUS, NI MOIN. (J'ai pas testé, mais je ne voudrais pas être responsable du crash de votre jeu). Pensez a vérifier qu'il y a bien un virgule après, ça joue aussi pour éviter le crash.<br />
+<br />
+Après , faites la manip dite plus haut et lancer le jeu.<br />
+Vous avez un terrain de jeu unique!]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Série Guide de A à Z Starbound]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=815</link>
+			<pubDate>Thu, 02 Jan 2014 18:42:06 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=815</guid>
+			<description><![CDATA[Salut à tous <br />
+je vous présente une série qui peut aider pas mal de débutant <br />
+Guide de A à Z Starbound:<br />
+<br />
+La Série commence sur cette chaîne : <a href="http://www.youtube.com/user/israfilgaming" target="_blank">http://www.youtube.com/user/israfilgaming</a><br />
+<br />
+et continue ici : <a href="http://www.youtube.com/user/israfil64" target="_blank">http://www.youtube.com/user/israfil64</a><br />
+<br />
+Il y a plein d' autres vidéos mods, tuto serveur ect !<br />
+<br />
+Have Fun :)]]></description>
+			<content:encoded><![CDATA[Salut à tous <br />
+je vous présente une série qui peut aider pas mal de débutant <br />
+Guide de A à Z Starbound:<br />
+<br />
+La Série commence sur cette chaîne : <a href="http://www.youtube.com/user/israfilgaming" target="_blank">http://www.youtube.com/user/israfilgaming</a><br />
+<br />
+et continue ici : <a href="http://www.youtube.com/user/israfil64" target="_blank">http://www.youtube.com/user/israfil64</a><br />
+<br />
+Il y a plein d' autres vidéos mods, tuto serveur ect !<br />
+<br />
+Have Fun :)]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[truc et astuce en vrac pour les débutants]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=802</link>
+			<pubDate>Mon, 30 Dec 2013 10:01:04 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=802</guid>
+			<description><![CDATA[Bonjour!<br />
+aujourd'hui je vais présenter quelque astuce pour mieux survivre aux premier jours du jeux!<br />
+je compléterez petit a petit les astuce pour faure un gros tutoriel.<br />
+<br />
+<br />
+1.--récolte des ressource--<br />
+<br />
+1.1 une fois arrivée<br />
+ ne prenez pas directement le bois et fouiller a la recherche de coffres, vous y trouverez peut être des ressource utile,armes,plantes...<br />
+<br />
+1.2 si vous n'avez pas trouvée une haches, je vous conseille de la crafter avec du bois et de la pierre<br />
+(c'est plus pratique que de s'énerver a prendre une minute pour casser un arbre)<br />
+<br />
+2.--défense--<br />
+<br />
+2.1 je vous conseil si vous cherchez dans les coffres (ou vous les crafter)<br />
+de vous procurez des regular shortsword x2 car elle sont facile a utiliser<br />
+car elle son puissante contre les monstre rapide et lent.<br />
+(utiliser les armes a deux main contre les monstre qui saute) <br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+             <!-- start: postbit_attachments_attachment -->
+<br /><!-- start: attachment_icon -->
+<img src="http://starbound-fr.net/forum/images/attachtypes/image.gif" title="JPG Image" border="0" alt=".jpg" />
+<!-- end: attachment_icon -->&nbsp;&nbsp;<a href="attachment.php?aid=96" target="_blank" title="">2013-12-30_00002.jpg</a> (Taille : 63,2 Ko / Téléchargements : 32)
+<!-- end: postbit_attachments_attachment --> <br />
+        </div>
+    </div>
+</div>
+3.--autres conseil--<br />
+<br />
+3.1 avec votre hache, découper les corde qui a dans les mine, car elle serve a faire des bandages!<br />
+<br />
+d'autre astuces sont a venir!]]></description>
+			<content:encoded><![CDATA[Bonjour!<br />
+aujourd'hui je vais présenter quelque astuce pour mieux survivre aux premier jours du jeux!<br />
+je compléterez petit a petit les astuce pour faure un gros tutoriel.<br />
+<br />
+<br />
+1.--récolte des ressource--<br />
+<br />
+1.1 une fois arrivée<br />
+ ne prenez pas directement le bois et fouiller a la recherche de coffres, vous y trouverez peut être des ressource utile,armes,plantes...<br />
+<br />
+1.2 si vous n'avez pas trouvée une haches, je vous conseille de la crafter avec du bois et de la pierre<br />
+(c'est plus pratique que de s'énerver a prendre une minute pour casser un arbre)<br />
+<br />
+2.--défense--<br />
+<br />
+2.1 je vous conseil si vous cherchez dans les coffres (ou vous les crafter)<br />
+de vous procurez des regular shortsword x2 car elle sont facile a utiliser<br />
+car elle son puissante contre les monstre rapide et lent.<br />
+(utiliser les armes a deux main contre les monstre qui saute) <br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+             <!-- start: postbit_attachments_attachment -->
+<br /><!-- start: attachment_icon -->
+<img src="http://starbound-fr.net/forum/images/attachtypes/image.gif" title="JPG Image" border="0" alt=".jpg" />
+<!-- end: attachment_icon -->&nbsp;&nbsp;<a href="attachment.php?aid=96" target="_blank" title="">2013-12-30_00002.jpg</a> (Taille : 63,2 Ko / Téléchargements : 32)
+<!-- end: postbit_attachments_attachment --> <br />
+        </div>
+    </div>
+</div>
+3.--autres conseil--<br />
+<br />
+3.1 avec votre hache, découper les corde qui a dans les mine, car elle serve a faire des bandages!<br />
+<br />
+d'autre astuces sont a venir!]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Le Diamant]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=758</link>
+			<pubDate>Wed, 18 Dec 2013 13:26:51 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=758</guid>
+			<description><![CDATA[<span style="font-weight: bold;"><span style="font-style: italic;">Bon, comme j'ai vu que beaucoup cherchais a trouver du diamant, je vous met ici ma technique pour en trouver facilement.</span></span><br />
+<br />
+<br />
+<blockquote><cite>Citation :</cite><span style="font-weight: bold;">"Suivre le sable"</span></blockquote>
+<br />
+<span style="font-weight: bold;">En effet le diamants, bien qu'il y ait possibilité d'en trouver ailleurs, est très fréquemment disposé dans le sable. attention, je parle pas du sable sur la surface des planète océans, mais bien du sable qui se retrouve a une certaine profondeur sur les biome foret.<br />
+Et je précise que je ne parle pas du sable qui est soumis a la gravité, mais du sable, que je vais appeler "sable mouillé" qui lui tien en place quand on le pioche.<br />
+<br />
+Voici un screen ! Tadaaaaam !<br />
+<img src="http://img4.hostingpics.net/pics/605185diamond.png" border="0" alt="[Image: 605185diamond.png]" /><br />
+<br />
+Notons aussi qu'il y as une forte concentrations des autres minerais en gisement, dans ce sable.<br />
+<br />
+la preuve.<br />
+<img src="http://img4.hostingpics.net/pics/504415sable.png" border="0" alt="[Image: 504415sable.png]" /><br />
+<br />
+Vous pourrez donc accédé a tout les minerais sur des planètes de niveau 1 en suivant cette technique, attention tout de même, pour pas abusé non plus, le "platinium" lui est concentré sur les couches d'obsidienne de la planète, donc un peu plus dur a trouver.</span>]]></description>
+			<content:encoded><![CDATA[<span style="font-weight: bold;"><span style="font-style: italic;">Bon, comme j'ai vu que beaucoup cherchais a trouver du diamant, je vous met ici ma technique pour en trouver facilement.</span></span><br />
+<br />
+<br />
+<blockquote><cite>Citation :</cite><span style="font-weight: bold;">"Suivre le sable"</span></blockquote>
+<br />
+<span style="font-weight: bold;">En effet le diamants, bien qu'il y ait possibilité d'en trouver ailleurs, est très fréquemment disposé dans le sable. attention, je parle pas du sable sur la surface des planète océans, mais bien du sable qui se retrouve a une certaine profondeur sur les biome foret.<br />
+Et je précise que je ne parle pas du sable qui est soumis a la gravité, mais du sable, que je vais appeler "sable mouillé" qui lui tien en place quand on le pioche.<br />
+<br />
+Voici un screen ! Tadaaaaam !<br />
+<img src="http://img4.hostingpics.net/pics/605185diamond.png" border="0" alt="[Image: 605185diamond.png]" /><br />
+<br />
+Notons aussi qu'il y as une forte concentrations des autres minerais en gisement, dans ce sable.<br />
+<br />
+la preuve.<br />
+<img src="http://img4.hostingpics.net/pics/504415sable.png" border="0" alt="[Image: 504415sable.png]" /><br />
+<br />
+Vous pourrez donc accédé a tout les minerais sur des planètes de niveau 1 en suivant cette technique, attention tout de même, pour pas abusé non plus, le "platinium" lui est concentré sur les couches d'obsidienne de la planète, donc un peu plus dur a trouver.</span>]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Désactiver la pluie et la neige]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=751</link>
+			<pubDate>Mon, 16 Dec 2013 21:39:11 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=751</guid>
+			<description><![CDATA[Bonjour, <br />
+<br />
+Si comme moi les particules utilisées pour la pluie et la neige vous posent des problèmes de performances (il est vrai que cela bouffe pas mal notamment dans la phase du jeu bêta non optimisée), il est possible de désactiver tout cela sans poser de problème particulier au jeu.<br />
+<br />
+Pour ce faire : <br />
+<br />
+- Naviguez dans le répertoire<span style="font-weight: bold;"> assets\weather</span> du répertoire de Starbound.<br />
+- Naviguez dans le répertoire <span style="font-weight: bold;">rain</span><br />
+- Editez les deux fichiers de configuration présents comme ceci : <br />
+<br />
+1. Remplacer la valeur <span style="font-weight: bold;">density</span> par 0 <br />
+2. Remplacer dans chaque bloc présent la valeur <span style="font-weight: bold;">timeToLive</span> par 0<br />
+<br />
+Vous pouvez faire pareil pour la neige (répertoire <span style="font-weight: bold;">snow</span>)<br />
+<br />
+Et là magique, vous n'aurez plus la pluie qui viendra vous embêter, en revanche les éclairs par temps de pluie seront toujours présents.<br />
+<br />
+<span style="font-weight: bold;"><span style="color: #FF0000;">Pensez à faire avant toute modification une sauvegarde des fichiers originaux</span>.</span><br />
+<br />
+Si cela peut vous aider à gagner quelques Fps, qui sont pour certains rares ces temps-ci alors c'est bien :)]]></description>
+			<content:encoded><![CDATA[Bonjour, <br />
+<br />
+Si comme moi les particules utilisées pour la pluie et la neige vous posent des problèmes de performances (il est vrai que cela bouffe pas mal notamment dans la phase du jeu bêta non optimisée), il est possible de désactiver tout cela sans poser de problème particulier au jeu.<br />
+<br />
+Pour ce faire : <br />
+<br />
+- Naviguez dans le répertoire<span style="font-weight: bold;"> assets\weather</span> du répertoire de Starbound.<br />
+- Naviguez dans le répertoire <span style="font-weight: bold;">rain</span><br />
+- Editez les deux fichiers de configuration présents comme ceci : <br />
+<br />
+1. Remplacer la valeur <span style="font-weight: bold;">density</span> par 0 <br />
+2. Remplacer dans chaque bloc présent la valeur <span style="font-weight: bold;">timeToLive</span> par 0<br />
+<br />
+Vous pouvez faire pareil pour la neige (répertoire <span style="font-weight: bold;">snow</span>)<br />
+<br />
+Et là magique, vous n'aurez plus la pluie qui viendra vous embêter, en revanche les éclairs par temps de pluie seront toujours présents.<br />
+<br />
+<span style="font-weight: bold;"><span style="color: #FF0000;">Pensez à faire avant toute modification une sauvegarde des fichiers originaux</span>.</span><br />
+<br />
+Si cela peut vous aider à gagner quelques Fps, qui sont pour certains rares ces temps-ci alors c'est bien :)]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[[ASTUCE] Les différent type de biomes]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=741</link>
+			<pubDate>Sun, 15 Dec 2013 19:21:25 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=741</guid>
+			<description><![CDATA[<span style="text-decoration: underline;"><span style="font-weight: bold;">Voici les différent type de biomes présent dans Starbound</span></span><br />
+<br />
+CF : \asset\celestial.config<br />
+<br />
+<span style="font-weight: bold;">Le secteur Alpha débloque :</span><br />
+<br />
+- arid<br />
+- desert<br />
+- forest<br />
+- snow<br />
+- moon<br />
+<br />
+<span style="font-weight: bold;">Le secteur Beta débloque :</span><br />
+<br />
+- jungle<br />
+<br />
+<span style="font-weight: bold;">Le secteur Gama débloque :</span><br />
+<br />
+- grasslands<br />
+<br />
+<span style="font-weight: bold;">Le secteur Delta débloque :</span><br />
+<br />
+- magma<br />
+- tentacles<br />
+- tundra<br />
+- volcanic<br />
+<br />
+<span style="font-weight: bold;">Le secteur X débloque :</span><br />
+<br />
+- Rien de plus.<br />
+<br />
+<br />
+<span style="font-weight: bold;">Dans le dossier des Biomes on y trouve :</span><br />
+<br />
+- artic<br />
+- arid<br />
+- desert<br />
+- forest<br />
+- grassland<br />
+- jungle<br />
+- magma<br />
+- moon<br />
+- ocean<br />
+- savannah<br />
+- snow<br />
+- tentacles<br />
+- tundra<br />
+- volcanic<br />
+<br />
+<span style="font-style: italic;"><span style="font-weight: bold;">Donc je me demande si certain biome comme le biome océans ont été désactivé exprès ?</span></span>]]></description>
+			<content:encoded><![CDATA[<span style="text-decoration: underline;"><span style="font-weight: bold;">Voici les différent type de biomes présent dans Starbound</span></span><br />
+<br />
+CF : \asset\celestial.config<br />
+<br />
+<span style="font-weight: bold;">Le secteur Alpha débloque :</span><br />
+<br />
+- arid<br />
+- desert<br />
+- forest<br />
+- snow<br />
+- moon<br />
+<br />
+<span style="font-weight: bold;">Le secteur Beta débloque :</span><br />
+<br />
+- jungle<br />
+<br />
+<span style="font-weight: bold;">Le secteur Gama débloque :</span><br />
+<br />
+- grasslands<br />
+<br />
+<span style="font-weight: bold;">Le secteur Delta débloque :</span><br />
+<br />
+- magma<br />
+- tentacles<br />
+- tundra<br />
+- volcanic<br />
+<br />
+<span style="font-weight: bold;">Le secteur X débloque :</span><br />
+<br />
+- Rien de plus.<br />
+<br />
+<br />
+<span style="font-weight: bold;">Dans le dossier des Biomes on y trouve :</span><br />
+<br />
+- artic<br />
+- arid<br />
+- desert<br />
+- forest<br />
+- grassland<br />
+- jungle<br />
+- magma<br />
+- moon<br />
+- ocean<br />
+- savannah<br />
+- snow<br />
+- tentacles<br />
+- tundra<br />
+- volcanic<br />
+<br />
+<span style="font-style: italic;"><span style="font-weight: bold;">Donc je me demande si certain biome comme le biome océans ont été désactivé exprès ?</span></span>]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[[Tutoriel] Activation des cinématiques]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=723</link>
+			<pubDate>Fri, 13 Dec 2013 20:07:45 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=723</guid>
+			<description><![CDATA[<span style="font-style: italic;">Bonjour a tous les amis !!!!<br />
+<br />
+Aujourd'hui je vais vous apprendre à activer les cinématiques pour chaque espèce.<br />
+<br />
+C'est tout simple et ne provoque aucun bug.<br />
+<br />
+Pour ce faire, vous devez vous rendre dans le répertoire ci dessous :</span><br />
+<br />
+<span style="font-style: italic;"><span style="font-weight: bold;">\**votre_repertoire_du_jeu**\assets\cinematics</span></span><br />
+<br />
+Ensuite, rendez-vous dans chaque dossier portant le nom d'une race du jeu (sauf respawn, apex, glitch et hylotl, ces trois dernier n'ayant pas été fait par les développeur du jeu). Vous y trouverez deux fichiers qui vont nous intéresser :<br />
+<br />
+<span style="font-style: italic;"><span style="font-weight: bold;">nom.cinematic<br />
+nom.cinematic.disabled</span></span><br />
+<br />
+Tous les fichiers se terminant par <span style="font-style: italic;"><span style="font-weight: bold;">.cinematic</span></span> (et non pas <span style="font-style: italic;"><span style="font-weight: bold;">.cinematic</span></span><span style="color: #FF0000;"><span style="font-weight: bold;">.disabled</span></span>)<br />
+Vous les suprimez !!!!! (On les tue tous ! Sans exception ! Mouhahahahaha)<br />
+<br />
+Pour les fichiers se terminant par <span style="font-style: italic;"><span style="font-weight: bold;">.cinematic<span style="color: #FF0000;">.disabled</span></span></span> , enlevez juste le <span style="font-style: italic;"><span style="font-weight: bold;"><span style="color: #FF0000;">.disabled</span></span></span> qui est à la fin de leur nom.<br />
+<br />
+<span style="font-style: italic;">Voila ! Bizouxxxxx a vous tous !!! et bon jeu !!!</span><br />
+<br />
+<br />
+<br />
+<div style="text-align: center;"><span style="text-decoration: underline;"><span style="font-style: italic;"><span style="font-weight: bold;">En Cours...</span><br />
+<br />
+Mise à disposition des images avec les sous titres en français.<br />
+Enregistrement des voix FR en studio et mise a votre disposition.</span></span></div>
+<br />
+<span style="text-decoration: underline;"><span style="font-weight: bold;">Cinématiques faites : </span></span><br />
+<br />
+<span style="font-weight: bold;">Apex : <span style="color: #FF0000;">NON</span><br />
+<br />
+Preview<br />
+Download<br />
+<br />
+Avian : <span style="color: #98FB98;">OUI</span><br />
+<br />
+<a href="http://www.youtube.com/watch?v=hXF8DxT_LrU&amp;feature=youtu.be" target="_blank">Preview</a><br />
+<a href="http://www.mediafire.com/download/c2w4qc942wdcreq/Cin%C3%A9matique_FR_Avian.rar" target="_blank">Download</a><br />
+<br />
+Floran : <span style="color: #FF0000;">NON</span><br />
+<br />
+Preview<br />
+Download<br />
+<br />
+Glitch : <span style="color: #FF0000;">NON</span><br />
+<br />
+Preview<br />
+Download<br />
+<br />
+Human : <span style="color: #FF0000;">NON</span><br />
+<br />
+Preview<br />
+Download<br />
+<br />
+Hylotl : <span style="color: #FF0000;">NON</span><br />
+<br />
+Preview<br />
+Download<br />
+<br />
+Comme tout les pack RAR que je fais, tout est à extraire dans le dossier "asset"</span>]]></description>
+			<content:encoded><![CDATA[<span style="font-style: italic;">Bonjour a tous les amis !!!!<br />
+<br />
+Aujourd'hui je vais vous apprendre à activer les cinématiques pour chaque espèce.<br />
+<br />
+C'est tout simple et ne provoque aucun bug.<br />
+<br />
+Pour ce faire, vous devez vous rendre dans le répertoire ci dessous :</span><br />
+<br />
+<span style="font-style: italic;"><span style="font-weight: bold;">\**votre_repertoire_du_jeu**\assets\cinematics</span></span><br />
+<br />
+Ensuite, rendez-vous dans chaque dossier portant le nom d'une race du jeu (sauf respawn, apex, glitch et hylotl, ces trois dernier n'ayant pas été fait par les développeur du jeu). Vous y trouverez deux fichiers qui vont nous intéresser :<br />
+<br />
+<span style="font-style: italic;"><span style="font-weight: bold;">nom.cinematic<br />
+nom.cinematic.disabled</span></span><br />
+<br />
+Tous les fichiers se terminant par <span style="font-style: italic;"><span style="font-weight: bold;">.cinematic</span></span> (et non pas <span style="font-style: italic;"><span style="font-weight: bold;">.cinematic</span></span><span style="color: #FF0000;"><span style="font-weight: bold;">.disabled</span></span>)<br />
+Vous les suprimez !!!!! (On les tue tous ! Sans exception ! Mouhahahahaha)<br />
+<br />
+Pour les fichiers se terminant par <span style="font-style: italic;"><span style="font-weight: bold;">.cinematic<span style="color: #FF0000;">.disabled</span></span></span> , enlevez juste le <span style="font-style: italic;"><span style="font-weight: bold;"><span style="color: #FF0000;">.disabled</span></span></span> qui est à la fin de leur nom.<br />
+<br />
+<span style="font-style: italic;">Voila ! Bizouxxxxx a vous tous !!! et bon jeu !!!</span><br />
+<br />
+<br />
+<br />
+<div style="text-align: center;"><span style="text-decoration: underline;"><span style="font-style: italic;"><span style="font-weight: bold;">En Cours...</span><br />
+<br />
+Mise à disposition des images avec les sous titres en français.<br />
+Enregistrement des voix FR en studio et mise a votre disposition.</span></span></div>
+<br />
+<span style="text-decoration: underline;"><span style="font-weight: bold;">Cinématiques faites : </span></span><br />
+<br />
+<span style="font-weight: bold;">Apex : <span style="color: #FF0000;">NON</span><br />
+<br />
+Preview<br />
+Download<br />
+<br />
+Avian : <span style="color: #98FB98;">OUI</span><br />
+<br />
+<a href="http://www.youtube.com/watch?v=hXF8DxT_LrU&amp;feature=youtu.be" target="_blank">Preview</a><br />
+<a href="http://www.mediafire.com/download/c2w4qc942wdcreq/Cin%C3%A9matique_FR_Avian.rar" target="_blank">Download</a><br />
+<br />
+Floran : <span style="color: #FF0000;">NON</span><br />
+<br />
+Preview<br />
+Download<br />
+<br />
+Glitch : <span style="color: #FF0000;">NON</span><br />
+<br />
+Preview<br />
+Download<br />
+<br />
+Human : <span style="color: #FF0000;">NON</span><br />
+<br />
+Preview<br />
+Download<br />
+<br />
+Hylotl : <span style="color: #FF0000;">NON</span><br />
+<br />
+Preview<br />
+Download<br />
+<br />
+Comme tout les pack RAR que je fais, tout est à extraire dans le dossier "asset"</span>]]></content:encoded>
+		</item>
+	</channel>
+</rss>

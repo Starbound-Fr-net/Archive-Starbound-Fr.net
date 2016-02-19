@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<title type="html"><![CDATA[Starbound-Fr | Forum - Blabla Terraria]]></title>
+	<subtitle type="html"><![CDATA[Starbound-Fr | Forum - http://starbound-fr.net/forum]]></subtitle>
+	<link rel="self" href="http://starbound-fr.net/forum/syndication.php"/>
+	<id>http://starbound-fr.net/forum/</id>
+	<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/"/>
+	<updated>2016-02-18T18:17:50Z</updated>
+	<generator uri="http://www.mybb.com">MyBB</generator>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2013-12-08T10:34:44Z</published>
+		<updated>2015-03-03T01:45:05Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=679" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=679</id>
+		<title type="html" xml:space="preserve"><![CDATA[Que va devenir ce jeu ?]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=679"><![CDATA[Terraria ce fait vieux, va-t-il devenir oublié, servir d'inspiration pour des mods Starbound?<br />
+Personnellement je n'y rejouerais plus <img src="http://starbound-fr.net/forum/images/smilies/pussycat.png" alt=":3" title=":3" class="smilie smilie_83" />]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2013-07-25T19:54:07Z</published>
+		<updated>2013-07-25T19:54:07Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=534" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=534</id>
+		<title type="html" xml:space="preserve"><![CDATA[Informations sur la 1.2]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=534"><![CDATA[Bonsoir tout le monde !<br />
+Comme vous le savez sûrement pour la plupart, une nouvelle MàJ de Terraria, la 1.2 va sortir prochainement après environ un an et demi d'absence de mise à jour.<br />
+J'ouvre donc ce sujet pour vous demandez ce que vous savez de cette update.<br />
+Allez, j'espère que je découvrirai des choses qui me sont inconnues *_*<br />
+Bonne nuit !]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2013-06-28T13:28:50Z</published>
+		<updated>2013-06-28T19:52:55Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=510" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=510</id>
+		<title type="html" xml:space="preserve"><![CDATA[Comment procédez-vous dans Terraria ?]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=510"><![CDATA[Voilà le sujet, j'ai récemment recommencé une partie de Terraria il y a trois jours et je me suis demandé en fabriquant la maison pour l'ingénieur Goblin : "Comment les autres procèdent au cours de leur partie ?"<br />
+Je développe la question : Vous commencez par farmer quoi, Tapper quel mob/boss en premier, construisez quoi ?<br />
+<br />
+Pour ma part je commence par localiser la Corruption, la jungle, le donjon et les îles flottantes après avoir fait une base de spawn, ensuite je commence par miner pour avoir un équipement en or, puis je fait les boss plusieurs fois d'affilés : Oeil de Chtullu et Dévoreur de monde, enfin je me fait un Equipement  en démonite et pars a l’assaut du Skeletron avec l’équipement trouvé sous terre/crafté, je commence a entamer le donjon puis une fois la clef sombre en main et quelques clefs d'or, je pars a l’assaut des îles flottantes, de la jungle souterraine et pour finir de l'enfer.<br />
+<br />
+Voilà un exemple. Vous faites comment vous ?]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2013-06-27T19:05:51Z</published>
+		<updated>2013-06-27T19:05:51Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=509" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=509</id>
+		<title type="html" xml:space="preserve"><![CDATA[Ouverture de la section]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=509"><![CDATA[Bonjour-soir,<br />
+<br />
+Bah c'est tout O.K.<br />
+<br />
+Amusez-vous et conversez bien ! <img src="http://starbound-fr.net/forum/images/smilies/pussycat.png" alt=":3" title=":3" class="smilie smilie_83" />]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+</feed>

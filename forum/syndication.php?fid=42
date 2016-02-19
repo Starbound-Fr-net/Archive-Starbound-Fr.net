@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title><![CDATA[Starbound-Fr | Forum - Aide au modding]]></title>
+		<link>http://starbound-fr.net/forum/</link>
+		<description><![CDATA[Starbound-Fr | Forum - http://starbound-fr.net/forum]]></description>
+		<pubDate>Thu, 18 Feb 2016 18:16:55 +0000</pubDate>
+		<generator>MyBB</generator>
+		<item>
+			<title><![CDATA[Topic des questions sur Le "Guide Du Moddeur Starboundien"]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=963</link>
+			<pubDate>Mon, 03 Mar 2014 18:21:59 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=963</guid>
+			<description><![CDATA[Posez ici toutes vos questions à propos de la chronique, quel que soit son numéro: demande d'aide, explications, approfondissement, etc.<br />
+<br />
+La création de tout autre topic ayant un rapport avec la chronique mènera a une suppression du topic.<br />
+<br />
+Les règles de la section s'appliquent aussi ici.]]></description>
+			<content:encoded><![CDATA[Posez ici toutes vos questions à propos de la chronique, quel que soit son numéro: demande d'aide, explications, approfondissement, etc.<br />
+<br />
+La création de tout autre topic ayant un rapport avec la chronique mènera a une suppression du topic.<br />
+<br />
+Les règles de la section s'appliquent aussi ici.]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Règles de la section Aide au Modding]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=962</link>
+			<pubDate>Mon, 03 Mar 2014 18:18:00 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=962</guid>
+			<description><![CDATA[Sachant que le modding peut parfois être dur, et que vous aurez forcément, a un moment ou un autre, besoin d'aide, il va falloir respecter ces règles pour que les personnes qui veulent vous aider puisse s'y retrouver.<br />
+<br />
+Pour poster dans ce forum vous devez:<br />
+<ul>
+<li>Avoir une question ayant, de près ou de loin, un rapport avec le modding<br />
+</li>
+<li>Essayer de donner un maximum d'info possible (rapport d'erreur, Log de la console, dernière modification faites, etc. Les deux derniers étant requis pour déceler un Chargement Infinis.) <br />
+</li>
+<li>Ne pas poser de question a propos de la Chronique. Un topic dédié existe déjà, <a href="http://starbound-fr.net/forum/thread-963.html" target="_blank"><span style="font-weight: bold;">ici</span></a>.<br />
+</li>
+<li>Respecter les règles communes du forum.<br />
+</li></ul>
+<br />
+Si vous respecter cela, tout ira bien<br />
+Mais dans le cas contraire, un lock voire une sanction reste à prévoir.<br />
+<br />
+Cordialement.]]></description>
+			<content:encoded><![CDATA[Sachant que le modding peut parfois être dur, et que vous aurez forcément, a un moment ou un autre, besoin d'aide, il va falloir respecter ces règles pour que les personnes qui veulent vous aider puisse s'y retrouver.<br />
+<br />
+Pour poster dans ce forum vous devez:<br />
+<ul>
+<li>Avoir une question ayant, de près ou de loin, un rapport avec le modding<br />
+</li>
+<li>Essayer de donner un maximum d'info possible (rapport d'erreur, Log de la console, dernière modification faites, etc. Les deux derniers étant requis pour déceler un Chargement Infinis.) <br />
+</li>
+<li>Ne pas poser de question a propos de la Chronique. Un topic dédié existe déjà, <a href="http://starbound-fr.net/forum/thread-963.html" target="_blank"><span style="font-weight: bold;">ici</span></a>.<br />
+</li>
+<li>Respecter les règles communes du forum.<br />
+</li></ul>
+<br />
+Si vous respecter cela, tout ira bien<br />
+Mais dans le cas contraire, un lock voire une sanction reste à prévoir.<br />
+<br />
+Cordialement.]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Craft en fonction de l'avancements [Résolu]]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=922</link>
+			<pubDate>Sun, 16 Feb 2014 17:22:14 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=922</guid>
+			<description><![CDATA[Salut, encore !<br />
+<br />
+Je voulais savoir comment pouvait-ton faire pour qu'un objet ne soit fabricable qu'après ouverture des MK map upgrade, il me semble que c'est code "tier" mais je ne comprend pas son fonctionnement.<br />
+<br />
+Merci d'avance]]></description>
+			<content:encoded><![CDATA[Salut, encore !<br />
+<br />
+Je voulais savoir comment pouvait-ton faire pour qu'un objet ne soit fabricable qu'après ouverture des MK map upgrade, il me semble que c'est code "tier" mais je ne comprend pas son fonctionnement.<br />
+<br />
+Merci d'avance]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Spawning aléatoire [Résolu]]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=921</link>
+			<pubDate>Sun, 16 Feb 2014 17:13:27 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=921</guid>
+			<description><![CDATA[Re tout le monde,<br />
+<br />
+Je souhaiterais savoir comment faire pour faire apparaître aléatoirement  un objet dans les coffre existant, quelqu'un aurait un idée ?]]></description>
+			<content:encoded><![CDATA[Re tout le monde,<br />
+<br />
+Je souhaiterais savoir comment faire pour faire apparaître aléatoirement  un objet dans les coffre existant, quelqu'un aurait un idée ?]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[mods vaisseaux [Résolu]]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=920</link>
+			<pubDate>Sun, 16 Feb 2014 16:48:23 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=920</guid>
+			<description><![CDATA[Salut à tous !<br />
+<br />
+Je commence dans le modding sur starbound, j'ai quelques notion mais j'ai une question sur les ship files.<br />
+Si je change mon vaisseux,  pour jouer avec un autre joueurs si j’héberge la partie, l'autre joueur est il obligé d'avoir le même vaisseux que moi ou non ?<br />
+je sais que pour les objet c'est le cas mais qu'en est il du vaisseaux ?<br />
+<br />
+Merci d'avance !]]></description>
+			<content:encoded><![CDATA[Salut à tous !<br />
+<br />
+Je commence dans le modding sur starbound, j'ai quelques notion mais j'ai une question sur les ship files.<br />
+Si je change mon vaisseux,  pour jouer avec un autre joueurs si j’héberge la partie, l'autre joueur est il obligé d'avoir le même vaisseux que moi ou non ?<br />
+je sais que pour les objet c'est le cas mais qu'en est il du vaisseaux ?<br />
+<br />
+Merci d'avance !]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[[Help Mod] Problème pour ma création [ Résolu]]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=914</link>
+			<pubDate>Mon, 10 Feb 2014 23:38:22 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=914</guid>
+			<description><![CDATA[Bonjour/Bonsoir à tous,<br />
+Je me présente, Dikenzo, "nouveau" joueur de starbound et surtout nouvelle personne très attiré par le potentielle de modding du jeux !<br />
+Après avoir feuilleter plusieurs thread concernant le modding sur starbound, je me suis lancer dans une première création, une sorte d'entraînement pour découvrir et comprendre au mieux ce qui est possible de faire.<br />
+<br />
+Je me suis lancer donc dans la création d'une drill portant mon nom plus puissant que la diamond, j'ai donc copier les fichier de la platinumdrill afin d'avoir la base et j'ai ensuite changé tout ce qui m’intéressais.<br />
+A partir de la commence mes problèmes, j'ai ajouté tout les fichiers de ma drill dans mes assets, j'ai ensuite packed et ajouté mon fichier .pak dans les assets de mon jeux, seulement, lorsque je vais dans la metalworkstation je ne trouve pas ma drill.<br />
+ J'ai donc surement fait une erreur lors de la modification de fichier, mais où ?<br />
+<br />
+Je poste donc le plus de screenshot possible afin que vous ayez le plus d'info possible afin de m'aider du mieux que vous le pouvez :<br />
+<br />
+<div style="text-align: center;"><span style="font-size: medium;"><span style="color: #FF0000;">Fichier drill.miningtoll :</span></span> </div>
+<div style="text-align: center;"><a href="http://www.hostingpics.net/viewer.php?id=714626dikenzosdrillminingtoolscreens.png" target="_blank"><img src="http://img15.hostingpics.net/thumbs/mini_714626dikenzosdrillminingtoolscreens.png" border="0" alt="[Image: mini_714626dikenzosdrillminingtoolscreens.png]" /></a></div>
+<br />
+<span style="font-size: medium;"><div style="text-align: center;"><span style="color: #FF0000;">Fichier recipe :</span></div></span> <br />
+<div style="text-align: center;"><a href="http://www.hostingpics.net/viewer.php?id=996317dikenzosdrillrecipescreens.png" target="_blank"><img src="http://img15.hostingpics.net/thumbs/mini_996317dikenzosdrillrecipescreens.png" border="0" alt="[Image: mini_996317dikenzosdrillrecipescreens.png]" /></a></div>
+<br />
+J'ai aussi ajouté la drill dans le dossier mod en plus du fichier .pak, voici le chemin ( au cas ou j'ai fait une erreur dans le chemin ) :<br />
+<br />
+<div style="text-align: center;"><a href="http://www.hostingpics.net/viewer.php?id=939194lookdossiermods.png" target="_blank"><img src="http://img15.hostingpics.net/thumbs/mini_939194lookdossiermods.png" border="0" alt="[Image: mini_939194lookdossiermods.png]" /></a></div>
+<br />
+<div style="text-align: center;"><a href="http://www.hostingpics.net/viewer.php?id=889196lookdossieritemstools.png" target="_blank"><img src="http://img15.hostingpics.net/thumbs/mini_889196lookdossieritemstools.png" border="0" alt="[Image: mini_889196lookdossieritemstools.png]" /></a></div>
+<br />
+Voilà, merci d'avance de vos réponse et de votre aide, si vous avez besoin de quelque information que ce sois en plus, faite le moi savoir. Bonne jeux à tous !]]></description>
+			<content:encoded><![CDATA[Bonjour/Bonsoir à tous,<br />
+Je me présente, Dikenzo, "nouveau" joueur de starbound et surtout nouvelle personne très attiré par le potentielle de modding du jeux !<br />
+Après avoir feuilleter plusieurs thread concernant le modding sur starbound, je me suis lancer dans une première création, une sorte d'entraînement pour découvrir et comprendre au mieux ce qui est possible de faire.<br />
+<br />
+Je me suis lancer donc dans la création d'une drill portant mon nom plus puissant que la diamond, j'ai donc copier les fichier de la platinumdrill afin d'avoir la base et j'ai ensuite changé tout ce qui m’intéressais.<br />
+A partir de la commence mes problèmes, j'ai ajouté tout les fichiers de ma drill dans mes assets, j'ai ensuite packed et ajouté mon fichier .pak dans les assets de mon jeux, seulement, lorsque je vais dans la metalworkstation je ne trouve pas ma drill.<br />
+ J'ai donc surement fait une erreur lors de la modification de fichier, mais où ?<br />
+<br />
+Je poste donc le plus de screenshot possible afin que vous ayez le plus d'info possible afin de m'aider du mieux que vous le pouvez :<br />
+<br />
+<div style="text-align: center;"><span style="font-size: medium;"><span style="color: #FF0000;">Fichier drill.miningtoll :</span></span> </div>
+<div style="text-align: center;"><a href="http://www.hostingpics.net/viewer.php?id=714626dikenzosdrillminingtoolscreens.png" target="_blank"><img src="http://img15.hostingpics.net/thumbs/mini_714626dikenzosdrillminingtoolscreens.png" border="0" alt="[Image: mini_714626dikenzosdrillminingtoolscreens.png]" /></a></div>
+<br />
+<span style="font-size: medium;"><div style="text-align: center;"><span style="color: #FF0000;">Fichier recipe :</span></div></span> <br />
+<div style="text-align: center;"><a href="http://www.hostingpics.net/viewer.php?id=996317dikenzosdrillrecipescreens.png" target="_blank"><img src="http://img15.hostingpics.net/thumbs/mini_996317dikenzosdrillrecipescreens.png" border="0" alt="[Image: mini_996317dikenzosdrillrecipescreens.png]" /></a></div>
+<br />
+J'ai aussi ajouté la drill dans le dossier mod en plus du fichier .pak, voici le chemin ( au cas ou j'ai fait une erreur dans le chemin ) :<br />
+<br />
+<div style="text-align: center;"><a href="http://www.hostingpics.net/viewer.php?id=939194lookdossiermods.png" target="_blank"><img src="http://img15.hostingpics.net/thumbs/mini_939194lookdossiermods.png" border="0" alt="[Image: mini_939194lookdossiermods.png]" /></a></div>
+<br />
+<div style="text-align: center;"><a href="http://www.hostingpics.net/viewer.php?id=889196lookdossieritemstools.png" target="_blank"><img src="http://img15.hostingpics.net/thumbs/mini_889196lookdossieritemstools.png" border="0" alt="[Image: mini_889196lookdossieritemstools.png]" /></a></div>
+<br />
+Voilà, merci d'avance de vos réponse et de votre aide, si vous avez besoin de quelque information que ce sois en plus, faite le moi savoir. Bonne jeux à tous !]]></content:encoded>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title><![CDATA[Starbound-Fr | Forum - Aide & Conseils]]></title>
+		<link>http://starbound-fr.net/forum/</link>
+		<description><![CDATA[Starbound-Fr | Forum - http://starbound-fr.net/forum]]></description>
+		<pubDate>Thu, 18 Feb 2016 18:16:39 +0000</pubDate>
+		<generator>MyBB</generator>
+		<item>
+			<title><![CDATA[petit problème de mod :(]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1433</link>
+			<pubDate>Tue, 12 Jan 2016 18:39:00 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1433</guid>
+			<description><![CDATA[Bonjour.<br />
+<br />
+j'aimerais savoir dans quelle dossier mettre la race elf du mod extended character créations mod pour que mon jeux ne plante pas(car oui tant que je n'ajoute pas de race ça marche mais dès que j'en ajoute une...pouf!méssage d'érreur)<br />
+<br />
+si vous avez la réponse merci de la donner ^^<br />
+<br />
+Shinime Unknow de la rédac' du renard]]></description>
+			<content:encoded><![CDATA[Bonjour.<br />
+<br />
+j'aimerais savoir dans quelle dossier mettre la race elf du mod extended character créations mod pour que mon jeux ne plante pas(car oui tant que je n'ajoute pas de race ça marche mais dès que j'en ajoute une...pouf!méssage d'érreur)<br />
+<br />
+si vous avez la réponse merci de la donner ^^<br />
+<br />
+Shinime Unknow de la rédac' du renard]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Pénurie de pioches]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1401</link>
+			<pubDate>Wed, 16 Sep 2015 17:39:59 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1401</guid>
+			<description><![CDATA[Depuis la dernière MAJ du jeu (Pleased Giraffe) je ne trouve plus le bon truc de craft pour fabriquer des pioches.<br />
+Et je commence à tomber à cours de pioches.<br />
+<br />
+Vous pouvez me dire comment les crafters ?]]></description>
+			<content:encoded><![CDATA[Depuis la dernière MAJ du jeu (Pleased Giraffe) je ne trouve plus le bon truc de craft pour fabriquer des pioches.<br />
+Et je commence à tomber à cours de pioches.<br />
+<br />
+Vous pouvez me dire comment les crafters ?]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Mon jeu crash sur l'écran de chargement]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1399</link>
+			<pubDate>Tue, 15 Sep 2015 16:23:16 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1399</guid>
+			<description><![CDATA[Bonjour ou bonsoir à tous, je viens du forum officiel mais personne ne trouve de solution a mon problème <img src="http://starbound-fr.net/forum/images/smilies/triste.png" alt="Triste" title="Triste" class="smilie smilie_31" />.<br />
+<br />
+Il est le suivant: Je suis sur l'écran du launcher et je clique sur launch starbound. Jusque la tout vas bien, le jeu se lance, loading screen avec la petite girafe à son cou un koala, quand soudain BIM. Le jeu se ferme et j'ai le message d'erreur suivant: "Fatal Exception, caught: (MapException) Key 'alienjuice' not found in Map::get()".<br />
+<br />
+J'ai déja supprimé les fichiers du jeu puis réinstallé l'ensemble: même problème, même message <img src="http://starbound-fr.net/forum/images/smilies/triste.png" alt="Triste" title="Triste" class="smilie smilie_31" /><br />
+<br />
+C'est sur la version stable ( ou presque apparemment ) Pleased Giraffe et je n'avais pas joué au jeu depuis la "jesaisplusquoi" Koala. <br />
+<br />
+Je pourrais si vous voulez ( si ça peut vous aider ) vous faire un screen des éléments de mon pc mais je pense pas que ça vienne de la.<br />
+<br />
+Je vous remercie d'avance et m’excuse des éventuelles fautes d'orthographe/grammaire :).]]></description>
+			<content:encoded><![CDATA[Bonjour ou bonsoir à tous, je viens du forum officiel mais personne ne trouve de solution a mon problème <img src="http://starbound-fr.net/forum/images/smilies/triste.png" alt="Triste" title="Triste" class="smilie smilie_31" />.<br />
+<br />
+Il est le suivant: Je suis sur l'écran du launcher et je clique sur launch starbound. Jusque la tout vas bien, le jeu se lance, loading screen avec la petite girafe à son cou un koala, quand soudain BIM. Le jeu se ferme et j'ai le message d'erreur suivant: "Fatal Exception, caught: (MapException) Key 'alienjuice' not found in Map::get()".<br />
+<br />
+J'ai déja supprimé les fichiers du jeu puis réinstallé l'ensemble: même problème, même message <img src="http://starbound-fr.net/forum/images/smilies/triste.png" alt="Triste" title="Triste" class="smilie smilie_31" /><br />
+<br />
+C'est sur la version stable ( ou presque apparemment ) Pleased Giraffe et je n'avais pas joué au jeu depuis la "jesaisplusquoi" Koala. <br />
+<br />
+Je pourrais si vous voulez ( si ça peut vous aider ) vous faire un screen des éléments de mon pc mais je pense pas que ça vienne de la.<br />
+<br />
+Je vous remercie d'avance et m’excuse des éventuelles fautes d'orthographe/grammaire :).]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Probléme technique !]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1396</link>
+			<pubDate>Thu, 10 Sep 2015 14:27:09 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1396</guid>
+			<description><![CDATA[Bonjour !<br />
+<br />
+Depuis quelques jours (3-4) je rencontre un énorme lag quand je me connecte. Le décor met un certain temps à apparaitre, les boutons s'actionnent 2-3 secondes après avoir appuyé dessus et pareil quand je tape un mob' !<br />
+Je ne sais pas si c'est lié au jeu ou au serveur, quelqu'un a déjà eu ce soucis ? <br />
+<br />
+Merci d'avance !]]></description>
+			<content:encoded><![CDATA[Bonjour !<br />
+<br />
+Depuis quelques jours (3-4) je rencontre un énorme lag quand je me connecte. Le décor met un certain temps à apparaitre, les boutons s'actionnent 2-3 secondes après avoir appuyé dessus et pareil quand je tape un mob' !<br />
+Je ne sais pas si c'est lié au jeu ou au serveur, quelqu'un a déjà eu ce soucis ? <br />
+<br />
+Merci d'avance !]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Suppression du vaisseau]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1242</link>
+			<pubDate>Thu, 23 Apr 2015 22:54:10 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1242</guid>
+			<description><![CDATA[Hey tout le monde !<br />
+<br />
+En lançant ma partie solo à l'instant, j'ai eu la désagréable surprise de voir que mon vaisseau à été totalement effacé (Mais je conserve mes perso avec leur inventaire)... Et pareil avec mes autres persos.<br />
+<br />
+Bien entendu, j'ai des sauvegardes qui datent d'avant la mise à jour. Cependant, sauriez-vous comment faire pour rétablir ma sauvegarde du vaisseau ?<br />
+<br />
+[Insérez formule de politesse]]]></description>
+			<content:encoded><![CDATA[Hey tout le monde !<br />
+<br />
+En lançant ma partie solo à l'instant, j'ai eu la désagréable surprise de voir que mon vaisseau à été totalement effacé (Mais je conserve mes perso avec leur inventaire)... Et pareil avec mes autres persos.<br />
+<br />
+Bien entendu, j'ai des sauvegardes qui datent d'avant la mise à jour. Cependant, sauriez-vous comment faire pour rétablir ma sauvegarde du vaisseau ?<br />
+<br />
+[Insérez formule de politesse]]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Probleme Boss UFO Penguin]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1213</link>
+			<pubDate>Thu, 02 Apr 2015 14:55:36 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1213</guid>
+			<description><![CDATA[Bonjour, j'ai eu un problème aujourd'hui qui est très gênant, j'ai voulue me battre le deuxième boss du jeu, donc j'ai fais la mission, j'ai battus tout les pingouins mais le boss n'est pas apparue ce que j'ai trouvé très bizarre.<br />
+<br />
+J'ai beau cherché, la commande /spawnmonster, je n'arrive pas avec a faire spawner le boss.<br />
+<br />
+Pourrai-ton m'aider ?]]></description>
+			<content:encoded><![CDATA[Bonjour, j'ai eu un problème aujourd'hui qui est très gênant, j'ai voulue me battre le deuxième boss du jeu, donc j'ai fais la mission, j'ai battus tout les pingouins mais le boss n'est pas apparue ce que j'ai trouvé très bizarre.<br />
+<br />
+J'ai beau cherché, la commande /spawnmonster, je n'arrive pas avec a faire spawner le boss.<br />
+<br />
+Pourrai-ton m'aider ?]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Anexe, ou te cache tu ??]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1171</link>
+			<pubDate>Fri, 27 Feb 2015 17:47:36 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1171</guid>
+			<description><![CDATA[Bonsoir , j'ai un probleme.<br />
+<br />
+Sur mon personnage "ethanjulian" je n'est plus aucune quete à faire.<br />
+<br />
+Sachant que : Je n'est pas tout mes energie dash (pas tous debloquer).<br />
+Ma dernier quete faite est : "on paper wings".<br />
+<br />
+Selon "patatedouce" il s'agit d'un bug.<br />
+Il ma dis que la meilleur chose a faire etait de creer un nouveau perso de "cheat" pour revenir a la meme quete, et il ma dis que vous en parler ne servirait à rien , je prefere vous le dire car je préfère garder mon perso, je n'ai pas vraiment envie de cheater + sa se trouve j'ai juste louper un truc (rien dans mon S.A.I.L et dans l'avant poste).<br />
+<br />
+Merci beaucoup<br />
+<br />
+Cordialement<br />
+Ethanjulian]]></description>
+			<content:encoded><![CDATA[Bonsoir , j'ai un probleme.<br />
+<br />
+Sur mon personnage "ethanjulian" je n'est plus aucune quete à faire.<br />
+<br />
+Sachant que : Je n'est pas tout mes energie dash (pas tous debloquer).<br />
+Ma dernier quete faite est : "on paper wings".<br />
+<br />
+Selon "patatedouce" il s'agit d'un bug.<br />
+Il ma dis que la meilleur chose a faire etait de creer un nouveau perso de "cheat" pour revenir a la meme quete, et il ma dis que vous en parler ne servirait à rien , je prefere vous le dire car je préfère garder mon perso, je n'ai pas vraiment envie de cheater + sa se trouve j'ai juste louper un truc (rien dans mon S.A.I.L et dans l'avant poste).<br />
+<br />
+Merci beaucoup<br />
+<br />
+Cordialement<br />
+Ethanjulian]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Dois-je allez chez zalendo pour mes botte en CUIR ?]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1169</link>
+			<pubDate>Thu, 26 Feb 2015 14:00:56 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1169</guid>
+			<description><![CDATA[Problème: je n'arrive pas a obtenir du "cuir" pour une mini-quête.<br />
+<br />
+mini-quête: donner du cuir a un "charcutier" du "cuir" pour cirer son couteau.<br />
+<br />
+se que j'ai ésayer de faire: prendre mon "arc en steel" et chasser des animaux pour drop le cuir : apres 10 min de chasse j'ai obtenue ~60 de steak mais aucun cuir<br />
+<br />
+hypothese : peut-etre que le moyen pour avoir du cuir a changer / ou peut etre que le taux de drop a changé/diminué.<br />
+<br />
+aide demandée: Savoir comment obtenir du cuir. <br />
+<br />
+Merci beaucoup<br />
+<br />
+Cordialement<br />
+Ethanjulian]]></description>
+			<content:encoded><![CDATA[Problème: je n'arrive pas a obtenir du "cuir" pour une mini-quête.<br />
+<br />
+mini-quête: donner du cuir a un "charcutier" du "cuir" pour cirer son couteau.<br />
+<br />
+se que j'ai ésayer de faire: prendre mon "arc en steel" et chasser des animaux pour drop le cuir : apres 10 min de chasse j'ai obtenue ~60 de steak mais aucun cuir<br />
+<br />
+hypothese : peut-etre que le moyen pour avoir du cuir a changer / ou peut etre que le taux de drop a changé/diminué.<br />
+<br />
+aide demandée: Savoir comment obtenir du cuir. <br />
+<br />
+Merci beaucoup<br />
+<br />
+Cordialement<br />
+Ethanjulian]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Comment avoir du coulomier président ?]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1168</link>
+			<pubDate>Thu, 26 Feb 2015 11:46:26 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1168</guid>
+			<description><![CDATA[Problème : je ne trouve pas l'item "cheese" pour une "mini-quête".<br />
+<br />
+mini quête: Donner à la personne du Poison [Valide] , et du fromage [Non Valide].<br />
+<br />
+aide demandée: me dire {comment crafter/ Où trouver/ Qui donne} le "cheese".<br />
+<br />
+merci beaucoup<br />
+<br />
+Cordialement<br />
+Ethanjulian]]></description>
+			<content:encoded><![CDATA[Problème : je ne trouve pas l'item "cheese" pour une "mini-quête".<br />
+<br />
+mini quête: Donner à la personne du Poison [Valide] , et du fromage [Non Valide].<br />
+<br />
+aide demandée: me dire {comment crafter/ Où trouver/ Qui donne} le "cheese".<br />
+<br />
+merci beaucoup<br />
+<br />
+Cordialement<br />
+Ethanjulian]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Carte spatiale]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1153</link>
+			<pubDate>Sat, 21 Feb 2015 11:31:43 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1153</guid>
+			<description><![CDATA[Hey tout le monde !<br />
+Je suppose que je ne suis pas le seul à jouer à Starbound avec un fichier txt pour noter les coordonnées de planètes et les trucs intéressants dessus, alors je vous propose d'échanger ces coordonnées !<br />
+<br />
+G&gt; vers la gauche, D&gt; vers la droite (je précise au cas où).<br />
+<br />
+Epsilon Delta Cru 91<br />
+<br />
+x:-274349571<br />
+y:6486610548<br />
+<br />
+<br />
+III(desert): g&gt;oil+apex city d&gt;base USCM<br />
+<br />
+-----------------------------------------------------------------------------------<br />
+Beta 16 Dra 7512<br />
+x:-274349569<br />
+y:648610540<br />
+<br />
+VII (snow): g&gt;Stimpack merchant<br />
+<br />
+-----------------------------------------------------------------------------------<br />
+<br />
+Gamma Subra 40<br />
+x:-274349557<br />
+y:648610557<br />
+<br />
+I : G&gt;village Glitch<br />
+<br />
+II : D&gt;Base USCM, labo apex<br />
+<br />
+III:g&gt;stimpack merchant, tour avian, labo apex<br />
+III a:g&gt;champi ville, apex ville<br />
+<br />
+IV : d&gt;tour avian, ville avian<br />
+IV a : g&gt;ville champi, tour avian<br />
+IV b : d&gt;petrole,ville apex<br />
+<br />
+V: D &gt;tombe avian, village glitch<br />
+<br />
+VI : d&gt;pétrole, labo apex, ville avian<br />
+VIa : d&gt;tour avian<br />
+VIb : g&gt;mine abandonnée<br />
+<br />
+<br />
+-----------------------------------------------------------------------------------<br />
+<br />
+Beta Kappa Lup 26<br />
+x:-274349561<br />
+y:648610555<br />
+<br />
+II : g&gt;USCM prison<br />
+<br />
+-----------------------------------------------------------------------------------<br />
+<br />
+Alpha Markeb Minoris<br />
+x:-274349629<br />
+y:648610582<br />
+<br />
+II a : d&gt;ville apex<br />
+II c : d&gt;labo apex, ville apex<br />
+<br />
+-----------------------------------------------------------------------------------<br />
+<br />
+Alpha Meridie 097<br />
+x:-274349664<br />
+y:648610563<br />
+<br />
+I : D&gt; Village avian, base USCM, G&gt; mini-biome squelette<br />
+II : Biome Bioluminescent, D&gt; Base USCM<br />
+III : G&gt; Base USCM]]></description>
+			<content:encoded><![CDATA[Hey tout le monde !<br />
+Je suppose que je ne suis pas le seul à jouer à Starbound avec un fichier txt pour noter les coordonnées de planètes et les trucs intéressants dessus, alors je vous propose d'échanger ces coordonnées !<br />
+<br />
+G&gt; vers la gauche, D&gt; vers la droite (je précise au cas où).<br />
+<br />
+Epsilon Delta Cru 91<br />
+<br />
+x:-274349571<br />
+y:6486610548<br />
+<br />
+<br />
+III(desert): g&gt;oil+apex city d&gt;base USCM<br />
+<br />
+-----------------------------------------------------------------------------------<br />
+Beta 16 Dra 7512<br />
+x:-274349569<br />
+y:648610540<br />
+<br />
+VII (snow): g&gt;Stimpack merchant<br />
+<br />
+-----------------------------------------------------------------------------------<br />
+<br />
+Gamma Subra 40<br />
+x:-274349557<br />
+y:648610557<br />
+<br />
+I : G&gt;village Glitch<br />
+<br />
+II : D&gt;Base USCM, labo apex<br />
+<br />
+III:g&gt;stimpack merchant, tour avian, labo apex<br />
+III a:g&gt;champi ville, apex ville<br />
+<br />
+IV : d&gt;tour avian, ville avian<br />
+IV a : g&gt;ville champi, tour avian<br />
+IV b : d&gt;petrole,ville apex<br />
+<br />
+V: D &gt;tombe avian, village glitch<br />
+<br />
+VI : d&gt;pétrole, labo apex, ville avian<br />
+VIa : d&gt;tour avian<br />
+VIb : g&gt;mine abandonnée<br />
+<br />
+<br />
+-----------------------------------------------------------------------------------<br />
+<br />
+Beta Kappa Lup 26<br />
+x:-274349561<br />
+y:648610555<br />
+<br />
+II : g&gt;USCM prison<br />
+<br />
+-----------------------------------------------------------------------------------<br />
+<br />
+Alpha Markeb Minoris<br />
+x:-274349629<br />
+y:648610582<br />
+<br />
+II a : d&gt;ville apex<br />
+II c : d&gt;labo apex, ville apex<br />
+<br />
+-----------------------------------------------------------------------------------<br />
+<br />
+Alpha Meridie 097<br />
+x:-274349664<br />
+y:648610563<br />
+<br />
+I : D&gt; Village avian, base USCM, G&gt; mini-biome squelette<br />
+II : Biome Bioluminescent, D&gt; Base USCM<br />
+III : G&gt; Base USCM]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Activer les compétences Techs.]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1125</link>
+			<pubDate>Fri, 15 Aug 2014 18:56:45 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1125</guid>
+			<description><![CDATA[Salut à tous :)<br />
+<br />
+Comment utilise t-on le truc technique dans le vaisseau ? <br />
+<br />
+je n'arrive pas à mettre dedans les schémas. <img src="http://starbound-fr.net/forum/images/smilies/triste.png" alt="Triste" title="Triste" class="smilie smilie_31" /><br />
+<br />
+merci de vos aides. <img src="http://starbound-fr.net/forum/images/smilies/oeil.png" alt="Wink" title="Wink" class="smilie smilie_68" />]]></description>
+			<content:encoded><![CDATA[Salut à tous :)<br />
+<br />
+Comment utilise t-on le truc technique dans le vaisseau ? <br />
+<br />
+je n'arrive pas à mettre dedans les schémas. <img src="http://starbound-fr.net/forum/images/smilies/triste.png" alt="Triste" title="Triste" class="smilie smilie_31" /><br />
+<br />
+merci de vos aides. <img src="http://starbound-fr.net/forum/images/smilies/oeil.png" alt="Wink" title="Wink" class="smilie smilie_68" />]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[manger]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1123</link>
+			<pubDate>Sun, 10 Aug 2014 21:08:37 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1123</guid>
+			<description><![CDATA[salut à tous :)<br />
+<br />
+alors j'ai un truc tout bête pour ne pas dire autre chose <img src="http://starbound-fr.net/forum/images/smilies/oeil.png" alt="Wink" title="Wink" class="smilie smilie_68" /> comment fait on pour se nourrir, mon perso passe son temps à mourir aidez moi merci. <img src="http://starbound-fr.net/forum/images/smilies/oeil.png" alt="Wink" title="Wink" class="smilie smilie_68" />]]></description>
+			<content:encoded><![CDATA[salut à tous :)<br />
+<br />
+alors j'ai un truc tout bête pour ne pas dire autre chose <img src="http://starbound-fr.net/forum/images/smilies/oeil.png" alt="Wink" title="Wink" class="smilie smilie_68" /> comment fait on pour se nourrir, mon perso passe son temps à mourir aidez moi merci. <img src="http://starbound-fr.net/forum/images/smilies/oeil.png" alt="Wink" title="Wink" class="smilie smilie_68" />]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[bug de personnage]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1121</link>
+			<pubDate>Sat, 09 Aug 2014 10:39:50 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1121</guid>
+			<description><![CDATA[bonjour <br />
+<br />
+quand je commence a jouer en solo mon personnage par moment se met avancé tous seul et ne répond plus du tous.<br />
+a cause de ce bug il met impossible de jouer normalement. :'(<br />
+<br />
+si quelqu'un a une idée pour m'aidé merci d'avances.]]></description>
+			<content:encoded><![CDATA[bonjour <br />
+<br />
+quand je commence a jouer en solo mon personnage par moment se met avancé tous seul et ne répond plus du tous.<br />
+a cause de ce bug il met impossible de jouer normalement. :'(<br />
+<br />
+si quelqu'un a une idée pour m'aidé merci d'avances.]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Coordonnées planètes]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1105</link>
+			<pubDate>Wed, 09 Jul 2014 18:23:24 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1105</guid>
+			<description><![CDATA[Coucou les spationautes, <br />
+<br />
+Quand je rentre des coordonnées de planètes déjà visitées par d'autres joueurs, je ne tombe pas du tout sur la même planète qu'eux (alors que je suis dans le même secteur, et que toutes les planètes sont les mêmes pour tout le monde). J'ai tout bien vérifié à chaque fois, fait l'essai avec 2 secteurs et plusieurs planètes, rien à faire, j'ai toujours des trucs différents. Qqn peut m'éclairer ?]]></description>
+			<content:encoded><![CDATA[Coucou les spationautes, <br />
+<br />
+Quand je rentre des coordonnées de planètes déjà visitées par d'autres joueurs, je ne tombe pas du tout sur la même planète qu'eux (alors que je suis dans le même secteur, et que toutes les planètes sont les mêmes pour tout le monde). J'ai tout bien vérifié à chaque fois, fait l'essai avec 2 secteurs et plusieurs planètes, rien à faire, j'ai toujours des trucs différents. Qqn peut m'éclairer ?]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Les mods]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1102</link>
+			<pubDate>Sat, 05 Jul 2014 09:15:12 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1102</guid>
+			<description><![CDATA[J'ai besoin d'aide, quand je met le mod de race le plus connu (Avali) dans le dossier mods et que je vais dans le jeu. Je ne vois aucun mod ? Pouvez-vous m'aider ?]]></description>
+			<content:encoded><![CDATA[J'ai besoin d'aide, quand je met le mod de race le plus connu (Avali) dans le dossier mods et que je vais dans le jeu. Je ne vois aucun mod ? Pouvez-vous m'aider ?]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[outai fichier outai]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1098</link>
+			<pubDate>Sat, 28 Jun 2014 19:37:15 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1098</guid>
+			<description><![CDATA[Bonsoir ou bonjour, j'ai un problème je veux jouer à hamachi avec mon pote mais j'peux pas puisque je trouve pas le fichier ou faut mettre false dans assets ?<br />
+Aidez moi]]></description>
+			<content:encoded><![CDATA[Bonsoir ou bonjour, j'ai un problème je veux jouer à hamachi avec mon pote mais j'peux pas puisque je trouve pas le fichier ou faut mettre false dans assets ?<br />
+Aidez moi]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Lvl 1]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1097</link>
+			<pubDate>Fri, 27 Jun 2014 10:59:46 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1097</guid>
+			<description><![CDATA[je viens juste de commencer starbound et j'ai toutes les planètes niveau 1 ? partout ? est-ce normal ?]]></description>
+			<content:encoded><![CDATA[je viens juste de commencer starbound et j'ai toutes les planètes niveau 1 ? partout ? est-ce normal ?]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[(AIDE) peut-on vendre des objets ?]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1051</link>
+			<pubDate>Mon, 19 May 2014 17:47:28 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1051</guid>
+			<description><![CDATA[<span style="color: #000080;">Salut Salut Ami de l'espace .<br />
+</span><span style="color: #000000;">Bon j'ai une question qui me tracasse depuis pas mal de temps . Peut-on vendre des objets à des pnj ? <br />
+Je sais qu'</span>avant , on ne pouvais pas ... Mais peut-être maintenant que oui ? bref ... Voila . :)]]></description>
+			<content:encoded><![CDATA[<span style="color: #000080;">Salut Salut Ami de l'espace .<br />
+</span><span style="color: #000000;">Bon j'ai une question qui me tracasse depuis pas mal de temps . Peut-on vendre des objets à des pnj ? <br />
+Je sais qu'</span>avant , on ne pouvais pas ... Mais peut-être maintenant que oui ? bref ... Voila . :)]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[(AIDE) mes personnages se supprime tout seul !]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1050</link>
+			<pubDate>Thu, 15 May 2014 08:15:55 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1050</guid>
+			<description><![CDATA[Salut Salut ami de l'espace .<br />
+<br />
+Bref voilà , j'ai un énorme problème !<br />
+Je m'explique ... Un beau jour je voulu effacer mon personnage pour en faire un nouveau , mais dans le fichier player ( dans les fichier de starbound de Steam ) j'ai tout effacer , tout les fichier ...<br />
+Ensuite j'en ai créer un nouveau , j'ai jouer , j'ai sauvegarder ... Et j'ai éteint mon Ordi .<br />
+Le lendemain j'ai voulu jouer et mon personnage avais disparu , effacer ! <img src="http://starbound-fr.net/forum/images/smilies/somuchanger.png" alt="Somuchanger" title="Somuchanger" class="smilie smilie_29" /><br />
+Alors qu'il y avait toujours les donner de mon personnage dans le fichier player ! <br />
+Et a chaque fois que j'en créer un et que j'éteins mon ordi il se supprime !<br />
+Est-ce que vous avez une idée pour que tout fonctionne normalement ? Merci .]]></description>
+			<content:encoded><![CDATA[Salut Salut ami de l'espace .<br />
+<br />
+Bref voilà , j'ai un énorme problème !<br />
+Je m'explique ... Un beau jour je voulu effacer mon personnage pour en faire un nouveau , mais dans le fichier player ( dans les fichier de starbound de Steam ) j'ai tout effacer , tout les fichier ...<br />
+Ensuite j'en ai créer un nouveau , j'ai jouer , j'ai sauvegarder ... Et j'ai éteint mon Ordi .<br />
+Le lendemain j'ai voulu jouer et mon personnage avais disparu , effacer ! <img src="http://starbound-fr.net/forum/images/smilies/somuchanger.png" alt="Somuchanger" title="Somuchanger" class="smilie smilie_29" /><br />
+Alors qu'il y avait toujours les donner de mon personnage dans le fichier player ! <br />
+Et a chaque fois que j'en créer un et que j'éteins mon ordi il se supprime !<br />
+Est-ce que vous avez une idée pour que tout fonctionne normalement ? Merci .]]></content:encoded>
+		</item>
+		<item>
+			<title><![CDATA[Léger problème de planètes]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1004</link>
+			<pubDate>Sat, 05 Apr 2014 08:40:20 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1004</guid>
+			<description><![CDATA[Bonjour a tous!<br />
+J'ai un petit problème, trois fois rien : je ne peut plus jouer ^^<br />
+En gros a partir du moment ou j'ai fini l'armure d'Imperium (même si je ne pense pas qu'il y ait de rapport), a chaque fois que je descendais sur une planète, je perdait de la vie tellement vite que j'étais obligés de remonter directement a mon vaisseau. Il n'y avait ni lave ni pluie acide ni monstres et il y avait de l'oxygène. Mais pour être sûre, j'ai changé de planètes, passant de biomes neiges à magma à foret, de planètes de lvl 1 a 10 mais  chaque fois j'ai eu le même problème...<br />
+Pouvez-vous m'aider?]]></description>
+			<content:encoded><![CDATA[Bonjour a tous!<br />
+J'ai un petit problème, trois fois rien : je ne peut plus jouer ^^<br />
+En gros a partir du moment ou j'ai fini l'armure d'Imperium (même si je ne pense pas qu'il y ait de rapport), a chaque fois que je descendais sur une planète, je perdait de la vie tellement vite que j'étais obligés de remonter directement a mon vaisseau. Il n'y avait ni lave ni pluie acide ni monstres et il y avait de l'oxygène. Mais pour être sûre, j'ai changé de planètes, passant de biomes neiges à magma à foret, de planètes de lvl 1 a 10 mais  chaque fois j'ai eu le même problème...<br />
+Pouvez-vous m'aider?]]></content:encoded>
+		</item>
+	</channel>
+</rss>

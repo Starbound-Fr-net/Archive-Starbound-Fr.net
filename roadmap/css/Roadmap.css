@@ -1,0 +1,1036 @@
+/* MAIN STRUCTURE */
+	body
+	{
+		margin: 0px;
+		padding: 0px 0px;
+		background-color: #000;
+		color: #eee;
+		font-family: '04b03';
+		font-size: 18px;
+		text-shadow: 2px 2px 0px black, -2px -2px 0px black, -2px 2px 0px black, 2px -2px 0px black,
+					2px 0px 0px black, -2px -0px 0px black, 0px 2px 0px black, 0px -2px 0px black;
+	}
+	
+	input, textarea
+	{
+		background: transparent;
+		border: none;
+		color: #eee;
+		font-family: '04b03';
+		font-size: 18px;
+		text-shadow: 2px 2px 0px black, -2px -2px 0px black, -2px 2px 0px black, 2px -2px 0px black;
+	}
+	
+	div
+	{
+		outline: 0px solid orange;
+	}
+	
+	#mainWrap
+	{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		min-width: 1190px;
+		
+		background-color: #71b0be;
+		
+		margin: 0px;
+		padding: 0px;
+		overflow-y: auto
+	}
+	
+	#introWrapper
+	{
+		margin: 0px;
+		padding: 20px 0px 10px 0px;
+		text-align: center;
+		height: 350px;
+		
+		background-color: #07062b;
+		background-image: url( ../images/backgroundTile-top.png );
+		background-position: bottom center;
+		background-repeat: repeat-x;
+	}
+	
+	#introConstellations
+	{
+		position: absolute;
+		top: 10px;
+		height: 380px;
+		left: 0;
+		right: 0;
+		z-index: 1;
+		
+		background-image: url( ../images/constellations.png );
+		background-position: center top;
+		background-repeat: no-repeat;
+	}
+	
+	#introMainHeader
+	{
+		background-image: url( ../images/headerRoadmap.png );
+		background-position: center center;
+		background-repeat: no-repeat;
+		position: relative;
+		width: 440px;
+		height: 132px;
+		margin: auto;
+		z-index: 2;
+	}
+	
+	#introSubHeader
+	{
+		background-image: url( ../images/headerReleaseDate-2.png );
+		background-position: center center;
+		background-repeat: no-repeat;
+		position: relative;
+		width: 310px;
+		height: 90px;
+		margin: 20px auto;
+		z-index: 2;
+	}
+	
+	#introDiv
+	{
+		position: relative;
+		width: 500px;
+		margin: auto;
+		padding: 10px;
+		border: 2px solid white;
+		border-radius: 15px;
+		
+		background-color: hsla( 0, 0%, 0%, .6 );
+	}
+	
+	#separator
+	{
+		display: none;
+		position: relative;
+		height: 172px;
+		background-color: #07062b;
+		background-image: url( ../images/backgroundTile-top.png );
+		background-position: bottom center;
+		background-repeat: repeat-x;
+		
+		text-align: center;
+	}
+	
+/* ADMIN STUFFS */
+	#controlPanel
+	{
+		position: relative;
+		display: none;
+		width: 1190px;
+		margin: 85px auto 0;
+		z-index: 30;
+		
+		background-color: hsla( 0, 0%, 0%, .7);
+		outline: 1px solid hsla( 0, 0%, 0%, .7);
+		
+		font-size: 14px;
+		font-family: "Arial";
+		text-shadow: none;
+	}
+	
+	#controlPanel a
+	{
+		color: orange;
+		cursor: pointer;
+	}
+	
+	#controlPanel a.selected
+	{
+		color: yellow;
+	}
+	
+	#controlPanel a.disabled
+	{
+		cursor: default !important;
+		color: darkgray !important;
+	}
+	
+	#controlPanel .button
+	{
+		background: HSLA( 0, 0%, 0%, .5 );
+		border-radius: 20px;
+		padding: 5px 20px;	
+		margin-bottom: 10px;
+		float: left;
+		
+		font-family: "Arial";
+		font-size: 40px;
+		font-weight: bold;
+		
+		cursor: pointer;
+	}
+	
+	/* CONFIG DIV */
+		#configWrapper
+		{
+			display: none;
+			position: fixed;
+			z-index: 40;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background: hsla( 0, 0%, 0%, .6 );
+		}
+		
+		#configDiv
+		{
+			position: absolute;
+			top: 100px;
+			left: 200px;
+			right: 200px;
+			bottom: 100px;
+			padding: 10px;
+			
+			background: black;
+			border: 2px solid white;
+			border-radius: 15px;
+		}
+		
+		#configDiv textarea
+		{
+			width: 100%;
+			height: 100%;
+			outline: 0px;
+		}
+		
+/* MAP AND ICONS */
+	#mapWrapper
+	{
+		position: relative;
+		width: 100%;
+		height: 650px;
+		min-width: 1100px;
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+		
+		background-color: #71b0be;
+		background-image: url( ../images/backgroundTile.png );
+		background-repeat: repeat-x;
+		background-position: top center;
+	}
+	
+	#mapDiv
+	{
+		position: relative;
+		padding: 0px;
+		height: 550px;
+		width: 1190px;
+		display: inline-block;
+		
+		background: url( ../images/map.png );
+		background-position: top center;
+		background-repeat: no-repeat;
+	}
+	
+	#moon, #pengu, #boat, #satellite, #planet
+	{
+		position: absolute;
+		background-position: top center;
+		background-repeat: no-repeat;
+	}
+	
+	#moon
+	{
+		top: -342px;
+		left: 131px;
+		width: 140px;
+		height: 136px;
+		background-image: url( ../images/moon.png );
+		/*background-image: url( ../images/moonAlternative.png );*/
+	}
+	
+	#pengu
+	{
+		top: 59px;
+		left: 925px;
+		width: 38px;
+		height: 28px;
+		background-image: url( ../images/penguin.png );
+	}
+	
+	#boat
+	{
+		top: 130px;
+		left: 1150px;
+		width: 30px;
+		height: 30px;
+		background-image: url( ../images/boatAnimated.gif );
+	}
+	
+	#satellite
+	{
+		top: 0px;
+		left: 270px;
+		width: 68px;
+		height: 46px;
+		background-image: url( ../images/satellite.png );
+	}
+	
+	#planet
+	{
+		left: 898px;
+		top: -309px;
+		width: 112px;
+		height: 66px;
+		
+		background-image: url( ../images/planetBlank.png );
+	}
+	
+	#planet.active
+	{
+		background-image: url( ../images/planetText.png );
+		cursor: pointer;
+		z-index: 60;
+	}
+	
+	#popupDiv
+	{
+		display: none;
+	}
+	
+	/* MARKERS */
+		.marker
+		{
+			position: absolute;
+			width: 200px;
+			height: 80px;
+			z-index: 10;
+			
+			background-image: url( ../images/markerSeethrough.png );
+			background-position: center center;
+			background-repeat: no-repeat;
+			
+			text-transform: uppercase;
+			text-align: center;
+			color: hsla( 0, 0%, 100%, 1 );
+			cursor: pointer;
+		}
+		
+		.marker:hover
+		{
+			background-image: url( ../images/marker.png );
+			color: hsla( 0, 0%, 100%, 1 );
+		}
+		
+		div.marker div.caption,
+		div.marker input.caption
+		{
+			position: relative;
+			top: 50px;
+		}
+		
+		div.marker input.caption
+		{
+			padding: 0px;
+			margin: 0px;
+			
+			text-align: center;
+			text-transform: uppercase;
+			outline: 1px solid orange !important;
+		}
+		
+		div.marker div.deleteButton
+		{
+			display: inline-block;
+			position: absolute;
+			right: 55px;
+			top: 5px;
+			padding: 0px 5px;
+			
+			background-color: hsla( 0, 0%, 0%, 0.6 );
+			border: 1px solid white;
+			border-radius: 5px;
+		}
+		
+	/* PEEPS */
+		div.peep
+		{
+			position: absolute;
+			width: 32px;
+			height: 48px;
+			z-index: 20;
+			
+			background-image: url( ../images/chibichibi.gif );
+			background-repeat: no-repeat;
+			cursor: pointer;
+		}
+		
+		div.clickthrough
+		{
+			pointer-events: none;
+		}
+		
+/* DETAILS POPUP */
+	#detailsWrapper
+	{
+		display: none;
+		position: fixed;
+		z-index: 40;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: hsla( 0, 0%, 0%, .3 );
+	}
+	
+	#detailsPanel
+	{
+		position: absolute;
+		top: 100px;
+		padding: 0px;
+		overflow: hidden;
+		
+		background: hsla( 0, 0%, 0%, .90 );
+		border: 2px solid black;
+		border-radius: 15px;
+		background-image: url( ../images/dialogue/shine.png );
+		background-position: top right;
+		background-repeat: no-repeat;
+	}
+	
+	#detailsHeader, #detailsFooter
+	{
+		position: absolute;
+		left: 0;
+		right: 0;
+		
+		background-color: hsla( 0, 0%, 100%, .17 );
+	}
+	
+	#detailsHeader
+	{
+		top: 0;
+		height: 48px;
+		border-bottom: 2px solid black;
+	}
+	
+	#detailsFooter
+	{
+		bottom: 0;
+		height: 26px;
+		border-top: 2px solid black;
+	}
+	
+	#detailsHeaderTitle
+	{
+		font-size: 24px;
+		text-shadow: 3px 3px 0 black; 
+		text-transform: uppercase;
+		
+		margin: 5px 0 0 10px;
+	}
+	
+	#detailsHeaderSubTitle
+	{
+		font-size: 18px;
+		color: #717171;
+		text-shadow: 2px 2px 0 black;
+		
+		margin: -3px 0 0 10px;
+	}
+	
+	#detailsHeaderClose
+	{
+		position: absolute;
+		top: 10px;
+		right: 15px;
+		width: 30px;
+		height: 30px;
+		
+		cursor: pointer;
+		background-image: url( ../images/dialogue/closeX.png );
+		background-position: right center;
+		background-repeat: no-repeat;
+	}
+	
+	#detailsContentsWrapper
+	{
+		position: absolute;
+		top: 50px;
+		bottom: 28px;
+		right: 0px;
+		left: 0px;
+		overflow: hidden;
+	}
+	
+	#detailsDescription
+	{
+		position: absolute;
+		top: 6px;
+		right: 6px;
+		width: 412px;
+		z-index: 40;
+	}
+	
+	#detailsDescriptionContentText, #detailsDescriptionContentTextEdit
+	{
+		display: block;
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		right: 10px;
+		padding: 0px;
+		bottom: 120px;
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+	
+	#detailsDescriptionContentTextEdit
+	{
+		display: none;
+		background: #262626;
+		border: none;
+		margin: 0px;
+		
+		outline: 1px solid hsla( 0, 0%, 100%, 0.6 );
+		outline-offset: 0px;
+	}
+	
+	#detailsDescriptionContentTextEdit:focus
+	{
+		outline: 1px solid hsla( 60, 78%, 66%, 0.6 );
+	}
+	
+	#detailsDescriptionContentImages
+	{
+		position: absolute;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		height: 110px;
+		overflow: hidden;
+		text-align: center;
+	}
+	
+	.detailsImage
+	{
+		display: inline-block;
+		border: 2px outset hsla( 0, 0%, 80%, .6 );
+		height: 90px;
+		width: 115px;
+		cursor: pointer;
+		
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+	
+	#detailsDescriptionTop, #detailsDescriptionBottom, #detailsDescriptionInner,
+	.taskTop, .taskBottom, .taskInner,
+	#popupContentTop, #popupContentBottom, #popupContentInner
+	{
+		position: absolute;
+		left: 0px;
+		right: 0px;
+		background-position: left top;
+		background-repeat: no-repeat;
+		
+		pointer-events: none;
+	}
+	
+	#detailsDescriptionTop, .taskTop, #popupContentTop
+	{
+		top: 0;
+		height: 10px;
+		background-image: url( ../images/dialogue/subPanel-top.png );
+	}
+	
+	#detailsDescriptionBottom, .taskBottom, #popupContentBottom
+	{
+		bottom: 0;
+		height: 10px;
+		background-image: url( ../images/dialogue/subPanel-bottom.png );
+	}
+	
+	#detailsDescriptionInner, .taskInner, #popupContentInner
+	{
+		top: 10px;
+		bottom: 10px;
+		background-image: url( ../images/dialogue/subPanel-background.png );
+		background-repeat: repeat-y;
+	}
+	
+	#detailsList
+	{
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 412px;
+		z-index: 20;
+	}
+	
+	#detailsImageAdminWrapper
+	{
+		display: none;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 80;
+		
+		background-color: hsla( 0, 0%, 0%, .4 );
+		text-align: center;
+	}
+	
+	#detailsImageAdminPanel
+	{
+		display: inline-block;
+		position: relative;
+		top: 400px;
+		width: 450px;
+		height: 152px;
+		margin: auto;
+		padding: 10px;
+		z-index: 100;
+		
+		text-align: left;
+		
+		background-color: hsla( 0, 0%, 0%, .85);
+		background-image: url( ../images/dialogue/shine.png );
+		background-position: top right;
+		background-repeat: no-repeat;
+		
+		border: 2px solid black;
+		border-radius: 15px;
+	}
+	
+	#detailsImageAdminHeader, #detailsImageAdminFooter
+	{
+		position: absolute;
+		left: 0;
+		right: 0;
+		
+		background-color: hsla( 0, 0%, 100%, .17 );
+	}
+	
+	#detailsImageAdminHeader
+	{
+		top: 0;
+		height: 32px;
+		border-bottom: 2px solid black;
+		border-radius: 15px 15px 0 0;
+	}
+	
+	#detailsImageAdminFooter
+	{
+		bottom: 0;
+		height: 20px;
+		border-top: 2px solid black;
+		border-radius: 0 0 15px 15px;
+	}
+	
+	#detailsImageAdminHeaderText
+	{
+		position: absolute;
+		top: 5px;
+		left: 10px;
+		
+		font-size: 24px;
+		text-shadow: 3px 3px 0 black; 
+		text-transform: uppercase;
+	}
+	
+	#detailsImageAdminButton
+	{
+		position: absolute;
+		top: 3px;
+		right: 10px;
+		width: 30px;
+		height: 30px;
+		
+		cursor: pointer;
+		background-image: url( ../images/dialogue/closeX.png );
+		background-position: right center;
+		background-repeat: no-repeat;
+	}
+	
+	#detailsImageAdminPreview
+	{
+		position: absolute;
+		top: 42px;
+		left: 10px;
+		
+		background-color: hsla( 0, 0%, 100%, .2 );
+		outline: 1px solid hsla( 0, 0%, 100%, .4 );
+	}
+	
+	#detailsImageAdminThumb
+	{
+		position: absolute;
+		top: 39px;
+		left: 140px;
+	}
+	
+	#detailsImageAdminFull
+	{
+		position: absolute;
+		top: 88px;
+		left: 140px;
+	}
+	
+	#detailsImageAdminThumbInput, #detailsImageAdminFullInput
+	{
+		width: 310px;
+		padding: 2px 5px;
+		outline: 1px solid white;
+		outline-offset: 0px;
+		
+		background-color: #555;
+		font-family: "Arial";
+		font-size: 14px;
+		text-shadow: none;
+		cursor: default;
+	}
+	
+/* TASKS */
+	.taskWrapper
+	{
+		position: relative;
+		height: 42px;
+		margin-bottom: 4px;
+		cursor: pointer;
+	}
+	
+	.taskWrapper.noedit *
+	{
+		dpointer-events: none;
+	}
+	
+	.taskWrapper.selected .taskTop, .taskWrapper.selected .taskBottom, .taskWrapper.selected .taskInner
+	{
+		background-position: -412px top;
+	}
+	
+	.taskContents
+	{
+		position: absolute;
+		top: 6px;
+		bottom: 8px;
+		left: 12px;
+		right: 8px;
+	}
+	
+	.taskTitle
+	{
+		display: inline-block;
+		cursor: pointer;
+	}
+	
+	.taskTitleInput
+	{
+		display: none;
+		outline: none;
+		width: 300px;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.taskPercentage
+	{
+		position: absolute;
+		right: 0;
+		top: 1px;
+		
+		font-size: 32px;
+		pointer-events: none;
+	}
+	
+	.taskWrapper.completed .taskPercentage
+	{
+		text-shadow: 2px 2px 0px black, -2px -2px 0px black, -2px 2px 0px black, 2px -2px 0px black,
+						0px 0px 20px white, 0px 0px 20px white;
+	}
+	
+	.taskMeter
+	{
+		position: absolute;
+		height: 12px;
+		width: 306px;
+		bottom: 0px;
+		clip: rect( 0px, 306px, 12px, 0px );
+	}
+	
+	.taskMeterInner, .taskMeterFill
+	{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 2px;
+		right: 2px;
+		
+		background-image: url( ../images/dialogue/meter-background.png );
+		background-position: left 0px;
+		background-repeat: repeat-x;
+	}
+	
+	.taskMeterFill
+	{
+		right: auto;
+		z-index: 40;
+		background-position: left -12px;
+		pointer-events: none;
+	}
+	
+	.taskWrapper.completed .taskMeterFill
+	{
+		background-position: left -24px;
+	}
+	
+	.taskMeterCap
+	{
+		position: absolute;
+		width: 2px;
+		top: 0px;
+		bottom: 0px;
+		z-index: 50;
+		
+		background-image: url( ../images/dialogue/meter-cap.png );
+		background-position: top left;
+		background-repeat: no-repeat;
+	}
+	
+	.taskMeterCap.left
+	{
+		left: 0px;
+	}
+	
+	.taskMeterCap.right
+	{
+		right: 0px;
+	}
+	
+	.taskDeleteButton
+	{
+		display: none;
+		position: absolute;
+		top: 16px;
+		left: -5px;
+		width: 14px;
+		height: 14px;
+		
+		cursor: pointer;
+		background-image: url( ../images/dialogue/closeX-small.png );
+		background-position: right center;
+		background-repeat: no-repeat;
+	}
+	
+	.taskWrapper.selected .taskDeleteButton
+	{
+		display: block;
+	}
+	
+	.taskWrapper.noedit .taskDeleteButton
+	{
+		display: none;
+	}
+
+
+/* POPUP */
+	#popupWrapper
+	{
+		display: none;
+		position: fixed;
+		z-index: 40;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: hsla( 0, 0%, 0%, .3 );
+	}
+	
+	#popupPanel
+	{
+		position: absolute;
+		top: 100px;
+		width: 662px;
+		height: 620px;
+		padding: 0px;
+		overflow: hidden;
+		
+		background: hsla( 0, 0%, 0%, .90 );
+		border: 2px solid black;
+		border-radius: 15px;
+		background-image: url( ../images/dialogue/shine.png );
+		background-position: top right;
+		background-repeat: no-repeat;
+	}
+	
+	#popupHeader, #popupFooter
+	{
+		position: absolute;
+		left: 0;
+		right: 0;
+		
+		background-color: hsla( 0, 0%, 100%, .17 );
+	}
+	
+	#popupHeader
+	{
+		top: 0;
+		height: 48px;
+		border-bottom: 2px solid black;
+	}
+	
+	#popupFooter
+	{
+		bottom: 0;
+		height: 26px;
+		border-top: 2px solid black;
+	}
+	
+	#popupHeaderTitle
+	{
+		font-size: 24px;
+		text-shadow: 3px 3px 0 black; 
+		text-transform: uppercase;
+		
+		margin: 5px 0 0 10px;
+	}
+	
+	#popupHeaderSubTitle
+	{
+		font-size: 18px;
+		color: #717171;
+		text-shadow: 2px 2px 0 black;
+		
+		margin: -3px 0 0 10px;
+	}
+	
+	#popupCloseButton
+	{
+		position: absolute;
+		top: 10px;
+		right: 15px;
+		width: 30px;
+		height: 30px;
+		
+		cursor: pointer;
+		background-image: url( ../images/dialogue/closeX.png );
+		background-position: right center;
+		background-repeat: no-repeat;
+	}
+	
+	#popupContentWrapper
+	{
+		position: absolute;
+		top: 55px;
+		bottom: 33px;
+		right: 6px;
+		left: 6px;
+		overflow: hidden;
+	}
+	
+	#popupContentTop
+	{
+		background-image: url( ../images/dialogue/subPanel-largeTop.png );
+	}
+	
+	#popupContentBottom
+	{
+		background-image: url( ../images/dialogue/subPanel-largeBottom.png );
+	}
+	
+	#popupContentInner
+	{
+		background-image: url( ../images/dialogue/subPanel-largeBackground.png );
+	}
+	
+	#popupContentText
+	{
+		display: block;
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		right: 10px;
+		padding: 0px;
+		bottom: 10px;
+		text-align: justify;
+		
+		overflow: hidden;
+	}
+	
+
+/* OTHER */
+	/*
+	#detailsFade
+	{
+		background-color: hsla( 0, 0%, 0%, .0 );
+		border-radius: 15px;
+		height: 100%;
+	}
+	
+	#detailsHeader
+	{
+		position: absolute;
+		width: 50%;
+		top: 10px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	
+	#detailsTasks, #detailsDescription
+	{
+		float: left;
+		display: inline-block;
+		width: 50%;
+		height: 100%;
+		border-radius: 15px 0 0 15px;
+	}
+	
+	#detailsTasks
+	{
+		background-color: hsla( 0, 0%, 0%, .5 );
+	}
+	
+	#detailsDescription
+	{
+		float: right;
+		border-radius: 0 15px 15px 0;
+	}
+	*/
+	#detailsAdmin
+	{
+		display: none !important;
+		position: absolute;
+		right: 0px;
+		bottom: 10px;
+		width: 50%;
+		text-align: center;
+		
+		font-size: 14px;
+		font-family: "Arial";
+		text-shadow: none;
+	}
+	
+	#peepBar
+	{
+		padding: 0 40px;
+	}
+	
+	.peep.details
+	{
+		position: relative;
+		display: inline-block;
+	}
+	
+	#footerfr {
+		xposition: absolute;
+		xleft: 0;
+		xwidth: 100%;
+		xmargin: 0 auto;
+		xtop: 500px;
+		xz-index: 1000;
+	}
+
+	#url {
+		color: #01b0f0;
+	}

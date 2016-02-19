@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<title>Starbound-Fr | Forum - Craft en fonction de l'avancements [Résolu]</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index,follow" />
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="screen.css.html" media="screen" />
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="print.css.html" media="print" />
+</head>
+<body>
+<div id="container">
+<h1><a href="../index.php.html">Starbound-Fr | Forum</a></h1>
+<div class="navigation"><a href="index.php.html">Starbound-Fr | Forum</a> &gt; <a href="index.php%3Fforum-9.html">Le jeu</a> &gt; <a href="index.php%3Fforum-40.html">Mods</a> &gt; <a href="index.php%3Fforum-42.html">Aide au modding</a> &gt; Craft en fonction de l'avancements [Résolu]</div>
+<div id="fullversion"><strong>Version complète :</strong> <a href="http://starbound-fr.net/forum/showthread.php?tid=922">Craft en fonction de l'avancements [Résolu]</a></div>
+<div id="infobox">Vous consultez actuellement la version basse qualité d’un document. <a href="http://starbound-fr.net/forum/showthread.php?tid=922">Voir la version complète</a> avec le bon formatage.</div>
+<div id="content">
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=675.html">Flow</a></h2></div><div class="dateline">16-02-2014, 19h22</div>
+</div>
+<div class="message">Salut, encore !<br />
+<br />
+Je voulais savoir comment pouvait-ton faire pour qu'un objet ne soit fabricable qu'après ouverture des MK map upgrade, il me semble que c'est code "tier" mais je ne comprend pas son fonctionnement.<br />
+<br />
+Merci d'avance</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=377.html">maxigregrze</a></h2></div><div class="dateline">16-02-2014, 21h11</div>
+</div>
+<div class="message">C'est simple: quand tu déclare tes items dans le player.config de ton mod, tu les met dans "tier1". Il suffit de changer le numéro par celui correspondant a l'upgrade Celeste (tier1 étant celui de base, tier2 pour l'UFO, etc.) que tu veux.<br />
+<br />
+Certains peuvent même crée leur propre "tier", mais je te conseille d'attendre d'être plus expérimenté.<br />
+<br />
+La prochaine fois, je te prie de faire UN SEUL topic pour plusieurs question, avec pour titre "Questions diverses", pour des raisons de lisibilité dans le forum.<br />
+<br />
+Et encore, si tu d'autres questions a propos de ça, n'hésite pas.</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=675.html">Flow</a></h2></div><div class="dateline">16-02-2014, 21h16</div>
+</div>
+<div class="message">Merci pour ta réponse, j'y songerais à l'avenir.<br />
+<br />
+j'ai un autre problème, j'ai télécharger un mods sur une version de "angry koala" j'ai changer le modinfo pour la compatibilité (donc furious koala a la place de angry) je relance le tous et tout fonctionne, seul problème, la recette n'apparait pas dans mes craft, en allant dans le dossier du mod je vois qu'il n'y pas pas de fichier recipe, alors j'ai crée sur un bloc note le code :<br />
+<br />
+{<br />
+  "input" : [<br />
+    { "item" : "money", "count" : 10 }<br />
+  ],<br />
+  "output" : {<br />
+    "item" : "cheatingtable",<br />
+    "count" : 1<br />
+  },<br />
+  "groups" : [ "anvil", "all", "other" ]<br />
+}<br />
+<br />
+en prennan soin de renommer le fichier (à l'origine) Cheatingtable.recipe et toujours pas d'objet dans mes crafts, à quoi est-ce dû ?</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=377.html">maxigregrze</a></h2></div><div class="dateline">16-02-2014, 21h27</div>
+</div>
+<div class="message">Ton item est dans le player.config ?<br />
+Tu a essayé de réactiver l'Upgrade Celeste? Il faudra faire ça pour tout item rajouté a une table de craft qui ne viens pas d'un mod.<br />
+<br />
+Vérifie ces deux là, et donne les résultats.</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=675.html">Flow</a></h2></div><div class="dateline">16-02-2014, 21h45</div>
+</div>
+<div class="message">Oui j'ai essayé les deux mais rien n'y fait et mon fichier player du mod ne contient que ;<br />
+    {<br />
+      "__merge" : [],<br />
+      "defaultBlueprints" : {<br />
+        "tier1" : [ { "item" : "cheatingtable" } ]<br />
+      }<br />
+    }<br />
+<br />
+pourtant j'ai finalement trouver au bon endroit un fichier recipe de la fameuse cheating table qui est une copie parfait de mon précédant code touts devrais fonctionner, cela ne vient pas de la version ?</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=377.html">maxigregrze</a></h2></div><div class="dateline">16-02-2014, 21h58</div>
+</div>
+<div class="message">crée un nouveau personnage, pour reset les recette du Tier1.</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=675.html">Flow</a></h2></div><div class="dateline">16-02-2014, 22h09</div>
+</div>
+<div class="message">Refait lol mais toujours rien, ça ne peut pas venir d'ailleurs ? la version par exemple ? a la base il fonction sur angry, peu être pas sur furious ?</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=377.html">maxigregrze</a></h2></div><div class="dateline">17-02-2014, 10h52</div>
+</div>
+<div class="message">Tu a un Item parfait (le Voxel vert) a la place?<br />
+<br />
+Avec la maj, il y a plusieurs choses qui ont changé, comme par exemple, le prix vendeur est obligatoire, et , petite modification, on doit enlever les "" , comme ceci:<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>"price" : 600,</code></div></div>
+Le fait d'être imprimale es aussi devenu obligatoire:<br />
+<div class="codeblock">
+<div class="title">Code :<br />
+</div><div class="body" dir="ltr"><code>"printable" : false,</code></div></div>
+<br />
+Essaye ces deux là, et si ça marche pas, envois ton player.config, ta recipe et le fichier de l'item pat le bien de la balise [code]</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=675.html">Flow</a></h2></div><div class="dateline">19-02-2014, 18h12</div>
+</div>
+<div class="message">Cool merci pour l'info j'essayerais ça ce week end, tu pourrais me mettre un copier coller du code d'un de tes items (si ces codes sont bien a entrée dans le fichier .item) qui me serve d exemple stp ? Car je sais pas trop a quel endroit je dois caller ces ligne</div>
+</div>
+</div>
+<div class="navigation"><a href="index.php.html">Starbound-Fr | Forum</a> &gt; <a href="index.php%3Fforum-9.html">Le jeu</a> &gt; <a href="index.php%3Fforum-40.html">Mods</a> &gt; <a href="index.php%3Fforum-42.html">Aide au modding</a> &gt; Craft en fonction de l'avancements [Résolu]</div>
+</div>
+<div id="footer">
+Moteur <a href="http://www.mybb.com">MyBB</a>, &copy; 2002-2016 <a href="http://www.mybb.com">MyBB Group</a>
+</div>
+</body>
+</html>

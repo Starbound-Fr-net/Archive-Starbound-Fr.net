@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<title type="html"><![CDATA[Starbound-Fr | Forum - Autre]]></title>
+	<subtitle type="html"><![CDATA[Starbound-Fr | Forum - http://starbound-fr.net/forum]]></subtitle>
+	<link rel="self" href="http://starbound-fr.net/forum/syndication.php"/>
+	<id>http://starbound-fr.net/forum/</id>
+	<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/"/>
+	<updated>2016-02-18T18:15:10Z</updated>
+	<generator uri="http://www.mybb.com">MyBB</generator>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2012-12-20T01:07:12Z</published>
+		<updated>2012-12-20T01:09:49Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=255" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=255</id>
+		<title type="html" xml:space="preserve"><![CDATA[Le Wiki.]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=255"><![CDATA[Salut.<br />
+<br />
+Vous n'êtes pas sans savoir qu'il existe un wiki francophone pour le jeu.<br />
+Celui-ci demande beaucoup d'investissements !<br />
+Peu de personnes s'en occupent.<br />
+Y compris moi. Il faut savoir que je n'y connais rien la dessus et que je n'y ai plus touché depuis des mois...<br />
+<br />
+je pense qu'un wiki n'est pas vraiment envisageable pour ce type de jeu, après réflexion. Beaucoup trop dur de compléter, surtout que tout le monde jouera et ne s'occupera pas vraiment de ceci...<br />
+<br />
+Les seules actions notables depuis presque un mois sont les inscriptions de bots...<br />
+<br />
+Mais si tout de même vous souhaitez quand même avoir un wiki, je suis prêt à donner la base de donnée à qlq'un pour qu'il puisse prendre le relais :)<br />
+<br />
+Je n'aime pas me disperser, je préfère vraiment me concentrer ici, et cela se ressent !<br />
+Ainsi je vous donne le choix !<br />
+<br />
+Merci :)]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2012-10-27T14:01:05Z</published>
+		<updated>2012-11-07T18:26:02Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=126" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=126</id>
+		<title type="html" xml:space="preserve"><![CDATA[Mode d'emploi de l'IRC :D]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=126"><![CDATA[On commence à être de plus en plus nombreux ici, donc je pense qu'il serait bon de rappeler certaines petites choses :)<br />
+<br />
+<span style="text-decoration: underline;">Tout d'abord, comment on accède à l'IRC ? (aussi appelé "Chat")</span><br />
+Il suffit de cliquer sur le petit lien en haut de la page ou d'aller ici : <a href="http://starbound-fr.net/chat/" target="_blank">http://starbound-fr.net/chat/</a><br />
+<br />
+Vous entrez ensuite votre pseudo, et cliquez sur connexion :)<br />
+La case mot de passe sert à entrer le mot de passe qui vous a servi à enregistrer votre pseudo.<br />
+Ce qui amène logiquement à la question suivante !<br />
+<br />
+<span style="text-decoration: underline;">Enregistrer le pseudo ? Pourquoi ?</span><br />
+Enregistrer son pseudo, c'est avoir la garantie que personne ne vous le volera en mettant un mot de passe dessus. Ainsi, on ne pourra pas vous accuser d'actes qu'une personne malveillante aurait entrepris sous le couvert de votre pseudo :)<br />
+<br />
+<span style="text-decoration: underline;">D'accord, comment on fait ?</span><br />
+Pour enregistrer votre pseudo, il faut taper la commande suivante : <br />
+<blockquote><cite>Citation :</cite> /ns register motdepasse email </blockquote>
+Un email contenant les instructions requises pour valider votre enregistrement vous sera envoyé. Suivez-les, et votre pseudo sera enregistré ! :)<br />
+Lors de votre connexion, vous devrez à présent indiquer votre mot de passe dans la case prévue à cet effet, ou votre pseudo sera changé automatiquement au bout de 30 secondes <img src="http://starbound-fr.net/forum/images/smilies/oeil.png" alt="Wink" title="Wink" class="smilie smilie_68" /><br />
+<br />
+<span style="text-decoration: underline;">Quelques commandes utiles :</span><br />
+<blockquote><cite>Citation :</cite> /nick nouveaupseudo </blockquote>
+Permet de changer votre pseudo actuel.<br />
+<br />
+<blockquote><cite>Citation :</cite> /ns id motdepasse<br />
+/msg Themis IDENTIFY motdepasse </blockquote>
+Permet de vous identifier. Vous serez obligé de retaper la commande à chaque fois que vous reprendrez votre pseudo d'origine :)<br />
+<br />
+<blockquote><cite>Citation :</cite> /ns ghost pseudo motdepasse </blockquote>
+Déconnecte votre pseudo, si vous l'avez enregistré et que celui-ci est encore utilisé après une déconnexion intempestive (coupure de votre connexion internet etc)<br />
+<br />
+<blockquote><cite>Citation :</cite> /me action </blockquote>
+Vous fait faire une action. (Ex : /me mange une carotte = <span style="font-style: italic;">Biscotteman mange une carotte</span>)<br />
+<br />
+Le règlement du chat est le même que sur le forum : Pas de langage SMS, politesse et courtoisie sont de mises.<br />
+A bientôt sur l'IRC :)]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2012-09-22T09:00:24Z</published>
+		<updated>2012-10-27T14:14:22Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=56" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=56</id>
+		<title type="html" xml:space="preserve"><![CDATA[[Résolu] Le chat IRC]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=56"><![CDATA[Je ne sais pas si il y en a qui n'arrive pas à se connecter mais moi sa me le fait <img src="http://starbound-fr.net/forum/images/smilies/Unfair.png" alt="Unfair" title="Unfair" class="smilie smilie_33" /><br />
+Je veux bien qu'on m'aide avant que je devient CRAZY <img src="http://starbound-fr.net/forum/images/smilies/ZOHMAHGAWD.png" alt="ZOHMAHGAWD" title="ZOHMAHGAWD" class="smilie smilie_39" /> !!!]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<published>2012-09-01T12:12:21Z</published>
+		<updated>2012-10-27T14:14:46Z</updated>
+		<link rel="alternate" type="text/html" href="http://starbound-fr.net/forum/showthread.php?tid=30" />
+		<id>http://starbound-fr.net/forum/showthread.php?tid=30</id>
+		<title type="html" xml:space="preserve"><![CDATA[[Résolu] Chat IRC]]></title>
+		<content type="html" xml:space="preserve" xml:base="http://starbound-fr.net/forum/showthread.php?tid=30"><![CDATA[Hey ! <br />
+<br />
+Vu que je n'ai pas les droits d'admin pour demander de l'aide dans le sujet IRC,  je le fais ici x) <br />
+<br />
+Je sais que je suis faible, mais je n'arrive pas à me connecter directement au chat IRC, alors j'ai essayer de DL  ChatX, et je n'arrive pas à trouver le serveur EpiKnet..  Help me ? &#x26;t3]]></content>
+		<draft xmlns="http://purl.org/atom-blog/ns#">false</draft>
+	</entry>
+</feed>

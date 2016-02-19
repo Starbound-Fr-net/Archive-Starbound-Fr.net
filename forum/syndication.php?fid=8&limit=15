@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title><![CDATA[Starbound-Fr | Forum - Aide & Suggestions]]></title>
+		<link>http://starbound-fr.net/forum/</link>
+		<description><![CDATA[Starbound-Fr | Forum - http://starbound-fr.net/forum]]></description>
+		<pubDate>Thu, 18 Feb 2016 17:59:33 +0000</pubDate>
+		<generator>MyBB</generator>
+		<item>
+			<title><![CDATA[Probleme avec le jeu]]></title>
+			<link>http://starbound-fr.net/forum/showthread.php?tid=1405</link>
+			<pubDate>Sun, 15 Nov 2015 21:22:45 +0000</pubDate>
+			<guid isPermaLink="false">http://starbound-fr.net/forum/showthread.php?tid=1405</guid>
+			<description><![CDATA[j'ai le message fatal exception UTF-8 starbound quoi faire a chaque fois que j'essaye de me connecter a un serveur starbound que faire ?]]></description>
+			<content:encoded><![CDATA[j'ai le message fatal exception UTF-8 starbound quoi faire a chaque fois que j'essaye de me connecter a un serveur starbound que faire ?]]></content:encoded>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+<title>Starbound-Fr | Forum - Modifier notre personnage</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index,follow" />
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="screen.css.html" media="screen" />
+<link type="text/css" rel="stylesheet" rev="stylesheet" href="print.css.html" media="print" />
+</head>
+<body>
+<div id="container">
+<h1><a href="../index.php.html">Starbound-Fr | Forum</a></h1>
+<div class="navigation"><a href="index.php.html">Starbound-Fr | Forum</a> &gt; <a href="index.php%3Fforum-9.html">Le jeu</a> &gt; <a href="index.php%3Fforum-12.html">Tutos, guides et astuces</a> &gt; Modifier notre personnage</div>
+<div id="fullversion"><strong>Version complète :</strong> <a href="http://starbound-fr.net/forum/showthread.php?tid=965">Modifier notre personnage</a></div>
+<div id="infobox">Vous consultez actuellement la version basse qualité d’un document. <a href="http://starbound-fr.net/forum/showthread.php?tid=965">Voir la version complète</a> avec le bon formatage.</div>
+<div id="content">
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=332.html">Dreynguid</a></h2></div><div class="dateline">05-03-2014, 01h40</div>
+</div>
+<div class="message"><div style="text-align: justify;"><span style="font-size: large;">Salut bande de buh !</span><br />
+<br />
+J'ai eut la curiosité récemment de regarder dans les fichiers de personnage.<br />
+Il s'avère qu'il est facile de modifier, par exemple, son nom, sa posture ou sa coupe de cheveux. Sympathique si on veut changer un peu de look ou d'identité. Il ne semble pas y avoir de répercutions sur le long terme... (dans le doute, faudrait faire une copie des fichiers liés à nos perso !)<br />
+Je vous préviens, je me suis lancé dedans en amateur et j'ai pas encore beaucoup expérimenté la chose.<br />
+<br />
+<span style="font-weight: bold;">On trouve ces fichiers</span> dans le dossier (...)/Starbound/player/.<br />
+En fait, quand on joue avec un personnage donné, 3 fichiers sont modifiés en même temps : <span style="font-style: italic;">tralala.player</span>, <span style="font-style: italic;">trucmuch.shipworld</span> et <span style="font-style: italic;">bidulechouette.metadata</span> ; j'imagine donc que les trois fichiers sont liés au personnage. Je ne sais pas ce que contiennent les deux derniers, mais c'est bien sûr dans le premier (qui se termine par <span style="font-style: italic;">.player</span>) qu'on trouve les informations liées au personnage.<br />
+Si vous voulez comme moi vous lancer dans la gueule du loup et vous amuser un peu (car y'a moyen de s'amuser), je vous invite à ouvrir le fichier <span style="font-style: italic;">.player</span> avec un logiciel approprié (pour le peu que je connaisse : notepad, geedit, bloc-note si vous être téméraire...).<br />
+<br />
+<span style="font-weight: bold;">Une fois que vous avez ouvert le document,</span> vous vous trouvez probablement devant un gros pâté de texte un petit peu intimidant, avec des mots que l'on peut reconnaître (en anglais, forcément) et des caractères spéciaux qui reviennent souvent (genre <span style="font-weight: bold;"><span style="font-size: x-small;">[NULL]</span></span>, <span style="font-size: x-small;"><span style="font-weight: bold;">[SOH]</span></span>...).<br />
+<span style="font-weight: bold;">Là-dedans,</span> les info que l'on cherche sont groupés dans une même région, située à la fin. Vous la trouverez facilement en recherchant (<span style="font-style: italic;">avec ctrl+F</span>) le nom de votre personnage (pourvu qu'il ne s'appelle pas "name" ou "data"...).<br />
+Vous vous trouverez dés lors dans un bloc contenant des mots clés tels que :<br />
+"<span style="font-style: italic;">species</span>", "<span style="font-style: italic;">gender</span>", "<span style="font-style: italic;">hairType</span>", "<span style="font-style: italic;">facialHairGroup</span>" (ça doit dépendre aussi de l'espèce?) souvent suivis d'un chiffre ou d'un autre mot (par exemple "<span style="font-style: italic;">22</span>", "<span style="font-style: italic;">apex</span>", "<span style="font-style: italic;">female</span>"...).<br />
+Les attributs et leurs valeurs sont séparés d'un ou deux caractères spéciaux. On tombe aussi sur des trucs à priori incompréhensibles (je n'ai pas encore été à postériori).<br />
+<br />
+<span style="font-weight: bold;">Certains paramètres ne sont pas changeables :</span> j'ai tenté de changer le sexe de mon personnage <del>(pas assez lo)</del> mais il/elle n'est alors plus visible dans la liste des personnages. J'imagine qu'il en serait de même pour sa race. Mon florain restera un florain !<br />
+<br />
+<span style="font-weight: bold;">Les paramètres que j'ai pu changer</span> (sans avoir tout essayer) sont donc :<br />
+<span style="font-weight: bold;">- Le nom</span> (je l'ai fait avec un autre perso y'a quelques temps)<br />
+<span style="font-weight: bold;">- La coupe de cheveux</span><br />
+<span style="font-weight: bold;">- La posture</span>, et je me suis beaucoup amusé avec ça !<br />
+En effet, la posture est donnée en deux parties : "<span style="font-style: italic;">personalityIdle</span>" (concerne le bas du corps, les jambes) et "<span style="font-style: italic;">personalityArmIdle</span>" (concerne le haut du corps, les bras). A la suite de ces deux mots, vous trouverez un chiffre qui variera de <span style="font-weight: bold;">1 </span>à <span style="font-weight: bold;">5</span>. Dans l'ordre, les chiffres correspondent aux postures normal, fier bras-sur-hanche, craintif/prudent, fier torse-gonflé et "Oh! Une jolie fleur !". La chose marrante, c'est que vous pouvez donner deux comportements différents.<br />
+<span style="font-weight: bold;">Voici donc Peter Pan et Iron Man.</span><br />
+<div class="spoiler" style="margin:0px; padding:5px;">
+    <div class="message">
+        <b>Alerte Spoiler de Noob</b>: <input type="button" value="Montrer" style="width:55px;font-size:10px;margin:0px;padding:0px; margin-right:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Montrer'; }"><br />
+    </div>
+    <div class="corp" style="margin: 0px; padding:0px;">
+        <div style="display: none;">
+            <img src="http://www.image-share.com/upload/2462/217.png" border="0" alt="[Image: 217.png]" /><img src="http://www.image-share.com/upload/2462/216.png" border="0" alt="[Image: 216.png]" /><br />
+        </div>
+    </div>
+</div>
+<br />
+<span style="font-weight: bold;">-&gt; Je n'ai essayé aucune autre modification pour l'instant,</span> n'ayant pas bien localisé la couleur de peau/cheveux... J'imagine par ailleurs qu'il est possible de changer notre type de vaisseau. Peut être sur le fichier <span style="font-style: italic;">(...).shipworld</span>.<br />
+<br />
+<span style="font-weight: bold;">Pour conclure,</span> je le répète : je me suis lancé dedans en amateur sans comprendre la plupart de ce qu'il y avait dans le/les fichiers. Aussi je ne connais pas les potentiels risques qu'il y aurait à trifouiller ces fichiers !<br />
+Vous voilà avertis, ainsi je ne me sentirais nullement responsable en cas de suppression de votre perso pour cause de modification de fichier, ou alors avec un brin de fierté amusée.<br />
+<br />
+Par ailleurs, ce dans quoi je me suis lancé n'avait pas non-plus pour but de tricher, juste de changer le look/le nom de mon personnage (un peu d'eugénisme dans un monde sans coiffeur interstellaire) et, au passage, de comprendre un tout petit peu comment ça tourne. Puis c'est fun de jouer avec Peter Pan. Mais on a bien l'air con. M'enfin bref!<br />
+<br />
+Voilà, je vous invite maintenant à compléter le peu d'informations que j'ai mis, à partager vos expériences ou autres <span style="font-style: italic;">:p</span> (ou pas)<br />
+Amusez vous bien, bande de buh !</div></div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=375.html">73fabien73</a></h2></div><div class="dateline">05-03-2014, 09h28</div>
+</div>
+<div class="message">Je sais qu'il était possible de changer la race de son perso sans changer de vaisseaux.</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=4.html">Biscotteman</a></h2></div><div class="dateline">05-03-2014, 12h15</div>
+</div>
+<div class="message">How, jolie astuce <img src="../images/smilies/mwahahaha.png.html" alt=":D" title=":D" class="smilie smilie_64" /><br />
+Merci beaucoup, ça peut être super utile :3</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=690.html">MrDiablon</a></h2></div><div class="dateline">05-03-2014, 14h53</div>
+</div>
+<div class="message">Sa peut être sympas oué a approfondir biens sur <img src="../images/smilies/oeil.png.html" alt="Wink" title="Wink" class="smilie smilie_68" /></div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=471.html">Tobe</a></h2></div><div class="dateline">05-03-2014, 16h14</div>
+</div>
+<div class="message"><blockquote><cite>Citation :</cite>-&gt; Je n'ai essayé aucune autre modification pour l'instant, n'ayant pas bien localisé la couleur de peau/cheveux... J'imagine par ailleurs qu'il est possible de changer notre type de vaisseau. Peut être sur le fichier (...).shipworld.</blockquote>
+<br />
+J'ai fait un tuto pour ça</div>
+</div>
+<div class="post">
+<div class="header">
+<div class="author"><h2><a href="../member.php%3Faction=profile&amp;uid=332.html">Dreynguid</a></h2></div><div class="dateline">04-04-2014, 23h58</div>
+</div>
+<div class="message">Vu que ma solution peut être quand même quelque peu brute (devoir trifouiller des fichiers à la main... cela-dit, ça reste amusant !) et hasardeuse (je n'arrivait pas à changer la coupe de mon hylotl, ce que j'arrivais à faire pour mon floran), je vous propose ce lien :<br />
+<br />
+<a href="http://sbse.hyunsdojo.com/" target="_blank"><span style="font-weight: bold;">http://sbse.hyunsdojo.com/</span></a><br />
+<br />
+Je l'ai trouvé sur le forum anglais.<br />
+De ce que je peux vous dire :<br />
+<div style="text-align: justify;">-&gt; Il s'agit d'une application permettant de modifier notre personnage.<br />
+On clique sur l'icône au centre (le bonhomme qui fait "coucou!"), suite à quoi une fenêtre s'ouvre nous demandant de choisir un fichier. Il faut bien-entendu choisir le fichier de notre personnage (*****.player, là-dessus ça ne change pas).<br />
+<span style="color: #F8F8F8;">. .</span>On a alors la possibilité de choisir parmi la liste de coiffures de la race dans le premier onglet. Le second onglet nous offre des panels de couleurs pour la coiffe, la peau et les équipements. A noter que ça nous propose des couleurs que le jeu même ne nous propose pas. Le troisième onglet, enfin, nous propose une modification avancée des couleurs (sachant qu'une même coupe peut avoir plusieurs nuances d'une même couleur).<br />
+Une fois notre modification finie, on clique sur <span style="font-style: italic;">save</span> et une fenêtre d'enregistrement s'ouvre alors.<br />
+<span style="color: #F8F8F8;">. .</span>Cette application permet donc de modifier facilement la coupe de cheveux, mais pas les autres traits comme la barbe ou le bec ! Bien dommage. Quant à la modification de la couleur, elle m'a paru plutôt ardue si on veut vraiment arriver à ce que l'on veut. Du moins à première vue.<br />
+<span style="color: #F8F8F8;">. .</span>Elle m'a en tout cas permis de changer de coupe avec succès <span style="font-style: italic;">:p</span><br />
+<br />
+-&gt; <span style="font-weight: bold;">Ceci est une beta</span>, ça n'est donc pas encore complet. Cela mérite que l'on le suive un peu de vue, du moins jusqu'à ce que le jeu nous propose lui-même des coiffeurs, chirurgies esthétiques ou customisations d'équipement !<br />
+Il est d'ailleurs conseillé de faire une sauvegarde du personnage avant de le modifier (forcément). Je n'ai par ailleurs pas énormément essayer ce programme (juste de quoi tenter le changement de coupe et de couleurs), je ne peux donc garantir que ça ne fasse pas péter l'ordi. Ça donne envie, d'un coup, hein ? =3<br />
+<br />
+-&gt; Vous pouvez consulter le sujet de cet outil : <a href="http://community.playstarbound.com/index.php?threads/sbse-customize-your-player-colors-using-any-color.50849/" target="_blank"><span style="font-weight: bold;">ici</span></a>. Vous constaterez qu'il n'est en fait plus très actif ^^'</div>
+<br />
+<span style="font-size: x-small;"><span style="color: #FFFFFF;">'Faut quand même que je change les points blancs de mon avatar... ça ne l'fait vraiment pas !</span></span></div>
+</div>
+</div>
+<div class="navigation"><a href="index.php.html">Starbound-Fr | Forum</a> &gt; <a href="index.php%3Fforum-9.html">Le jeu</a> &gt; <a href="index.php%3Fforum-12.html">Tutos, guides et astuces</a> &gt; Modifier notre personnage</div>
+</div>
+<div id="footer">
+Moteur <a href="http://www.mybb.com">MyBB</a>, &copy; 2002-2016 <a href="http://www.mybb.com">MyBB Group</a>
+</div>
+</body>
+</html>

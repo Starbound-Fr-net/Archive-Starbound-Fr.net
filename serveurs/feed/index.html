@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Serveurs &#8211; Starbound-Fr</title>
+	<atom:link href="http://starbound-fr.net/serveurs/feed/" rel="self" type="application/rss+xml" />
+	<link>http://starbound-fr.net</link>
+	<description>Site francophone sur l&#039;actualité autour de Starbound ! Communauté conviviale et accueillante !</description>
+	<lastBuildDate>Thu, 18 Feb 2016 07:52:15 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.4.2</generator>
+	<item>
+		<title>17 Février &#8211; Modification de la configuration des serveurs</title>
+		<link>http://starbound-fr.net/17-fevrier-modification-de-la-configuration-des-serveurs/</link>
+		<comments>http://starbound-fr.net/17-fevrier-modification-de-la-configuration-des-serveurs/#comments</comments>
+		<pubDate>Sun, 22 Feb 2015 13:12:29 +0000</pubDate>
+		<dc:creator><![CDATA[Silverthedragon]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Serveurs]]></category>
+		<category><![CDATA[chucklefish]]></category>
+		<category><![CDATA[compte]]></category>
+		<category><![CDATA[concours]]></category>
+		<category><![CDATA[EGX Rezzed]]></category>
+		<category><![CDATA[Londres]]></category>
+		<category><![CDATA[mot de passe]]></category>
+		<category><![CDATA[serveur]]></category>
+		<category><![CDATA[starbound.config]]></category>
+		<category><![CDATA[utilisateur]]></category>
+
+		<guid isPermaLink="false">http://starbound-fr.net/?p=10024</guid>
+		<description><![CDATA[<p>Salut les gens, Voici la traduction du post du 17 février, rédigé par Metadept. Comme beaucoup d&#8217;entre vous s&#8217;en sont déjà aperçu, les modifications apportées par la mise à jour instable du 12 Février ont été appliquées à la version stable. Nous avons changé la façon qu&#8217;a le serveur de configurer les comptes utilisateurs, et [...]</p>
+<p>Nous suivre sur les réseaux sociaux <a href="https://twitter.com/Starbound_Fr"><img src="/images/sociaux/twitter2.png" alt="Twitter" /></a> <a href="http://www.facebook.com/StarboundFr"><img src="/images/sociaux/facebook.png" alt="Facebook" /></a> <a href="http://steamcommunity.com/groups/starbound-fr"><img src="/images/sociaux/steam.png" alt="Steam" /></a></p>
+<p>Cet article <a rel="nofollow" href="http://starbound-fr.net/17-fevrier-modification-de-la-configuration-des-serveurs/">17 Février &#8211; Modification de la configuration des serveurs</a> provient de <a rel="nofollow" href="http://starbound-fr.net">Starbound-Fr</a>.<br />
+Pensez à participer à la communauté sur le <a href="http://starbound-fr.net/forum/">forum</a> et le <a href="http://starbound-fr.net/chat/">chat</a> ! <strong>:)</strong></p>
+]]></description>
+				<content:encoded><![CDATA[<p>Salut les gens,<br />
+Voici la traduction du post du 17 février, rédigé par Metadept.</p>
+<hr />
+<p>Comme beaucoup d&rsquo;entre vous s&rsquo;en sont déjà aperçu, les modifications apportées par la mise à jour instable du 12 Février ont été appliquées à la version stable. Nous avons changé la façon qu&rsquo;a le serveur de configurer <strong>les comptes utilisateurs</strong>, et étant donné que cela nous a beaucoup été demandé, <strong>voici une brève explication</strong>.</p>
+<p>Une entrée <strong>serverUsers</strong> vide devrait désormais figurer <strong>dans le fichier starbound.config de votre serveur</strong>. <strong>C&rsquo;est ici que vous pourrez ajouter des comptes de joueurs et d&rsquo;administrateurs</strong>. Voici un exemple de configuration : </p>
+<pre>
+  "serverUsers" : {
+    "fred" : {
+      "admin" : true,
+      "password" : "hunter2"
+    },
+    "george" : {
+      "admin" : false,
+      "password" : "swordfish"
+    }
+  },
+  "allowAnonymousConnections" : false,
+  "allowAdminCommands" : true,
+  "allowAdminCommandsFromAnyone" : false,
+  "bannedIPs" : [  ],
+  "bannedUuids" : [  ],
+</pre>
+<p>Notez que les comptes d&rsquo;utilisateurs des admins et de non-admins sont configurés <strong>au même endroit</strong>, et que tous ces comptes nécessitent chacun un nom d&rsquo;utilisateur (à entrer en jeu lorsque vous vous connectez au serveur). <strong>Plusieurs utilisateurs peuvent utiliser le même compte en même temps</strong>, du coup si vous voulez simplement mettre un mot de passe à votre serveur, vous pouvez créer un compte nommé par exemple ‘guest’, avec un mot de passe unique pour tous les non-admins.</p>
+<p>De manière à forcer tous les utilisateurs à s&rsquo;identifier, vous devrez régler <strong>allowAnonymousConnections</strong> sur false dans le fichier starbound.config de votre serveur. Si <strong>allowAnonymousConnections</strong> est sur true (Il s&rsquo;agit du réglage par défaut), n&rsquo;importe quel joueur pourra se connecter au serveur sans fournir de nom d&rsquo;utilisateur ou de mot de passe. Les administrateurs, bien entendu, auront <strong>toujours besoin de s&rsquo;identifier</strong> pour bénéficier de leurs privilèges si ceux-ci sont restreints via le réglage <strong>allowAdminCommandsFromAnyone</strong>.</p>
+<p>Nous avons aussi réglé les problèmes avec la liste noire, de manière à ce que les utilisateurs puissent être bannis par UUID ou par IP. Si vous voulez dé-bannir un joueur qui a été banni de manière permanente, vous devrez effacer son nom de la liste noire manuellement et relancer le serveur (pour l&rsquo;instant).</p>
+<p>J&rsquo;espère que cela vous aura permis de mieux comprendre ce nouveau système !</p>
+<p><strong>Source :</strong> [<a href="http://playstarbound.com/february-17-server-configuration-changes/" title="February 17 – Server Configuration Changes" target="_blank">February 17 – Server Configuration Changes</a>]</p>
+<hr />
+<p><a href="/17-fevrier-modification-de-la-configuration-des-serveurs/egxrezzedbanner/" rel="attachment wp-att-10025"><img src="/wp-content/uploads/2015/02/egxrezzedbanner.png" alt="egxrezzedbanner" width="700" height="150" class="aligncenter size-full wp-image-10025" srcset="http://starbound-fr.net/wp-content/uploads/2015/02/egxrezzedbanner-300x64.png 300w, http://starbound-fr.net/wp-content/uploads/2015/02/egxrezzedbanner-620x133.png 620w, http://starbound-fr.net/wp-content/uploads/2015/02/egxrezzedbanner.png 700w" sizes="(max-width: 700px) 100vw, 700px" /></a></p>
+<p>En passant, Chucklefish organise un concours avec des places pour l&rsquo;<strong>EGX Rezzed</strong> (une expo centrée sur les jeux indés qui se déroulera en Mars à Londres) à gagner, évènement auquel, par ailleurs, <strong>ils participeront</strong>.<br />
+Si certains d&rsquo;entre vous sont intéressés, ça se passe <a href="http://playstarbound.com/attn-londoners-win-tickets-to-egx-rezzed-2015/" title="ATTN Londoners: Win tickets to EGX Rezzed 2015! | Starbound" target="_blank">ici</a>.<br />
+Inutile de préciser qu&rsquo;<strong>une bonne connaissance de la langue anglaise est préférable</strong>.<br />
+Sur ce, ciao !<br />
+-Article rédigé par <em>Silverthedragon</em></p>
+<p>Nous suivre sur les réseaux sociaux <a href="https://twitter.com/Starbound_Fr"><img src="/images/sociaux/twitter2.png" alt="Twitter" /></a> <a href="http://www.facebook.com/StarboundFr"><img src="/images/sociaux/facebook.png" alt="Facebook" /></a> <a href="http://steamcommunity.com/groups/starbound-fr"><img src="/images/sociaux/steam.png" alt="Steam" /></a></p>
+<p>Cet article <a rel="nofollow" href="http://starbound-fr.net/17-fevrier-modification-de-la-configuration-des-serveurs/">17 Février &#8211; Modification de la configuration des serveurs</a> provient de <a rel="nofollow" href="http://starbound-fr.net">Starbound-Fr</a>.<br />
+Pensez à participer à la communauté sur le <a href="http://starbound-fr.net/forum/">forum</a> et le <a href="http://starbound-fr.net/chat/">chat</a> ! <strong>:)</strong></p>
+]]></content:encoded>
+			<wfw:commentRss>http://starbound-fr.net/17-fevrier-modification-de-la-configuration-des-serveurs/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Serveur Starbound et Teamspeak disponibles</title>
+		<link>http://starbound-fr.net/serveur-starbound-teamspeak-disponible/</link>
+		<comments>http://starbound-fr.net/serveur-starbound-teamspeak-disponible/#comments</comments>
+		<pubDate>Fri, 20 Feb 2015 09:26:34 +0000</pubDate>
+		<dc:creator><![CDATA[Purexo]]></dc:creator>
+				<category><![CDATA[Serveurs]]></category>
+
+		<guid isPermaLink="false">http://starbound-fr.net/?p=10013</guid>
+		<description><![CDATA[<p>La promesse éternelle à enfin été tenue ! Le serveur de jeu de Starbound-Fr.net a enfin ouvert ses portes. Il est ouvert à tous, néanmoins il vous est demandé de respecter des règles basique de vie commune sur un serveur de jeu Sandbox, que vous devrez consulter sur son sujet dédié du forum. Pour accompagner [...]</p>
+<p>Nous suivre sur les réseaux sociaux <a href="https://twitter.com/Starbound_Fr"><img src="/images/sociaux/twitter2.png" alt="Twitter" /></a> <a href="http://www.facebook.com/StarboundFr"><img src="/images/sociaux/facebook.png" alt="Facebook" /></a> <a href="http://steamcommunity.com/groups/starbound-fr"><img src="/images/sociaux/steam.png" alt="Steam" /></a></p>
+<p>Cet article <a rel="nofollow" href="http://starbound-fr.net/serveur-starbound-teamspeak-disponible/">Serveur Starbound et Teamspeak disponibles</a> provient de <a rel="nofollow" href="http://starbound-fr.net">Starbound-Fr</a>.<br />
+Pensez à participer à la communauté sur le <a href="http://starbound-fr.net/forum/">forum</a> et le <a href="http://starbound-fr.net/chat/">chat</a> ! <strong>:)</strong></p>
+]]></description>
+				<content:encoded><![CDATA[<h2>La promesse éternelle à enfin été tenue !</h2>
+<p><strong>Le serveur de jeu de Starbound-Fr.net a enfin ouvert ses portes.</strong> Il est ouvert à tous, néanmoins il vous est demandé de respecter des règles basique de vie commune sur un serveur de jeu Sandbox, que vous devrez consulter sur <a href="/forum/thread-443.html">son sujet dédié du forum</a>.</p>
+<p>Pour accompagner le serveur de jeu, un <strong>serveur vocal</strong> à été créé.<br />
+D&rsquo;ailleurs le débat pour choisir entre Mumble et Teamspeak fut long et acharné :</p>
+<blockquote><p>&#8211; Purexo : Mumble c&rsquo;est nul, et une personne sur deux à des bugs avec. Les gens savent pas régler le son avec, et le son est dégueu.<br />
+&#8211; Purexo : Teamspeak, c&rsquo;est joli et bien foutu. il y a des addons, des thèmes etc&#8230; Et ça bug pas pour un rien.<br />
+&#8211; Oniricorpe : J&rsquo;m&rsquo;en tape lel<br />
+&#8211; Purexo : OK, TS donc ^^.</p></blockquote>
+<p>Ainsi pour ce connecter, rien de plus simple :</p>
+<ul>
+<li>Teamspeak : <a href="ts3server://starbound-fr.net?password=human">ts3server://starbound-fr.net?password=human</a> ou <a href="http://www.teamspeak.com/invite/starbound-fr.net/?password=human">ici</a>
+<ul>
+<li>Adresse : starbound-fr.net</li>
+<li>Port : 9987 (par défaut)</li>
+<li>Mot de passe : human</li>
+</ul>
+</li>
+<li>Starbound
+<ul>
+<li>Adresse : starbound-fr.net</li>
+<li>Pas de compte ni de mot de passe 😉</li>
+</ul>
+</li>
+</ul>
+<p><strong>Il est obligatoire de se connecter avec un personnage dédié à ce serveur, donc vierge au début.</strong></p>
+<p><s>Sachez qu&rsquo;il est pour le moment en libre accès, mais que si nous voyons qu&rsquo;il y a des dérapages, nous passerons au système de candidatures, comme prévu initialement.</s></p>
+<p>Désormais il faut faire une demande sur le forum, désolé.</p>
+<p><a href="/wp-content/uploads/2015/02/Capture-2.png"><img src="/wp-content/uploads/2015/02/Capture-2-1024x535.png" alt="Capture-2" width="620" height="324" class="aligncenter size-large wp-image-10055" srcset="http://starbound-fr.net/wp-content/uploads/2015/02/Capture-2-300x157.png 300w, http://starbound-fr.net/wp-content/uploads/2015/02/Capture-2-1024x535.png 1024w, http://starbound-fr.net/wp-content/uploads/2015/02/Capture-2-620x324.png 620w" sizes="(max-width: 620px) 100vw, 620px" /></a><br />
+L&rsquo;est beau le spawn ? :3</p>
+<hr />
+<h2>Mise en place d’événements + Futurs événements ?</h2>
+<p>Nous souhaitons aussi organiser divers events afin d&rsquo;animer la communauté, pour cela nous avons besoin de votre avis.</p>
+<p>Pour déterminer la quantité et la qualité d&rsquo;organisation, nous devons savoir si vous êtes intéressés par des activités, quand, sur quoi.</p>
+Note: There is a poll embedded within this post, please visit the site to participate in this post's poll.
+<p>Vous pouvez venir discuter et voter pour les modes de jeux qui vous intéressent <a title="Sondage events starbound" href="/forum/thread-1147.html" target="_blank">sur le Forum</a> 😉</p>
+Note: There is a poll embedded within this post, please visit the site to participate in this post's poll.
+<p>Venez faire part de vos <a href="/forum/thread-1148.html">suggestions de jeux sur notre forum</a> :3 (ou en commentaire, mais c&rsquo;est moins pratique) !</p>
+Note: There is a poll embedded within this post, please visit the site to participate in this post's poll.
+<p><strong>Ainsi que vos périodes de disponibilité :</strong> <br /> <a href="https://framadate.org/efaid2z3f7kmu7m5">https://framadate.org/efaid2z3f7kmu7m5</a><br />
+(Ne tenez pas compte du jour et du mois, seul le jour de la semaine importe)</p>
+<hr />
+<p>De plus, nous tenons à nous excuser pour l&rsquo;indisponibilité du site qui a eu lieu il y a quelques jours, ainsi que pour les petites périodes de down en journée, nous ne pouvons rien y faire, c&rsquo;est notre hébergeur qui modifie son infrastructure.</p>
+<p>Merci beaucoup, bon jeu et à bientôt ! <img src="http://starbound-fr.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Nous suivre sur les réseaux sociaux <a href="https://twitter.com/Starbound_Fr"><img src="/images/sociaux/twitter2.png" alt="Twitter" /></a> <a href="http://www.facebook.com/StarboundFr"><img src="/images/sociaux/facebook.png" alt="Facebook" /></a> <a href="http://steamcommunity.com/groups/starbound-fr"><img src="/images/sociaux/steam.png" alt="Steam" /></a></p>
+<p>Cet article <a rel="nofollow" href="http://starbound-fr.net/serveur-starbound-teamspeak-disponible/">Serveur Starbound et Teamspeak disponibles</a> provient de <a rel="nofollow" href="http://starbound-fr.net">Starbound-Fr</a>.<br />
+Pensez à participer à la communauté sur le <a href="http://starbound-fr.net/forum/">forum</a> et le <a href="http://starbound-fr.net/chat/">chat</a> ! <strong>:)</strong></p>
+]]></content:encoded>
+			<wfw:commentRss>http://starbound-fr.net/serveur-starbound-teamspeak-disponible/feed/</wfw:commentRss>
+		<slash:comments>19</slash:comments>
+		</item>
+	</channel>
+</rss>
+<!-- WP Super Cache is installed but broken. The constant WPCACHEHOME must be set in the file wp-config.php and point at the WP Super Cache plugin directory. -->
